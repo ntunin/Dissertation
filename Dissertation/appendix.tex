@@ -1,0 +1,89 @@
+\chapter{Алгоритм поиска локального оптимума}\label{app:A}
+
+
+Здесь приводится подробное описание алгоритма исследования структуры локальных оптимумов. Для удобства изложения, алгоритм разбит
+на процедуры: <<Одномерный поиск>>, <<Градиентный подъем>> и <<Исследование локальных оптимумов>>.
+\\ \\
+\noindent{\textbf{1. Одномерный поиск.}}
+
+\noindent{\textbf{ Дано:}}
+\begin{itemize}
+  \item вектор начального решения $\textbf{x}$ размерности $2N$,
+  \item вектор направления одномерного поиска $\textbf{d}$ размерности $2N$,
+  \item точность вычислений $\epsilon_{1dim}$.
+\end{itemize}
+\noindent{\textbf{Требуется:}} найти вектор $\textbf{x'} = \textbf{x} + \gamma \textbf{d}$ такой, что
+\begin{itemize}
+  \item $\tilde{F}(\textbf{x}) < \tilde{F}(\textbf{x'}),$
+  \item $\tilde{F}(\textbf{x} + (\gamma + \epsilon_{1dim}) \textbf{d}) < \tilde{F}(\textbf{x'}).$
+\end{itemize}
+\begin{enumerate}
+  \item Инициализировать параметр одномерного поиска $\beta := 1$, вектор $\textbf{x'} := \textbf{x}$, счетчик итераций $j := 1$.
+  \item Если $\tilde{F}(\textbf{x'} + \beta \textbf{d}) < \tilde{F}(\textbf{x'})$, то уменьшить $\beta := \beta / 2$.
+  В противном случае, в зависимости от значения счетчика:\\
+  при $j = 1$ положить $\textbf{x}_a := \textbf{x}'$,\\
+  при $j = 2$ положить $\textbf{x}_b := \textbf{x}'$,\\
+  при $j = 3$ положить $\textbf{x}_c := \textbf{x}'$,\\
+  при $j > 3$ положить $\textbf{x}_a := \textbf{x}_b$, $\textbf{x}_b := \textbf{x}_c$, $\textbf{x}_c := \textbf{x}'$.\\
+  При этом, вне зависимости от значений счетчика, $\beta := 2\beta$,\\
+  $\textbf{x}' := \textbf{x}' + \beta \textbf{d}.$
+  \item Если $\beta < \epsilon_{1dim}$ и $j < 3$, вернуть $\textbf{x'}$.
+  \item Если $\beta < \epsilon_{1dim}$ и $j \geq 3$, то переходим к шагу 5, иначе - на шаг 2.
+  \item По точкам $\textbf{x}_a, \textbf{x}_b, \textbf{x}_c$ строим квадратичную аппроксимацию:
+   $$\textbf{x}^{*} := (\textbf{x}_b - 3 \beta \textbf{d}) +
+   \left(\beta\left(1 + \frac{\tilde{F}\textbf{x}_a - \tilde{F}\textbf{x}_c}{2\tilde{F}\textbf{x}_a -
+   2\tilde{F}\textbf{x}_b + \tilde{F}\textbf{x}_c}\right)\right)\textbf{d}.$$\\
+\end{enumerate}
+\textbf{ 2. Градиентный подъем.}
+\\ \\
+\noindent{\textbf{ Дано:}}
+\begin{itemize}
+  \item вектор начального решения $\textbf{x_0}$ размерности $2N$,
+  \item точность вычислений $\epsilon_{grad}$,
+  \item точность вычислений одномерного поиска $\epsilon_{1dim}$,
+  \item время принудительного завершения работы алгоритма $time_{finish}.$\\
+\end{itemize}
+\noindent{\textbf{ Требуется:}} найти вектор $\textbf{x}$ такой, что
+для всех $$\textbf{d}, |\textbf{d}| = 1 \text{~выполняется~} \tilde{F}(\textbf{x} + (\epsilon_{grad})\textbf{d}) < \tilde{F}(\textbf{x})$$.\\
+\begin{enumerate}
+  \item $\textbf{x} := \textbf{x_0}.$
+  \item Вычислить и нормировать градиент целевой функции:
+   $$\textbf{d} := \frac{\nabla \tilde{F}(\textbf{x})}{|\nabla \tilde{F}(\textbf{x})|}.$$
+  \item Вычислить $\textbf{x^{*}}$ алгоритмом одномерного поиска~1 с параметрами $\textbf{x}, \textbf{d}, \epsilon_{1dim}.$
+  \item Записать в $time$ текущее время. Если $time \geq time_{finish}$, вернуть $\textbf{x^{*}}$.
+  \item Если $|\tilde{F}(\textbf{x}) - \tilde{F}(\textbf{x}^{*})| < \epsilon_{grad}$, вернуть ${\textbf{x^{*}}$, иначе положить ${\textbf{x} = \textbf{x^{*}}$ и повторить~шаги~2-5.\\ \\
+\end{enumerate}
+
+\noindent{\textbf{3. Исследование локальных оптимумов.}}
+\\ \\
+\noindent{\textbf{Дано:}}
+\begin{itemize}
+  \item $x_{\max}$ как верхняя оценка нормы допустимой области,
+  \item точность вычислений $\epsilon_{grad}$,
+  \item точность вычислений одномерного поиска $\epsilon_{1dim}$,
+  \item время принудительного завершения работы алгоритма $time_{finish}$,
+  \item максимально допустимая норма вектора $\textbf{y}$, обозначаемая за ${y_{\max}}$.\\
+\end{itemize}
+
+\noindent{\textbf{Требуется:}} провести исследование структуры локальных оптимумов, как описано в разделе~\ref{sec:exp}.\\
+
+\begin{enumerate}
+  \item Инициализировать каждую компоненту начального вектора $x_{0,i = \overline{1,2N}}$ равномерно распределенной в интервале $[-x_{\max}, x_{\max}]$
+  величиной.
+  \item Вычисляем допустимый вектор $\textbf{x}$ путем масштабирования $\textbf{x}_0$ в допустимую область:
+  $$\textbf{x} := (\max_{k=\overline{1,n}} \textbf{x_0}^T \textbf{H}^{(k)}\textbf{x_0})^{-1/2} \textbf{x_0}.$$
+  \item Вычислить $\textbf{x^{*}}$ алгоритмом градиентного подъема~(2) с параметрами $\textbf{x}, \epsilon_{grad}, \epsilon_{1dim}, time_{finish}.$
+  \item Записать в $time$ текущее время. Если $time$ < $time_{finish}$, перейти на шаг~1.
+  \item Для каждого найденного решения установить ${\textbf{x_0^{*}} = \textbf{x^{*}}$, составить линеаризованную задачу~(\ref{eq:task5}) и найти
+  ее решение $\textbf{x_{lp}^{*}}$.
+  \item Исключить решения, для которых $|\textbf{x_0^{*}} - \textbf{x_{lp}^{*}}| > \textbf{y_{\max}}$. В случае оставшихся решений установить
+  $\textbf{x} = \textbf{x_{lp}^{*}}$ и повторить шаги~2-3. Оценить норму разницы $|\textbf{x_0^{*}} - \textbf{x^{*}}|$. Вернуть $\textbf{ x_0^{*}}$ с
+  лучшим значением $\tilde{F}(\textbf{x_0^{*}})$ в качестве результата.
+\end{enumerate}
+
+
+\chapter{Комплекс программ <<>Expi>}\label{app:B}
+
+\section{Программный интерфейс}\label{app:B1}
+
+\section{Графический интерфейс}\label{app:B2}
