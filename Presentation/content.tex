@@ -1,305 +1,261 @@
-\section{Списки}
+\section{Оптимизация направленности ФАР: основные понятия, постановка задач, проблемы и методы решения}
+\subsection{Основные понятия}
 \begin{frame}[plain, noframenumbering]
     \begin{center}
         \Huge
-        Списки
+        Оптимизация направленности ФАР: основные понятия, постановка задач, проблемы и методы решения
     \end{center}
 \end{frame}
 
-\subsection{Нумерованные}
-
-\begin{frame}
-    \frametitle{Нумерованные списки}
-    \begin{enumerate}
-        \item один
-        \item два
-        \item три
-    \end{enumerate}
-\end{frame}
-\note{
-    Этот текст будет виден только если его отображение включено
-    в~файле \textbf{Presentation/setup}.
-    Для раздельного вывода презентации и заметок на~разные экраны (как
-    в~impress или powerpoint) можно использовать программу
-    \textit{pdf-presenter-console}.
-}
-
-\subsection{Не нумерованные}
-
-
-\begin{frame}
-    \frametitle{Перечисления}
-    \begin{itemize}
-        \item Проблема 1
-        \item Проблема 2
-        \item Проблема 3
-    \end{itemize}
-\end{frame}
-\note[itemize]{
-    \item Тезис 1
-    \item Тезис 2
-    \item Тезис 3
-}
-
-\subsection{Комбинированные}
-
-\begin{frame}
-    \frametitle{Комбинация списков}
-    \begin{enumerate}
-        \item \textbf{Задача 1}
-              \begin{itemize}
-                  \item Подзадача 1-1
-                  \item Подзадача 1-2
-              \end{itemize}
-        \item \textbf{Задача 2}
-              \begin{itemize}
-                  \item Подзадача 2-1
-                  \item Подзадача 2-2
-                  \item Подзадача 2-3
-              \end{itemize}
-        \item \textbf{Задача 3}
-              \begin{itemize}
-                  \item Подзадача 3-1
-                  \item Подзадача 3-2
-                  \item Подзадача 3-3
-              \end{itemize}
-    \end{enumerate}
-\end{frame}
-\note[itemize]{
-    \item Задача 1
-    \item Задача 2
-    \item Задача 3
-}
-
-\begin{frame}[allowframebreaks]
-    \frametitle{Разделение слайда}
-    Поясняющий текст
-    \begin{itemize}
-        \item Один
-        \item Два
-        \item Три
-    \end{itemize}
-    \framebreak
-    Продолжение предыдущего слайда
-\end{frame}
-
-\section{Графика}
 \begin{frame}[plain, noframenumbering]
+    \frametitle{Основные понятия}
     \begin{center}
-        \Huge
-        Графика
+        \begin{figure}
+            \begin{minipage}[h]{0.42\linewidth}
+                \center{\includegraphics[width=1\linewidth]{2x2bve.eps} \\ а)}
+            \end{minipage}
+            \hfill
+            \begin{minipage}[h]{0.42\linewidth}
+                \center{\includegraphics[width=0.6\linewidth]{2x2bvd.eps} \\ б)}
+            \end{minipage}
+            \begin{minipage}[h]{0.42\linewidth}
+                \center{\includegraphics[width=0.6\linewidth]{5x5VWD.eps} \\ в)}
+            \end{minipage}
+            \hfill
+            \begin{minipage}[h]{0.42\linewidth}
+                \center{\includegraphics[width=0.9\linewidth]{r8.eps} \\ г)}
+            \end{minipage}
+            \label{ris:bve_bvd}
+            \caption{ФАР различных конфигураций}
+        \end{figure}
+
     \end{center}
+    \footnotesize { \textbf{Юрков А.С.:} Оптимизация возбуждения передающих фазированных антенных решеток декаметрового диапазона длин волн. ОНИИП, Омск (2014)\\
+    \textbf{Fuchs B.:} Application of convex relaxation to array synthesis problems. IEEE, P.~634-640, 2014.
+    }
 \end{frame}
 
-
+\subsection{Постановка в вещественных числах}
 \begin{frame}
-    \frametitle{Одиночное изображение}
+    \frametitle{Постановка в вещественных числах}
+
+    \begin{equation}
+        \begin{cases}
+           \textbf{x}^{T}\textbf{Gx} \rightarrow \max,\\
+           0 \leq \textbf{x}^{T}\textbf{H}^{(1)}\textbf{x} \leq 1,\\
+           ...\\
+           0 \leq \textbf{x}^{T}\textbf{H}^{(n)}\textbf{x} \leq 1,\\
+          \textbf{x} \in \mathbb{R}^{2n}.\\
+         \end{cases}
+         \label{eq:task3}
+    \end{equation}
+    
+    
+\vspace{8em}
+
+
+\footnotesize { \textbf{Еремеев А.В., Тюнин Н.Н., Юрков А.С.:} Non-Convex Quadratic Programming Problems in Short Wave Antenna Array Optimization. MOTOR 2019 (11584) }
+\end{frame}
+
+\section{Анализ структуры локальных оптимумов}
+\subsection{Постановка задачи}
+\begin{frame}
+    \frametitle{Постановка задачи}
+    \begin{block}{Метод штрафных функций}
+        \begin{equation}
+               \textbf{x}^{T}\textbf{Gx} - r\cdot \sum_{k=1}^n
+               \left( \min\left(0,\textbf{x}^{T}\textbf{H}^{(k)}\textbf{x}\right) +
+               \min\left(0,1-\textbf{x}^{T}\textbf{H}^{(k)}\textbf{x}\right)\right)^4 \rightarrow
+               \max
+             \label{eq:task4}
+        \end{equation}
+    \end{block}
+
+    \begin{block}{Необходимые условия локальной оптимальности}
+        \begin{equation}
+            \begin{cases}
+               \textbf{x}_0^T\textbf{G}\textbf{x}_0 + 2\textbf{x}_0^T\textbf{G}\textbf{y} \rightarrow \max,\\
+               0 \leq \textbf{x}_0^T\textbf{H}^{(1)}\textbf{x}_0 + 2\textbf{x}_0^T\textbf{H}^{(1)}\textbf{y} \leq 1,\\
+               ...\\
+               0 \leq \textbf{x}_0^T\textbf{H}^{(n)}\textbf{x}_0 + 2\textbf{x}_0^T\textbf{H}^{(n)}\textbf{y} \leq 1,\\
+              \textbf{y} \in \mathbb{R}^{2N}.\\
+             \end{cases}
+             \label{eq:task5}
+        \end{equation}
+    \end{block}
+\end{frame}
+
+%------------------------------------------------
+\subsection{Вычислительный эксперимент}
+\begin{frame}
+    \frametitle{ Вычислительный эксперимент }
+    Цели эксперимента
+    \begin{itemize}
+      \item Исследование структуры локальных оптимумов
+      \item Сравнение эффективности работы различных алгоритмов
+      \item Исследование возможностей ФАР в разных условиях
+    \end{itemize}
+    Исследуемые алгоритмы
+    \begin{itemize}
+      \item Градиентный подъем
+      \item BARON
+      \item Дифференциальная эволюция
+    \end{itemize}
+    Детали эксперимента
+    \begin{itemize}
+      \item Антенный моделировщик NEC2
+      \item Направление оптимизации $70^{\circ}:45^{\circ}$
+    \end{itemize}
+\end{frame}
+
+%------------------------------------------------
+\subsection{Структура локальных оптимумов}
+\begin{frame}
+    \frametitle{Структура локальных оптимумов}
+    \begin{table}[!h]
     \centering
-    \includegraphics[width=0.8\linewidth]{latex} % окружение figure не требуется
+    \begin{tabular}{|l | c | c | c | c |}
+        \hline
+        \textbf{ФАР} & \textbf{$M$} & \textbf{$M_{ne}$} & \textbf{$M_{f}$} & \textbf{$M_{y\approx0}$}\\
+        \hline
+        ШВИ 2x2 & 18368 & 4 & 1 & 4\\
+        ШВД 2x2 & 7678  & 4 & 1 & 4\\
+        СВД 2x2  & 523  & 1 & 1 & 1\\
+        СВД' 3x3  & 14  & 14 & 3 & 1\\
+        ШВИ 3x3 & 1070  & 3 & 1 & 3\\
+        ШВД 3x3 & 41  & 4 & 4 & 1\\
+        Кольц. 8 & 124  & 9 & 2 & 9\\
+        Кольц. 16 & 11  & 6 & 1 & 6\\
+        \hline
+    \end{tabular}
+    \label{tab:structure}
+\end{table}
+
+\begin{block}{Фазовая симметрия}
+    \begin{equation}
+         \textbf{i} \to e^{\textit{\textbf{j}}\phi}\textbf{i}
+    \end{equation}
+\textbf{Еремеев А.В., Юрков А.С.:} On Symmetry Groups of Some Quadratic Programming Problems~// MOTOR 2020. Shpringer, 2020. Vol.~12095.
+\end{block}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+    \frametitle{Сравнение результатов оптимизации градиентного подъема и решателя BARON}
+    \begin{table}
+\centering
+\begin{tabular}{|c|c|c|c c|c c|}
+    \hline
+    \multirow{2}{*}{\textbf{ФАР}} & \multirow{2}{*}{$\lambda_{min}$} & \multirow{2}{*}{$\sqrt{\frac{N}{\lambda_{\min}}}$} & \multicolumn{2}{c}{\textbf{Град.}} & \multicolumn{2}{|c|}{\textbf{BARON}}\\
+    & & & \textbf{$\textbf{F}$} & \textbf{t, c} & \textbf{$\textbf{F}$} & \textbf{t, c} \\
+    \hline
+    ШВИ 2х2 & 0.0215 & 13.6 & 138.2 & \textbf{0.054} & \textbf{139.2} & 0.12 \\
+    ШВИ 3х3 & 0.0177 & 70 & 575.7 & 0.93 & \textbf{580.6} & \textbf{0.34} \\
+    ШВД 2х2 & 0.009 & 21 & 459.7 & \textbf{0.13} & \textbf{463.6} & 0.27 \\
+    ШВД 3х3 & 0.0013 & 6767 & 915 & 24.4 & \textbf{925} & \textbf{0.34}  \\
+    СВД 2х2 & $2\cdot10^{-3}$ & 44& 357 & 1.9 & \textbf{361} & \textbf{0.16} \\
+    СВД' 3х3 & 0.0008 & $1\cdot10^4$& 664 & 71 & \textbf{1153} & \textbf{1.48} \\
+    Кольц. 8 & $3\cdot10^{-3}$ & 154 & 217 & 8.06 & \textbf{218} & \textbf{0.23} \\
+    Кольц. 16 & $6.7\cdot10^{-4}$ & $1.2\cdot10^{6}$& 727 & 90.9 & \textbf{734} & \textbf{1.37} \\
+    \hline
+\end{tabular}
+\label{tab:results}
+\end{table}
+
+$\sqrt{\frac{N}{\lambda_{\min}}}$ - оценка сверху евклидовой нормы.
 \end{frame}
 
 \begin{frame}
-    \frametitle{Векторная графика}
+    \frametitle{Кластеры решений}
+
     \begin{figure}
-        \centering
-        \ifdefmacro{\tikzsetnextfilename}{\tikzsetnextfilename{tikz_presentation}}{}% присваиваемое предкомпилированному pdf имя файла (не обязательно)
-        \input{Presentation/images/tikz_plot.tikz}
+    \centering
+        \begin{minipage}[h]{0.6\linewidth}
+                \center{\includegraphics[width=0.9\linewidth]{fit_dist.eps}  \\ а) }
+        \end{minipage}
+        \begin{minipage}[h]{0.6\linewidth}
+                \center{\includegraphics[width=0.9\linewidth]{fit_dist_2x2.eps}  \\ б) }
+        \end{minipage}
+        \vspace{0.7em}
+        \caption{Структура множества найденных решений для задач ШВИ, ШВД, СВД (а) и СВД' (б)}
+        \label{ris:fit_dist}
+    \end{figure}
+
+\end{frame}
+
+%------------------------------------------------
+\subsection{Экспериментальная проверка устойчивости решений}
+\begin{frame}
+    \frametitle{Экспериментальная проверка устойчивости решений}
+    \begin{figure}[h]
+    \centering
+    \center{\includegraphics[width=0.5\linewidth]{stability.eps} }
+    \vspace{0.7em}
+    \caption{Диаграммы направленности для ШВИ~2x2 при оптимизации в направлении 70:45 (сплошная линия) и 70:50 (пунктир)}
+    \label{ris:bve_comp}
     \end{figure}
 \end{frame}
 
-\subsection{Расположение}
+%------------------------------------------------
 
+\subsection{Дифференциальная эволюция}
 \begin{frame}
-    \frametitle{Изображения по-вертикали}
-    \centering
-    \vfill
-    \includegraphics[width=0.8\linewidth,height=0.1\textheight]{latex} \\
-    \TeX
-    \vfill
-    \includegraphics[width=0.8\linewidth,height=0.2\textheight]{latex} \\
-    \LaTeX
-    \vfill
-    \includegraphics[scale=0.2]{latex} \\
-    \vfill
-\end{frame}
-
-
-\begin{frame}
-    \frametitle{Изображения по-горизонтали}
-    \begin{minipage}[t]{0.47\linewidth}
-        \textbf{Составная \\ подпись 1}
-        \center{\includegraphics[width=1\linewidth]{knuth1}}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{0.47\linewidth}
-        \textbf{Составная \\ подпись 2}
-        \center{\includegraphics[width=1\linewidth]{knuth2}}
-    \end{minipage}
-\end{frame}
-
-\subsection{Линии}
-
-\begin{frame}
-    \frametitle{Разделяющие линии}
-    \begin{minipage}[c]{0.47\linewidth}
-        \center{\includegraphics[width=1\linewidth]{latex}}
-        \bigskip
-        \hrule{}
-        \bigskip
-        \textbf{Составная \\ подпись 1}
-    \end{minipage}
-    \hfill
-    \vrule{}
-    \hfill
-    \begin{minipage}[c]{0.47\linewidth}
-        \flushright
-        \textbf{Составная \\ подпись 2}
-        \center{\includegraphics[width=1\linewidth]{knuth2}}
-    \end{minipage}
-\end{frame}
-
-\section{Остальное}
-\begin{frame}[plain, noframenumbering]
-    \begin{center}
-        \Huge
-        Остальное
-    \end{center}
-\end{frame}
-
-\subsection{Формулы}
-
-\begin{frame}
-    \frametitle{Формулы}
-    \[
-    \left\{
-    \begin{array}{rl}
-        \dot x = & \sigma (y-x)  \\
-        \dot y = & x (r - z) - y \\
-        \dot z = & xy - bz
-    \end{array}
-    \right.
-    \]
-\end{frame}
-
-\begin{frame}
-    \frametitle{amsmath}
-    \centering
-    \begin{minipage}[t]{0.5\linewidth}
-        \begin{multline*}
-            y = 1 x^1 + 2 x^2 + 3 x^3 + \\ + 4 x^4 + 5 x^5 + \dots
-        \end{multline*}
-    \end{minipage}
-\end{frame}
-
-\begin{frame}[allowframebreaks]
-    \frametitle{Уравнения Максвелла}
-    \centering{
-        \small
-        \def\arraystretch{1.8}%
-        \begin{tabular}{ll}
-            \toprule
-            Интегральная форма                                                                                                                                            & Дифференциальная форма                                                          \\ \midrule
-            \(Q_e(t) = \displaystyle\oiint_S \vec D(t) \cdot d\vec{s} = \displaystyle\iiint_V \rho_v(t) dv\)                                                              & \(\nabla \cdot \vec D(t) = \rho_v(t)\)                                          \\
-            \(\displaystyle\oiint_S \vec B(t) \cdot d\vec{s} = 0\)                                                                                                        & \(\nabla \cdot \vec B(t) = 0\)                                                  \\
-            \(V_{emf}(t) = \displaystyle\oint_L \vec E(t) \cdot d\vec{l}\) = \(- \displaystyle\iint_S \left[\frac{\partial\vec{B}(t)}{\partial t}\right] \cdot d\vec{s}\) & \(\nabla \times \vec E(t) = - \frac{\partial\vec{B}(t)}{\partial t}\)           \\
-            \(I(t) = \displaystyle\oint_L \vec H(t) \cdot d\vec{l} = \displaystyle\iint_S \left[\vec J(t) + \frac{\partial\vec{D}(t)}{\partial t}\right] \cdot d\vec{s}\) & \(\nabla \times \vec H(t) = \vec J(t) + \frac{\partial\vec{D}(t)}{\partial t}\) \\ \midrule
-            \(\displaystyle\oiint_S \vec J \cdot d\vec{s} = -\frac{\partial Q_e}{\partial t}\)                                                                            & \(\nabla \cdot \vec J = - \frac{\partial \rho_v}{\partial t}\)                  \\
-            \bottomrule
-            \multicolumn{2}{c}{\(\vec D(t) = \left[\varepsilon(t)\right] * \vec E(t)\)}                                                                                                                                                                     \\
-            \multicolumn{2}{c}{\(\vec B(t) = \left[\mu(t)\right] * \vec H(t)\)}                                                                                                                                                                             \\
-        \end{tabular}
-    }
-    \framebreak
-
-    \hspace{0.05\linewidth}
-    \centering{
-        \small
-        \def\arraystretch{1.8}%
-        \begin{tabular}{ll}
-            \toprule
-            Интегральная форма                                                                                                                & Дифференциальная форма                               \\ \midrule
-            \(Q_e = \displaystyle\oiint_S \vec D \cdot d\vec{s} = \displaystyle\iiint_V \rho_v dv\)                                           & \(\nabla \cdot \vec D = \rho_v\)                     \\
-            \(\displaystyle\oiint_S \vec B \cdot d\vec{s} = 0\)                                                                               & \(\nabla \cdot \vec B = 0\)                          \\
-            \(V_{emf} = \displaystyle\oint_L \vec E \cdot d\vec{l}\) = \(- \displaystyle\iint_S \left[j \omega \vec B\right] \cdot d\vec{s}\) & \(\nabla \times \vec E = - j \omega \vec B\)         \\
-            \(I = \displaystyle\oint_L \vec H \cdot d\vec{l} = \displaystyle\iint_S \left[\vec J + j \omega \vec D\right] \cdot d\vec{s}\)    & \(\nabla \times \vec H = \vec J + j \omega \vec{D}\) \\ \midrule
-            \(\displaystyle\oiint_S \vec J \cdot d\vec{s} = - j \omega Q_e\)                                                                  & \(\nabla \cdot \vec J = - j \omega \rho_v\)          \\
-            \bottomrule
-            \multicolumn{2}{c}{\(\vec D(t) = \left[\varepsilon\right] \vec E(t)\)}                                                                                                                   \\
-            \multicolumn{2}{c}{\(\vec B(t) = \left[\mu\right] \vec H(t)\)}                                                                                                                           \\
-        \end{tabular}
-    }
-\end{frame}
-
-\subsection{Таблицы}
-
-\begin{frame}
-    \frametitle{Таблица}
-    \centering
-    \begin{tabular}{|l|l|}
-        \hline
-        \textbf{Заголовок 1} & \textbf{Заголовок 2} \\
-        \hline
-        Сумма                & \(b+a\)              \\
-        \hline
-        Разность             & \(a-b\)              \\
-        \hline
-        Произведение         & \(a*b\)              \\
-        \hline
-    \end{tabular}
-\end{frame}
-
-\begin{frame}
-    \frametitle{Другая таблица}
-    \centering
-    \begin{tabular}{lc}
-        \toprule
-        \multicolumn{1}{c}{\textbf{Заголовок 1}} & \textbf{Заголовок 2} \\ \midrule
-        Сумма                                    & \(b+a\)              \\
-        Разность                                 & \(a-b\)              \\
-        Произведение                             & \(a*b\)              \\
-        \bottomrule
-    \end{tabular}
-\end{frame}
-
-
-\subsection{Разное}
-
-\begin{frame}
-    \frametitle{Большой многоуровневый список}
+    \frametitle{Дифференциальная эволюция}
+    \begin{figure}
+    \center{\includegraphics[width=0.7\linewidth]{de.png}}
+    \caption{Поиск минимума функции Розенброка методом ДЭ}
+    \label{ris:rosenbroke}
+    \end{figure}
     \begin{itemize}
-        \item \textbf{Пункт 1}
-              \begin{itemize}
-                  \itemi Подпункт 1-1
-                  \itemi Подпункт 1-2
-              \end{itemize}
-        \item \textbf{Пункт 2}
-              \begin{itemize}
-                  \itemi Подпункт 2-1
-              \end{itemize}
-        \item \textbf{Пункт 3}
-              \begin{itemize}
-                  \itemi Подпункт 3-1
-                  \itemi Подпункт 3-2
-              \end{itemize}
-        \item \textbf{Пункт 4}
-              \begin{itemize}
-                  \itemi Подпункт 4-1
-              \end{itemize}
-        \item \textbf{Пункт 5}
-              \begin{itemize}
-                  \itemi Подпункт 5-1
-                  \itemi Подпункт 5-2
-                  \itemi Подпункт 5-3
-              \end{itemize}
+      \item $v=v_{1}+f\cdot (v_{2}-v_{3}),$
+            где $v_1, v_2, v_3$ - случайные особи из текущей популяции, не равные друг другу.
+      \item Гибридный алгоритм с градиентным методом.
+      \item Адаптация алгоритма для запуска на GPU.
     \end{itemize}
 \end{frame}
 
+%------------------------------------------------
+
+\section{Исследование возможностей ФАР в разных условиях}
+\subsection{Исследование радиочастотных зависимостей}
+%------------------------------------------------
+
 \begin{frame}
-    \frametitle{Четыре изображения}
-    \centering
-    \includegraphics[width=0.35\linewidth,angle=35]{latex}
-    \includegraphics[width=0.35\linewidth,angle=135]{latex}\\
-    \includegraphics[width=0.35\linewidth,angle=15]{latex}
-    \includegraphics[width=0.35\linewidth,angle=-15]{latex}
+    \frametitle{Исследование радиочастотных зависимостей}
+\begin{figure}
+\center{\includegraphics[width=0.5\linewidth]{ring_f_gains.eps}}
+\label{ris:paa_gains}
+\caption{Сравнение усиления ФАР и одиночного излучателя на различных частотах.}
+\end{figure}
+
+\begin{figure}
+\begin{minipage}[h]{0.4\linewidth}
+\center{\includegraphics[width=1\linewidth]{r8_1_25_5x7.png}} a)
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.4\linewidth}
+\center{\includegraphics[width=1\linewidth]{r8_25_5x7.png}} b)
+\end{minipage}
+\caption{Вертикальный план диаграммы направленности одиночного излучателя (a) и ФАР 5:7 (b) при 25МГц}
+\label{ris:25MHz}
+\end{figure}
 \end{frame}
 
+
+\subsection{Исследование взаимного влияния излучателей}
+\begin{frame}
+    \frametitle{Исследование взаимного влияния излучателей}
+    \begin{figure}
+    \begin{minipage}[h]{0.49\linewidth}
+    \center{\includegraphics[width=1\linewidth]{r_bvd_20_results_h.png} \\ а)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[h]{0.49\linewidth}
+    \center{\includegraphics[width=1\linewidth]{r_bvd_20_results_v.png} \\ б)}
+    \end{minipage}
+    \caption{Горизонтальный (а) и вертикальный (б) план диаграммы направленности ШВД при расстоянии от центра излучателя до центра решетки 20 м. Пунктирной линией обозначено усиление одиночного излучателя, штрихпунктирной – простое фазирование, сплошной – решение задачи мат. программирования.}
+    \label{pic:r_bvd_result}
+    \end{figure}
+
+\end{frame}

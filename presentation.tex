@@ -14,6 +14,8 @@
 \input{Presentation/styles}        % Стили презентации
 \input{Presentation/title}         % Настройки заглавной странице
 
+\setbeamertemplate{caption}[numbered]
+
 %%% Библиография. Выбор движка для реализации %%%
 \ifnumequal{\value{bibliosel}}{0}{%
     \input{biblio/predefined}   % Встроенная реализация с загрузкой файла через движок bibtex8
@@ -28,6 +30,6 @@
 \input{Presentation/preamble}      % Первые слайды презентации
 \input{Presentation/content}       % Настройки заглавной странице
 \input{Presentation/conclusion}    % Последние слайды презентации
-\appendix
-\input{Presentation/appendix}      % Запасные слайды презентации
+%\appendix
+%\input{Presentation/appendix}      % Запасные слайды презентации
 \end{document}

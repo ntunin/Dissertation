@@ -1,0 +1,34 @@
+\selectlanguage *[babelshorthands=true]{russian}
+\beamer@sectionintoc {1}{Оптимизация направленности ФАР: основные понятия, постановка задач, проблемы и методы решения}{4}{0}{1}
+\beamer@subsectionintoc {1}{1}{Основные понятия}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Постановка в вещественных числах}{6}{0}{1}
+\beamer@sectionintoc {2}{Анализ структуры локальных оптимумов}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Постановка задачи}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Вычислительный эксперимент}{8}{0}{2}
+\beamer@subsectionintoc {2}{3}{Структура локальных оптимумов}{9}{0}{2}
+\beamer@subsectionintoc {2}{4}{Экспериментальная проверка устойчивости решений}{12}{0}{2}
+\beamer@subsectionintoc {2}{5}{Дифференциальная эволюция}{13}{0}{2}
+\beamer@sectionintoc {3}{Исследование возможностей ФАР в разных условиях}{14}{0}{3}
+\beamer@subsectionintoc {3}{1}{Исследование радиочастотных зависимостей}{14}{0}{3}
+\beamer@subsectionintoc {3}{2}{Исследование взаимного влияния излучателей}{15}{0}{3}
+\selectlanguage *{russian}
+\selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{russian}
+\selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{russian}
+\selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{russian}
+\selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{russian}
+\selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
