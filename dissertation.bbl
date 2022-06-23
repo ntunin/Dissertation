@@ -524,6 +524,104 @@
       \range{volume}{1}
       \keyw{,biblioexternal,bibliofull}
     \endentry
+    \entry{nesterov:nonconvex}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1692bed3072a551313c80e147c9f64cb}{%
+           family={Нестеров},
+           familyi={Н\bibinitperiod},
+           given={Ю.\bibnamedelimi E.},
+           giveni={Ю\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {M:МЦНМО}%
+      }
+      \strng{namehash}{1692bed3072a551313c80e147c9f64cb}
+      \strng{fullhash}{1692bed3072a551313c80e147c9f64cb}
+      \strng{bibnamehash}{1692bed3072a551313c80e147c9f64cb}
+      \strng{authorbibnamehash}{1692bed3072a551313c80e147c9f64cb}
+      \strng{authornamehash}{1692bed3072a551313c80e147c9f64cb}
+      \strng{authorfullhash}{1692bed3072a551313c80e147c9f64cb}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{pagetotal}{70}
+      \field{title}{Введение в выпуклую оптимизацию}
+      \field{year}{2010}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{ryoo:nlp}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ed8e20b504eb76a29b7e23edaf5661ca}{%
+           family={Ryoo},
+           familyi={R\bibinitperiod},
+           given={H.\bibnamedelimi S.},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=b2ee7d2f9ead5cd2e95ece0b3abcf634}{%
+           family={Sahinidis},
+           familyi={S\bibinitperiod},
+           given={N.\bibnamedelimi V.},
+           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a5bf4d07f90d0215c9a8fa967734abd}
+      \strng{fullhash}{1a5bf4d07f90d0215c9a8fa967734abd}
+      \strng{bibnamehash}{1a5bf4d07f90d0215c9a8fa967734abd}
+      \strng{authorbibnamehash}{1a5bf4d07f90d0215c9a8fa967734abd}
+      \strng{authornamehash}{1a5bf4d07f90d0215c9a8fa967734abd}
+      \strng{authorfullhash}{1a5bf4d07f90d0215c9a8fa967734abd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers and Chem. Engng. Pergamon}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Global Optimization of Nonconvex NLPs and MINLPs with Applications in Process Design}
+      \field{year}{1995}
+      \field{number}{5}
+      \range{number}{1}
+      \field{pages}{551\bibrangedash 566}
+      \range{pages}{16}
+      \field{volume}{19}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{eremeev:confidence}{article}{}
+      \name{author}{2}{}{%
+        {{hash=476e3b2ec4b24aa98fd67138fc6da48f}{%
+           family={Еремеев},
+           familyi={Е\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=220b58cb226a14c54716486aa43a0ca7}{%
+           family={Ривс},
+           familyi={Р\bibinitperiod},
+           given={K.\bibnamedelimi Р.},
+           giveni={K\bibinitperiod\bibinitdelim Р\bibinitperiod}}}%
+      }
+      \strng{namehash}{7783469795ac5ac126796184084cb124}
+      \strng{fullhash}{7783469795ac5ac126796184084cb124}
+      \strng{bibnamehash}{7783469795ac5ac126796184084cb124}
+      \strng{authorbibnamehash}{7783469795ac5ac126796184084cb124}
+      \strng{authornamehash}{7783469795ac5ac126796184084cb124}
+      \strng{authorfullhash}{7783469795ac5ac126796184084cb124}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Математические структуры и моделирование}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{О доверительных интервалах для числа локальных оптимумов}
+      \field{year}{2017}
+      \field{pages}{55\bibrangedash 74}
+      \range{pages}{20}
+      \field{volume}{41}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
     \entry{sazonov:PAA}{book}{}
       \name{author}{1}{}{%
         {{hash=9bbf81f0a2340cbd9354560e375e66dc}{%
@@ -541,8 +639,8 @@
       \strng{authorbibnamehash}{9bbf81f0a2340cbd9354560e375e66dc}
       \strng{authornamehash}{9bbf81f0a2340cbd9354560e375e66dc}
       \strng{authorfullhash}{9bbf81f0a2340cbd9354560e375e66dc}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{russian}
@@ -570,8 +668,8 @@
       \strng{authorbibnamehash}{35dc44d9b572e323969ea84fa6767430}
       \strng{authornamehash}{35dc44d9b572e323969ea84fa6767430}
       \strng{authorfullhash}{35dc44d9b572e323969ea84fa6767430}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Convex Optimization in Signal Processing and Communications}
@@ -806,8 +904,8 @@
       \strng{authorbibnamehash}{11d7440523380c5acbc12b941560ba8c}
       \strng{authornamehash}{11d7440523380c5acbc12b941560ba8c}
       \strng{authorfullhash}{11d7440523380c5acbc12b941560ba8c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{russian}
@@ -834,48 +932,14 @@
       \strng{authorbibnamehash}{b2973fe94e76f7f1ca79590a1f83e01f}
       \strng{authornamehash}{b2973fe94e76f7f1ca79590a1f83e01f}
       \strng{authorfullhash}{b2973fe94e76f7f1ca79590a1f83e01f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{media}{text}
       \field{title}{Introduction to optimization techniques. Fundamentals and applications of nonlinear programming}
       \field{year}{1971}
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{eremeev:confidence}{article}{}
-      \name{author}{2}{}{%
-        {{hash=476e3b2ec4b24aa98fd67138fc6da48f}{%
-           family={Еремеев},
-           familyi={Е\bibinitperiod},
-           given={А.\bibnamedelimi В.},
-           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
-        {{hash=220b58cb226a14c54716486aa43a0ca7}{%
-           family={Ривс},
-           familyi={Р\bibinitperiod},
-           given={K.\bibnamedelimi Р.},
-           giveni={K\bibinitperiod\bibinitdelim Р\bibinitperiod}}}%
-      }
-      \strng{namehash}{7783469795ac5ac126796184084cb124}
-      \strng{fullhash}{7783469795ac5ac126796184084cb124}
-      \strng{bibnamehash}{7783469795ac5ac126796184084cb124}
-      \strng{authorbibnamehash}{7783469795ac5ac126796184084cb124}
-      \strng{authornamehash}{7783469795ac5ac126796184084cb124}
-      \strng{authorfullhash}{7783469795ac5ac126796184084cb124}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Математические структуры и моделирование}
-      \field{langid}{russian}
-      \field{media}{text}
-      \field{title}{О доверительных интервалах для числа локальных оптимумов}
-      \field{year}{2017}
-      \field{pages}{55\bibrangedash 74}
-      \range{pages}{20}
-      \field{volume}{41}
-      \range{volume}{1}
       \keyw{,biblioexternal,bibliofull}
     \endentry
     \entry{yurkov:symmetry}{article}{}
@@ -897,8 +961,8 @@
       \strng{authorbibnamehash}{44a698a170a5093e507583f804745ec0}
       \strng{authornamehash}{44a698a170a5093e507583f804745ec0}
       \strng{authorfullhash}{44a698a170a5093e507583f804745ec0}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{MOTOR 2020. Shpringer}
@@ -925,8 +989,8 @@
       \strng{authornamehash}{2f65d40bed99130b3a1b2ee44bc00482}
       \strng{authorfullhash}{2f65d40bed99130b3a1b2ee44bc00482}
       \field{extraname}{3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Техника радиосвязи. ОНИИП}
@@ -976,70 +1040,6 @@
       \verb{url}
       \verb https://www.nec2.org/
       \endverb
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{nesterov:nonconvex}{book}{}
-      \name{author}{1}{}{%
-        {{hash=1692bed3072a551313c80e147c9f64cb}{%
-           family={Нестеров},
-           familyi={Н\bibinitperiod},
-           given={Ю.\bibnamedelimi E.},
-           giveni={Ю\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {M:МЦНМО}%
-      }
-      \strng{namehash}{1692bed3072a551313c80e147c9f64cb}
-      \strng{fullhash}{1692bed3072a551313c80e147c9f64cb}
-      \strng{bibnamehash}{1692bed3072a551313c80e147c9f64cb}
-      \strng{authorbibnamehash}{1692bed3072a551313c80e147c9f64cb}
-      \strng{authornamehash}{1692bed3072a551313c80e147c9f64cb}
-      \strng{authorfullhash}{1692bed3072a551313c80e147c9f64cb}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{langid}{russian}
-      \field{media}{text}
-      \field{pagetotal}{70}
-      \field{title}{Введение в выпуклую оптимизацию}
-      \field{year}{2010}
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{ryoo:nlp}{article}{}
-      \name{author}{2}{}{%
-        {{hash=ed8e20b504eb76a29b7e23edaf5661ca}{%
-           family={Ryoo},
-           familyi={R\bibinitperiod},
-           given={H.\bibnamedelimi S.},
-           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=b2ee7d2f9ead5cd2e95ece0b3abcf634}{%
-           family={Sahinidis},
-           familyi={S\bibinitperiod},
-           given={N.\bibnamedelimi V.},
-           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-      }
-      \strng{namehash}{1a5bf4d07f90d0215c9a8fa967734abd}
-      \strng{fullhash}{1a5bf4d07f90d0215c9a8fa967734abd}
-      \strng{bibnamehash}{1a5bf4d07f90d0215c9a8fa967734abd}
-      \strng{authorbibnamehash}{1a5bf4d07f90d0215c9a8fa967734abd}
-      \strng{authornamehash}{1a5bf4d07f90d0215c9a8fa967734abd}
-      \strng{authorfullhash}{1a5bf4d07f90d0215c9a8fa967734abd}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Computers and Chem. Engng. Pergamon}
-      \field{langid}{english}
-      \field{media}{text}
-      \field{title}{Global Optimization of Nonconvex NLPs and MINLPs with Applications in Process Design}
-      \field{year}{1995}
-      \field{number}{5}
-      \range{number}{1}
-      \field{pages}{551\bibrangedash 566}
-      \range{pages}{16}
-      \field{volume}{19}
-      \range{volume}{1}
       \keyw{,biblioexternal,bibliofull}
     \endentry
     \entry{noguchi:de}{article}{}
@@ -1099,8 +1099,8 @@
       \strng{authorbibnamehash}{c14d3093b4a5143596ae62ebfbbb6da1}
       \strng{authornamehash}{c14d3093b4a5143596ae62ebfbbb6da1}
       \strng{authorfullhash}{c14d3093b4a5143596ae62ebfbbb6da1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
@@ -1110,6 +1110,7 @@
       \keyw{,biblioexternal,bibliofull}
     \endentry
   \enddatalist
+  \missing{ndenbometal:synthesis}
 \endrefsection
 
 \refsection{1}

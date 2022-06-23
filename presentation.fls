@@ -1,5 +1,5 @@
-PWD C:\Users\Nik\Documents\GitHub\Dissertation
-INPUT C:\Users\Nik\AppData\Local\MiKTeX\miktex\data\le\xetex\xelatex.fmt
+PWD C:\users_\Eremeev\Dissertations\Тюнин\Dissertation
+INPUT C:\Users\Anton\AppData\Local\MiKTeX\miktex\data\le\xetex\xelatex.fmt
 INPUT .\presentation.tex
 INPUT presentation.tex
 INPUT .\presentation.tex
@@ -476,6 +476,41 @@ INPUT C:\Program Files\MiKTeX\tex\latex\auxhook\auxhook.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\auxhook\auxhook.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\auxhook\auxhook.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\kvoptions\kvoptions.sty
@@ -489,6 +524,8 @@ INPUT C:\Program Files\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
 INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
 INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
@@ -1253,7 +1290,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
-INPUT extractbb "--version"
 INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
@@ -1473,17 +1509,17 @@ INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\varwidth\varwidth.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\varwidth\varwidth.sty
@@ -2147,43 +2183,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\base\ts1cmr.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\base\ts1cmr.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\base\ts1cmr.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\base\ts1cmr.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\infwarerr\infwarerr.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\kvoptions\kvoptions.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
 INPUT .\presentation.out
 INPUT presentation.out
 INPUT .\presentation.out
