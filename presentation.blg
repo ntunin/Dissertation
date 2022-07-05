@@ -1,18 +1,18 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'presentation.blg'
-[158] biber-MSWIN64:340> INFO - === 
-[218] Biber.pm:418> INFO - Reading 'presentation.bcf'
-[441] Biber.pm:972> INFO - Found 7 citekeys in bib section 0
-[461] Biber.pm:4383> INFO - Processing section 0
-[476] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/external.bib' for section 0
-[1863] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1942] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio/external.bib'
-[1951] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/author.bib' for section 0
-[2025] bibtex.pm:1713> INFO - LaTeX decoding ...
-[2049] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio/author.bib'
-[2131] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2131] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2131] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
-[2131] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
-[2137] bbl.pm:654> INFO - Writing 'presentation.bbl' with encoding 'UTF-8'
-[2142] bbl.pm:757> INFO - Output to presentation.bbl
+[196] biber-MSWIN64:340> INFO - === 
+[257] Biber.pm:418> INFO - Reading 'presentation.bcf'
+[528] Biber.pm:972> INFO - Found 4 citekeys in bib section 0
+[583] Biber.pm:4383> INFO - Processing section 0
+[622] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/external.bib' for section 0
+[1353] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1498] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio/external.bib'
+[1513] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/author.bib' for section 0
+[1666] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1715] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio/author.bib'
+[1851] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1851] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1851] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[1851] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
+[1856] bbl.pm:654> INFO - Writing 'presentation.bbl' with encoding 'UTF-8'
+[1860] bbl.pm:757> INFO - Output to presentation.bbl

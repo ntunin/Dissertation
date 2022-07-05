@@ -17,9 +17,14 @@ sortcites=true,% сортировать номера затекстовых сс
 doi=false,% Показывать или нет ссылки на DOI
 isbn=false,% Показывать или нет ISBN, ISSN, ISRN
 ]{biblatex}[2016/09/17]
-\ltx@iffilelater{biblatex-gost.def}{2017/05/03}%
-{\toggletrue{bbx:gostbibliography}%
-\renewcommand*{\revsdnamepunct}{\addcomma}}{}
+
+% TODO: Restore gost
+%\ltx@iffilelater{biblatex-gost.def}{2017/05/03}%
+%{\toggletrue{bbx:gostbibliography}%
+%\renewcommand*{\revsdnamepunct}{\addcomma}}{}
+
+
+
 }{%Черновик
 \usepackage[%
 backend=biber,% движок

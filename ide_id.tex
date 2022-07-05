@@ -1,0 +1,595 @@
+\documentclass{scrartcl}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{xcolor}
+\definecolor{cloudwhite}{HTML}{E9E9E2}
+\lstloadlanguages{C,C++,csh,Java}
+
+\definecolor{red}{rgb}{0.6,0,0}
+\definecolor{blue}{rgb}{0,0,0.6}
+\definecolor{green}{rgb}{0,0.8,0}
+\definecolor{cyan}{rgb}{0.0,0.6,0.6}
+
+\lstset{
+language=csh,
+basicstyle=\footnotesize\ttfamily,
+numbers=left,
+numberstyle=\tiny,
+numbersep=5pt,
+tabsize=2,
+extendedchars=true,
+breaklines=true,
+frame=b,
+stringstyle=\color{blue}\ttfamily,
+showspaces=false,
+showtabs=false,
+xleftmargin=17pt,
+framexleftmargin=17pt,
+framexrightmargin=5pt,
+framexbottommargin=4pt,
+commentstyle=\color{green},
+morecomment=[l]{//}, %use comment-line-style!
+morecomment=[s]{/*}{*/}, %for multiline comments
+showstringspaces=false,
+morekeywords={ abstract, event, new, struct,
+as, explicit, null, switch,
+base, extern, object, this,
+bool, false, operator, throw,
+break, finally, out, true,
+byte, fixed, override, try,
+case, float, params, typeof,
+catch, for, private, uint,
+char, foreach, protected, ulong,
+checked, goto, public, unchecked,
+class, if, readonly, unsafe,
+const, implicit, ref, ushort,
+continue, in, return, using,
+decimal, int, sbyte, virtual,
+default, interface, sealed, volatile,
+delegate, internal, short, void,
+do, is, sizeof, while,
+double, lock, stackalloc,
+else, long, static,
+enum, namespace, string},
+keywordstyle=\color{cyan},
+identifierstyle=\color{red},
+backgroundcolor=\color{cloudwhite},
+}
+
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox{blue}{\parbox{\textwidth}{\hspace{15pt}#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white, singlelinecheck=false, margin=0pt, font={bf,footnotesize}}
+
+\begin{document}
+\begin{lstlisting}[language={[Sharp]C}, caption={IDE}, label={experiment}]
+
+//
+// ExpiIDE
+// FileInspectorPresenter.cs
+//
+// Copyright © 2022 Nikolai Tiunin. All rights reserved.
+//
+
+using ExpiIDE.Core;
+using Presentation.Modules.EXP;
+using Presentation.Modules.IDE;
+using Presentation.Modules.NEC;
+using Presentation.Modules.SVG;
+using Presentation.Modules.TXT;
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace Presentation.Modules.FileInspector
+{
+
+    public class FileHierarchyItem
+    {
+        public string name;
+        public string path;
+
+        public bool IsExists
+        {
+            get
+            {
+                return File.Exists(path);
+            }
+        }
+
+        public FileHierarchyItem(string name, string path)
+        {
+            this.path = path;
+            this.name = name;
+        }
+
+        public static FileHierarchyItem Item(string path)
+        {
+            if (Directory.Exists(path))
+            {
+                return FolderItem(path);
+            }
+            return ContentItem(path);
+        }
+
+        public static FolderItem FolderItem(string path)
+        {
+            var name = new FileInfo(path).Name;
+            return new FolderItem(name, path);
+        }
+
+        public static ContentItem ContentItem(string path)
+        {
+            var name = new FileInfo(path).Name;
+            var ext = name.Split('.').Last();
+            var type = FileItemType.unknown;
+            switch (ext)
+            {
+                case "nec":
+                    type = FileItemType.nec;
+                    break;
+                case "svg":
+                    type = FileItemType.svg;
+                    break;
+                case "exp":
+                    type = FileItemType.exp;
+                    break;
+                case "txt":
+                    type = FileItemType.txt;
+                    break;
+            }
+            return new ContentItem(name, path, type);
+        }
+
+        public FileHierarchyItem Find(string keyPath)
+        {
+            if (name == keyPath)
+            {
+                return this;
+            }
+            if (keyPath.Length == 0)
+            {
+                return null;
+            }
+            var slashIndex = keyPath.IndexOf('\\');
+            var title = keyPath;
+            var remaining = "";
+            if (slashIndex > 0)
+            {
+                title = keyPath.Substring(0, slashIndex);
+                remaining = keyPath.Remove(0, slashIndex + 1);
+            }
+            if (title != name)
+            {
+                return null;
+            }
+            if (title == name && remaining.Length == 0)
+            {
+                return this;
+            }
+            if (this is FolderItem)
+            {
+                var folder = (FolderItem)this;
+                foreach (var item in folder.items)
+                {
+                    var subItem = item.Value.Find(remaining);
+                    if (subItem != null)
+                    {
+                        return subItem;
+                    }
+                }
+            }
+            return null;
+        }
+    }
+    public class FolderItem: FileHierarchyItem
+    {
+        public Dictionary<string, FileHierarchyItem> items;
+        public bool isLoaded = false;
+        public bool isExpanded = false;
+
+        public bool IsExists
+        {
+            get
+            {
+                return Directory.Exists(path);
+            }
+        }
+
+
+        public FolderItem(string name, string path): base(name, path)
+        {
+            items = new Dictionary<string, FileHierarchyItem>();
+        }
+
+        public bool Load()
+        {
+            var isChanged = false;
+            var checkList = new Dictionary<string, FileHierarchyItem>();
+            foreach (var item in items)
+            {
+                checkList[item.Key] = item.Value;
+            }
+            var files = Directory.GetFiles(path);
+            var directories = Directory.GetDirectories(path);
+            var content = new List<string>();
+            content.AddRange(files);
+            content.AddRange(directories);
+            foreach(var path in content)
+            {
+                FileHierarchyItem item;
+                if (checkList.ContainsKey(path) == false)
+                {
+                    item = Item(path);
+                    items[path] = item;
+                    isChanged = true;
+                }
+                else {
+                    item = checkList[path];
+                    checkList.Remove(item.path);
+                }
+
+                if (item is FolderItem)
+                {
+                    isChanged |= ((FolderItem)item).Load();
+                }
+            }
+            if (checkList.Count > 0)
+            {
+                foreach (var item in checkList)
+                {
+                    items.Remove(item.Key);
+                }
+                isChanged = true;
+            }
+            return isChanged;
+        }
+
+        public void Toggle()
+        {
+            isExpanded = !isExpanded;
+
+        }
+    }
+
+    public class ContentItem : FileHierarchyItem
+    {
+        public FileItemType type;
+
+        public ContentItem(string name, string path, FileItemType type) : base(name, path)
+        {
+            this.type = type;
+        }
+    }
+
+
+    public partial class FileInspectorPresenter
+    {
+        IDEModuleOutput output;
+        public FileInspectorView view;
+        EXPModule expModule;
+        SVGModule svgModule;
+        NECModule necModule;
+        TXTModule txtModule;
+        FolderItem root;
+        System.Timers.Timer timer;
+        Dictionary<string, FileItem> fileItems = new Dictionary<string, FileItem>();
+        FileItem currentFileItem = null;
+        private int timerTicks = 0;
+
+        public FileInspectorPresenter(
+            string path,
+            EXPModule expModule,
+            SVGModule svgModule,
+            NECModule necModule,
+            TXTModule txtModule,
+            IDEModuleOutput output)
+        {
+            this.expModule = expModule;
+            this.svgModule = svgModule;
+            this.necModule = necModule;
+            this.txtModule = txtModule;
+            var directory = path;
+            if (Directory.Exists(path) == false)
+            {
+                var info = new FileInfo(path);
+                directory = info.Directory.FullName;
+            }
+            root = FileHierarchyItem.FolderItem(directory);
+            root.isExpanded = true;
+            this.output = output;
+            StartTimer();
+        }
+
+        ~FileInspectorPresenter()
+        {
+            StopTimer();
+        }
+
+        public void DidSelect(string path)
+        {
+            var item = root.Find(path);
+            if (item == null || item is ContentItem == false)
+            {
+                return;
+            }
+            var contentItem = (ContentItem)item;
+            var fileItem = FindOrCreateFileItem(contentItem);
+
+            switch (contentItem.type)
+            {
+                case FileItemType.exp:
+                    currentFileItem = fileItem;
+                    expModule.Input.Open(fileItem);
+                    view.previewView.Show(expModule.View);
+                    break;
+                case FileItemType.nec:
+                    currentFileItem = fileItem;
+                    necModule.Input.Open(item.path);
+                    view.previewView.Show(necModule.View);
+                    break;
+                case FileItemType.svg:
+                    currentFileItem = null;
+                    svgModule.Input.Open(item.path);
+                    view.previewView.Show(svgModule.View);
+                    break;
+                case FileItemType.txt:
+                    currentFileItem = fileItem;
+                    txtModule.Input.Open(fileItem);
+                    view.previewView.Show(txtModule.View);
+                    break;
+                default:
+                    currentFileItem = null;
+                    view.previewView.ShowPlaceholder();
+                    break;
+            }
+            output.DidUpdate(fileItem);
+        }
+
+        public void UpdateContent()
+        {
+            if (currentFileItem == null)
+            {
+                view.previewView.ShowPlaceholder();
+                return;
+            }
+            switch (currentFileItem.type)
+            {
+                case FileItemType.exp:
+                    expModule.Input.Update();
+                    break;
+                case FileItemType.txt:
+                    txtModule.Input.Update();
+                    break;
+                case FileItemType.nec:
+                    break;
+                case FileItemType.svg:
+                    break;
+                default:
+                    view.previewView.ShowPlaceholder();
+                    break;
+            }
+        }
+
+        public void DidRequestOptions(string path, Point location)
+        {
+            var item = root.Find(path);
+
+            if (item == null)
+            {
+                return;
+            }
+
+            var del = new ToolStripMenuItem("Удалить", null, (o, e) => {
+                Delete(item.path);
+            });
+            if (item is FileItem)
+            {
+                Show(new ToolStripItem[] { del }, location);
+            } else
+            {
+                var folder = item.path;
+                var createFolder = new ToolStripMenuItem("Папку", null, (o, e) => {
+                    view.ShowCreateFileView("folder", (name) => {
+                        CreateFolder($"{folder}\\{name}");
+                    });
+                });
+                var createFile = new ToolStripMenuItem("Файл", null, (o, e) => {
+                    view.ShowCreateFileView("file", (name) => {
+                        CreateFile($"{folder}\\{name}");
+                    });
+                });
+                var create = new ToolStripMenuItem("Создать", null, new ToolStripItem[] {
+                   createFolder, createFile
+                });
+                Show(new ToolStripItem[] {
+                    create, del
+                }, location);
+            }
+        }
+
+        public void Expand(string path)
+        {
+            var item = root.Find(path);
+            if (item is FolderItem == false)
+            {
+                return;
+            }
+            var folder = (FolderItem)item;
+            folder.isExpanded = true;
+        }
+
+        public void Collapse(string path)
+        {
+            var item = root.Find(path);
+            if (item is FolderItem == false)
+            {
+                return;
+            }
+            var folder = (FolderItem)item;
+            folder.isExpanded = false;
+        }
+
+        private void Show(ToolStripItem[] items, Point location)
+        {
+            view.hierarchyView.ShowContextMenu(items, location);
+        }
+
+        private void CreateFile(string path)
+        {
+            File.WriteAllText(path, "");
+        }
+
+        private void CreateFolder(string path)
+        {
+            Directory.CreateDirectory(path);
+        }
+
+        private void Delete(string path)
+        {
+            if (Directory.Exists(path))
+            {
+                Directory.Delete(path, true);
+            }
+            else if (File.Exists(path))
+            {
+                File.Delete(path);
+            }
+        }
+
+        private void StartTimer()
+        {
+            timerTicks = 0;
+            timer = new System.Timers.Timer(300);
+            timer.Elapsed += new System.Timers.ElapsedEventHandler(TimerFired);
+            timer.AutoReset = true;
+            timer.Start();
+        }
+
+        private void StopTimer()
+        {
+            if (timer != null)
+            {
+                timer.Stop();
+            }
+        }
+
+        private void TimerFired(object sender, EventArgs e)
+        {
+            timerTicks++;
+            if (timerTicks % 10 == 0)
+            {
+                timerTicks = 0;
+                UpdateUndoIfNeeded();
+            }
+            view.Invoke(new Action(() => {
+                UpdateToolsIfNeeded();
+            }));
+            if (view == null)
+            {
+                return;
+            }
+            if (root.Load() == false)
+            {
+                return;
+            }
+            view.Invoke(new Action(() => {
+                UpdateView();
+            }));
+        }
+
+        private FileItem FindOrCreateFileItem(ContentItem contentItem)
+        {
+            if (fileItems.ContainsKey(contentItem.path))
+            {
+                return fileItems[contentItem.path];
+            }
+            var item = new FileItem(contentItem.path, contentItem.type);
+            fileItems[contentItem.path] = item;
+            return item;
+        }
+    }
+
+    partial class FileInspectorPresenter : FileInspectorModuleInput
+    {
+        public void Redo()
+        {
+            if (currentFileItem == null)
+            {
+                return;
+            }
+            currentFileItem.Redo();
+            UpdateContent();
+        }
+
+        public void Undo()
+        {
+            if (currentFileItem == null)
+            {
+                return;
+            }
+            currentFileItem.Undo();
+            UpdateContent();
+        }
+        public void Save()
+        {
+            if (currentFileItem == null)
+            {
+                return;
+            }
+            currentFileItem.Save();
+        }
+
+        public void ToggleRun()
+        {
+            if (currentFileItem == null)
+            {
+                return;
+            }
+            switch (currentFileItem.type)
+            {
+                case FileItemType.exp:
+                    expModule.Input.ToggleRunning();
+                    break;
+                default:
+                    break;
+            }
+        }
+
+
+        public void UpdateView()
+        {
+            var items = (root.IsExists) ?
+                new FileHierarchyItem[] { root } :
+                new FileHierarchyItem[] { };
+            view.hierarchyView.UpdateHierarchyItems(items);
+        }
+
+        private void UpdateToolsIfNeeded()
+        {
+            output.DidUpdate(currentFileItem);
+        }
+
+        private void UpdateUndoIfNeeded()
+        {
+            if (currentFileItem == null)
+            {
+                return;
+            }
+            currentFileItem.UpdateHistory();
+        }
+
+        public bool IsRunning(FileItem fileItem)
+        {
+            return expModule.Input.IsRunning(fileItem);
+        }
+    }
+}
+
+
+\end{lstlisting}
+
+\end{document} 

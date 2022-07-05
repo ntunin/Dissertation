@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  20 JUN 2022 23:52
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  23 JUN 2022 10:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1758,36 +1758,24 @@ Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
+LaTeX Info: Redefining \rmfamily on input line 259.
+LaTeX Info: Redefining \sffamily on input line 259.
+LaTeX Info: Redefining \ttfamily on input line 259.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 183.
-LaTeX Info: Redefining \sffamily on input line 183.
-LaTeX Info: Redefining \ttfamily on input line 183.
+LaTeX Info: Redefining \rmfamily on input line 263.
+LaTeX Info: Redefining \sffamily on input line 263.
+LaTeX Info: Redefining \ttfamily on input line 263.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-LaTeX Info: Redefining \rmfamily on input line 233.
-LaTeX Info: Redefining \sffamily on input line 233.
-LaTeX Info: Redefining \ttfamily on input line 233.
+LaTeX Info: Redefining \rmfamily on input line 271.
+LaTeX Info: Redefining \sffamily on input line 271.
+LaTeX Info: Redefining \ttfamily on input line 271.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 237.
-LaTeX Info: Redefining \sffamily on input line 237.
-LaTeX Info: Redefining \ttfamily on input line 237.
+LaTeX Info: Redefining \rmfamily on input line 275.
+LaTeX Info: Redefining \sffamily on input line 275.
+LaTeX Info: Redefining \ttfamily on input line 275.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 )
@@ -2078,6 +2066,8 @@ File: uesint.fd
 
 ] [2.2
 
+] [3.3
+
 ] (presentation.toc
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -2087,41 +2077,29 @@ Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
+LaTeX Info: Redefining \rmfamily on input line 19.
+LaTeX Info: Redefining \sffamily on input line 19.
+LaTeX Info: Redefining \ttfamily on input line 19.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
 LaTeX Info: Redefining \rmfamily on input line 20.
 LaTeX Info: Redefining \sffamily on input line 20.
 LaTeX Info: Redefining \ttfamily on input line 20.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 21.
-LaTeX Info: Redefining \sffamily on input line 21.
-LaTeX Info: Redefining \ttfamily on input line 21.
+LaTeX Info: Redefining \rmfamily on input line 22.
+LaTeX Info: Redefining \sffamily on input line 22.
+LaTeX Info: Redefining \ttfamily on input line 22.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-LaTeX Info: Redefining \rmfamily on input line 32.
-LaTeX Info: Redefining \sffamily on input line 32.
-LaTeX Info: Redefining \ttfamily on input line 32.
+LaTeX Info: Redefining \rmfamily on input line 23.
+LaTeX Info: Redefining \sffamily on input line 23.
+LaTeX Info: Redefining \ttfamily on input line 23.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 33.
-LaTeX Info: Redefining \sffamily on input line 33.
-LaTeX Info: Redefining \ttfamily on input line 33.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-) [3.3
+) [4.4
 
-]) (Presentation/content.tex [4.4
+]) (Presentation/content.tex [5.5
 
 ]
 File: images//2x2bve.eps Graphic file (type eps)
@@ -2132,9 +2110,11 @@ File: images//5x5VWD.eps Graphic file (type eps)
 <images//5x5VWD.eps>
 File: images//r8.eps Graphic file (type eps)
 <images//r8.eps>
-[5.5
 
-] [6.6
+Overfull \vbox (10.96748pt too high) detected at line 36
+ []
+
+[6.6
 
 ] [7.7
 
@@ -2144,39 +2124,101 @@ File: images//r8.eps Graphic file (type eps)
 
 ] [10.10
 
-]
-File: images//fit_dist.eps Graphic file (type eps)
-<images//fit_dist.eps>
-File: images//fit_dist_2x2.eps Graphic file (type eps)
-<images//fit_dist_2x2.eps>
+] [11.11
 
-Overfull \vbox (20.36778pt too high) detected at line 185
+] [12.12
+
+] [13.13
+
+] [14.14
+
+] [15.15
+
+]
+File: images//expi.png Graphic file (type bmp)
+<images//expi.png>
+[16.16
+
+]
+Overfull \hbox (9.19977pt too wide) in paragraph at lines 270--270
+ [] 
  []
 
-[11.11
+[17.17
 
 ]
 File: images//stability.eps Graphic file (type eps)
 <images//stability.eps>
-[12.12
+[18.18
+
+] [19.19
+
+] [20.20
+
+] [21.21
+
+] [22.22
+
+] [23.23
+
+] [24.24
+
+] [25.25
+
+] [26.26
 
 ]
-File: images//de.png Graphic file (type bmp)
-<images//de.png>
-[13.13
+Overfull \hbox (1.5885pt too wide) in paragraph at lines 447--447
+ [] 
+ []
+
+[27.27
+
+]
+File: images//fit_dist.eps Graphic file (type eps)
+<images//fit_dist.eps>
+[28.28
+
+]
+File: images//fit_dist_2x2.eps Graphic file (type eps)
+<images//fit_dist_2x2.eps>
+[29.29
+
+] [30.30
+
+]
+File: images//r8.eps Graphic file (type eps)
+<images//r8.eps>
+[31.31
+
+]
+File: images//ring_f__paa_gains.eps Graphic file (type eps)
+<images//ring_f__paa_gains.eps>
+[32.32
 
 ]
 File: images//ring_f_gains.eps Graphic file (type eps)
 <images//ring_f_gains.eps>
-File: images//r8_1_25_5x7.png Graphic file (type bmp)
-<images//r8_1_25_5x7.png>
-File: images//r8_25_5x7.png Graphic file (type bmp)
-<images//r8_25_5x7.png>
+File: images//r8_1_25_5x7_marked.png Graphic file (type bmp)
+<images//r8_1_25_5x7_marked.png>
+File: images//r8_25_5x7_marked.png Graphic file (type bmp)
+<images//r8_25_5x7_marked.png>
 
-Overfull \vbox (15.82552pt too high) detected at line 243
+Overfull \vbox (15.82352pt too high) detected at line 544
  []
 
-[14.14
+[33.33
+
+]
+File: images//r_bve_15_results_h.png Graphic file (type bmp)
+<images//r_bve_15_results_h.png>
+File: images//r_bve_15_results_v.png Graphic file (type bmp)
+<images//r_bve_15_results_v.png>
+
+Overfull \vbox (6.87337pt too high) detected at line 561
+ []
+
+[34.34
 
 ]
 File: images//r_bvd_20_results_h.png Graphic file (type bmp)
@@ -2184,33 +2226,35 @@ File: images//r_bvd_20_results_h.png Graphic file (type bmp)
 File: images//r_bvd_20_results_v.png Graphic file (type bmp)
 <images//r_bvd_20_results_v.png>
 
-Overfull \vbox (6.87337pt too high) detected at line 261
+Overfull \vbox (6.87337pt too high) detected at line 577
  []
 
-[15.15
+[35.35
 
-]) (Presentation/conclusion.tex [16.16
+] [36.36
 
-] [17.17
+]) (Presentation/conclusion.tex [37.37
+
+] [38.38
 
 ]
-LaTeX Info: Redefining \rmfamily on input line 70.
-LaTeX Info: Redefining \sffamily on input line 70.
-LaTeX Info: Redefining \ttfamily on input line 70.
-LaTeX Info: Redefining \rmfamily on input line 70.
-LaTeX Info: Redefining \sffamily on input line 70.
-LaTeX Info: Redefining \ttfamily on input line 70.
-[18.18
+LaTeX Info: Redefining \rmfamily on input line 66.
+LaTeX Info: Redefining \sffamily on input line 66.
+LaTeX Info: Redefining \ttfamily on input line 66.
+LaTeX Info: Redefining \rmfamily on input line 66.
+LaTeX Info: Redefining \sffamily on input line 66.
+LaTeX Info: Redefining \ttfamily on input line 66.
+[39.39
 
-] [19.19
+] [40.40
 
+]
+Overfull \vbox (10.30469pt too high) detected at line 95
+ []
 
-] [20.20
+[41.41
 
-
-] [21.21
-
-] [22.22
+] [42.42
 
 ])
 \tf@nav=\write8
@@ -2336,36 +2380,24 @@ Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
+LaTeX Info: Redefining \rmfamily on input line 259.
+LaTeX Info: Redefining \sffamily on input line 259.
+LaTeX Info: Redefining \ttfamily on input line 259.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 183.
-LaTeX Info: Redefining \sffamily on input line 183.
-LaTeX Info: Redefining \ttfamily on input line 183.
+LaTeX Info: Redefining \rmfamily on input line 263.
+LaTeX Info: Redefining \sffamily on input line 263.
+LaTeX Info: Redefining \ttfamily on input line 263.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-LaTeX Info: Redefining \rmfamily on input line 233.
-LaTeX Info: Redefining \sffamily on input line 233.
-LaTeX Info: Redefining \ttfamily on input line 233.
+LaTeX Info: Redefining \rmfamily on input line 271.
+LaTeX Info: Redefining \sffamily on input line 271.
+LaTeX Info: Redefining \ttfamily on input line 271.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 237.
-LaTeX Info: Redefining \sffamily on input line 237.
-LaTeX Info: Redefining \ttfamily on input line 237.
+LaTeX Info: Redefining \rmfamily on input line 275.
+LaTeX Info: Redefining \sffamily on input line 275.
+LaTeX Info: Redefining \ttfamily on input line 275.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 )
@@ -2614,31 +2646,35 @@ images//2x2bve.eps
 images//2x2bvd.eps
 images//5x5VWD.eps
 images//r8.eps
+images//expi.png
+images//stability.eps
 images//fit_dist.eps
 images//fit_dist_2x2.eps
-images//stability.eps
-images//de.png
+images//r8.eps
+images//ring_f__paa_gains.eps
 images//ring_f_gains.eps
-images//r8_1_25_5x7.png
-images//r8_25_5x7.png
+images//r8_1_25_5x7_marked.png
+images//r8_25_5x7_marked.png
+images//r_bve_15_results_h.png
+images//r_bve_15_results_v.png
 images//r_bvd_20_results_h.png
 images//r_bvd_20_results_v.png
 Presentation/conclusion.tex
  ***********
 
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 1FC5688FCAEC89B11C4BEB7F5456645A;4420.
+(rerunfilecheck)             Checksum: BE6CE0A57E196E3D4165D32AD6613764;4052.
 Package logreq Info: Writing requests to 'presentation.run.xml'.
 \openout1 = `presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48705 strings out of 410967
- 1041894 string characters out of 2828016
- 2013731 words of memory out of 3000000
- 68542 multiletter control sequences out of 15000+600000
- 472328 words of font info for 103 fonts, out of 8000000 for 9000
+ 48848 strings out of 410967
+ 1044964 string characters out of 2828016
+ 2016406 words of memory out of 3000000
+ 68668 multiletter control sequences out of 15000+600000
+ 475620 words of font info for 124 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  132i,15n,125p,874b,7724s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on presentation.xdv (22 pages, 158576 bytes).
+Output written on presentation.xdv (42 pages, 291568 bytes).

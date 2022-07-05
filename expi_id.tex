@@ -1,0 +1,1496 @@
+\documentclass{scrartcl}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{xcolor}
+\definecolor{cloudwhite}{HTML}{E9E9E2}
+\lstloadlanguages{C,C++,csh,Java}
+
+\definecolor{red}{rgb}{0.6,0,0}
+\definecolor{blue}{rgb}{0,0,0.6}
+\definecolor{green}{rgb}{0,0.8,0}
+\definecolor{cyan}{rgb}{0.0,0.6,0.6}
+
+\lstset{
+language=csh,
+basicstyle=\footnotesize\ttfamily,
+numbers=left,
+numberstyle=\tiny,
+numbersep=5pt,
+tabsize=2,
+extendedchars=true,
+breaklines=true,
+frame=b,
+stringstyle=\color{blue}\ttfamily,
+showspaces=false,
+showtabs=false,
+xleftmargin=17pt,
+framexleftmargin=17pt,
+framexrightmargin=5pt,
+framexbottommargin=4pt,
+commentstyle=\color{green},
+morecomment=[l]{//}, %use comment-line-style!
+morecomment=[s]{/*}{*/}, %for multiline comments
+showstringspaces=false,
+morekeywords={ abstract, event, new, struct,
+as, explicit, null, switch,
+base, extern, object, this,
+bool, false, operator, throw,
+break, finally, out, true,
+byte, fixed, override, try,
+case, float, params, typeof,
+catch, for, private, uint,
+char, foreach, protected, ulong,
+checked, goto, public, unchecked,
+class, if, readonly, unsafe,
+const, implicit, ref, ushort,
+continue, in, return, using,
+decimal, int, sbyte, virtual,
+default, interface, sealed, volatile,
+delegate, internal, short, void,
+do, is, sizeof, while,
+double, lock, stackalloc,
+else, long, static,
+enum, namespace, string},
+keywordstyle=\color{cyan},
+identifierstyle=\color{red},
+backgroundcolor=\color{cloudwhite},
+}
+
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox{blue}{\parbox{\textwidth}{\hspace{15pt}#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white, singlelinecheck=false, margin=0pt, font={bf,footnotesize}}
+
+\begin{document}
+
+
+\begin{lstlisting}[language={[Sharp]C}, caption={Experiment}, label={experiment}]
+
+//
+// ExpiFramework
+// Excperiment.cs
+//
+// Copyright © 2022 Nikolai Tiunin. All rights reserved.
+//
+
+using NecProblemFramework;
+using PAASolveFramework;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Numerics;
+
+namespace Expi
+{
+    class Experiment
+    {
+        string nec;
+        string package;
+        string solver;
+        double theta;
+        double phi;
+        string name;
+        string compare;
+        bool draw;
+        NecUtilities.In.Parser parser = new NecUtilities.In.Parser();
+        NecProblemBuilder problemBuilder = new NecProblemBuilder();
+        ProblemWritter problemWritter = new ProblemWritter();
+        Dictionary<string, object> parameters;
+
+        string[] PreferredOutputOrder = new string[] {
+            "Nec", "Theta", "Phi", "p", "q", "force", "z", "de_status", "de_record_iteration", "de_time", "grad_time"
+        };
+
+        public class PackageResult
+        {
+            public string Path;
+            public OptimizationResult Result;
+
+            public PackageResult(string Path, OptimizationResult Result)
+            {
+                this.Path = Path;
+                this.Result = Result;
+            }
+        }
+
+        public class PackageResolver
+        {
+            string directory;
+            string name;
+            NecUtilities.In.Model model;
+            Problem problem;
+            ProblemWritter problemWritter = new ProblemWritter();
+            public PackageResolver(string directory, NecUtilities.In.Model model, Problem problem)
+            {
+                this.directory = directory;
+                this.model = model;
+                this.problem = problem;
+            }
+
+            public PackageResult Resolve(string package, string solver, Dictionary<string, object> parameters)
+            {
+                string solvedNec = null;
+                var result = UsePackage(package, solver, parameters, ref solvedNec);
+                var writter = new OptimizationResultWritter();
+                writter.Write(result, $"{directory}\\solution.txt");
+                WriteSolution(result.GetComplexSolution(), solvedNec);
+                var packageResult = new PackageResult(solvedNec, result);
+                return packageResult;
+            }
+
+            private OptimizationResult UsePackage(string package, string solver, Dictionary<string, object> parameters, ref string solvedNec)
+            {
+                switch (package.ToLower())
+                {
+                    case "gams":
+                        return UseGamsPackage(solver, parameters, ref solvedNec);
+                    default:
+                        return UseCustomPackage(package, solver, parameters, ref solvedNec);
+                }
+            }
+
+            public void WriteSolution(Complex[] solution, string fileName)
+            {
+                if (solution == null)
+                {
+                    return;
+                }
+                var clone = model.Copy();
+                var sources = clone.Sources;
+                for (var i = 0; i < sources.Length; i++)
+                {
+                    sources[i].Value = solution[i];
+                }
+                File.WriteAllText(fileName, clone.ToString());
+            }
+
+            private OptimizationResult UseGamsPackage(string solver, Dictionary<string, object> parameters, ref string solvedNec)
+            {
+                solvedNec = $"{directory}\\solved_by_gms.nec";
+                var reslim = 1000;
+                if (parameters.ContainsKey("reslim"))
+                {
+                    reslim = (int)parameters["reslim"];
+                }
+
+                var input = $"{directory}\\{name}.gms";
+                var gamsWritter = new GAMSWritter();
+                gamsWritter.Write(problem, input, problem.analyticSolution, reslim);
+                var gams = new GAMSSolver(solver);
+                var result = gams.Solve(input);
+                return result;
+            }
+
+            private void WriteGams()
+            {
+                var input = $"{directory}\\problem.gms";
+                var gamsWritter = new GAMSWritter();
+                var reslim = 1000;
+                gamsWritter.Write(problem, input, problem.analyticSolution, reslim);
+            }
+
+            private OptimizationResult UseCustomPackage(string packageName, string solver, Dictionary<string, object> parameters, ref string solvedNec)
+            {
+                solvedNec = $"{directory}\\solved_by_{packageName}_{solver}.nec";
+                var package = new CustomSolver(packageName, solver, parameters);
+                var problemFile = $"{directory}\\problem.dat";
+                problemWritter.WriteBin(problem, problemFile);
+                WriteGams();
+                var result = package.Solve(problemFile);
+                return result;
+            }
+        }
+
+        public Experiment(string nec, string package, string solver, double theta, double phi, string compare, bool draw, Dictionary<string, object> parameters)
+        {
+            this.nec = nec;
+            this.package = package;
+            this.solver = solver;
+            this.theta = theta;
+            this.phi = phi;
+            this.name = nec.Replace(".nec", "");
+            this.compare = compare;
+            this.parameters = parameters;
+            this.draw = draw;
+        }
+
+        public void Solve(bool rerunNec)
+        {
+            var paaFolder = $"{name}_results";
+            Console.WriteLine(paaFolder);
+            var model = parser.Parse(nec);
+            var frequency = model.Frequency.frequency;
+            var frequesncyFolder = $"{paaFolder}\\{frequency}MHz";
+            var directionFolder = $"{frequesncyFolder}\\{theta}-{phi}";
+            Directory.CreateDirectory(directionFolder);
+            Console.WriteLine(directionFolder);
+            var analyticNec = $"{directionFolder}\\analytic.nec";
+            Console.WriteLine("Run nec");
+            var problem = problemBuilder.Build(model, theta, phi, frequesncyFolder, rerunNec);
+            Utils.Symmetrize(problem);
+            ExtendingAnalyze(model, problem, $"{frequesncyFolder}\\report.txt");
+            Console.WriteLine("Problem files ready");
+            WriteMatrix(problem.A, $"{directionFolder}\\A.txt", 10);
+            for (var i = 0; i < problem.B.Length; i++)
+            {
+                WriteMatrix(problem.B[i], $"{directionFolder}\\B{i + 1}.txt", 15);
+            }
+            var resolver = new PackageResolver(directionFolder, model, problem);
+            resolver.WriteSolution(problem.analyticSolution, analyticNec);
+            var result = resolver.Resolve(package, solver, parameters);
+            if (draw)
+            {
+                MakeDiagrams(result.Path, analyticNec, compare, directionFolder, rerunNec, frequency);
+            }
+            CollectResult(result.Result);
+        }
+
+        private void CollectResult(OptimizationResult result)
+        {
+            var filename = "batch_results.txt";
+            var text = " ";
+            var pars = ComposeOutputLine(result);
+            if (File.Exists(filename) == false)
+            {
+                foreach(var par in pars)
+                {
+                    text += $"\t{par.Key}";
+                }
+                text += "\n ";
+            }
+            foreach (var par in pars)
+            {
+                text += $"\t{HumanReadableValue(par)}";
+            }
+            text += "\n";
+            File.AppendAllText(filename, text);
+        }
+
+        private string HumanReadableValue(KeyValuePair<string, object> pair)
+        {
+            if (pair.Value is string)
+            {
+                return $"\"{pair.Value}\"";
+            }
+            if (pair.Value is double)
+            {
+                return $"{pair.Value}".Replace(",", ".");
+            }
+            if (pair.Value is int)
+            {
+                if (pair.Key == "de_status")
+                {
+                    switch (pair.Value)
+                    {
+                        case 0:
+                            return "Normal Completion";
+                        case 1:
+                            return "Iterations Limit";
+                        case 2:
+                            return "Record estimation";
+                        default:
+                            return "Unknown";
+                    }
+                }
+            }
+            if (pair.Value is double[])
+            {
+                var array = (double[])pair.Value;
+                var text = "";
+                foreach (var value in array)
+                {
+                    text += $"{value} ".Replace(",", ".");
+                }
+                return text;
+            }
+            return $"{pair.Value}";
+        }
+
+        private KeyValuePair<string, object>[] ComposeOutputLine(OptimizationResult result)
+        {
+            var dictionary = new Dictionary<string, object>();
+            foreach (var pair in parameters)
+            {
+                dictionary[pair.Key] = pair.Value;
+            }
+            foreach(var pair in result.output)
+            {
+                dictionary[pair.Key] = pair.Value;
+            }
+            dictionary["z"] = -result.z;
+            dictionary["Nec"] = nec;
+            dictionary["Theta"] = theta;
+            dictionary["Phi"] = phi;
+            var pairs = dictionary.ToArray();
+            Array.Sort(pairs, (lhs, rhs) => {
+                var res = GetPriority(lhs.Key) - GetPriority(rhs.Key);
+                if (res == 0)
+                {
+                    return lhs.Key.CompareTo(rhs.Key);
+                }
+                return res;
+            });
+            return pairs;
+        }
+
+        private int GetPriority(string key)
+        {
+            var index = Array.IndexOf(PreferredOutputOrder, key);
+            if (index < 0)
+            {
+                return PreferredOutputOrder.Length;
+            }
+            return index;
+        }
+
+        private void ExtendingAnalyze(NecUtilities.In.Model model, Problem problem, string reportFileName)
+        {
+            var file = new StreamWriter(reportFileName);
+            var segs = 0;
+            foreach (var wire in model.Wires)
+            {
+                segs += wire.seg;
+            }
+            if (segs > 11000)
+            {
+                file.WriteLine($"Превышено максимальное число сегментов: {segs}.");
+            }
+            else
+            {
+                file.WriteLine($"Модель имеет допустимое число сегментов: {segs}.");
+            }
+            Utils.Symmetrize(problem);
+            var Bsum = problem.Bsum;
+            double[][] grid = new double[Bsum.Height / 2][];
+            for (var i = 0; i < Bsum.Height / 2; i++)
+            {
+                grid[i] = new double[Bsum.Width / 2];
+                for (var j = 0; j < Bsum.Width / 2; j++)
+                {
+                    grid[i][j] = Bsum[i, j];
+                }
+            }
+            var eigenValues = Utils.EigenValues(Bsum, 50);
+            if (eigenValues.Has((value) => value < 0))
+            {
+                eigenValues = Utils.EigenValues(Bsum, 100);
+            }
+            if (eigenValues.Has((value) => value < 0))
+            {
+                eigenValues = Utils.EigenValues(Bsum, 1000);
+            }
+            if (eigenValues.Has((value) => value < 0))
+            {
+                file.WriteLine("Матрица $B_{\\Sigma}$ имеет негативные собственные числа. Дальнейшая работа с данной моделью приведет к ошибочным результатам.");
+                file.Close();
+                return;
+            }
+            var lamdaMin = eigenValues.First;
+            var lamdaMax = eigenValues.Last;
+
+            file.WriteLine("Матрица $B_{\\Sigma}$ имеет следующие максмальное и минимальное собственные числа:\\\\ " +
+                "$\\lambda_{max} = " + $"{lamdaMax}".Replace(",", ".") + "$, \\\\" +
+                "$\\lambda_{min} = " + $"{lamdaMin}".Replace(",", ".") + "$.\\\\");
+
+            var cond = lamdaMax / lamdaMin;
+
+            file.WriteLine("Число обусловленности матрицы $B_{\\Sigma} равно " + $"{cond}".Replace(",", ".") + "$.");
+            var radius = Math.Sqrt(problem.A.Width / 2 / lamdaMin);
+            file.WriteLine("Оценка радиуса допустимой области $r = " + $"{radius}".Replace(",", ".") + "$.");
+            file.Close();
+            problem.Radius = radius;
+        }
+
+        private void WriteMatrix(Matrix M, string fileName, int itemWidth)
+        {
+            var file = new StreamWriter(fileName);
+            for (var i = 0; i < M.Height; i++)
+            {
+                for (var j = 0; j < M.Width; j++)
+                {
+                    file.Write($"{MatrixFormat(M[i, j], itemWidth)} ");
+                }
+                file.WriteLine();
+            }
+            file.Close();
+        }
+
+        private string MatrixFormat(double value, int width)
+        {
+            var radix = Math.Pow(10, width);
+            var rounded = ((long)(value * radix)) / (1.0 * radix);
+            var str = $"{rounded}";
+            if (str.Length > width)
+            {
+                return $"{str.Substring(0, width - 3)}...";
+            }
+            while (str.Length < width)
+            {
+                str += " ";
+            }
+            return str;
+        }
+
+        private void WriteSolution(NecUtilities.In.Model model, Complex[] solution, string fileName)
+        {
+            if (solution == null) {
+                return;
+            }
+            var clone = model.Copy();
+            var sources = clone.Sources;
+            for (var i = 0; i < sources.Length; i++)
+            {
+                sources[i].Value = solution[i];
+            }
+            File.WriteAllText(fileName, clone.ToString());
+        }
+
+        private OptimizationResult SolveWithGams(Problem problem, string folder, int reslim = 1000)
+        {
+            var input = $"{folder}\\{name}.gms";
+            var gamsWritter = new GAMSWritter();
+            gamsWritter.Write(problem, input, problem.analyticSolution, reslim);
+            var solver = new GAMSSolver(this.solver);
+            var writter = new OptimizationResultWritter();
+            var result = solver.Solve(input);
+            writter.Write(result, $"{folder}\\solution.txt");
+            return result;
+        }
+
+        private void MakeDiagrams(string solvedNec, string analyticNec, string compareNec, string folder, bool rerunNec, double frequency)
+        {
+            var inputsList = new List<PatternInput>();
+            if (compareNec != null && compareNec.Length > 0)
+            {
+                inputsList.Add(PatternInput("Single", "#909090", "2px", compareNec, frequency));
+            }
+            var verticalPlaneTool = new VerticalPlanSVGTool();
+            var horisontalPlaneTool = new HorisontalPlanSVGTool();
+            inputsList.Add(PatternInput("Analytic", "#606060", "3px", analyticNec, frequency));
+            inputsList.Add(PatternInput("PAA", "#000000", "3px", solvedNec, frequency));
+            var inputs = inputsList.ToArray();
+            var verticalPatternsInput = new VerticalPlanPatternsInput(phi, -90, 90, 1, "", inputs);
+            var horisontalPatternsInput = new HorisontalPlanPatternsInput(theta, 0, 359, 1, "", inputs);
+            verticalPlaneTool.VerticalPlane(
+                $"vertical_plane.svg",
+                verticalPatternsInput,
+                $"{folder}\\vertical_plane.svg"
+            );
+            horisontalPlaneTool.HorisontalPlane(
+                $"horisontal_plane.svg",
+                horisontalPatternsInput,
+                $"{folder}\\horisontal_plane.svg"
+            );
+        }
+
+        private PatternInput PatternInput(string caption, string color, string width, string nec, double frequency)
+        {
+            var input = nec;
+            PrepareForDiagram(input, input, frequency);
+            var output = nec.Replace(".nec", ".out");
+            var pattern = Utils.BeamPattern(input, output, true);
+            return new PatternInput(pattern, caption, color, width);
+        }
+
+        private void PrepareForDiagram(string input, string output, double frequency)
+        {
+            var model = new NecUtilities.In.Parser().Parse(input);
+            var rp = model.RadiationPattern;
+            rp.Phi0 = 0;
+            rp.PhiNumber = 360;
+            rp.PhiInc = 1;
+            rp.ThetaNumber = 91;
+            rp.Theta0 = 0;
+            rp.ThetaInc = 1;
+            model.Frequency.frequency = frequency;
+            var file = new StreamWriter(output);
+            file.Write(model.ToString());
+            file.Close();
+        }
+    }
+}
+
+
+\end{lstlisting}
+
+
+\begin{lstlisting}[language={[Sharp]C}, caption={IDE}, label={experiment}]
+
+//
+// ExpiIDE
+// FileInspectorPresenter.cs
+//
+// Copyright © 2022 Nikolai Tiunin. All rights reserved.
+//
+
+using ExpiIDE.Core;
+using Presentation.Modules.EXP;
+using Presentation.Modules.IDE;
+using Presentation.Modules.NEC;
+using Presentation.Modules.SVG;
+using Presentation.Modules.TXT;
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace Presentation.Modules.FileInspector
+{
+
+    public class FileHierarchyItem
+    {
+        public string name;
+        public string path;
+
+        public bool IsExists
+        {
+            get
+            {
+                return File.Exists(path);
+            }
+        }
+
+        public FileHierarchyItem(string name, string path)
+        {
+            this.path = path;
+            this.name = name;
+        }
+
+        public static FileHierarchyItem Item(string path)
+        {
+            if (Directory.Exists(path))
+            {
+                return FolderItem(path);
+            }
+            return ContentItem(path);
+        }
+
+        public static FolderItem FolderItem(string path)
+        {
+            var name = new FileInfo(path).Name;
+            return new FolderItem(name, path);
+        }
+
+        public static ContentItem ContentItem(string path)
+        {
+            var name = new FileInfo(path).Name;
+            var ext = name.Split('.').Last();
+            var type = FileItemType.unknown;
+            switch (ext)
+            {
+                case "nec":
+                    type = FileItemType.nec;
+                    break;
+                case "svg":
+                    type = FileItemType.svg;
+                    break;
+                case "exp":
+                    type = FileItemType.exp;
+                    break;
+                case "txt":
+                    type = FileItemType.txt;
+                    break;
+            }
+            return new ContentItem(name, path, type);
+        }
+
+        public FileHierarchyItem Find(string keyPath)
+        {
+            if (name == keyPath)
+            {
+                return this;
+            }
+            if (keyPath.Length == 0)
+            {
+                return null;
+            }
+            var slashIndex = keyPath.IndexOf('\\');
+            var title = keyPath;
+            var remaining = "";
+            if (slashIndex > 0)
+            {
+                title = keyPath.Substring(0, slashIndex);
+                remaining = keyPath.Remove(0, slashIndex + 1);
+            }
+            if (title != name)
+            {
+                return null;
+            }
+            if (title == name && remaining.Length == 0)
+            {
+                return this;
+            }
+            if (this is FolderItem)
+            {
+                var folder = (FolderItem)this;
+                foreach (var item in folder.items)
+                {
+                    var subItem = item.Value.Find(remaining);
+                    if (subItem != null)
+                    {
+                        return subItem;
+                    }
+                }
+            }
+            return null;
+        }
+    }
+    public class FolderItem: FileHierarchyItem
+    {
+        public Dictionary<string, FileHierarchyItem> items;
+        public bool isLoaded = false;
+        public bool isExpanded = false;
+
+        public bool IsExists
+        {
+            get
+            {
+                return Directory.Exists(path);
+            }
+        }
+
+
+        public FolderItem(string name, string path): base(name, path)
+        {
+            items = new Dictionary<string, FileHierarchyItem>();
+        }
+
+        public bool Load()
+        {
+            var isChanged = false;
+            var checkList = new Dictionary<string, FileHierarchyItem>();
+            foreach (var item in items)
+            {
+                checkList[item.Key] = item.Value;
+            }
+            var files = Directory.GetFiles(path);
+            var directories = Directory.GetDirectories(path);
+            var content = new List<string>();
+            content.AddRange(files);
+            content.AddRange(directories);
+            foreach(var path in content)
+            {
+                FileHierarchyItem item;
+                if (checkList.ContainsKey(path) == false)
+                {
+                    item = Item(path);
+                    items[path] = item;
+                    isChanged = true;
+                }
+                else {
+                    item = checkList[path];
+                    checkList.Remove(item.path);
+                }
+
+                if (item is FolderItem)
+                {
+                    isChanged |= ((FolderItem)item).Load();
+                }
+            }
+            if (checkList.Count > 0)
+            {
+                foreach (var item in checkList)
+                {
+                    items.Remove(item.Key);
+                }
+                isChanged = true;
+            }
+            return isChanged;
+        }
+
+        public void Toggle()
+        {
+            isExpanded = !isExpanded;
+
+        }
+    }
+
+    public class ContentItem : FileHierarchyItem
+    {
+        public FileItemType type;
+
+        public ContentItem(string name, string path, FileItemType type) : base(name, path)
+        {
+            this.type = type;
+        }
+    }
+
+
+    public partial class FileInspectorPresenter
+    {
+        IDEModuleOutput output;
+        public FileInspectorView view;
+        EXPModule expModule;
+        SVGModule svgModule;
+        NECModule necModule;
+        TXTModule txtModule;
+        FolderItem root;
+        System.Timers.Timer timer;
+        Dictionary<string, FileItem> fileItems = new Dictionary<string, FileItem>();
+        FileItem currentFileItem = null;
+        private int timerTicks = 0;
+
+        public FileInspectorPresenter(
+            string path,
+            EXPModule expModule,
+            SVGModule svgModule,
+            NECModule necModule,
+            TXTModule txtModule,
+            IDEModuleOutput output)
+        {
+            this.expModule = expModule;
+            this.svgModule = svgModule;
+            this.necModule = necModule;
+            this.txtModule = txtModule;
+            var directory = path;
+            if (Directory.Exists(path) == false)
+            {
+                var info = new FileInfo(path);
+                directory = info.Directory.FullName;
+            }
+            root = FileHierarchyItem.FolderItem(directory);
+            root.isExpanded = true;
+            this.output = output;
+            StartTimer();
+        }
+
+        ~FileInspectorPresenter()
+        {
+            StopTimer();
+        }
+
+        public void DidSelect(string path)
+        {
+            var item = root.Find(path);
+            if (item == null || item is ContentItem == false)
+            {
+                return;
+            }
+            var contentItem = (ContentItem)item;
+            var fileItem = FindOrCreateFileItem(contentItem);
+
+            switch (contentItem.type)
+            {
+                case FileItemType.exp:
+                    currentFileItem = fileItem;
+                    expModule.Input.Open(fileItem);
+                    view.previewView.Show(expModule.View);
+                    break;
+                case FileItemType.nec:
+                    currentFileItem = fileItem;
+                    necModule.Input.Open(item.path);
+                    view.previewView.Show(necModule.View);
+                    break;
+                case FileItemType.svg:
+                    currentFileItem = null;
+                    svgModule.Input.Open(item.path);
+                    view.previewView.Show(svgModule.View);
+                    break;
+                case FileItemType.txt:
+                    currentFileItem = fileItem;
+                    txtModule.Input.Open(fileItem);
+                    view.previewView.Show(txtModule.View);
+                    break;
+                default:
+                    currentFileItem = null;
+                    view.previewView.ShowPlaceholder();
+                    break;
+            }
+            output.DidUpdate(fileItem);
+        }
+
+        public void UpdateContent()
+        {
+            if (currentFileItem == null)
+            {
+                view.previewView.ShowPlaceholder();
+                return;
+            }
+            switch (currentFileItem.type)
+            {
+                case FileItemType.exp:
+                    expModule.Input.Update();
+                    break;
+                case FileItemType.txt:
+                    txtModule.Input.Update();
+                    break;
+                case FileItemType.nec:
+                    break;
+                case FileItemType.svg:
+                    break;
+                default:
+                    view.previewView.ShowPlaceholder();
+                    break;
+            }
+        }
+
+        public void DidRequestOptions(string path, Point location)
+        {
+            var item = root.Find(path);
+
+            if (item == null)
+            {
+                return;
+            }
+
+            var del = new ToolStripMenuItem("Удалить", null, (o, e) => {
+                Delete(item.path);
+            });
+            if (item is FileItem)
+            {
+                Show(new ToolStripItem[] { del }, location);
+            } else
+            {
+                var folder = item.path;
+                var createFolder = new ToolStripMenuItem("Папку", null, (o, e) => {
+                    view.ShowCreateFileView("folder", (name) => {
+                        CreateFolder($"{folder}\\{name}");
+                    });
+                });
+                var createFile = new ToolStripMenuItem("Файл", null, (o, e) => {
+                    view.ShowCreateFileView("file", (name) => {
+                        CreateFile($"{folder}\\{name}");
+                    });
+                });
+                var create = new ToolStripMenuItem("Создать", null, new ToolStripItem[] {
+                   createFolder, createFile
+                });
+                Show(new ToolStripItem[] {
+                    create, del
+                }, location);
+            }
+        }
+
+        public void Expand(string path)
+        {
+            var item = root.Find(path);
+            if (item is FolderItem == false)
+            {
+                return;
+            }
+            var folder = (FolderItem)item;
+            folder.isExpanded = true;
+        }
+
+        public void Collapse(string path)
+        {
+            var item = root.Find(path);
+            if (item is FolderItem == false)
+            {
+                return;
+            }
+            var folder = (FolderItem)item;
+            folder.isExpanded = false;
+        }
+
+        private void Show(ToolStripItem[] items, Point location)
+        {
+            view.hierarchyView.ShowContextMenu(items, location);
+        }
+
+        private void CreateFile(string path)
+        {
+            File.WriteAllText(path, "");
+        }
+
+        private void CreateFolder(string path)
+        {
+            Directory.CreateDirectory(path);
+        }
+
+        private void Delete(string path)
+        {
+            if (Directory.Exists(path))
+            {
+                Directory.Delete(path, true);
+            }
+            else if (File.Exists(path))
+            {
+                File.Delete(path);
+            }
+        }
+
+        private void StartTimer()
+        {
+            timerTicks = 0;
+            timer = new System.Timers.Timer(300);
+            timer.Elapsed += new System.Timers.ElapsedEventHandler(TimerFired);
+            timer.AutoReset = true;
+            timer.Start();
+        }
+
+        private void StopTimer()
+        {
+            if (timer != null)
+            {
+                timer.Stop();
+            }
+        }
+
+        private void TimerFired(object sender, EventArgs e)
+        {
+            timerTicks++;
+            if (timerTicks % 10 == 0)
+            {
+                timerTicks = 0;
+                UpdateUndoIfNeeded();
+            }
+            view.Invoke(new Action(() => {
+                UpdateToolsIfNeeded();
+            }));
+            if (view == null)
+            {
+                return;
+            }
+            if (root.Load() == false)
+            {
+                return;
+            }
+            view.Invoke(new Action(() => {
+                UpdateView();
+            }));
+        }
+
+        private FileItem FindOrCreateFileItem(ContentItem contentItem)
+        {
+            if (fileItems.ContainsKey(contentItem.path))
+            {
+                return fileItems[contentItem.path];
+            }
+            var item = new FileItem(contentItem.path, contentItem.type);
+            fileItems[contentItem.path] = item;
+            return item;
+        }
+    }
+
+    partial class FileInspectorPresenter : FileInspectorModuleInput
+    {
+        public void Redo()
+        {
+            if (currentFileItem == null)
+            {
+                return;
+            }
+            currentFileItem.Redo();
+            UpdateContent();
+        }
+
+        public void Undo()
+        {
+            if (currentFileItem == null)
+            {
+                return;
+            }
+            currentFileItem.Undo();
+            UpdateContent();
+        }
+        public void Save()
+        {
+            if (currentFileItem == null)
+            {
+                return;
+            }
+            currentFileItem.Save();
+        }
+
+        public void ToggleRun()
+        {
+            if (currentFileItem == null)
+            {
+                return;
+            }
+            switch (currentFileItem.type)
+            {
+                case FileItemType.exp:
+                    expModule.Input.ToggleRunning();
+                    break;
+                default:
+                    break;
+            }
+        }
+
+
+        public void UpdateView()
+        {
+            var items = (root.IsExists) ?
+                new FileHierarchyItem[] { root } :
+                new FileHierarchyItem[] { };
+            view.hierarchyView.UpdateHierarchyItems(items);
+        }
+
+        private void UpdateToolsIfNeeded()
+        {
+            output.DidUpdate(currentFileItem);
+        }
+
+        private void UpdateUndoIfNeeded()
+        {
+            if (currentFileItem == null)
+            {
+                return;
+            }
+            currentFileItem.UpdateHistory();
+        }
+
+        public bool IsRunning(FileItem fileItem)
+        {
+            return expModule.Input.IsRunning(fileItem);
+        }
+    }
+}
+
+
+\end{lstlisting}
+
+\begin{lstlisting}[language={[Sharp]C}, caption={Solve}, label={experiment}]
+//
+// ExpiFramework
+// SolveParser.cs
+//
+// Copyright © 2022 Nikolai Tiunin. All rights reserved.
+//
+
+using Expi;
+using Parsec;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Constro.Parser
+{
+    public class SolvePAA: ContextStatement
+    {
+        ContextArguments arguments;
+
+        public SolvePAA(ContextArguments arguments)
+        {
+            this.arguments = arguments;
+        }
+
+        public void Execute(Context context)
+        {
+            var args = arguments.Value(context);
+            var nec = (string)Arg("nec", "n", args);
+            var theta = (double)Arg("theta", null, args);
+            var phi = (double)Arg("phi", null, args);
+            var package = (string)Arg("package", "p", args);
+            var solver = (string)Arg("solver", "s", args);
+            var compare = (string)Arg("compare", "c", args);
+            DateTime start = DateTime.Now;
+            Console.WriteLine($"Started at {start}");
+            bool draw = true;
+            if (args.ContainsKey("draw"))
+            {
+                draw = bool.Parse((string)args["draw"]);
+                args.Remove("draw");
+            }
+            var exp = new Experiment(nec, package, solver, theta, phi, compare, draw, args);
+            exp.Solve(false);
+            DateTime end = DateTime.Now;
+            Console.WriteLine($"Finished at {end}");
+            double mils = (end - start).TotalMilliseconds;
+            Console.WriteLine($"Duration: {mils / 1000} s.");
+        }
+
+        object Arg(string l, string s, Dictionary<string, object> args)
+        {
+            if (args.ContainsKey(l))
+            {
+                var a = args[l];
+                args.Remove(l);
+                return a;
+            }
+            if (s != null && args.ContainsKey(s))
+            {
+                var a = args[s];
+                args.Remove(s);
+                return a;
+            }
+            throw new NoParameterException();
+        }
+    }
+
+    public class SolveParser : ConstroWordsParser
+    {
+        public SolveParser() : base(new Map<ContextArguments, ContextStatement, StringBuilder>(
+            ArgsAfter(Words("solve", "paa")),
+            a => new SolvePAA(a)
+        )) {}
+    }
+}
+
+
+\end{lstlisting}
+
+\begin{lstlisting}[language={[Sharp]C}, caption={Wire}, label={experiment}]
+//
+// ExpiFramework
+// WireParser.cs
+//
+// Copyright © 2022 Nikolai Tiunin. All rights reserved.
+//
+
+using Parsec;
+using System.Collections.Generic;
+using System.Numerics;
+using System.Text;
+
+namespace Constro.Parser
+{
+
+    public class WireStatement : ContextStatement
+    {
+        public static string WiresKey = "${wires}";
+        ContextWire Wire;
+
+        public WireStatement(ContextWire Wire)
+        {
+            this.Wire = Wire;
+        }
+
+        public void Execute(Context context)
+        {
+            List<SegmentedWire> segmentedWires = (List<SegmentedWire>)context.LocalValue(WiresKey);
+            if (segmentedWires == null)
+            {
+                segmentedWires = new List<SegmentedWire>();
+            }
+            var wire = Wire.Value(context);
+            segmentedWires.Add(wire);
+            context.Set(segmentedWires, WiresKey);
+        }
+    }
+
+    public class WireStatementParser: CustomParser<ContextStatement, StringBuilder>
+    {
+        public WireStatementParser() : base(
+            new Map<ContextWire, ContextStatement, StringBuilder>(
+                new WireParser(),
+                wire => new WireStatement(wire)
+            )
+        ) { }
+    }
+    public class ContextJunction: ContextExpression<Junction>
+    {
+        public ContextJunction(string str = "->") : base(str) { }
+
+        public override Junction Value(Context context)
+        {
+            return new SimpleJunction();
+        }
+    }
+
+    public class ContextFedJunction : ContextJunction
+    {
+        ContextExpression<Complex> value;
+        FedJunction.Mesure mesure;
+        public ContextFedJunction(ContextExpression<Complex> value, FedJunction.Mesure mesure) : base($"~{value} {mesure}~")
+        {
+            this.value = value;
+            this.mesure = mesure;
+        }
+
+        public override Junction Value(Context context)
+        {
+            var complex = this.value.Value(context);
+
+            return new FedJunction(complex, mesure);
+        }
+    }
+
+    public class JunctionParser: CustomParser<ContextJunction, StringBuilder>
+    {
+        public JunctionParser() : base(
+            new Map<StringBuilder, ContextJunction, StringBuilder>(
+                new StringParser("->").SkipLeadingWhitespaces,
+                (str) => {
+                    return new ContextJunction();
+                }
+            )
+        ) { }
+    }
+
+    public class FedJunctionParser : CustomParser<ContextFedJunction, StringBuilder>
+    {
+        static GenericParser<StringBuilder, StringBuilder> TildaParser = new StringParser("~").SkipLeadingWhitespaces;
+        static GenericParser<FedJunction.Mesure, StringBuilder> MesureParser = new Or<FedJunction.Mesure, StringBuilder>(
+            new Map<StringBuilder, FedJunction.Mesure, StringBuilder>(
+                new SkipLeadingWhitespaces(new CharSetParser("vV").StringParser),
+                (str) => { return FedJunction.Mesure.Voltage; }
+            ),
+            new Map<StringBuilder, FedJunction.Mesure, StringBuilder>(
+                new SkipLeadingWhitespaces(new CharSetParser("aA").StringParser),
+                (str) => { return FedJunction.Mesure.Current; }
+            )
+        );
+
+        static GenericParser<Pair<ContextComplex, FedJunction.Mesure>, StringBuilder> ValueParser = new Both<ContextComplex, FedJunction.Mesure, StringBuilder>(
+            new ContextComplexParser(),
+            MesureParser
+        );
+
+        static GenericParser<ContextFedJunction, StringBuilder> JunctionParser =
+            new Map<Pair<ContextComplex, FedJunction.Mesure>, ContextFedJunction, StringBuilder>(
+                ValueParser,
+                (value) =>
+                {
+                    return new ContextFedJunction(value.First, value.Second);
+                }
+            );
+
+        public FedJunctionParser() : base(
+            new Right<StringBuilder, ContextFedJunction, StringBuilder>(
+                TildaParser,
+                new Left<ContextFedJunction, StringBuilder, StringBuilder>(
+                    JunctionParser,
+                    TildaParser
+                )
+            )
+        )
+        { }
+    }
+
+    public class ContextWire: ContextExpression<SegmentedWire>
+    {
+        ContextPoint anchor;
+        Pair<ContextJunction, ContextPoint>[] segments;
+
+        public ContextWire(ContextPoint anchor, Pair<ContextJunction, ContextPoint>[] segments) : base($"{anchor} -> ...")
+        {
+            this.anchor = anchor;
+            this.segments = segments;
+        }
+
+        public override SegmentedWire Value(Context context)
+        {
+            var segments = new List<Segment>();
+            var segs = this.segments;
+            if (segs.Length == 0)
+            {
+                return new SegmentedWire(segments.ToArray());
+            }
+            var t = MakeTransform(context);
+            var segment = MakeSegment(anchor, segs[0].First, segs[0].Second, context, t);
+            segments.Add(segment);
+            for(var i = 0; i < segs.Length - 1; i++)
+            {
+                var lhs = segs[i];
+                var rhs = segs[i + 1];
+                segment = MakeSegment(lhs.Second, rhs.First, rhs.Second, context, t);
+                segments.Add(segment);
+            }
+            return new SegmentedWire(segments.ToArray());
+        }
+
+        private Transform MakeTransform(Context context)
+        {
+            var initial = Transform.Identity();
+            if (context.Parent != null)
+            {
+                initial = MakeTransform(context.Parent);
+            }
+            var localObj = context.LocalValue(TransformStatement.TransformKey);
+            if (localObj == null)
+            {
+                return initial;
+            }
+            var local = (Transform)localObj;
+            var t = initial * local;
+            return t;
+        }
+
+        private Segment MakeSegment(ContextPoint left, ContextJunction junction, ContextPoint right, Context context, Transform t)
+        {
+            var lhs = t * left.Value(context);
+            var rhs = t * right.Value(context);
+            var junc = junction.Value(context);
+            return new Segment(lhs, junc, rhs);
+        }
+    }
+
+    public class WireParser: CustomParser<ContextWire, StringBuilder>
+    {
+
+        static GenericParser<ContextJunction, StringBuilder> JuctParser = new Or<ContextJunction, StringBuilder>(
+            new JunctionParser(),
+            new Map<ContextFedJunction, ContextJunction, StringBuilder>(
+                new FedJunctionParser(), j => j
+            )
+        );
+        static GenericParser<Pair<ContextJunction, ContextPoint>, StringBuilder> SegmentParser = new Both<ContextJunction, ContextPoint, StringBuilder>(
+            JuctParser, new PointParser()
+        );
+
+        static GenericParser<Pair<ContextJunction, ContextPoint>[], StringBuilder> SegmentsParser = new ManyOne<Pair<ContextJunction, ContextPoint>, StringBuilder>(
+            SegmentParser
+        );
+
+        public WireParser() : base(
+            new Map<Pair<ContextPoint, Pair<ContextJunction, ContextPoint>[]>, ContextWire, StringBuilder>(
+                new Both<ContextPoint, Pair<ContextJunction, ContextPoint>[], StringBuilder>(
+                    new PointParser(),
+                    SegmentsParser
+                ), pair => new ContextWire(pair.First, pair.Second)
+            )
+        ) { }
+    }
+}
+
+\end{lstlisting}
+
+\begin{lstlisting}[language={[Sharp]C}, caption={Def}, label={experiment}]
+//
+// ExpiFramework
+// DefParser.cs
+//
+// Copyright © 2022 Nikolai Tiunin. All rights reserved.
+//
+
+using Parsec;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Constro.Parser
+{
+    public class Def<A> : ContextStatement
+    {
+        protected string name;
+        ContextExpression<A> value;
+
+        public Def(string name, ContextExpression<A> value)
+        {
+            this.name = name;
+            this.value = value;
+        }
+
+        public virtual void Execute(Context context)
+        {
+            context.Set(this, name);
+        }
+
+        public A Unwrap(Context context)
+        {
+            return value.Value(context);
+        }
+    }
+
+    public class UnwrappingDef<A> : Def<A>
+    {
+
+        public UnwrappingDef(string name, ContextExpression<A> value): base(name, value)
+        {
+        }
+
+        public override void Execute(Context context)
+        {
+            context.Set(Unwrap(context), name);
+        }
+    }
+
+    public class ContextGroup: ContextExpression<Group>
+    {
+        public string Name;
+        public ContextStatement[] Content;
+
+        public ContextGroup(string name, ContextStatement[] content) : base(name)
+        {
+            this.Name = name;
+            this.Content = content;
+        }
+
+        public override Group Value(Context context)
+        {
+            foreach (var statement in Content)
+            {
+                statement.Execute(context);
+            }
+            var list = (List<SegmentedWire>)context.Value(WireStatement.WiresKey);
+            if (list == null)
+            {
+                return new Group(Name, new SegmentedWire[] { });
+            }
+            return new Group(Name, list.ToArray());
+        }
+    }
+
+    public class DefParser<A>: ConstroWordsParser
+    {
+        protected static GenericParser<string, StringBuilder> IdentifierParser =
+            new Map<StringBuilder, string, StringBuilder>(
+                IdAfter("def"),
+                str =>
+                {
+                    return str.ToString();
+                }
+            );
+
+        protected static GenericParser<string, StringBuilder> AssignParser = new Left<string, StringBuilder, StringBuilder>(
+            IdentifierParser,
+            Word("=")
+        );
+
+        public DefParser(GenericParser<ContextStatement, StringBuilder> parser): base(parser)
+        {
+
+        }
+    }
+
+    public class DefDoubleParser: DefParser<double>
+    {
+        static GenericParser<ContextStatement, StringBuilder> DoubleParser =
+            new Map<Pair<string, ContextExpression<double>>, ContextStatement, StringBuilder>(
+                new Both<string, ContextExpression<double>, StringBuilder>(
+                    AssignParser,
+                    new ContextDoubleExpressionParser()
+                ),
+                pair => new UnwrappingDef<double>(pair.First, pair.Second)
+            );
+        public DefDoubleParser() : base(DoubleParser) {
+        }
+    }
+
+    public class DefPointParser: DefParser<Position>
+    {
+        static GenericParser<ContextStatement, StringBuilder> PointParser =
+            new Map<Pair<string, ContextPoint>, ContextStatement, StringBuilder>(
+                new Both<string, ContextPoint, StringBuilder>(
+                    AssignParser,
+                    new PointParser()
+                ),
+                pair => new UnwrappingDef<Position>(pair.First, pair.Second)
+            );
+
+        public DefPointParser() : base(PointParser)
+        {
+        }
+    }
+
+    public class DefGroupParser: DefParser<Group>
+    {
+        public DefGroupParser(IdentifiersParser identifiersParser) : base(
+            Statements(identifiersParser, IdentifierParser, (i, s) =>
+            {
+                identifiersParser.Register(i);
+                return new Def<Group>(i, new ContextGroup(i, s));
+            })
+        )
+        { }
+
+        public override ResultOrError<ContextStatement, StringBuilder> Parse(StringBuilder input)
+        {
+            return base.Parse(input);
+        }
+    }
+}
+
+\end{lstlisting}
+
+
+
+\end{document}

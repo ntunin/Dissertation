@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  20 JUN 2022 22:39
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  22 JUN 2022 20:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2861,31 +2861,35 @@ Underfull \hbox (badness 6412) in paragraph at lines 324--324
 ного излучателя, 
  []
 
-[17.17] (common/concl.tex)
-Underfull \hbox (badness 2689) in paragraph at lines 400--400
-[]\TU/TimesNewRoman(1)/m/it/10 Тюнин\TU/TimesNewRoman(1)/m/n/10 , \TU/TimesNewR
-oman(1)/m/it/10 Н. Н. \TU/TimesNewRoman(1)/m/n/10 Задачи невыпуклого квадратичн
-ого программирования,
+[17.17] (common/concl.tex) [18.18]
+LaTeX Info: Redefining \rmfamily on input line 400.
+LaTeX Info: Redefining \sffamily on input line 400.
+LaTeX Info: Redefining \ttfamily on input line 400.
+LaTeX Info: Redefining \rmfamily on input line 400.
+LaTeX Info: Redefining \sffamily on input line 400.
+LaTeX Info: Redefining \ttfamily on input line 400.
+LaTeX Info: Redefining \rmfamily on input line 400.
+LaTeX Info: Redefining \sffamily on input line 400.
+LaTeX Info: Redefining \ttfamily on input line 400.
+
+Underfull \hbox (badness 3354) in paragraph at lines 400--400
+[]\TU/TimesNewRoman(0)/m/it/10 Щелкунов С. А.\TU/TimesNewRoman(1)/m/n/10 , \TU/
+TimesNewRoman(0)/m/it/10 Фрис Г. \TU/TimesNewRoman(1)/m/n/10 Антенны: Теория и 
+практика. [Текст]. []
  []
 
-[18.18]
-LaTeX Info: Redefining \rmfamily on input line 400.
-LaTeX Info: Redefining \sffamily on input line 400.
-LaTeX Info: Redefining \ttfamily on input line 400.
-LaTeX Info: Redefining \rmfamily on input line 400.
-LaTeX Info: Redefining \sffamily on input line 400.
-LaTeX Info: Redefining \ttfamily on input line 400.
-
-Underfull \hbox (badness 2781) in paragraph at lines 400--400
-[]\TU/TimesNewRoman(0)/m/it/10 Eremeev\TU/TimesNewRoman(1)/m/n/10 , \TU/TimesNe
-wRoman(0)/m/it/10 A. V. \TU/TimesNewRoman(1)/m/n/10 Non-Convex Quadratic Progra
-mming Problems in Short
- []
-
-LaTeX Info: Redefining \rmfamily on input line 400.
-LaTeX Info: Redefining \sffamily on input line 400.
-LaTeX Info: Redefining \ttfamily on input line 400.
 [19.19]
+Underfull \hbox (badness 2057) in paragraph at lines 400--400
+[]\TU/TimesNewRoman(0)/m/it/10 Юрков A. С. \TU/TimesNewRoman(1)/m/n/10 Максимиз
+ация направленности фазированных антенных
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 400--400
+\TU/TimesNewRoman(1)/m/n/10 решеток коротковолнового диапазона [Текст] [] Техни
+ка радиосвязи.
+ []
+
 LaTeX Info: Redefining \rmfamily on input line 400.
 LaTeX Info: Redefining \sffamily on input line 400.
 LaTeX Info: Redefining \ttfamily on input line 400.
@@ -2901,6 +2905,12 @@ LaTeX Info: Redefining \ttfamily on input line 400.
 LaTeX Info: Redefining \rmfamily on input line 400.
 LaTeX Info: Redefining \sffamily on input line 400.
 LaTeX Info: Redefining \ttfamily on input line 400.
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+[]\TU/TimesNewRoman(0)/m/it/10 Нестеров Ю. E. \TU/TimesNewRoman(1)/m/n/10 Введе
+ние в выпуклую оптимизацию [Текст]. []
+ []
+
 [20.20]
 LaTeX Info: Redefining \rmfamily on input line 400.
 LaTeX Info: Redefining \sffamily on input line 400.
@@ -2935,7 +2945,6 @@ LaTeX Info: Redefining \ttfamily on input line 400.
 LaTeX Info: Redefining \rmfamily on input line 400.
 LaTeX Info: Redefining \sffamily on input line 400.
 LaTeX Info: Redefining \ttfamily on input line 400.
-[21.21]
 LaTeX Info: Redefining \rmfamily on input line 400.
 LaTeX Info: Redefining \sffamily on input line 400.
 LaTeX Info: Redefining \ttfamily on input line 400.
@@ -2981,9 +2990,7 @@ LaTeX Info: Redefining \ttfamily on input line 400.
 LaTeX Info: Redefining \rmfamily on input line 400.
 LaTeX Info: Redefining \sffamily on input line 400.
 LaTeX Info: Redefining \ttfamily on input line 400.
-) [22.22] [23.23] [24.24
-
-]
+) [21.21] [22.22]
 
 Package nag Warning: Unmatched ``\center'' command on line 322.
 
@@ -3958,6 +3965,6 @@ Here is how much of TeX's memory you used:
  70786 multiletter control sequences out of 15000+600000
  473464 words of font info for 97 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,16n,123p,1734b,7966s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 93i,16n,123p,1734b,7635s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on synopsis.xdv (24 pages, 454368 bytes).
+Output written on synopsis.xdv (22 pages, 448156 bytes).

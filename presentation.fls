@@ -1098,6 +1098,7 @@ INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerouterthemedefault.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerouterthemedefault.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerouterthemedefault.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerouterthemedefault.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
 INPUT .\common\setup.tex
 INPUT .\common\setup.tex
 INPUT .\common\setup.tex
@@ -2339,6 +2340,27 @@ INPUT .\images\\r8.eps
 INPUT .\images\\r8.eps
 INPUT images\\r8.eps
 INPUT images\\r8.eps
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\esint\esint10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\esint\esint10.tfm
+INPUT .\images\\expi.png
+INPUT .\images\\expi.png
+INPUT images\\expi.png
+INPUT .\images\\stability.eps
+INPUT .\images\\stability.eps
+INPUT images\\stability.eps
+INPUT images\\stability.eps
 INPUT .\images\\fit_dist.eps
 INPUT .\images\\fit_dist.eps
 INPUT images\\fit_dist.eps
@@ -2347,23 +2369,29 @@ INPUT .\images\\fit_dist_2x2.eps
 INPUT .\images\\fit_dist_2x2.eps
 INPUT images\\fit_dist_2x2.eps
 INPUT images\\fit_dist_2x2.eps
-INPUT .\images\\stability.eps
-INPUT .\images\\stability.eps
-INPUT images\\stability.eps
-INPUT images\\stability.eps
-INPUT .\images\\de.png
-INPUT .\images\\de.png
-INPUT images\\de.png
+INPUT .\images\\r8.eps
+INPUT .\images\\r8.eps
+INPUT images\\r8.eps
+INPUT .\images\\ring_f__paa_gains.eps
+INPUT .\images\\ring_f__paa_gains.eps
+INPUT images\\ring_f__paa_gains.eps
+INPUT images\\ring_f__paa_gains.eps
 INPUT .\images\\ring_f_gains.eps
 INPUT .\images\\ring_f_gains.eps
 INPUT images\\ring_f_gains.eps
 INPUT images\\ring_f_gains.eps
-INPUT .\images\\r8_1_25_5x7.png
-INPUT .\images\\r8_1_25_5x7.png
-INPUT images\\r8_1_25_5x7.png
-INPUT .\images\\r8_25_5x7.png
-INPUT .\images\\r8_25_5x7.png
-INPUT images\\r8_25_5x7.png
+INPUT .\images\\r8_1_25_5x7_marked.png
+INPUT .\images\\r8_1_25_5x7_marked.png
+INPUT images\\r8_1_25_5x7_marked.png
+INPUT .\images\\r8_25_5x7_marked.png
+INPUT .\images\\r8_25_5x7_marked.png
+INPUT images\\r8_25_5x7_marked.png
+INPUT .\images\\r_bve_15_results_h.png
+INPUT .\images\\r_bve_15_results_h.png
+INPUT images\\r_bve_15_results_h.png
+INPUT .\images\\r_bve_15_results_v.png
+INPUT .\images\\r_bve_15_results_v.png
+INPUT images\\r_bve_15_results_v.png
 INPUT .\images\\r_bvd_20_results_h.png
 INPUT .\images\\r_bvd_20_results_h.png
 INPUT images\\r_bvd_20_results_h.png

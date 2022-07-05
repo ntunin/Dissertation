@@ -3592,17 +3592,11 @@
     <bcf:citekey order="1" nocite="1">tyu:daor</bcf:citekey>
     <bcf:citekey order="2" nocite="1">tyu22:reis</bcf:citekey>
     <bcf:citekey order="3" nocite="1">tyu:jphys</bcf:citekey>
-    <bcf:citekey order="4" nocite="1">tyu:fmh</bcf:citekey>
-    <bcf:citekey order="5" nocite="1">tyu:reis</bcf:citekey>
-    <bcf:citekey order="6" nocite="1">tyu:opta</bcf:citekey>
-    <bcf:citekey order="7" nocite="1">tyu:motor</bcf:citekey>
-    <bcf:citekey order="8">tyu:daor</bcf:citekey>
-    <bcf:citekey order="9">tyu22:reis</bcf:citekey>
-    <bcf:citekey order="10">tyu:jphys</bcf:citekey>
-    <bcf:citekey order="11">tyu:fmh</bcf:citekey>
-    <bcf:citekey order="12">tyu:reis</bcf:citekey>
-    <bcf:citekey order="13">tyu:opta</bcf:citekey>
-    <bcf:citekey order="14">tyu:motor</bcf:citekey>
+    <bcf:citekey order="4" nocite="1">tyu:motor</bcf:citekey>
+    <bcf:citekey order="5">tyu:daor</bcf:citekey>
+    <bcf:citekey order="6">tyu22:reis</bcf:citekey>
+    <bcf:citekey order="7">tyu:jphys</bcf:citekey>
+    <bcf:citekey order="8">tyu:motor</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
