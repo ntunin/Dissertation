@@ -3598,7 +3598,7 @@
     <bcf:citekey order="9">nesterov:nonconvex</bcf:citekey>
     <bcf:citekey order="10">ryoo:nlp</bcf:citekey>
     <bcf:citekey order="11">fanyaev2017</bcf:citekey>
-    <bcf:citekey order="11">ndenbometal:synthesis</bcf:citekey>
+    <bcf:citekey order="11">indenbometal:synthesis</bcf:citekey>
     <bcf:citekey order="11">rao:synthesis</bcf:citekey>
     <bcf:citekey order="12">eremeev:confidence</bcf:citekey>
   </bcf:section>
@@ -3675,26 +3675,25 @@
     <bcf:citekey order="45">rao:synthesis</bcf:citekey>
     <bcf:citekey order="46">nesterov:nonconvex</bcf:citekey>
     <bcf:citekey order="47">ryoo:nlp</bcf:citekey>
-    <bcf:citekey order="48">ndenbometal:synthesis</bcf:citekey>
-    <bcf:citekey order="49">eremeev:confidence</bcf:citekey>
-    <bcf:citekey order="50">sazonov:PAA</bcf:citekey>
-    <bcf:citekey order="51">luo:sdp</bcf:citekey>
-    <bcf:citekey order="52">horst:global</bcf:citekey>
-    <bcf:citekey order="53">tawarmalani:global</bcf:citekey>
-    <bcf:citekey order="54">strekalovsky:global</bcf:citekey>
-    <bcf:citekey order="55">himmelblau:nlp</bcf:citekey>
-    <bcf:citekey order="56">eberhart:swarm</bcf:citekey>
-    <bcf:citekey order="57">storn:de</bcf:citekey>
-    <bcf:citekey order="58">eremin:convex</bcf:citekey>
-    <bcf:citekey order="59">aoki:mo</bcf:citekey>
-    <bcf:citekey order="60">yurkov:symmetry</bcf:citekey>
-    <bcf:citekey order="61">yurkov:groundloss</bcf:citekey>
-    <bcf:citekey order="62">tyu:daor</bcf:citekey>
-    <bcf:citekey order="63">tyu:jphys</bcf:citekey>
-    <bcf:citekey order="64">tyu:motor</bcf:citekey>
-    <bcf:citekey order="65">tyu:opta</bcf:citekey>
-    <bcf:citekey order="66">tyu:reis</bcf:citekey>
-    <bcf:citekey order="67">tyu:fmh</bcf:citekey>
+    <bcf:citekey order="48">eremeev:confidence</bcf:citekey>
+    <bcf:citekey order="49">sazonov:PAA</bcf:citekey>
+    <bcf:citekey order="50">luo:sdp</bcf:citekey>
+    <bcf:citekey order="51">horst:global</bcf:citekey>
+    <bcf:citekey order="52">tawarmalani:global</bcf:citekey>
+    <bcf:citekey order="53">strekalovsky:global</bcf:citekey>
+    <bcf:citekey order="54">himmelblau:nlp</bcf:citekey>
+    <bcf:citekey order="55">eberhart:swarm</bcf:citekey>
+    <bcf:citekey order="56">storn:de</bcf:citekey>
+    <bcf:citekey order="57">eremin:convex</bcf:citekey>
+    <bcf:citekey order="58">aoki:mo</bcf:citekey>
+    <bcf:citekey order="59">yurkov:symmetry</bcf:citekey>
+    <bcf:citekey order="60">yurkov:groundloss</bcf:citekey>
+    <bcf:citekey order="61">tyu:daor</bcf:citekey>
+    <bcf:citekey order="62">tyu:jphys</bcf:citekey>
+    <bcf:citekey order="63">tyu:motor</bcf:citekey>
+    <bcf:citekey order="64">tyu:opta</bcf:citekey>
+    <bcf:citekey order="65">tyu:reis</bcf:citekey>
+    <bcf:citekey order="66">tyu:fmh</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
@@ -3713,25 +3712,7 @@
                 labelalphanametemplatename="global">
   </bcf:datalist>
   <bcf:datalist section="0"
-                name="none/global/7FC56270E7A70FA81A5935B72EACBE29/global/global"
-                type="entry"
-                sortingtemplatename="none"
-                sortingnamekeytemplatename="global"
-                labelprefix="A"
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-  <bcf:datalist section="0"
                 name="none/global/D41D8CD98F00B204E9800998ECF8427E/global/global"
-                type="entry"
-                sortingtemplatename="none"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-  <bcf:datalist section="0"
-                name="none/global//global/global"
                 type="entry"
                 sortingtemplatename="none"
                 sortingnamekeytemplatename="global"
