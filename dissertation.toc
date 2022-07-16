@@ -76,17 +76,20 @@
 \contentsline {section}{\numberline {2.2}Результаты вычислительного эксперимента}{35}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Количество локальных оптимумов и их расположение}{38}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Экспериментальная проверка устойчивости решений}{41}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Исследование непрерывных симметрий}{42}{section.2.5}%
-\contentsline {chapter}{\chapternumberline {3}Исследование возможностей ФАР в разных условиях}{47}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Исследование радиочастотных зависимостей}{47}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Исследование взаимного влияния излучателей}{51}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Широкополосные вертикальные излучатели}{52}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Симметричные излучатели}{52}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Интерпретация результатов экспериментов по исследованию взаимного влияния излучателей}{56}{subsection.3.2.3}%
-\contentsline {chapter}{\chapternumberline {4}Дифференциальная эволюция}{57}{chapter.4}%
-\contentsline {chapter}{Заключение}{59}{chapter*.30}%
-\contentsline {chapter}{Словарь терминов}{60}{chapter*.31}%
-\contentsline {chapter}{Список литературы}{61}{section*.33}%
+\contentsline {section}{\numberline {2.5}Исследование непрерывных симметрий}{43}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Общие положения}{43}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Нахождение групп непрерывных симметрий}{49}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Вычислительный эксперимент}{52}{subsection.2.5.3}%
+\contentsline {chapter}{\chapternumberline {3}Исследование возможностей ФАР в разных условиях}{53}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Исследование радиочастотных зависимостей}{53}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Исследование взаимного влияния излучателей}{57}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Широкополосные вертикальные излучатели}{58}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Симметричные излучатели}{58}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Интерпретация результатов экспериментов по исследованию взаимного влияния излучателей}{62}{subsection.3.2.3}%
+\contentsline {chapter}{\chapternumberline {4}Дифференциальная эволюция}{63}{chapter.4}%
+\contentsline {chapter}{Заключение}{65}{chapter*.30}%
+\contentsline {chapter}{Словарь терминов}{66}{chapter*.31}%
+\contentsline {chapter}{Список литературы}{67}{section*.33}%
 \selectlanguage *{english}
 \selectlanguage *[variant=us,ordinalmonthday=false]{english}
 \selectlanguage *[babelshorthands=true]{russian}
@@ -189,6 +192,51 @@
 \selectlanguage *{english}
 \selectlanguage *[variant=us,ordinalmonthday=false]{english}
 \selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{russian}
+\selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{russian}
+\selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
 \selectlanguage *{russian}
 \selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
 \selectlanguage *[babelshorthands=true]{russian}
@@ -275,6 +323,51 @@
 \selectlanguage *[babelshorthands=true]{russian}
 \selectlanguage *{russian}
 \selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{russian}
+\selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{russian}
+\selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
 \selectlanguage *[babelshorthands=true]{russian}
 \selectlanguage *{english}
 \selectlanguage *[variant=us,ordinalmonthday=false]{english}

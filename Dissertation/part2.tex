@@ -170,157 +170,290 @@
 
 \section{Исследование непрерывных симметрий}
 
-Solution and analysis of mathematical programming problems may be simplified when these problems are symmetric under appropriate linear transformations. In particular, a knowledge of the symmetries may help reduce the problem
-dimension, cut the search space by symmetry-breaking linear cuts or obtain new
-local optima from the ones previously found. These methods are applicable in
-the case of a continuous solutions domain [3, 6, 8] as well as in the integer programming [1, 2, 7, 11, 16] and in the mixed integer programming [10, 12]. While
-most of the applications of symmetries are aimed at speeding up the exact optimization algorithms, yet in some cases the knowledge of symmetries may also
-be useful in designing evolutionary algorithms [13] and other heuristics.
-In the present paper, we study the case of continuous solutions domain. While
-the previous studies of symmetries in mathematical programming usually dealt
-with permutations of coordinates of the solutions space [7, 8, 10], the present
-paper considers a larger group of invertible linear transformations. We study the
-special case of quadratically-constrained quadratic programming problem in R
-N ,
-where the objective function and the constraints are given by quadratic forms,
-A, and B1, . . . , BM respectively:
+\subsection{Общие положения}
+Решение и анализ задач математического программирования может быть упрощен при наличии симметрий этих задач, соответствующих некоторым линейным преобразованиям. В частности, знание таких симметрий может быть использовано для уменьшения размерности задачи, ограничения пространства поиска или получения нового локального оптимума из имеющегося. Эти методы применимы в
+случае непрерывной области решений~\cite{CHL13,GATERMANN200495,KWM19}, а также в целочисленном программировании~\cite{BHJ13,C99,Kolokolov2012,Margot2010,Simanchev96} и смешанном целочисленном программировании~\cite{L12,PR19}.
+Хотя, в большинстве случаев, применение симметрий направлено на ускорение работы алгоритмов точной оптимизации, в некоторых случаях знание симметрий может оказаться полезным и при разработке и анализе эвристик, в частности, эволюционных алгоритмов~\cite{Doerr21,Adam2004}.
+
+В настоящей работе исследуется случай непрерывной области решений. В то время как предыдущие исследования симметрии в математическом программировании обычно имели дело с перестановками координат пространства решений~\cite{Kolokolov2012,KWM19,L12}, в данной рассматривается большая группа обратимых линейных преобразований. Мы изучаем частный случай задачи квадратичного программирования с квадратичными ограничениями в~${\mathbb R}^N$: целевая функция и ограничения задаются квадратичными формами $\textbf{G}, $ и $\textbf{H}_1,\dots,\textbf{H}_n,$ в виде~(\ref{eq:task3}). Следует еще раз отметить, что все матрицы $\textbf{G}, $ и $\textbf{H}_1,\dots,\textbf{H}_n,$ симметричны и $\textbf{H}_\Sigma = \sum_{i=1}^{n}\textbf{H}_i$ положительно определена. 
+Без потери общности будем считать, что все ограничение заданы неравенствами~$\le$.
+Известная задача о максимальном разрезе (которая является NP-трудной) также может быть сведена к задаче квадратичного программирования с такими свойствами~\cite{Shor1998}.
+
+Под симметрией задачи~(\ref{eq:task3}) подразумевается набор линейных преобразований
+%of the column space
+\begin{equation}
+\label{eq:Lin}
+\textbf{x} \to \textbf{y}=\textbf{Px} \, ,
+\end{equation}
+%
+
+определенный невырожденной матрицей $\textbf{P}$, такой что задача~(\ref{eq:task3}), выраженная в терминах преобразованного пространства
+(т.е, через вектор-столбец $\textbf{y} $), совпадает с исходной задачей. Таким образом, в терминах вектора $\textbf{y}$ задача~(\ref{eq:task3}) формулируется в той же форме.
+%
+\begin{equation}
+\label{eq:Tinit}
+\left\{
+\begin{array}{l}
+\displaystyle
+\textbf{y}^T \textbf{G y} \to {\max} \, , \\
+\displaystyle
+\textbf{y}^T\textbf{H}_1\textbf{y} \le  1 \, , \\
+\displaystyle
+\dots \\
+\textbf{y}^T\textbf{H}_n\textbf{y} \le 1 \, ,
+\end{array}
+\right.
+\end{equation}
+%
+\textit{с той же самой} матрицей $\textbf{G} $ и тем же набором матриц $\{\textbf{H}_i: i=1,\dots,n\}$. Подчеркнем, что, поскольку перестановка ограничений не меняет задачи, матрицы $\textbf{H}_i$ также могут быть пронумерованы произвольно.
+
+Преобразования, заданные матрицами $\textbf{P}$, составляют группу обратимых линейных симметрий, которую мы обозначаем через~$\mathcal G$. Цель статьи -- проанализировать группу~$\mathcal G$ и предложить методы нахождения этой группы {в некоторых частных случаях}. Частичное решение этой проблемы, т.е. нахождение хотя бы подгруппы в~$\mathcal G$, также может иметь смысл для практических целей, если полученные симметрии позволяют упростить данную оптимизационную задачу. 
+
+В некоторых случаях также может потребоваться найти группу симметрии только набора ограничений. Обозначим эту группу через~$\mathcal G'$.
+Очевидно, это мало чем отличается от поиска группы симметрии~$\mathcal G$ задачи; нужно просто исключить из рассмотрения матрицу $\textbf{G}$ (формально можно считать, что $\textbf{G}$ в этом случае нулевая матрица). Обратите внимание, что $\mathcal G$ является подгруппой в $\mathcal G'$.
+{
+Кроме того, набор симметрий ограничений тесно связан, но не обязательно идентичен набору тех обратимых линейных преобразований, которые биективно отображают область допустимости задачи ${\mathcal D}:=\{\textbf{x}\in {\mathbb R}^N \ : \ \textbf{x}^T B_i \textbf{x} \le 1, \ i=1,\dots,M\}$ на себя. Группа симметрии множества ограничений~$\mathcal{G}'$ может быть подгруппой в группе симметрии обратимых линейных преобразований области~${\mathcal D}$. Это происходит, например, если имеется несколько ``неактивных'' ограничений, каждое из которых определяет такое множество точек, внутри которого содержится ${\mathcal D}$. Тогда требование, чтобы набор матриц этих ``неактивных'' ограничений оставался в~(\ref{eq:Tinit}), является избыточным относительно группы преобразований области~${\mathcal D}$. В качестве простого примера рассмотрим случай $n=N+1,$ $\textbf{G}={diag}(1,\dots,1), \ \textbf{H}_1={diag}(1,0,0,\dots ,0), \dots, \textbf{H}_N={diag}(0,0,\dots,0,1), \textbf{H}_{N+1}={diag}(1,\dots,1).$ Ясно, что здесь $\textbf{H}_1,\dots,\textbf{H}_N$ определяют ``неактивные'' ограничения, группа обратимых линейных преобразований области~${\mathcal{D}}$ состоит из всех ортогональных преобразований в~${\mathbb R}^N $, а группа $\mathcal G$ — конечная группа линейных симметрий $N$-мерного гиперкуба.
+}
+
+Авторы~\cite{GATERMANN200495} объединяют последнее определение симметрии области допустимости с инвариантностью целевой функции для изучения геометрических, алгебраических и вычислительных свойств, подразумеваемых такими (дискретными) симметриями в полуопределенных программах. В этом случае с помощью симметрий получается эквивалентная задача выпуклой оптимизации с меньшим числом переменных и тем же оптимальным решением.
+
+В~\cite{L12} группа формулировок задачи математической оптимизации была определена как множество перестановок индексов переменных, для которых целевая функция и ограничения остаются неизменными. Ясно, что эта группа является подгруппой в $\mathcal{G}$. На основе подхода из~\cite{L12}, в~\cite{KWM19} был разработан алгоритм обнаружения симметрии для задач квадратичного программирования. Этот алгоритм можно использовать для нахождения группы формулировок в нашем случае, однако мы стремимся найти всю группу~$\mathcal{G}$, если это возможно.
+
+Обозначим множество матриц $\textbf{H}_1,\dots,\textbf{H}_n$ через ${\mathcal{H}}$.
+
+\begin{definition} \label{def:invariance}
+${\mathcal H}$ называется {\em конгруэнтным инвариантом} (или просто инвариантом, для краткости) относительно преобразования 
+%
+\begin{equation}
+\label{transform}
+\textbf{H} \to \textbf{P}^T \textbf{H P} \,
+\end{equation}
+%
+с невырожденной матрицей $P$, если $\{P^T \textbf{H} P \ : \ \textbf{H} \in {\mathcal H}\}= \{\mathcal H\}$.
+\end{definition}
+
+Множество всех матриц $P$, для которых множество ${\mathcal{Р}}$ является инвариантом, образует группу. Здесь эта группа называется {\em группа симметрий множества матриц}~${\mathcal{Р}}$ и обозначается~${\mathcal{G}}_{\mathcal{H}}$. Ясно, что относительно преобразования $\textbf{H} \to \textbf{P}^T \textbf{H P},$ некоторые матрицы из $\mathcal{H}$ могут сводится к другим, однако, не все возможные комбинации могут быть получены этим способом.
+
+Заметим, что одним из инвариантов преобразования~(\ref{transform}) является {\em инерция} матрицы~$\textbf{H}$,
+определяется как упорядоченная тройка: (i)~количество положительных собственных значений~$\textbf{H}$, (ii)~количество отрицательных собственных значений~$\textbf{H}$ и (iii)~количество нулевых собственных значений~$\textbf{H}$ (см., например,~\cite{HJ}, \S~4.5). Таким образом, можно переставлять только матрицы с одинаковой инерцией, а все множество ${\mathcal{H}}$ разбивается на классы эквивалентности матриц с одинаковой инерцией. Это отражено в следующем определении.
+\begin{definition}
+{\em I-класс} является максимальным по включению подмножеством ${\mathcal{H}}$, состоящим из матриц с равной инерцией.
+\end{definition}
+
+Предполагается, что все I-классы ${\mathcal{H}}$ пронумерованы целым числом~$k$ и обозначены~${\mathcal{H}}^I_k$. Обозначим
+%
+\begin{equation}
+{\mathcal{H}} = \bigcup_k {\mathcal{H}}^I_k \, .
+\end{equation}
+%
+
+Кроме того, сумма \textit{всех} матриц, принадлежащих некоторому I-классу, является инвариантом любого преобразования~(\ref{transform}) из ${\mathcal{G}}_{\mathcal{H}} $
+
+Заметим, что это не все инвариантные суммы, поскольку любая сумма нескольких классов инерции также является инвариантом. Таким образом, по множеству $ {\mathcal{H}} $ можно явно построить набор матриц, инвариантных относительно всех преобразований~(\ref {transform}), перебирая все комбинации I-классов и суммируя их элементы.
+
+\begin{definition}
+Любая матрица, являющаяся суммой всех матриц, принадлежащих одному или нескольким I-классам, называется {\em матрицей инвариантности I-типа.}
+\end{definition} 
+
+Могут существовать и другие матрицы инвариантности, но остаются загадкой не только способы их нахождения, но и определение их существования.
+
+В~\cite{yurkov:symmetry} показано, что можно упростить анализ группы $\mathcal{G}_{\mathcal{B}}$, если хотя бы одна из матриц инвариантности I-типа положительно определена, так как в этом случае мы сможем использовать известные факты о группе ортогональных преобразований~$O(N)$ (см., например,~\cite{Zhelobenko}).
+
+Можно сказать, что
+
+\textbf{Условие I} {\em выполняется, если по меньшей мере одна инвариантная матрица $H^I$ I-типа положительно определена.}
+
+Следует обратить внимание, что симметричная матрица~$\textbf{H}$ может быть представлена как конгруэнтное преобразование диагональной матрицы:
+%
+\begin{equation}
+\label{eq:BSSTDS}
+\textbf{H}=\textbf{S}^T\textbf{DS} \, ,
+\end{equation}
+%
+где $\textbf{D}$ -- диагональная матрица, которая может иметь только ``0'', ``1'', или ``-1'' на ее главной диагонали. Матрица $\textbf{S}$ Может быть получена конструктивно, например, конечным методом Лагранжа~(\cite{Lancaster},~Г.~5).
+
+В тех случаях, когда $\textbf{H}$ положительно определена, матрица~$\textbf{D}$ будет являться единичной матрицей и может быть опущена в~(\ref{eq:BSSTDS}).
+
+\begin{proposition} \label{prop:orthogonal} Если условие~I выполняется, тогда группа $ {\mathcal{G}}_{\mathcal{H}} $ является изоморфизмом некоторой подгруппы группы ортогональных преобразований, и этот изоморфизм определяется отображением
+\begin{equation}
+\label{eq:Qdef_map}
+\textbf{P} \to \textbf{SPS}^{-1},
+\end{equation}
+Где матрица $S$ такова, что $\textbf{H}^I=\textbf{S}^T \textbf{S}.$
+\end{proposition}
+
+\begin{proof}
+Если матрица $\textbf{H}^I$ положительно определена, тогда условие инвариантности~(\ref{transform}) для $\textbf{H}^I$ обращается в уравнение
+%
+\begin{equation}
+%\label{}
+\textbf{P}^T \textbf{S}^T\textbf{SP} = \textbf{S}^T\textbf{S} \,
+\end{equation}
+%
+или
+%
+\begin{equation}
+\label{eqn:unit_matr}
+(\textbf{SP}^{-1})^T  (\textbf{SPS}^{-1}) =  E \, ,
+\end{equation}
+%
+где $E$ -- единичная матрица. Это значит, что матрица
+%
+\begin{equation}
+\label{eq:Qdef}
+\textbf{Q}:=\textbf{SPS}^{-1}
+\end{equation}
+%This means that the matrix $Q = STS^{- 1} $, generally speaking, belongs to the pseudo-orthogonal group~\cite{Zhelobenko}.
+является группой ортогональных преобразований в~$O(N)$ %\qed
+\end{proof}
+
+{
+Инвариантность задачи~(\ref{eq:task3}) относительно преобразования~$\textbf{P}$ подразумевает, что
+%
+\begin{equation}
+\label{eq:geninvar}
+\textbf{P}^T\textbf{GP}=\textbf{G} \,  , \qquad \textbf{P}^T\textbf{H}_i \textbf{P} = \sum_{j=1}^n \textbf{L}_{ij}\textbf{P}_j , \  i=1,\dots,n,
+\end{equation}
+%
+где $ \textbf{L}_{ij} $ элементы матрицы перестановок, т.е. матрица ${\textbf{L}=(\textbf{L}_{ij})}$ имеет одну единицу в каждом столбце и в каждой строке, остальные элементы~$\textbf{L}$ равны нулю.
+
+Утверждение~\ref{prop:orthogonal} может быть применено для анализа симметрий задачи~(\ref{eq:task3}), если известны некоторые матрицы инвариантности I-типа $\textbf{H}^I$ для множества матриц ${\mathcal{H}}=\{\textbf{H}_1,\dots,\textbf{H}_n\},$ подразумевая, что
+%
+\begin{equation}
+\label{eq:invBS}
+\textbf{P}^T \textbf{H}^I \textbf{P} = \textbf{H}^I,
+\end{equation}
+и { $\textbf{H}^I$ } положительна определена.
+
+В задаче оптимизации направленности ФАР матрица~$\textbf{H}_{\Sigma}:=\sum_i \textbf{H}_i$ положительно определена. Если выполняется~(\ref{eq:geninvar}), тогда $\textbf{H}^I=\textbf{H}_{\Sigma}$ является матрицей инвариантности I-типа для множества матриц ${\mathcal{H}}=\{\textbf{H}_1,\dots,\textbf{H}_n\}.$
+
+Естественно, в общем случае, инвариантность матрицы $\textbf{H}^I$ не обязательно подразумевает выполнение~(\ref{eq:geninvar}), но, по крайней мере, можно говорить, что группа~$\mathcal G'$ является подгруппой ${\mathcal G}_{\mathcal{B}}$, которая, в свою очередь, является подгруппой в $O(N)$ по утверждению~\ref{prop:orthogonal}. Следовательно $\mathcal{G}$ также является подгруппой~$O(N)$.
 
 
-where x is an N-component column vector of variables, and the superscript T denotes matrix transposition. In what follows, without loss of generality we assume
-that N × N matrices A, Bi
-, i = 1, . . . , M are symmetric (note that any matrix
-can be decomposed into a sum of symmetric matrix S and skew-symmetric matrix C, and the quadratic form x
-T Cx identically equals zero). A more substantial
-assumption that we will make in this paper is that BΣ := PM
-i=1 Bi
-is a positive
-definite matrix. An example of application of quadratic programming problems
-with such a property in radiophysics may be found e.g. in [4].
-The results of this paper may also be used for finding symmetries if some
-of the problem constraints have the inequality ≤, some have the inequality ≥
-and some have the equality sign. We will consider only the inequalities ≤ for the
-notational simplicity. The obtained results may also be applied in semidefinite
-relaxation methods, see e.g. [15]. Note that in [15] the well-known Maximum
-Cut problem (which is NP-hard) is reduced to the problem considered here.
-By a symmetry of problem (1) we mean a set of linear transformations
-x → y = P x , (2)
-defined by a non-degenerate matrix P such that the problem (1), expressed in
-terms of the transformed space (i.e., through the vector columns y), coincides
-with the original problem. That is, in terms of the vectors y our optimization
-problem again has the form
+В дальнейшем всегда будем предполагать, что существует положительно определенная инвариантная матрица $\textbf{H}^I$ I-типа для множества матриц ${\mathcal{H}}=\{\textbf{H}_1,\dots,\textbf{H}_n\},$, т.е. Условие~I выполнено, и $\textbf{Q}$ всегда будет обозначать образ~$\textbf{P}$ при изоморфизме~(\ref{eq:Qdef_map}).
 
+Поскольку $\textbf{P}=S^{-1}\textbf{QS}$ по определению~$\textbf{Q}$, применение~(\ref{eq:geninvar}) дает
 
-with the same matrix A and the same set of matrices
+%
+\begin{equation}
+\begin{array}{l}
+\displaystyle
+(\textbf{S}^{-1}\textbf{QS})^T\textbf{G}(S^{-1}\textbf{QS})=\textbf{G} \,  , \\ \\
+\displaystyle
+(\textbf{S}^{-1}\textbf{QS})^T\textbf{H}_i (\textbf{S}^{-1}\textbf{QS})= \sum_{j=1}^n \textbf{L}_{ij}\textbf{H}_j \, , \ i=1,\dots,n,
+\end{array}
+\end{equation}
+%
 
+и, после простого преобразования, получается
+%
+\begin{equation}
+\label{eq:invarwithQ}
+\textbf{Q}^T \tilde{\textbf{G}} \textbf{Q}=\tilde{\textbf{G}} \,  , \ \ \ \
+\textbf{Q}^T \tilde{\textbf{H}_i} \textbf{Q}= \sum_{i=1}^N \textbf{L}_{ij}\tilde{\textbf{H}_j} \, , \ i=1,\dots,n,
+\end{equation}
+%
+где
+%
+\begin{equation}
+\tilde{\textbf{G}}=\left(\textbf{S}^{-1}\right)^T \textbf{G} \textbf{S}^{-1} \, , \qquad
+\tilde{\textbf{H}_i}=\left(\textbf{S}^{-1}\right)^T \textbf{H}_i \textbf{S}^{-1} \, , \ i=1,\dots,n.
+\end{equation}
+%
+Таким образом, используя изоморфизм (\ref{eq:Qdef}), мы можем заменить уравнения (\ref{eq:geninvar}) аналогичными уравнениями (\ref{eq:invarwithQ}), но с заменой матриц
+\begin{equation}
+\label{eq:totilde}
+\textbf{G} \to \tilde{\textbf{G}} \, , \qquad \textbf{H}_i \to \tilde{\textbf{H}_i}\, , \ i=1,\dots,n.
+\end{equation}
+%
+и заменив $\textbf{P}$ ортогональной матрицей~$\textbf{Q}$. Эти уравнения значительно проще, так как в этом случае условие~(\ref{eq:invarwithQ}) можно сформулировать линейно в~$\textbf{Q}$:
+%
+\begin{equation}
+\label{eq:comutatinvarwithQ}
+\tilde{\textbf{G}} Q=Q\tilde{\textbf{G}} \,  , \ \ \ \
+\tilde{\textbf{H}_i} Q= Q\sum_{j=1}^n \textbf{L}_{ij}\tilde{\textbf{H}_j} \, , \  i=1,\dots,n.
+\end{equation}
+%
+Если найти все подходящие ортогональные отображения $\textbf{Q}$, то будет легко восстановить соответствующие матрицы~$\textbf{P}$. В дальнейшем группу таких подходящих матриц~$\textbf{Q}$ мы также будем обозначать через~$\mathcal{G}$, поскольку матрицы~$\textbf{P}$ и $\textbf{Q}$ просто дают разные {точные} представления одной и той же абстрактной группы.
 
-We emphasize that, in the set of constraints, matrices Bi may be numbered
-arbitrarily, which, obviously, does not change the problem. The transformations
-given by the matrices P obviously form a group, which we denote by G. The
-goal of the paper is to analyse group G and propose an algorithm for finding it.
-In some cases, it may also be of interest to find the symmetry group of the
-set of constraints only. Obviously, this is not much different from the search for
-symmetry group G of the problem; one just needs to exclude matrix A from the
-consideration (i.e. formally assume that A is a zero matrix). Furthermore, the
-set of symmetries of the constraints is not larger than the set of all invertible
-linear transformations, bijectively mapping the feasibility domain of the problem
+Известно, что ортогональная группа $O(N)$ состоит из двух компонент связности, для одной из которых определитель матрицы равен~1, для другой равен~-1 (см., например,~\cite{Zhelobenko}). Первая компонента — это подгруппа в $O(N)$, обозначаемая $SO(N)$ и также называемая {\em группой вращений} из-за того, что в размерностях 2 и 3 ее элементами являются обычные вращения вокруг точки или линии соответственно. Вторая компонента не образует подгруппу в $O(N)$, так как не содержит единичного элемента. Матрицы из второго компонента могут быть представлены, например, в виде: $ {diag} \{- 1,1 \dots 1 \} \textbf{Q} $, где $ \textbf{Q} \in SO(N) $, поэтому между этими компонентами имеется взаимно однозначное соответствие (которое не является изоморфизмом в теоретико-групповом смысле, так как не сохраняет групповые операции). Искомые матрицы $\textbf{Q}$ могут принадлежать как первой компоненте, так и второй.
 
+Из стандартных фактов теории топологических групп (см., например,~\cite{Zhelobenko},~Г.~1) вытекают следующие свойства группы симметрии~$\mathcal{G},$, наделенной стандартной топологией ${\mathbb R} ^{N^2},$ применительно к пространству $(N\times N)$-матриц. Как всякая топологическая группа, $\mathcal{G}$ состоит из компонент связности (в топологическом смысле), только одна из которых, далее обозначаемая как~$\mathcal{G}_1$, содержит единичный элемент. Эта~$\mathcal{G}_1$ является подгруппой инвариантности группы~$\mathcal{G}$, см. теорему~1 в~\cite{Zhelobenko} и в дальнейшем называется {\em непрерывной подгруппой симметрий}. Остальные компоненты связности (не являющиеся подгруппами) можно рассматривать как произведения элементов группы вне~$\mathcal G_1$ на элементы группы~$\mathcal G_1$, т.е. смежные классы группы~$\mathcal G_1$. Эти смежные классы можно идентифицировать, указав одного (любого) представителя смежного класса.
 
-onto itself. Therefore, the symmetry
-group of the set of constraints is a subgroup in the symmetry group of invertible
-linear transformations of D.
-The structure of the paper is the following. In Section 2, it is shown that the
-group of linear symmetries of the problem is a subgroup of orthogonal transformations. Also, the structure of the group of symmetries and the corresponding
-Lie algebra are discussed. In Section 3, a general algorithm for finding the symmetries is proposed, and in Section 4 it is illustrated in two simple examples. A
-discussion of obtained results and conclusions are provided in Sections 5 and 6.
-2 Structure of the Symmetry Group
-Invariance of the problem under transformation P implies that
+\subsection{Нахождение групп непрерывных симметрий}
 
+Рассмотрим более подробно случай непрерывной подгруппы симметрий~$\mathcal{G}_1$. Нетривиальные перестановки матриц $\tilde{\textbf{H}}_i$, если они все разные, не могут быть результатом преобразований, принадлежащих~$\mathcal{G}_1$, так как невозможно непрерывно двигаться от тождественного преобразования (из чего следует, что матрицы $\tilde{\textbf{H}}_i$ не переставляются) любому преобразованию~$\textbf{Q}$, дающему нетривиальную перестановку матриц $\tilde{\textbf{H}}_i$. Заметим, что любая такая~$\textbf{Q}$ имеет окрестность преобразований, не дающих тривиальной перестановки матриц~$\tilde{\textbf{H}}_i$. Поэтому, условие инвариантности~(\ref{eq:comutatinvarwithQ}) подразумевает коммутативность:
+%
+\begin{equation}
+\label{eq:commutat}
+\tilde{\textbf{G}} \textbf{Q} = \textbf{Q} \tilde{\textbf{G}}\, , \qquad \tilde{\textbf{H}}_i \textbf{Q} = \textbf{Q} \tilde{\textbf{H}}_i\, , \ i=1,\dots,n.
+\end{equation}
+%
+Следующее утверждение является "фольклорным" фактом матричного анализа (доказательство можно найти в~\cite{yurkov:symmetry}):
 
-where Lij are the elements of a permutation matrix, i.e. matrix L = (Lij ) has a
-single “1” in each column and in each row, other elements of L are zeros.
-If (4) holds, then the invariance condition of the matrix BΣ is satisfied:
-P
-T BΣP = BΣ. (5)
-Naturally, the converse is not true in the general case, but at least we can say
-that the desired group G is a subgroup of the invariance group of matrix BΣ.
-This matrix may be represented as a congruent transformation of a diagonal
-matrix:
-BΣ = S
-T DS , (6)
-where D is a diagonal matrix, which can have only “0”, “1”, or “-1” on its main
-diagonal. Essentially, we are talking about reducing the quadratic form corresponding to matrix BΣ to its canonical form. So matrix S can be constructively
-obtained, for example, by the finite Lagrange method ([9], Ch. 5).
-Now, if we restrict ourselves to the special case where matrix BΣ is positive
-definite (it occurs, for example, in the radiophysical problem of optimizing the
-excitation of antenna arrays [4]), then D will be the unit matrix and it may be
-omitted in (6). Condition (5) then turns into
+\begin{proposition} \label{prop:skew_exp}
+Любая матрица $\textbf{Q} \in SO(N) $ может быть представлена как матричная экспоненциальная функция кососимметричной матрицы. Верно и обратное: экспоненциальная функция любой кососимметричной матрицы является ортогональной матрицей.
+\end{proposition}
 
-where E is a unit matrix. This means that matrix
-
-is in the group of orthogonal transformations O(N) (see e.g. [17]). So we proved
-Proposition 1. If BΣ is positive definite then group G is isomorphic to some
-subgroup of O(N) and this isomorphism is given by Equation (9).
-Since P = S
-−1QS by (9), so application of (4) gives
-and after a simple transformation we have
-where
-So using isomorphism (9) we can substitute equations (4) by the similar equations (11), but with the matrix substitution
-
-
-and substituting P by the orthogonal matrix Q. These equations are significantly
-simpler, since in this case condition (11) may be formulated linearly in Q:
-
-
-If one finds all suitable orthogonal mappings Q, then it will be easy to restore the
-corresponding matrices P. Assuming all this, we omit the tildes above matrices A
-and Bi further in order to simplify the notation.
-It is well-known that the orthogonal group O(N) consists of two connected
-components, for one of them the determinant of the matrix equals 1, for the
-other it equals -1 (see e.g. [17]). The first component is a subgroup of O(N),
-denoted by SO(N) and also called the rotation group, due to the fact that in
-dimensions 2 and 3, its elements are the usual rotations around a point or a line,
-respectively. The second component does not constitute a subgroup of O(N),
-since it does not contain the identity element. Matrices from the second component can be represented, for example, in the following form:
-
-
-
-Наличие большого количества решений, соответствующих одному и тому же значению целевой функции, приводит нас к исследованию групп симметрий. В~\cite{yurkov:symmetry} показано, что любой элемент группы непрерывных симметрий задачи~\ref{eq:task3} может быть описан в виде~\ref{eq:sunexp}.
+Итак, с некоторой кососимметричной матрицей~$\textbf{X}$ имеем $\textbf{Q}=e^\textbf{X}$. Набор кососимметрических матриц $\textbf{X}$ составляет алгебру Ли, соответствующую этой группе Ли~\cite{Zhelobenko}. Алгебра Ли, соответствующая $SO(N)$, обычно обозначается $so(N)$. Любая алгебра Ли также является линейным пространством, любой ее элемент может быть выражен с помощью базисных элементов, называемых образующими. Таким образом, любой элемент алгебры Ли можно представить в виде:
+%
+\begin{equation}
+\textbf{X} = \sum_n a_n G_n \, ,
+\end{equation}
+%
+где $ a_n $ являются вещественными числами, $G_n $ являются генераторами. Пространство кососимметричных матриц имеет размерность $N(N-1)/2$, а количество коэффициентов $a_n$ будет равно количеству образующих. В качестве образующих можно выбрать матрицы, у которых над главной диагональю все элементы равны~0, кроме одного элемента, равного~1. Тогда кососимметрия однозначно определяет остальные матричные элементы этих генераторов. Итак, любой элемент $Q$ из $SO(N)$ можно представить в виде:
+%
 \begin{equation}
 \label{eq:sunexp}
-Q=e^{\sum\limits_n a_n G_n} \, .
+\textbf{Q}=e^{\sum_n a_n G_n} \, .
 \end{equation}
-где $a_n$ - вещественные числа, $G_n$ - генераторы. В качестве генераторов можно выбрать косо-симметричные матрицы, которые содержат над главной диагональю один единичный элемент, симметричный ему противоположный элемент и остальные нули.
-Введем матрицу: $ {\textbf{H}}_{\Sigma} = \sum_{i} \textbf{H}_i,$ которая может быть представлена в виде конгруэнтного преобразования диагональной матрицы $D$:
-$${\textbf{H}}_{\Sigma} = S^TDS,$$
-Нахождение непрерывных групп симметрий сводится к решению задачи~\ref{eq:commutat2}.
+%
 
+Поскольку искомая непрерывная подгруппа симметрии~$\mathcal{G}_1$ является подгруппой в $SO(N)$, то для нее также справедливо представление~(\ref{eq:sunexp}), но, вообще говоря, параметры $ a_n$ теперь не являются независимыми. Таким образом, поиск этой подгруппы по существу сводится к нахождению ограничений на параметры $a_n$.
+
+Совершенно очевидно, что для выполнения условий коммутативности~(\ref{eq:commutat}) достаточно выполнения следующих условий:
+%
 \begin{equation}
 \label{eq:commutat2}
 \left\{
 \begin{array}{l}
 \displaystyle
 \tilde{\textbf{H}}_i \left(\sum\limits_na_nG_n\right) =
-\left(\sum\limits_na_nG_n\right)\tilde{\textbf{H}}_i \, , \\ \\
+\left(\sum\limits_na_nG_n\right) \tilde{\textbf{H}}_i \, , \\ \\
 \displaystyle
-\tilde{\textbf{G}} \left(\sum\limits_na_nG_n\right) = \left(\sum\limits_na_nG_n\right)\tilde{\textbf{G}} \, .
+\tilde{\textbf{G}} \left(\sum\limits_na_nG_n\right) = \left(\sum\limits_na_nG_n\right) \tilde{\textbf{G}} \, .
 \end{array}
 \right.
 \end{equation}
+%
 
+Заметим, что согласно~(\ref{eq:commutat2}), если матрица $\textbf{X}$ коммутирует со всеми матрицами $\tilde{\textbf{H}}_i$ и с матрицей $\tilde{\textbf{G}}$, то $\textbf{X}$ лежит в алгебре Ли~$ \mathcal{G}_1$.
+Действительно, разлагая показательную функцию в степенной ряд, мы видим, что если матрицы $\tilde{\textbf{G}}$ и $\tilde{\textbf{H}}_i$ коммутируют с аргументом этой функции, то они коммутируют и с самой показательной функцией.
+
+%
+Условие~(\ref{eq:commutat2}) не обязательно влечет~(\ref{eq:commutat}), однако непрерывная подгруппа симметрий является связной группой Ли, поэтому она полностью определяется своей алгеброй Ли, который полностью определяется ограничительными соотношениями~(\ref{eq:commutat2}) на его элементах. Таким образом, при поиске непрерывной подгруппы симметрии~(\ref{eq:commutat}) можно заменить на~(\ref{eq:commutat2}).
+
+Уравнения~(\ref{eq:commutat2}) представляют собой систему линейных алгебраических уравнений, определяющих параметры $a_n$. Эта система однородна, поэтому она имеет континуум ненулевых решений или одно тривиальное решение. Тривиальное нулевое решение всегда присутствует и соответствует единичной матрице $\textbf{Q}$. Некоторые из параметров $a_n$ остаются ``свободными'' (это будут параметры искомой подгруппы), а остальные из~$a_n$ могут быть линейно выражены через ``свободные''. Решение этой системы уравнений~(\ref{eq:commutat2}) может быть получено конструктивно методом Гаусса.
+
+Условие инвариантности задачи относительно преобразования~$\textbf{Q}$ превращается в
+%
 \begin{equation}
-\tilde{\textbf{G}}=\left(S^{-1}\right)^T \textbf{A} S^{-1} \, , \qquad
-\tilde{\textbf{B}_i}=\left(S^{-1}\right)^T \textbf{B}_i S^{-1} \, , \ i=1,\dots,M.
+\label{eq:subG1}
+\textbf{Q}=e^{\sum_n a_n \hat{G}_n} \, ,
 \end{equation}
+%
+где сумма идет по "свободным" параметрам $a_n$, а новые генераторы, обозначаемые через~$\hat{G}_n$, являются линейными комбинациями прежних генераторов~$G_n$. Множество всех $\textbf{Q}$-матриц, удовлетворяющих~(\ref{eq:subG1}), параметризуется конечным набором вещественных параметров $a_n$. Заметим, однако, что этот набор матриц не обязательно изоморфен евклидову пространству, поскольку одному и тому же~$\textbf{Q}$ может соответствовать более одного набора параметров $a_n$.
 
+\subsection{Вычислительный эксперимент}
 Вычислительный эксперимент состоит из следующих этапов:
 \begin{enumerate}
   \item Обработка. На этом этапе возможная неточность данных нивелируется усреднением симметричных компонент матриц (матрицы $\textbf{G}$ и $\textbf{H}$ должны быть симметричны).
   \item %Normalization of matrices $B_i$.
-  Преобразование $ {\textbf{H}}_{\Sigma} = \sum_{i} \textbf{H}_i$ к канонической форме используя метод Лагранжа для вычисления матриц~$S$ и $S^{-1} $.
-  \item Применение метода Гаусса к системе линейных~(\ref{eq:commutat2}) для вычисления генераторов~$\hat{G}_n$.
+  Преобразование $ {\textbf{H}}_{\Sigma} = \sum_{i} \textbf{H}_i$ к канонической форме используя метод Лагранжа для вычисления матриц~$\textbf{S}$ и $\textbf{S}^{-1} $.
+  \item Применение метода Гаусса к системе линейных уравнений~(\ref{eq:commutat2}) для вычисления генераторов~$\hat{G}_n$.
 \end{enumerate}
 
-Следует отметить, что входные данные могут содержать некоторые погрешности, связанные с несимметричностью матриц $\textbf{G}$ и $\textbf{H}$, что может существенно повлиять на поиск непрерывных групп симметрий. Таким образом, на этапе~1, мы используем известные свойства задачи чтобы нивелировать влияние погрешности.
+Следует отметить, что входные данные могут содержать некоторые погрешности, которые приводят к несимметричности матриц $\textbf{G}$ и $\textbf{H}$, что может существенно повлиять на поиск непрерывных групп симметрий. Таким образом, на этапе~1, мы используем известные свойства задачи чтобы нивелировать влияние погрешности.
 Также, в методе Гаусса на шаге 3, любые значения принимаются за 0 если их абсолютное значение меньше определенного порогового значения~$\Delta$, который является параметром алгоритма. Причина в том, что последовательное исключение переменных из уравнений, выполняемое методом Лагранжа с представлением вещественных чисел с плавающей запятой, не может гарантировать идеальную точность.
 В результате некоторые линейно зависимые строки матрицы не могут быть исключены, что может привести к неверному результату.
 %To eliminate this effect, a threshold error is introduced.

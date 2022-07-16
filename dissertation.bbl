@@ -1004,42 +1004,45 @@
       \range{pages}{4}
       \keyw{,biblioexternal,bibliofull}
     \endentry
-    \entry{bruke:nec2}{online}{}
-      \name{author}{2}{}{%
-        {{hash=62645b2782852001ae0103f35cc84bc4}{%
+    \entry{bruke:nec2}{inproceedings}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=7acf589d0c0ba5670c30137362fbcaf5}{%
            family={Burke},
            familyi={B\bibinitperiod},
-           given={J.\bibnamedelimi J.},
-           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+           given={Gerald\bibnamedelima J},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
         {{hash=95a1b84f33a8605b9aa2e6fa313994c6}{%
            family={Poggio},
            familyi={P\bibinitperiod},
-           given={A.\bibnamedelimi J.},
+           given={A\bibnamedelima J},
            giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=61eb2fec99daef1d2fc94062d2ddbec4}{%
+           family={Logan},
+           familyi={L\bibinitperiod},
+           given={J\bibnamedelima C},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=9dd325750d2c91f897064158485dd087}{%
+           family={Rockway},
+           familyi={R\bibinitperiod},
+           given={J\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
       }
-      \strng{namehash}{7f31c13371301f42e5c460f4ab3b2fe8}
-      \strng{fullhash}{7f31c13371301f42e5c460f4ab3b2fe8}
-      \strng{bibnamehash}{7f31c13371301f42e5c460f4ab3b2fe8}
-      \strng{authorbibnamehash}{7f31c13371301f42e5c460f4ab3b2fe8}
-      \strng{authornamehash}{7f31c13371301f42e5c460f4ab3b2fe8}
-      \strng{authorfullhash}{7f31c13371301f42e5c460f4ab3b2fe8}
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{authorbibnamehash}{a1fea51baa03cb0a68d9044304c69e2e}
+      \strng{authornamehash}{a1fea51baa03cb0a68d9044304c69e2e}
+      \strng{authorfullhash}{fbe927335f29cd66a07095789ad2d12b}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{booktitle}{1979 IEEE International Symposium on Electromagnetic Compatibility}
       \field{langid}{english}
-      \field{media}{eresource}
-      \field{title}{Numerical Electromagnics Code}
-      \field{urlday}{26}
-      \field{urlmonth}{4}
-      \field{urlyear}{2022}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.nec2.org/
-      \endverb
-      \verb{url}
-      \verb https://www.nec2.org/
-      \endverb
+      \field{media}{text}
+      \field{title}{Numerical electromagnetic code ($\mbox{NEC}$)}
+      \field{year}{1979}
+      \field{pages}{1\bibrangedash 3}
+      \range{pages}{3}
       \keyw{,biblioexternal,bibliofull}
     \endentry
     \entry{noguchi:de}{article}{}
@@ -1109,8 +1112,574 @@
       \field{year}{1990}
       \keyw{,biblioexternal,bibliofull}
     \endentry
+    \entry{CHL13}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2a0d570ad1587680c9feb8ce96a71fcc}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7bb981a79a1c9c28df155eaf022cd6ba}{%
+           family={Hansen},
+           familyi={H\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6c501b106a067f9390ed721e696a5ae9}{%
+           family={Liberti},
+           familyi={L\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{a29f283b1479916b49aee90b172bc559}
+      \strng{fullhash}{a29f283b1479916b49aee90b172bc559}
+      \strng{bibnamehash}{a29f283b1479916b49aee90b172bc559}
+      \strng{authorbibnamehash}{a29f283b1479916b49aee90b172bc559}
+      \strng{authornamehash}{a29f283b1479916b49aee90b172bc559}
+      \strng{authorfullhash}{a29f283b1479916b49aee90b172bc559}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Discrete Applied Mathematics}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{On the impact of symmetry-breaking constraints on spatial Branch-and-Bound for circle packing in a square}
+      \field{year}{2013}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{96\bibrangedash 106}
+      \range{pages}{11}
+      \field{volume}{161}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{GATERMANN200495}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2c62f9e10dd915bc8715963193e5795a}{%
+           family={Gatermann},
+           familyi={G\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8c175284da0c757c59f059ff13d91dde}{%
+           family={Parrilo},
+           familyi={P\bibinitperiod},
+           given={Pablo\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{adeabf753531f33685aadf4aa1d36afe}
+      \strng{fullhash}{adeabf753531f33685aadf4aa1d36afe}
+      \strng{bibnamehash}{adeabf753531f33685aadf4aa1d36afe}
+      \strng{authorbibnamehash}{adeabf753531f33685aadf4aa1d36afe}
+      \strng{authornamehash}{adeabf753531f33685aadf4aa1d36afe}
+      \strng{authorfullhash}{adeabf753531f33685aadf4aa1d36afe}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Pure and Applied Algebra}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Symmetry groups, semidefinite programs, and sums of squares}
+      \field{year}{2004}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{95\bibrangedash 128}
+      \range{pages}{34}
+      \field{volume}{192}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{KWM19}{article}{}
+      \name{author}{3}{}{%
+        {{hash=03c3f8ba8d2a754823808adf953a9667}{%
+           family={Kouyialis},
+           familyi={K\bibinitperiod},
+           given={Georgia},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a566d12da36e018f4db77e15cedcd7a3}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaoyu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=68b80670de5e989d799bf009471e72cf}{%
+           family={Misener},
+           familyi={M\bibinitperiod},
+           given={Ruth},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{de939f58b5170f9c0a03cbfbd192cd04}
+      \strng{fullhash}{de939f58b5170f9c0a03cbfbd192cd04}
+      \strng{bibnamehash}{de939f58b5170f9c0a03cbfbd192cd04}
+      \strng{authorbibnamehash}{de939f58b5170f9c0a03cbfbd192cd04}
+      \strng{authornamehash}{de939f58b5170f9c0a03cbfbd192cd04}
+      \strng{authorfullhash}{de939f58b5170f9c0a03cbfbd192cd04}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Processes}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Symmetry Detection for Quadratic Optimization Using Binary Layered Graphs}
+      \field{year}{2019}
+      \field{number}{11}
+      \range{number}{1}
+      \field{volume}{7}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{BHJ13}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3cf9f63d5611f6a9ce9179ceb1ca57d6}{%
+           family={Bödi},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=fe1430340fb3537d0459c275d99bc9ad}{%
+           family={Herr},
+           familyi={H\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=866588d3f3370821729717a20536c84a}{%
+           family={Joswig},
+           familyi={J\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{94b15d9777957c4d620336ed2c4d0b53}
+      \strng{fullhash}{94b15d9777957c4d620336ed2c4d0b53}
+      \strng{bibnamehash}{94b15d9777957c4d620336ed2c4d0b53}
+      \strng{authorbibnamehash}{94b15d9777957c4d620336ed2c4d0b53}
+      \strng{authornamehash}{94b15d9777957c4d620336ed2c4d0b53}
+      \strng{authorfullhash}{94b15d9777957c4d620336ed2c4d0b53}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Math. Program.}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{series}{A}
+      \field{title}{Algorithms for highly symmetric linear and integer programs}
+      \field{year}{2013}
+      \field{pages}{65\bibrangedash 90}
+      \range{pages}{26}
+      \field{volume}{137}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{C99}{article}{}
+      \name{author}{1}{}{%
+        {{hash=595658211d4ebe6865f7f423f9ed7a9e}{%
+           family={Chervyakov},
+           familyi={C\bibinitperiod},
+           given={Oleg},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{595658211d4ebe6865f7f423f9ed7a9e}
+      \strng{fullhash}{595658211d4ebe6865f7f423f9ed7a9e}
+      \strng{bibnamehash}{595658211d4ebe6865f7f423f9ed7a9e}
+      \strng{authorbibnamehash}{595658211d4ebe6865f7f423f9ed7a9e}
+      \strng{authornamehash}{595658211d4ebe6865f7f423f9ed7a9e}
+      \strng{authorfullhash}{595658211d4ebe6865f7f423f9ed7a9e}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Discretnyi Analiz i Issledovanie Operacii}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{note}{in Russian}
+      \field{series}{2}
+      \field{title}{Affine symmetries of the polyhedron of independence system with uhit shift}
+      \field{year}{1999}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{82\bibrangedash 96}
+      \range{pages}{15}
+      \field{volume}{2}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{Kolokolov2012}{article}{}
+      \name{author}{3}{}{%
+        {{hash=43efd7dfb860585751d7e756ce9a0da4}{%
+           family={Kolokolov},
+           familyi={K\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9463e46fa53a83bc645179484a37b7ba}{%
+           family={Orlovskaya},
+           familyi={O\bibinitperiod},
+           given={T.\bibnamedelimi G.},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=14d2c085a9a5ba133b73d7f5d1693875}{%
+           family={Rybalka},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi F.},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{25c234849e987f769e540dac57f9fded}
+      \strng{fullhash}{25c234849e987f769e540dac57f9fded}
+      \strng{bibnamehash}{25c234849e987f769e540dac57f9fded}
+      \strng{authorbibnamehash}{25c234849e987f769e540dac57f9fded}
+      \strng{authornamehash}{25c234849e987f769e540dac57f9fded}
+      \strng{authorfullhash}{25c234849e987f769e540dac57f9fded}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Automation and Remote Control}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Analysis of integer programming algorithms with L-partition and unimodular transformations}
+      \field{year}{2012}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{369\bibrangedash 380}
+      \range{pages}{12}
+      \field{volume}{73}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{Margot2010}{inbook}{useeditor=false}
+      \name{author}{1}{}{%
+        {{hash=f56436e1fc18c801a757cdebebda55f0}{%
+           family={Margot},
+           familyi={M\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod}}}%
+      }
+      \name{editor}{8}{}{%
+        {{hash=01169310249847156f664ba0d45a28d2}{%
+           family={Jünger},
+           familyi={J\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=29aca66650eb29fd2d880a5891568e60}{%
+           family={Liebling},
+           familyi={L\bibinitperiod},
+           given={Thomas\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b124ab9b7bf97ce2d7bddf44a6cd32a0}{%
+           family={Naddef},
+           familyi={N\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=151b280703f96e0cfa3f018c0c2ae0f9}{%
+           family={Nemhauser},
+           familyi={N\bibinitperiod},
+           given={George\bibnamedelima L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=d75be11806f3c77f6e8b5bea79835f86}{%
+           family={Pulleyblank},
+           familyi={P\bibinitperiod},
+           given={William\bibnamedelima R.},
+           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=38b844c9f4a823467f2581c274534664}{%
+           family={Reinelt},
+           familyi={R\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e8401634f5e7a6782d15bb5bb9f8206b}{%
+           family={Rinaldi},
+           familyi={R\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+        {{hash=85dba919fdceaad20b2b4009570310cc}{%
+           family={Wolsey},
+           familyi={W\bibinitperiod},
+           given={Laurence\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{f56436e1fc18c801a757cdebebda55f0}
+      \strng{fullhash}{f56436e1fc18c801a757cdebebda55f0}
+      \strng{bibnamehash}{f56436e1fc18c801a757cdebebda55f0}
+      \strng{authorbibnamehash}{f56436e1fc18c801a757cdebebda55f0}
+      \strng{authornamehash}{f56436e1fc18c801a757cdebebda55f0}
+      \strng{authorfullhash}{f56436e1fc18c801a757cdebebda55f0}
+      \strng{editorbibnamehash}{de8a597df7e604da5fe6ea58760bd84c}
+      \strng{editornamehash}{de8a597df7e604da5fe6ea58760bd84c}
+      \strng{editorfullhash}{f14eb3c0aa0c641d4cfc2eaf2395fb62}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{50 Years of Integer Programming 1958-2008: From the Early Years to the State-of-the-Art}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Symmetry in Integer Linear Programming}
+      \field{year}{2010}
+      \field{pages}{647\bibrangedash 686}
+      \range{pages}{40}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{Simanchev96}{article}{}
+      \name{author}{1}{}{%
+        {{hash=28c408e380795722abe5e57c8a4309b8}{%
+           family={Simanchev},
+           familyi={S\bibinitperiod},
+           given={Ruslan},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{28c408e380795722abe5e57c8a4309b8}
+      \strng{fullhash}{28c408e380795722abe5e57c8a4309b8}
+      \strng{bibnamehash}{28c408e380795722abe5e57c8a4309b8}
+      \strng{authorbibnamehash}{28c408e380795722abe5e57c8a4309b8}
+      \strng{authornamehash}{28c408e380795722abe5e57c8a4309b8}
+      \strng{authorfullhash}{28c408e380795722abe5e57c8a4309b8}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Vestnik Omskogo Universiteta}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{note}{in Russian}
+      \field{title}{Linear symmetries of matchings polyhedron and graph automorphisms}
+      \field{year}{1996}
+      \field{pages}{18\bibrangedash 20}
+      \range{pages}{3}
+      \field{volume}{1}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{L12}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6c501b106a067f9390ed721e696a5ae9}{%
+           family={Liberti},
+           familyi={L\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c501b106a067f9390ed721e696a5ae9}
+      \strng{fullhash}{6c501b106a067f9390ed721e696a5ae9}
+      \strng{bibnamehash}{6c501b106a067f9390ed721e696a5ae9}
+      \strng{authorbibnamehash}{6c501b106a067f9390ed721e696a5ae9}
+      \strng{authornamehash}{6c501b106a067f9390ed721e696a5ae9}
+      \strng{authorfullhash}{6c501b106a067f9390ed721e696a5ae9}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Programming}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Reformulations in mathematical programming: automatic symmetry detection and exploitation}
+      \field{year}{2012}
+      \field{issue}{1\bibrangedash 2}
+      \range{issue}{2}
+      \field{volume}{131}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{PR19}{article}{}
+      \name{author}{2}{}{%
+        {{hash=de7210f4a2d901f95ae27f501604f28f}{%
+           family={Pfetsch},
+           familyi={P\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3bfbf1ff410d65ce31aeb30dacca46a4}{%
+           family={Rehn},
+           familyi={R\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5382f81fde5710ae128d547ca945573c}
+      \strng{fullhash}{5382f81fde5710ae128d547ca945573c}
+      \strng{bibnamehash}{5382f81fde5710ae128d547ca945573c}
+      \strng{authorbibnamehash}{5382f81fde5710ae128d547ca945573c}
+      \strng{authornamehash}{5382f81fde5710ae128d547ca945573c}
+      \strng{authorfullhash}{5382f81fde5710ae128d547ca945573c}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Math. Progr. Comput.}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{A computational comparison of symmetry handling methods for mixed integer programs}
+      \field{year}{2019}
+      \field{pages}{37\bibrangedash 93}
+      \range{pages}{57}
+      \field{volume}{11}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{Doerr21}{article}{}
+      \name{author}{1}{}{%
+        {{hash=31e296f14b85dca631fe682b68c6c371}{%
+           family={Doerr},
+           familyi={D\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{31e296f14b85dca631fe682b68c6c371}
+      \strng{fullhash}{31e296f14b85dca631fe682b68c6c371}
+      \strng{bibnamehash}{31e296f14b85dca631fe682b68c6c371}
+      \strng{authorbibnamehash}{31e296f14b85dca631fe682b68c6c371}
+      \strng{authornamehash}{31e296f14b85dca631fe682b68c6c371}
+      \strng{authorfullhash}{31e296f14b85dca631fe682b68c6c371}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Inf. Process. Lett.}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Runtime analysis of evolutionary algorithms via symmetry arguments}
+      \field{year}{2021}
+      \field{pages}{106064}
+      \range{pages}{1}
+      \field{volume}{166}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1016/j.ipl.2020.106064
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{Adam2004}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a043b95b25583815e312e708d732b794}{%
+           family={Prugel-Bennett},
+           familyi={P\bibinithyphendelim B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Press}%
+      }
+      \strng{namehash}{a043b95b25583815e312e708d732b794}
+      \strng{fullhash}{a043b95b25583815e312e708d732b794}
+      \strng{bibnamehash}{a043b95b25583815e312e708d732b794}
+      \strng{authorbibnamehash}{a043b95b25583815e312e708d732b794}
+      \strng{authornamehash}{a043b95b25583815e312e708d732b794}
+      \strng{authorfullhash}{a043b95b25583815e312e708d732b794}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trans. Evol. Comp}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{month}{2}
+      \field{title}{Symmetry Breaking in Population-Based Optimization}
+      \field{year}{2004}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{63\bibrangedash 79}
+      \range{pages}{17}
+      \field{volume}{8}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1109/TEVC.2003.819419
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{Shor1998}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=577ca072ae0f33725a5dbadad323ad06}{%
+           family={Shor},
+           familyi={S\bibinitperiod},
+           given={Naum\bibnamedelima Z.},
+           giveni={N\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston, MA}%
+      }
+      \list{publisher}{1}{%
+        {Springer US}%
+      }
+      \strng{namehash}{577ca072ae0f33725a5dbadad323ad06}
+      \strng{fullhash}{577ca072ae0f33725a5dbadad323ad06}
+      \strng{bibnamehash}{577ca072ae0f33725a5dbadad323ad06}
+      \strng{authorbibnamehash}{577ca072ae0f33725a5dbadad323ad06}
+      \strng{authornamehash}{577ca072ae0f33725a5dbadad323ad06}
+      \strng{authorfullhash}{577ca072ae0f33725a5dbadad323ad06}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Nondifferentiable Optimization and Polynomial Problems}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Semidefinite Programming Bounds for Extremal Graph Problems}
+      \field{year}{1998}
+      \field{pages}{265\bibrangedash 298}
+      \range{pages}{34}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{Zhelobenko}{book}{}
+      \name{author}{1}{}{%
+        {{hash=dd7f71d13d3d906dc33b3d8b90867033}{%
+           family={Zhelobenko},
+           familyi={Z\bibinitperiod},
+           given={Dmitrii\bibnamedelima Petrovich},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Providence, AMS}%
+      }
+      \strng{namehash}{dd7f71d13d3d906dc33b3d8b90867033}
+      \strng{fullhash}{dd7f71d13d3d906dc33b3d8b90867033}
+      \strng{bibnamehash}{dd7f71d13d3d906dc33b3d8b90867033}
+      \strng{authorbibnamehash}{dd7f71d13d3d906dc33b3d8b90867033}
+      \strng{authornamehash}{dd7f71d13d3d906dc33b3d8b90867033}
+      \strng{authorfullhash}{dd7f71d13d3d906dc33b3d8b90867033}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{series}{Translations of mathematical monographs}
+      \field{title}{Compact Lie Groups and their Representations}
+      \field{year}{1973}
+      \field{volume}{40}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{Lancaster}{book}{}
+      \name{author}{2}{}{%
+        {{hash=f8069af10f00083d34bfc39fd26ee7b3}{%
+           family={Lancaster},
+           familyi={L\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=53bd45bd8b7ad9bb2368238682755795}{%
+           family={Tismenetsky},
+           familyi={T\bibinitperiod},
+           given={Miron},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{5d429a2462923e6feb6502637eb93fbf}
+      \strng{fullhash}{5d429a2462923e6feb6502637eb93fbf}
+      \strng{bibnamehash}{5d429a2462923e6feb6502637eb93fbf}
+      \strng{authorbibnamehash}{5d429a2462923e6feb6502637eb93fbf}
+      \strng{authornamehash}{5d429a2462923e6feb6502637eb93fbf}
+      \strng{authorfullhash}{5d429a2462923e6feb6502637eb93fbf}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{The Theory of Matrices}
+      \field{year}{1985}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
   \enddatalist
-  \missing{ndenbometal:synthesis}
+  \missing{HJ}
 \endrefsection
 
 \refsection{1}
@@ -1177,7 +1746,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Научно-технический сборник <<Техника радиосвязи>>}
+      \field{booktitle}{Научно-технический сборник <<Техника радиосвязи>> (На рецензии)}
       \field{langid}{russian}
       \field{media}{text}
       \field{note}{На рецензии.}
