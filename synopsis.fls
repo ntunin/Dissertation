@@ -1899,6 +1899,22 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT .\images\\2x2bvm.eps
+INPUT .\images\\2x2bvm.eps
+INPUT images\\2x2bvm.eps
+INPUT images\\2x2bvm.eps
+INPUT .\images\\2x2bvd.eps
+INPUT .\images\\2x2bvd.eps
+INPUT images\\2x2bvd.eps
+INPUT images\\2x2bvd.eps
+INPUT .\images\\5x5SVD.eps
+INPUT .\images\\5x5SVD.eps
+INPUT images\\5x5SVD.eps
+INPUT images\\5x5SVD.eps
+INPUT .\images\\r8.eps
+INPUT .\images\\r8.eps
+INPUT images\\r8.eps
+INPUT images\\r8.eps
 INPUT .\images\\fit_dist.eps
 INPUT .\images\\fit_dist.eps
 INPUT images\\fit_dist.eps
@@ -1921,18 +1937,6 @@ INPUT images\\r8_1_25_5x7.png
 INPUT .\images\\r8_25_5x7.png
 INPUT .\images\\r8_25_5x7.png
 INPUT images\\r8_25_5x7.png
-INPUT .\images\\r_bve_w.eps
-INPUT .\images\\r_bve_w.eps
-INPUT images\\r_bve_w.eps
-INPUT images\\r_bve_w.eps
-INPUT .\images\\r_bvd.eps
-INPUT .\images\\r_bvd.eps
-INPUT images\\r_bvd.eps
-INPUT images\\r_bvd.eps
-INPUT .\images\\r_svd.eps
-INPUT .\images\\r_svd.eps
-INPUT images\\r_svd.eps
-INPUT images\\r_svd.eps
 INPUT .\images\\r_bvd_20_results_h.png
 INPUT .\images\\r_bvd_20_results_h.png
 INPUT images\\r_bvd_20_results_h.png
