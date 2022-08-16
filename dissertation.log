@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  15 AUG 2022 07:55
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  16 AUG 2022 07:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2087,7 +2087,6 @@ LaTeX Warning: Label `eq:scale' multiply defined.
 
 LaTeX Warning: Label `eq:scale@cref' multiply defined.
 
-) (Dissertation/part2.aux
 
 LaTeX Warning: Label `eq:task4' multiply defined.
 
@@ -2100,6 +2099,7 @@ LaTeX Warning: Label `tab:results' multiply defined.
 
 LaTeX Warning: Label `tab:results@cref' multiply defined.
 
+) (Dissertation/part4.aux) (Dissertation/part2.aux
 
 LaTeX Warning: Label `tab:structure' multiply defined.
 
@@ -2130,7 +2130,7 @@ LaTeX Warning: Label `eq:commutat2' multiply defined.
 
 LaTeX Warning: Label `eq:commutat2@cref' multiply defined.
 
-) (Dissertation/part4.aux) (Dissertation/part3.aux
+) (Dissertation/part3.aux
 
 LaTeX Warning: Label `sec:radio' multiply defined.
 
@@ -2156,44 +2156,7 @@ LaTeX Warning: Label `ris:f25mhs' multiply defined.
 LaTeX Warning: Label `ris:f25mhs@cref' multiply defined.
 
 ) (Dissertation/conclusion.aux) (Dissertation/acronyms.aux) (Dissertation/dicti
-onary.aux) (Dissertation/applications.aux
-
-LaTeX Warning: Label `experiment' multiply defined.
-
-
-LaTeX Warning: Label `experiment@cref' multiply defined.
-
-
-LaTeX Warning: Label `experiment' multiply defined.
-
-
-LaTeX Warning: Label `experiment@cref' multiply defined.
-
-
-LaTeX Warning: Label `experiment' multiply defined.
-
-
-LaTeX Warning: Label `experiment@cref' multiply defined.
-
-
-LaTeX Warning: Label `experiment' multiply defined.
-
-
-LaTeX Warning: Label `experiment@cref' multiply defined.
-
-
-LaTeX Warning: Label `experiment' multiply defined.
-
-
-LaTeX Warning: Label `experiment@cref' multiply defined.
-
-
-LaTeX Warning: Label `experiment' multiply defined.
-
-
-LaTeX Warning: Label `experiment@cref' multiply defined.
-
-) (Dissertation/references.aux
+onary.aux) (Dissertation/references.aux
 LaTeX Info: Redefining \rmfamily on input line 4.
 LaTeX Info: Redefining \sffamily on input line 4.
 LaTeX Info: Redefining \ttfamily on input line 4.
@@ -2470,10 +2433,16 @@ LaTeX Info: Redefining \sffamily on input line 428.
 LaTeX Info: Redefining \ttfamily on input line 428.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
+LaTeX Info: Redefining \rmfamily on input line 436.
+LaTeX Info: Redefining \sffamily on input line 436.
+LaTeX Info: Redefining \ttfamily on input line 436.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 440.
+LaTeX Info: Redefining \sffamily on input line 440.
+LaTeX Info: Redefining \ttfamily on input line 440.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
 LaTeX Info: Redefining \rmfamily on input line 448.
 LaTeX Info: Redefining \sffamily on input line 448.
 LaTeX Info: Redefining \ttfamily on input line 448.
@@ -2518,16 +2487,10 @@ LaTeX Info: Redefining \sffamily on input line 500.
 LaTeX Info: Redefining \ttfamily on input line 500.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 508.
-LaTeX Info: Redefining \sffamily on input line 508.
-LaTeX Info: Redefining \ttfamily on input line 508.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 512.
-LaTeX Info: Redefining \sffamily on input line 512.
-LaTeX Info: Redefining \ttfamily on input line 512.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
 LaTeX Info: Redefining \rmfamily on input line 520.
 LaTeX Info: Redefining \sffamily on input line 520.
 LaTeX Info: Redefining \ttfamily on input line 520.
@@ -2874,10 +2837,16 @@ LaTeX Info: Redefining \sffamily on input line 1028.
 LaTeX Info: Redefining \ttfamily on input line 1028.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
+LaTeX Info: Redefining \rmfamily on input line 1036.
+LaTeX Info: Redefining \sffamily on input line 1036.
+LaTeX Info: Redefining \ttfamily on input line 1036.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 1040.
+LaTeX Info: Redefining \sffamily on input line 1040.
+LaTeX Info: Redefining \ttfamily on input line 1040.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
 LaTeX Info: Redefining \rmfamily on input line 1048.
 LaTeX Info: Redefining \sffamily on input line 1048.
 LaTeX Info: Redefining \ttfamily on input line 1048.
@@ -2922,16 +2891,10 @@ LaTeX Info: Redefining \sffamily on input line 1100.
 LaTeX Info: Redefining \ttfamily on input line 1100.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 1108.
-LaTeX Info: Redefining \sffamily on input line 1108.
-LaTeX Info: Redefining \ttfamily on input line 1108.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 1112.
-LaTeX Info: Redefining \sffamily on input line 1112.
-LaTeX Info: Redefining \ttfamily on input line 1112.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
 LaTeX Info: Redefining \rmfamily on input line 1120.
 LaTeX Info: Redefining \sffamily on input line 1120.
 LaTeX Info: Redefining \ttfamily on input line 1120.
@@ -3002,6 +2965,43 @@ LaTeX Info: Redefining \sffamily on input line 1196.
 LaTeX Info: Redefining \ttfamily on input line 1196.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
+) (Dissertation/applications.aux
+
+LaTeX Warning: Label `experiment' multiply defined.
+
+
+LaTeX Warning: Label `experiment@cref' multiply defined.
+
+
+LaTeX Warning: Label `experiment' multiply defined.
+
+
+LaTeX Warning: Label `experiment@cref' multiply defined.
+
+
+LaTeX Warning: Label `experiment' multiply defined.
+
+
+LaTeX Warning: Label `experiment@cref' multiply defined.
+
+
+LaTeX Warning: Label `experiment' multiply defined.
+
+
+LaTeX Warning: Label `experiment@cref' multiply defined.
+
+
+LaTeX Warning: Label `experiment' multiply defined.
+
+
+LaTeX Warning: Label `experiment@cref' multiply defined.
+
+
+LaTeX Warning: Label `experiment' multiply defined.
+
+
+LaTeX Warning: Label `experiment@cref' multiply defined.
+
 )
 \c@totalcount@figure@totc=\count647
 \c@totalcount@table@totc=\count648
@@ -3356,14 +3356,14 @@ Package polyglossia Info: Option: English, variant=american.
 
 
 ]
-LaTeX Info: Redefining \rmfamily on input line 82.
-LaTeX Info: Redefining \sffamily on input line 82.
-LaTeX Info: Redefining \ttfamily on input line 82.
+LaTeX Info: Redefining \rmfamily on input line 79.
+LaTeX Info: Redefining \sffamily on input line 79.
+LaTeX Info: Redefining \ttfamily on input line 79.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 83.
-LaTeX Info: Redefining \sffamily on input line 83.
-LaTeX Info: Redefining \ttfamily on input line 83.
+LaTeX Info: Redefining \rmfamily on input line 80.
+LaTeX Info: Redefining \sffamily on input line 80.
+LaTeX Info: Redefining \ttfamily on input line 80.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex) (common/renames.tex)
@@ -3396,6 +3396,17 @@ Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
 Package polyglossia Info: Option: Russian, numerals=arabic.
+(common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 97.
+LaTeX Info: Redefining \sffamily on input line 97.
+LaTeX Info: Redefining \ttfamily on input line 97.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 98.
+LaTeX Info: Redefining \sffamily on input line 98.
+LaTeX Info: Redefining \ttfamily on input line 98.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 100.
 LaTeX Info: Redefining \sffamily on input line 100.
@@ -3407,15 +3418,21 @@ LaTeX Info: Redefining \sffamily on input line 101.
 LaTeX Info: Redefining \ttfamily on input line 101.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
+(common/renames.tex) (common/renames.tex)
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 103.
-LaTeX Info: Redefining \sffamily on input line 103.
-LaTeX Info: Redefining \ttfamily on input line 103.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+(common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 106.
+LaTeX Info: Redefining \sffamily on input line 106.
+LaTeX Info: Redefining \ttfamily on input line 106.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 104.
-LaTeX Info: Redefining \sffamily on input line 104.
-LaTeX Info: Redefining \ttfamily on input line 104.
+LaTeX Info: Redefining \rmfamily on input line 107.
+LaTeX Info: Redefining \sffamily on input line 107.
+LaTeX Info: Redefining \ttfamily on input line 107.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex) (common/renames.tex)
@@ -3425,31 +3442,14 @@ Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
 Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 109.
-LaTeX Info: Redefining \sffamily on input line 109.
-LaTeX Info: Redefining \ttfamily on input line 109.
+LaTeX Info: Redefining \rmfamily on input line 112.
+LaTeX Info: Redefining \sffamily on input line 112.
+LaTeX Info: Redefining \ttfamily on input line 112.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 110.
-LaTeX Info: Redefining \sffamily on input line 110.
-LaTeX Info: Redefining \ttfamily on input line 110.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-(common/renames.tex) (common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-(common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
-(common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 115.
-LaTeX Info: Redefining \sffamily on input line 115.
-LaTeX Info: Redefining \ttfamily on input line 115.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 116.
-LaTeX Info: Redefining \sffamily on input line 116.
-LaTeX Info: Redefining \ttfamily on input line 116.
+LaTeX Info: Redefining \rmfamily on input line 113.
+LaTeX Info: Redefining \sffamily on input line 113.
+LaTeX Info: Redefining \ttfamily on input line 113.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex) (common/renames.tex)
@@ -3471,14 +3471,14 @@ Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
 Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 127.
-LaTeX Info: Redefining \sffamily on input line 127.
-LaTeX Info: Redefining \ttfamily on input line 127.
+LaTeX Info: Redefining \rmfamily on input line 124.
+LaTeX Info: Redefining \sffamily on input line 124.
+LaTeX Info: Redefining \ttfamily on input line 124.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 128.
-LaTeX Info: Redefining \sffamily on input line 128.
-LaTeX Info: Redefining \ttfamily on input line 128.
+LaTeX Info: Redefining \rmfamily on input line 125.
+LaTeX Info: Redefining \sffamily on input line 125.
+LaTeX Info: Redefining \ttfamily on input line 125.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex) (common/renames.tex)
@@ -3487,6 +3487,17 @@ Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
 Package polyglossia Info: Option: Russian, numerals=arabic.
+(common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 130.
+LaTeX Info: Redefining \sffamily on input line 130.
+LaTeX Info: Redefining \ttfamily on input line 130.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 131.
+LaTeX Info: Redefining \sffamily on input line 131.
+LaTeX Info: Redefining \ttfamily on input line 131.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 133.
 LaTeX Info: Redefining \sffamily on input line 133.
@@ -3553,23 +3564,23 @@ LaTeX Info: Redefining \sffamily on input line 149.
 LaTeX Info: Redefining \ttfamily on input line 149.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-(common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 151.
-LaTeX Info: Redefining \sffamily on input line 151.
-LaTeX Info: Redefining \ttfamily on input line 151.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 152.
-LaTeX Info: Redefining \sffamily on input line 152.
-LaTeX Info: Redefining \ttfamily on input line 152.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex) (common/renames.tex)
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
 Package polyglossia Info: Option: Russian, numerals=arabic.
+(common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 154.
+LaTeX Info: Redefining \sffamily on input line 154.
+LaTeX Info: Redefining \ttfamily on input line 154.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 155.
+LaTeX Info: Redefining \sffamily on input line 155.
+LaTeX Info: Redefining \ttfamily on input line 155.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 157.
 LaTeX Info: Redefining \sffamily on input line 157.
@@ -3581,15 +3592,21 @@ LaTeX Info: Redefining \sffamily on input line 158.
 LaTeX Info: Redefining \ttfamily on input line 158.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
+(common/renames.tex) (common/renames.tex)
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 160.
-LaTeX Info: Redefining \sffamily on input line 160.
-LaTeX Info: Redefining \ttfamily on input line 160.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+(common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 163.
+LaTeX Info: Redefining \sffamily on input line 163.
+LaTeX Info: Redefining \ttfamily on input line 163.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 161.
-LaTeX Info: Redefining \sffamily on input line 161.
-LaTeX Info: Redefining \ttfamily on input line 161.
+LaTeX Info: Redefining \rmfamily on input line 164.
+LaTeX Info: Redefining \sffamily on input line 164.
+LaTeX Info: Redefining \ttfamily on input line 164.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex) (common/renames.tex)
@@ -3599,22 +3616,16 @@ Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
 Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 166.
-LaTeX Info: Redefining \sffamily on input line 166.
-LaTeX Info: Redefining \ttfamily on input line 166.
+LaTeX Info: Redefining \rmfamily on input line 169.
+LaTeX Info: Redefining \sffamily on input line 169.
+LaTeX Info: Redefining \ttfamily on input line 169.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 167.
-LaTeX Info: Redefining \sffamily on input line 167.
-LaTeX Info: Redefining \ttfamily on input line 167.
+LaTeX Info: Redefining \rmfamily on input line 170.
+LaTeX Info: Redefining \sffamily on input line 170.
+LaTeX Info: Redefining \ttfamily on input line 170.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-(common/renames.tex) (common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-(common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 172.
 LaTeX Info: Redefining \sffamily on input line 172.
@@ -3681,12 +3692,17 @@ LaTeX Info: Redefining \sffamily on input line 188.
 LaTeX Info: Redefining \ttfamily on input line 188.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-(common/renames.tex) (common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
+LaTeX Info: Redefining \rmfamily on input line 190.
+LaTeX Info: Redefining \sffamily on input line 190.
+LaTeX Info: Redefining \ttfamily on input line 190.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 191.
+LaTeX Info: Redefining \sffamily on input line 191.
+LaTeX Info: Redefining \ttfamily on input line 191.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 193.
 LaTeX Info: Redefining \sffamily on input line 193.
@@ -3698,23 +3714,23 @@ LaTeX Info: Redefining \sffamily on input line 194.
 LaTeX Info: Redefining \ttfamily on input line 194.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-(common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 196.
-LaTeX Info: Redefining \sffamily on input line 196.
-LaTeX Info: Redefining \ttfamily on input line 196.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 197.
-LaTeX Info: Redefining \sffamily on input line 197.
-LaTeX Info: Redefining \ttfamily on input line 197.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex) (common/renames.tex)
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
 Package polyglossia Info: Option: Russian, numerals=arabic.
+(common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 199.
+LaTeX Info: Redefining \sffamily on input line 199.
+LaTeX Info: Redefining \ttfamily on input line 199.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 200.
+LaTeX Info: Redefining \sffamily on input line 200.
+LaTeX Info: Redefining \ttfamily on input line 200.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 202.
 LaTeX Info: Redefining \sffamily on input line 202.
@@ -3726,17 +3742,12 @@ LaTeX Info: Redefining \sffamily on input line 203.
 LaTeX Info: Redefining \ttfamily on input line 203.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
+(common/renames.tex) (common/renames.tex)
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 205.
-LaTeX Info: Redefining \sffamily on input line 205.
-LaTeX Info: Redefining \ttfamily on input line 205.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 206.
-LaTeX Info: Redefining \sffamily on input line 206.
-LaTeX Info: Redefining \ttfamily on input line 206.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 208.
 LaTeX Info: Redefining \sffamily on input line 208.
@@ -3825,47 +3836,47 @@ LaTeX Info: Redefining \sffamily on input line 230.
 LaTeX Info: Redefining \ttfamily on input line 230.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
+(common/renames.tex) (common/renames.tex)
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 232.
-LaTeX Info: Redefining \sffamily on input line 232.
-LaTeX Info: Redefining \ttfamily on input line 232.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+(common/renames.tex) (common/renames.tex)
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+(common/renames.tex)
+Package polyglossia Info: Option: Russian, numerals=arabic.
+(common/renames.tex) (common/renames.tex)
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+(common/renames.tex)
+Package polyglossia Info: Option: Russian, numerals=arabic.
+(common/renames.tex) (common/renames.tex)
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+(common/renames.tex)
+Package polyglossia Info: Option: Russian, numerals=arabic.
+(common/renames.tex) (common/renames.tex)
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+(common/renames.tex)
+Package polyglossia Info: Option: Russian, numerals=arabic.
+(common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 247.
+LaTeX Info: Redefining \sffamily on input line 247.
+LaTeX Info: Redefining \ttfamily on input line 247.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 233.
-LaTeX Info: Redefining \sffamily on input line 233.
-LaTeX Info: Redefining \ttfamily on input line 233.
+LaTeX Info: Redefining \rmfamily on input line 248.
+LaTeX Info: Redefining \sffamily on input line 248.
+LaTeX Info: Redefining \ttfamily on input line 248.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-(common/renames.tex) (common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-(common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
-(common/renames.tex) (common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-(common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
-(common/renames.tex) (common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-(common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
-(common/renames.tex) (common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-(common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
-(common/renames.tex) (common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-(common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 250.
 LaTeX Info: Redefining \sffamily on input line 250.
@@ -3877,15 +3888,21 @@ LaTeX Info: Redefining \sffamily on input line 251.
 LaTeX Info: Redefining \ttfamily on input line 251.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
+(common/renames.tex) (common/renames.tex)
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 253.
-LaTeX Info: Redefining \sffamily on input line 253.
-LaTeX Info: Redefining \ttfamily on input line 253.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+(common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 256.
+LaTeX Info: Redefining \sffamily on input line 256.
+LaTeX Info: Redefining \ttfamily on input line 256.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 254.
-LaTeX Info: Redefining \sffamily on input line 254.
-LaTeX Info: Redefining \ttfamily on input line 254.
+LaTeX Info: Redefining \rmfamily on input line 257.
+LaTeX Info: Redefining \sffamily on input line 257.
+LaTeX Info: Redefining \ttfamily on input line 257.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex) (common/renames.tex)
@@ -3895,31 +3912,14 @@ Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
 Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 259.
-LaTeX Info: Redefining \sffamily on input line 259.
-LaTeX Info: Redefining \ttfamily on input line 259.
+LaTeX Info: Redefining \rmfamily on input line 262.
+LaTeX Info: Redefining \sffamily on input line 262.
+LaTeX Info: Redefining \ttfamily on input line 262.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 260.
-LaTeX Info: Redefining \sffamily on input line 260.
-LaTeX Info: Redefining \ttfamily on input line 260.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-(common/renames.tex) (common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-(common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
-(common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 265.
-LaTeX Info: Redefining \sffamily on input line 265.
-LaTeX Info: Redefining \ttfamily on input line 265.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 266.
-LaTeX Info: Redefining \sffamily on input line 266.
-LaTeX Info: Redefining \ttfamily on input line 266.
+LaTeX Info: Redefining \rmfamily on input line 263.
+LaTeX Info: Redefining \sffamily on input line 263.
+LaTeX Info: Redefining \ttfamily on input line 263.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex) (common/renames.tex)
@@ -3941,14 +3941,14 @@ Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
 Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 277.
-LaTeX Info: Redefining \sffamily on input line 277.
-LaTeX Info: Redefining \ttfamily on input line 277.
+LaTeX Info: Redefining \rmfamily on input line 274.
+LaTeX Info: Redefining \sffamily on input line 274.
+LaTeX Info: Redefining \ttfamily on input line 274.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 278.
-LaTeX Info: Redefining \sffamily on input line 278.
-LaTeX Info: Redefining \ttfamily on input line 278.
+LaTeX Info: Redefining \rmfamily on input line 275.
+LaTeX Info: Redefining \sffamily on input line 275.
+LaTeX Info: Redefining \ttfamily on input line 275.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex) (common/renames.tex)
@@ -3957,6 +3957,17 @@ Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
 Package polyglossia Info: Option: Russian, numerals=arabic.
+(common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 280.
+LaTeX Info: Redefining \sffamily on input line 280.
+LaTeX Info: Redefining \ttfamily on input line 280.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 281.
+LaTeX Info: Redefining \sffamily on input line 281.
+LaTeX Info: Redefining \ttfamily on input line 281.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 283.
 LaTeX Info: Redefining \sffamily on input line 283.
@@ -4023,23 +4034,23 @@ LaTeX Info: Redefining \sffamily on input line 299.
 LaTeX Info: Redefining \ttfamily on input line 299.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-(common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 301.
-LaTeX Info: Redefining \sffamily on input line 301.
-LaTeX Info: Redefining \ttfamily on input line 301.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 302.
-LaTeX Info: Redefining \sffamily on input line 302.
-LaTeX Info: Redefining \ttfamily on input line 302.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex) (common/renames.tex)
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
 Package polyglossia Info: Option: Russian, numerals=arabic.
+(common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 304.
+LaTeX Info: Redefining \sffamily on input line 304.
+LaTeX Info: Redefining \ttfamily on input line 304.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 305.
+LaTeX Info: Redefining \sffamily on input line 305.
+LaTeX Info: Redefining \ttfamily on input line 305.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 307.
 LaTeX Info: Redefining \sffamily on input line 307.
@@ -4051,15 +4062,21 @@ LaTeX Info: Redefining \sffamily on input line 308.
 LaTeX Info: Redefining \ttfamily on input line 308.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
+(common/renames.tex) (common/renames.tex)
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 310.
-LaTeX Info: Redefining \sffamily on input line 310.
-LaTeX Info: Redefining \ttfamily on input line 310.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+(common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 313.
+LaTeX Info: Redefining \sffamily on input line 313.
+LaTeX Info: Redefining \ttfamily on input line 313.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 311.
-LaTeX Info: Redefining \sffamily on input line 311.
-LaTeX Info: Redefining \ttfamily on input line 311.
+LaTeX Info: Redefining \rmfamily on input line 314.
+LaTeX Info: Redefining \sffamily on input line 314.
+LaTeX Info: Redefining \ttfamily on input line 314.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex) (common/renames.tex)
@@ -4069,22 +4086,16 @@ Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
 Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 316.
-LaTeX Info: Redefining \sffamily on input line 316.
-LaTeX Info: Redefining \ttfamily on input line 316.
+LaTeX Info: Redefining \rmfamily on input line 319.
+LaTeX Info: Redefining \sffamily on input line 319.
+LaTeX Info: Redefining \ttfamily on input line 319.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 317.
-LaTeX Info: Redefining \sffamily on input line 317.
-LaTeX Info: Redefining \ttfamily on input line 317.
+LaTeX Info: Redefining \rmfamily on input line 320.
+LaTeX Info: Redefining \sffamily on input line 320.
+LaTeX Info: Redefining \ttfamily on input line 320.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-(common/renames.tex) (common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-(common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 322.
 LaTeX Info: Redefining \sffamily on input line 322.
@@ -4151,12 +4162,17 @@ LaTeX Info: Redefining \sffamily on input line 338.
 LaTeX Info: Redefining \ttfamily on input line 338.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-(common/renames.tex) (common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
+LaTeX Info: Redefining \rmfamily on input line 340.
+LaTeX Info: Redefining \sffamily on input line 340.
+LaTeX Info: Redefining \ttfamily on input line 340.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 341.
+LaTeX Info: Redefining \sffamily on input line 341.
+LaTeX Info: Redefining \ttfamily on input line 341.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 343.
 LaTeX Info: Redefining \sffamily on input line 343.
@@ -4168,23 +4184,23 @@ LaTeX Info: Redefining \sffamily on input line 344.
 LaTeX Info: Redefining \ttfamily on input line 344.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-(common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 346.
-LaTeX Info: Redefining \sffamily on input line 346.
-LaTeX Info: Redefining \ttfamily on input line 346.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 347.
-LaTeX Info: Redefining \sffamily on input line 347.
-LaTeX Info: Redefining \ttfamily on input line 347.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex) (common/renames.tex)
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
 Package polyglossia Info: Option: Russian, numerals=arabic.
+(common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 349.
+LaTeX Info: Redefining \sffamily on input line 349.
+LaTeX Info: Redefining \ttfamily on input line 349.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 350.
+LaTeX Info: Redefining \sffamily on input line 350.
+LaTeX Info: Redefining \ttfamily on input line 350.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 352.
 LaTeX Info: Redefining \sffamily on input line 352.
@@ -4196,17 +4212,12 @@ LaTeX Info: Redefining \sffamily on input line 353.
 LaTeX Info: Redefining \ttfamily on input line 353.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
+(common/renames.tex) (common/renames.tex)
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 355.
-LaTeX Info: Redefining \sffamily on input line 355.
-LaTeX Info: Redefining \ttfamily on input line 355.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 356.
-LaTeX Info: Redefining \sffamily on input line 356.
-LaTeX Info: Redefining \ttfamily on input line 356.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 358.
 LaTeX Info: Redefining \sffamily on input line 358.
@@ -4282,17 +4293,6 @@ Package polyglossia Info: Option: English, variant=american.
 LaTeX Info: Redefining \rmfamily on input line 377.
 LaTeX Info: Redefining \sffamily on input line 377.
 LaTeX Info: Redefining \ttfamily on input line 377.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-(common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 379.
-LaTeX Info: Redefining \sffamily on input line 379.
-LaTeX Info: Redefining \ttfamily on input line 379.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 380.
-LaTeX Info: Redefining \sffamily on input line 380.
-LaTeX Info: Redefining \ttfamily on input line 380.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex))) [3.3]
@@ -4515,57 +4515,20 @@ Underfull \hbox (badness 1990) in paragraph at lines 216--218
 дствами градиентной
  []
 
-[29.29] [30.30] [31.31]) [32.32]
-\openout2 = `Dissertation/part2.aux'.
-
-(Dissertation/part2.tex [33.33
-
-
-
-
-] [34.34] [35.35] [36.36] [37.37]
-File: images//BWE_comp.eps Graphic file (type eps)
-<images//BWE_comp.eps>
+[29.29] [30.30] [31.31] [32.32] [33.33]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-File: images//fit_dist.eps Graphic file (type eps)
-<images//fit_dist.eps>
-File: images//fit_dist_2x2.eps Graphic file (type eps)
-<images//fit_dist_2x2.eps>
-[38.38] [39.39] [40.40]
-File: images//stability.eps Graphic file (type eps)
-<images//stability.eps>
-[41.41] [42.42] [43.43] [44.44]
-Missing character: There is no Р in font cmsy10!
-Missing character: There is no Р in font cmsy10!
-[45.45] [46.46]
-Underfull \hbox (badness 2334) in paragraph at lines 322--324
-[]\TU/TimesNewRoman(1)/m/n/14.4 Утверждение [][]1[][] может быть применено для 
-анализа симметрий зада-
- []
+[34.34] [35.35]
+File: images//BWE_comp.eps Graphic file (type eps)
+<images//BWE_comp.eps>
 
-[47.47] [48.48]
-Underfull \hbox (badness 7981) in paragraph at lines 383--384
-[]\TU/TimesNewRoman(1)/m/n/14.4 Из стандартных фактов теории топологических гру
-пп (см., напри-
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[49.49]
-Underfull \hbox (badness 6910) in paragraph at lines 416--418
-[]\TU/TimesNewRoman(1)/m/n/14.4 Совершенно очевидно, что для выполнения условий
- коммутативно-
- []
-
-[50.50] [51.51] [52.52]
-Overfull \hbox (10.87254pt too wide) detected at line 496
-\OML/cmm/m/it/14.4 e[] \OT1/cmr/m/n/14.4 = [] \OML/cmm/m/it/14.4 :
- []
-
-) [53.53]
+) [36.36] [37.37]
 \openout2 = `Dissertation/part4.aux'.
 
-(Dissertation/part4.tex [54.54
+(Dissertation/part4.tex [38.38
 
 
 
@@ -4573,13 +4536,66 @@ Overfull \hbox (10.87254pt too wide) detected at line 496
 ]
 Missing character: There is no − in font cmr12!
 Missing character: There is no − in font cmr12!
-[55.55]) [56.56]
+[39.39]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [40.40] [41.41]
+\openout2 = `Dissertation/part2.aux'.
+
+(Dissertation/part2.tex
+File: images//fit_dist.eps Graphic file (type eps)
+<images//fit_dist.eps>
+File: images//fit_dist_2x2.eps Graphic file (type eps)
+<images//fit_dist_2x2.eps>
+[42.42
+
+
+
+
+] [43.43] [44.44]
+File: images//stability.eps Graphic file (type eps)
+<images//stability.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[45.45]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[46.46] [47.47] [48.48] [49.49]
+Missing character: There is no Р in font cmsy10!
+Missing character: There is no Р in font cmsy10!
+[50.50] [51.51]
+Underfull \hbox (badness 2334) in paragraph at lines 271--273
+[]\TU/TimesNewRoman(1)/m/n/14.4 Утверждение [][]1[][] может быть применено для 
+анализа симметрий зада-
+ []
+
+[52.52]
+Underfull \hbox (badness 7981) in paragraph at lines 332--333
+[]\TU/TimesNewRoman(1)/m/n/14.4 Из стандартных фактов теории топологических гру
+пп (см., напри-
+ []
+
+[53.53] [54.54]
+Underfull \hbox (badness 6910) in paragraph at lines 365--367
+[]\TU/TimesNewRoman(1)/m/n/14.4 Совершенно очевидно, что для выполнения условий
+ коммутативно-
+ []
+
+[55.55] [56.56]
+Overfull \hbox (10.87254pt too wide) detected at line 445
+\OML/cmm/m/it/14.4 e[] \OT1/cmr/m/n/14.4 = [] \OML/cmm/m/it/14.4 :
+ []
+
+) [57.57]
 \openout2 = `Dissertation/part3.aux'.
 
 (Dissertation/part3.tex
 File: images//ring_f__paa_gains.eps Graphic file (type eps)
 <images//ring_f__paa_gains.eps>
-[57.57
+[58.58
 
 
 
@@ -4587,7 +4603,7 @@ File: images//ring_f__paa_gains.eps Graphic file (type eps)
 ]
 File: images//ring_f_gains.eps Graphic file (type eps)
 <images//ring_f_gains.eps>
-[58.58]
+[59.59]
 File: images//r8_1_5_5x7.png Graphic file (type bmp)
 <images//r8_1_5_5x7.png>
 File: images//r8_5_5x7.png Graphic file (type bmp)
@@ -4604,12 +4620,12 @@ File: images//r8_1_25_5x7.png Graphic file (type bmp)
 <images//r8_1_25_5x7.png>
 File: images//r8_25_5x7.png Graphic file (type bmp)
 <images//r8_25_5x7.png>
-[59.59]
+[60.60]
 File: images//r8_horizontal_5x7.eps Graphic file (type eps)
 <images//r8_horizontal_5x7.eps>
 File: images//r8_horizontal_5x7_2.eps Graphic file (type eps)
 <images//r8_horizontal_5x7_2.eps>
-[60.60] [61.61]
+[61.61] [62.62]
 File: images//mut/bve/5/8/h.eps Graphic file (type eps)
 <images//mut/bve/5/8/h.eps>
 File: images//mut/bve/5/8/v.eps Graphic file (type eps)
@@ -4619,18 +4635,18 @@ File: images//mut/bve/5/15/h.eps Graphic file (type eps)
 File: images//mut/bve/5/15/v.eps Graphic file (type eps)
 <images//mut/bve/5/15/v.eps>
 
-LaTeX Warning: Reference `ris:ris:bvd_mut_5_10' on page 62 undefined on input l
+LaTeX Warning: Reference `ris:ris:bvd_mut_5_10' on page 63 undefined on input l
 ine 135.
 
 
-LaTeX Warning: Reference `ris:ris:bvd_mut_5_20' on page 62 undefined on input l
+LaTeX Warning: Reference `ris:ris:bvd_mut_5_20' on page 63 undefined on input l
 ine 135.
 
 File: images//mut/bvd/5/10/h.eps Graphic file (type eps)
 <images//mut/bvd/5/10/h.eps>
 File: images//mut/bvd/5/10/v.eps Graphic file (type eps)
 <images//mut/bvd/5/10/v.eps>
-[62.62]
+[63.63]
 File: images//mut/bvd/5/50/h.eps Graphic file (type eps)
 <images//mut/bvd/5/50/h.eps>
 File: images//mut/bvd/5/50/v.eps Graphic file (type eps)
@@ -4640,7 +4656,7 @@ File: images//mut/bvd/5/20/h.eps Graphic file (type eps)
 File: images//mut/bvd/5/20/v.eps Graphic file (type eps)
 <images//mut/bvd/5/20/v.eps>
 
-LaTeX Warning: Reference `ris:ris:bvd_mut_25_10' on page 63 undefined on input 
+LaTeX Warning: Reference `ris:ris:bvd_mut_25_10' on page 64 undefined on input 
 line 174.
 
 File: images//mut/bvd/25/10/h.eps Graphic file (type eps)
@@ -4667,7 +4683,7 @@ File: images//mut/svd/5/70/40/h.eps Graphic file (type eps)
 <images//mut/svd/5/70/40/h.eps>
 File: images//mut/svd/5/70/40/v.eps Graphic file (type eps)
 <images//mut/svd/5/70/40/v.eps>
-[63.63]
+[64.64]
 File: images//mut/svd/5/85/25/h.eps Graphic file (type eps)
 <images//mut/svd/5/85/25/h.eps>
 File: images//mut/svd/5/85/25/v.eps Graphic file (type eps)
@@ -4676,8 +4692,8 @@ File: images//mut/svd/5/85/45/h.eps Graphic file (type eps)
 <images//mut/svd/5/85/45/h.eps>
 File: images//mut/svd/5/85/45/v.eps Graphic file (type eps)
 <images//mut/svd/5/85/45/v.eps>
-) [64.64] [65.65] [66.66] [67.67] [68.68] [69.69] [70.70] [71.71] [72.72] [73.7
-3] [74.74] [75.75]
+) [65.65] [66.66] [67.67] [68.68] [69.69] [70.70] [71.71] [72.72] [73.73] [74.7
+4] [75.75] [76.76]
 \openout2 = `Dissertation/conclusion.aux'.
 
 (Dissertation/conclusion.tex (common/concl.tex)
@@ -4698,7 +4714,7 @@ Underfull \hbox (badness 2698) in paragraph at lines 12--17
 на *Russian-Phd-LaTeX-
  []
 
-) [76.76
+) [77.77
 
 
 
@@ -4709,7 +4725,7 @@ Underfull \hbox (badness 2698) in paragraph at lines 12--17
 (Dissertation/acronyms.tex (dissertation.nls))
 \openout2 = `Dissertation/dictionary.aux'.
 
-(Dissertation/dictionary.tex) [77.77
+(Dissertation/dictionary.tex) [78.78
 
 
 
@@ -4718,97 +4734,6 @@ Underfull \hbox (badness 2698) in paragraph at lines 12--17
 
 
 ]
-\openout2 = `Dissertation/applications.aux'.
-
-(Dissertation/applications.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--40
-
- []
-
-[78.78
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--48
-
- []
-
-
-Underfull \hbox (badness 6204) in paragraph at lines 51--52
-[]\TU/TimesNewRoman(1)/m/n/14.4 Вычислить $[][]$ алгоритмом одномерного поиска 
-1 с параметрами
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
- []
-
-[79.79]
-Underfull \hbox (badness 2165) in paragraph at lines 85--88
-[]\TU/TimesNewRoman(1)/m/n/14.4 Комплекс моделирования и решения задач оптимиза
-ции направленно-
- []
-
-
-Underfull \hbox (badness 2073) in paragraph at lines 85--88
-\TU/TimesNewRoman(1)/m/n/14.4 сти ФАР КВ диапазона «Expi» предназначен для моде
-лирования антенных
- []
-
-[80.80]
-File: expi_script.jpeg Graphic file (type bmp)
-<expi_script.jpeg>
-File: expi_paa.jpeg Graphic file (type bmp)
-<expi_paa.jpeg>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: expi_results.jpeg Graphic file (type bmp)
-<expi_results.jpeg>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[81.81] [82.82]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 116.
-[83.83] [84.84] [85.85]) [86.86]
 \openout2 = `Dissertation/references.aux'.
 
 (Dissertation/references.tex
@@ -4836,7 +4761,7 @@ LaTeX Info: Redefining \ttfamily on input line 6.
 LaTeX Info: Redefining \rmfamily on input line 6.
 LaTeX Info: Redefining \sffamily on input line 6.
 LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex) (common/renames.tex) (common/renames.tex) [87.87
+(common/renames.tex) (common/renames.tex) (common/renames.tex) [79.79
 
 
 
@@ -4886,7 +4811,7 @@ LaTeX Info: Redefining \ttfamily on input line 6.
 LaTeX Info: Redefining \rmfamily on input line 6.
 LaTeX Info: Redefining \sffamily on input line 6.
 LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex) [88.88]
+(common/renames.tex) [80.80]
 LaTeX Info: Redefining \rmfamily on input line 6.
 LaTeX Info: Redefining \sffamily on input line 6.
 LaTeX Info: Redefining \ttfamily on input line 6.
@@ -4922,7 +4847,19 @@ LaTeX Info: Redefining \ttfamily on input line 6.
 LaTeX Info: Redefining \rmfamily on input line 6.
 LaTeX Info: Redefining \sffamily on input line 6.
 LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex) [89.89]
+(common/renames.tex) [81.81]
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
+(common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
+(common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
+(common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 6.
 LaTeX Info: Redefining \sffamily on input line 6.
 LaTeX Info: Redefining \ttfamily on input line 6.
@@ -4955,19 +4892,7 @@ LaTeX Info: Redefining \ttfamily on input line 6.
 LaTeX Info: Redefining \rmfamily on input line 6.
 LaTeX Info: Redefining \sffamily on input line 6.
 LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 6.
-LaTeX Info: Redefining \sffamily on input line 6.
-LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 6.
-LaTeX Info: Redefining \sffamily on input line 6.
-LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 6.
-LaTeX Info: Redefining \sffamily on input line 6.
-LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex) [90.90]
+[82.82] (common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 6.
 LaTeX Info: Redefining \sffamily on input line 6.
 LaTeX Info: Redefining \ttfamily on input line 6.
@@ -5070,6 +4995,18 @@ LaTeX Info: Redefining \ttfamily on input line 6.
 LaTeX Info: Redefining \rmfamily on input line 6.
 LaTeX Info: Redefining \sffamily on input line 6.
 LaTeX Info: Redefining \ttfamily on input line 6.
+(common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
+(common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
+(common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
 (common/renames.tex) (common/renames.tex) (common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 6.
 LaTeX Info: Redefining \sffamily on input line 6.
@@ -5106,19 +5043,102 @@ LaTeX Info: Redefining \ttfamily on input line 6.
 LaTeX Info: Redefining \rmfamily on input line 6.
 LaTeX Info: Redefining \sffamily on input line 6.
 LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 6.
-LaTeX Info: Redefining \sffamily on input line 6.
-LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 6.
-LaTeX Info: Redefining \sffamily on input line 6.
-LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 6.
-LaTeX Info: Redefining \sffamily on input line 6.
-LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex)) [91.91]
+(common/renames.tex)) [83.83]
+\openout2 = `Dissertation/applications.aux'.
+
+(Dissertation/applications.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+[84.84
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 38--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+
+Underfull \hbox (badness 6204) in paragraph at lines 53--54
+[]\TU/TimesNewRoman(1)/m/n/14.4 Вычислить $[][]$ алгоритмом одномерного поиска 
+1 с параметрами
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+[85.85]
+Underfull \hbox (badness 2165) in paragraph at lines 87--90
+[]\TU/TimesNewRoman(1)/m/n/14.4 Комплекс моделирования и решения задач оптимиза
+ции направленно-
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 87--90
+\TU/TimesNewRoman(1)/m/n/14.4 сти ФАР КВ диапазона «Expi» предназначен для моде
+лирования антенных
+ []
+
+[86.86]
+File: expi_script.jpeg Graphic file (type bmp)
+<expi_script.jpeg>
+File: expi_paa.jpeg Graphic file (type bmp)
+<expi_paa.jpeg>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: expi_results.jpeg Graphic file (type bmp)
+<expi_results.jpeg>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[87.87]
+Overfull \vbox (70.17807pt too high) has occurred while \output is active []
+
+[88.88]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 118.
+[89.89] [90.90] [91.91]) [92.92]
 
 Package nag Warning: Unmatched ``\center'' command on line 272.
 
@@ -5234,16 +5254,16 @@ Package nag Warning: Unmatched ``\center'' command on line 19.
 Package nag Warning: Unmatched ``\center'' command on line 11.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 128.
+Package nag Warning: Unmatched ``\center'' command on line 77.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 107.
+Package nag Warning: Unmatched ``\center'' command on line 32.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 104.
+Package nag Warning: Unmatched ``\center'' command on line 29.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 72.
+Package nag Warning: Unmatched ``\center'' command on line 325.
 
 
 Package nag Warning: Unmatched ``\center'' command on line 29.
@@ -5514,10 +5534,10 @@ LaTeX Info: Redefining \sffamily on input line 154.
 LaTeX Info: Redefining \ttfamily on input line 154.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-(common/renames.tex)) (Dissertation/part1.aux) (Dissertation/part2.aux) (Disser
-tation/part4.aux) (Dissertation/part3.aux) (Dissertation/conclusion.aux) (Disse
-rtation/acronyms.aux) (Dissertation/dictionary.aux) (Dissertation/applications.
-aux) (Dissertation/references.aux
+(common/renames.tex)) (Dissertation/part1.aux) (Dissertation/part4.aux) (Disser
+tation/part2.aux) (Dissertation/part3.aux) (Dissertation/conclusion.aux) (Disse
+rtation/acronyms.aux) (Dissertation/dictionary.aux) (Dissertation/references.au
+x
 LaTeX Info: Redefining \rmfamily on input line 4.
 LaTeX Info: Redefining \sffamily on input line 4.
 LaTeX Info: Redefining \ttfamily on input line 4.
@@ -5843,12 +5863,17 @@ LaTeX Info: Redefining \sffamily on input line 428.
 LaTeX Info: Redefining \ttfamily on input line 428.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-(common/renames.tex) (common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
+LaTeX Info: Redefining \rmfamily on input line 436.
+LaTeX Info: Redefining \sffamily on input line 436.
+LaTeX Info: Redefining \ttfamily on input line 436.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 440.
+LaTeX Info: Redefining \sffamily on input line 440.
+LaTeX Info: Redefining \ttfamily on input line 440.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 448.
 LaTeX Info: Redefining \sffamily on input line 448.
@@ -5899,17 +5924,12 @@ LaTeX Info: Redefining \sffamily on input line 500.
 LaTeX Info: Redefining \ttfamily on input line 500.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
+(common/renames.tex) (common/renames.tex)
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 508.
-LaTeX Info: Redefining \sffamily on input line 508.
-LaTeX Info: Redefining \ttfamily on input line 508.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 512.
-LaTeX Info: Redefining \sffamily on input line 512.
-LaTeX Info: Redefining \ttfamily on input line 512.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 520.
 LaTeX Info: Redefining \sffamily on input line 520.
@@ -6313,12 +6333,17 @@ LaTeX Info: Redefining \sffamily on input line 1028.
 LaTeX Info: Redefining \ttfamily on input line 1028.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-(common/renames.tex) (common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
-Package polyglossia Info: Option: Russian, numerals=arabic.
+LaTeX Info: Redefining \rmfamily on input line 1036.
+LaTeX Info: Redefining \sffamily on input line 1036.
+LaTeX Info: Redefining \ttfamily on input line 1036.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 1040.
+LaTeX Info: Redefining \sffamily on input line 1040.
+LaTeX Info: Redefining \ttfamily on input line 1040.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
 (common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 1048.
 LaTeX Info: Redefining \sffamily on input line 1048.
@@ -6369,17 +6394,12 @@ LaTeX Info: Redefining \sffamily on input line 1100.
 LaTeX Info: Redefining \ttfamily on input line 1100.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
+(common/renames.tex) (common/renames.tex)
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 1108.
-LaTeX Info: Redefining \sffamily on input line 1108.
-LaTeX Info: Redefining \ttfamily on input line 1108.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 1112.
-LaTeX Info: Redefining \sffamily on input line 1112.
-LaTeX Info: Redefining \ttfamily on input line 1112.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: Russian, numerals=arabic.
 (common/renames.tex)
 LaTeX Info: Redefining \rmfamily on input line 1120.
 LaTeX Info: Redefining \sffamily on input line 1120.
@@ -6457,7 +6477,7 @@ LaTeX Info: Redefining \sffamily on input line 1196.
 LaTeX Info: Redefining \ttfamily on input line 1196.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-(common/renames.tex)))
+(common/renames.tex)) (Dissertation/applications.aux))
 
  *File List*
 dissertation.tex
@@ -6904,12 +6924,12 @@ images//2x2bvm.eps
 images//2x2bvd.eps
 images//5x5SVD.eps
 images//r8.eps
-Dissertation/part2.tex
 images//BWE_comp.eps
+Dissertation/part4.tex
+Dissertation/part2.tex
 images//fit_dist.eps
 images//fit_dist_2x2.eps
 images//stability.eps
-Dissertation/part4.tex
 Dissertation/part3.tex
 images//ring_f__paa_gains.eps
 images//ring_f_gains.eps
@@ -6954,10 +6974,6 @@ common/concl.tex
 Dissertation/acronyms.tex
 dissertation.nls
 Dissertation/dictionary.tex
-Dissertation/applications.tex
-expi_script.jpeg    Graphic file (type bmp)
-expi_paa.jpeg    Graphic file (type bmp)
-expi_results.jpeg    Graphic file (type bmp)
 Dissertation/references.tex
 common/renames.tex
 common/renames.tex
@@ -7091,6 +7107,10 @@ common/renames.tex
 common/renames.tex
 common/renames.tex
 common/renames.tex
+Dissertation/applications.tex
+expi_script.jpeg    Graphic file (type bmp)
+expi_paa.jpeg    Graphic file (type bmp)
+expi_results.jpeg    Graphic file (type bmp)
 common/renames.tex
 common/renames.tex
 common/renames.tex
@@ -7292,22 +7312,22 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 28549C0486A0D7302A698D0E8B32103C;11775.
+(rerunfilecheck)             Checksum: 30E5C71EAAB1C213E4EE39377E7253D3;12295.
 Package logreq Info: Writing requests to 'dissertation.run.xml'.
 \openout1 = `dissertation.run.xml'.
 
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 312 ({)
+### simple group (level 1) entered at line 261 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 54427 strings out of 410967
- 1112625 string characters out of 2828016
- 2567907 words of memory out of 3000000
- 73170 multiletter control sequences out of 15000+600000
+ 54428 strings out of 410967
+ 1112649 string characters out of 2828016
+ 2570768 words of memory out of 3000000
+ 73171 multiletter control sequences out of 15000+600000
  475237 words of font info for 105 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 119i,16n,123p,2466b,7893s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 119i,16n,123p,2466b,8239s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on dissertation.xdv (91 pages, 1460908 bytes).
+Output written on dissertation.xdv (92 pages, 1471216 bytes).
