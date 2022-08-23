@@ -5,50 +5,51 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: splncs03.bst
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 Database file #1: external.bib
-Name 1 in "Nelder, J.A., and Mead, R." has a comma at the end for entry nelder:simplex
+Warning--I didn't find a database entry for "Lancaster"
+Name 1 in "Nelder, J.A, and Mead, R" has a comma at the end for entry nelder:simplex
 while executing---line 1474 of file splncs03.bst
-Name 1 in "Nelder, J.A., and Mead, R." has a comma at the end for entry nelder:simplex
+Name 1 in "Nelder, J.A, and Mead, R" has a comma at the end for entry nelder:simplex
 while executing---line 1509 of file splncs03.bst
 Warning--there's a number but no volume in yurkov:knd
 You've used 24 entries,
             2785 wiz_defined-function locations,
-            732 strings with 9183 characters,
-and the built_in function-call counts, 12340 in all, are:
-= -- 1064
-> -- 273
-< -- 33
-+ -- 116
-- -- 90
-* -- 725
-:= -- 1559
+            735 strings with 9393 characters,
+and the built_in function-call counts, 12531 in all, are:
+= -- 1084
+> -- 278
+< -- 34
++ -- 117
+- -- 92
+* -- 739
+:= -- 1577
 add.period$ -- 24
 call.type$ -- 24
-change.case$ -- 113
+change.case$ -- 114
 chr.to.int$ -- 0
 cite$ -- 25
-duplicate$ -- 1140
-empty$ -- 1126
-format.name$ -- 105
-if$ -- 2725
+duplicate$ -- 1152
+empty$ -- 1139
+format.name$ -- 107
+if$ -- 2771
 int.to.chr$ -- 0
 int.to.str$ -- 24
-missing$ -- 223
+missing$ -- 225
 newline$ -- 77
 num.names$ -- 48
-pop$ -- 351
+pop$ -- 353
 preamble$ -- 1
-purify$ -- 93
+purify$ -- 94
 quote$ -- 0
-skip$ -- 397
+skip$ -- 407
 stack$ -- 0
-substring$ -- 809
-swap$ -- 664
-text.length$ -- 33
+substring$ -- 832
+swap$ -- 678
+text.length$ -- 34
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 88
 warning$ -- 1
-while$ -- 122
+while$ -- 125
 width$ -- 26
 write$ -- 241
 (There were 2 error messages)

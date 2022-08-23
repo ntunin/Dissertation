@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.23)  21 AUG 2022 14:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.23)  24 AUG 2022 06:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -652,12 +652,34 @@ File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ) [1
 
 
-{C:/Users/Nik/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] [4]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+{C:/Users/Nik/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3]
 
- [5]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4] [5]
+
+LaTeX Warning: Citation `Lancaster' on page 6 undefined on input line 228.
+
 [6] [7] (preprint_rus.bbl
-Underfull \hbox (badness 2903) in paragraph at lines 35--38
+Underfull \hbox (badness 1430) in paragraph at lines 17--21
+[]\T2A/cmr/m/n/9 Eremeev, A. V., Yurkov, A. S.: On symmetry groups of some quad
+ratic
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 17--21
+\T2A/cmr/m/n/9 programming problems. Mathematical Optimization Theory and Opera
+tions
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 37--40
+[]\T2A/cmr/m/n/9 Kolokolov, A. A., Orlovskaya, T. G., Rybalka, M. F.: Analysis 
+of integer
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 37--40
 \T2A/cmr/m/n/9 programming algorithms with l-partition and unimodular transform
 ations.
  []
@@ -668,37 +690,38 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6660 strings out of 478582
- 107310 string characters out of 2854165
- 428738 words of memory out of 3000000
- 24748 multiletter control sequences out of 15000+600000
+ 6653 strings out of 478582
+ 107226 string characters out of 2854165
+ 430738 words of memory out of 3000000
+ 24741 multiletter control sequences out of 15000+600000
  490506 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,63p,1808b,324s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1000
-.pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labi07
-00.pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx
-1200.pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-tcrm0900.pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi60
-0\labx0900.pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
-600\latt0900.pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/d
-pi600\larm0900.pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a
-/dpi600\larm1000.pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t
-2a/dpi600\labx1440.pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
--t2a/dpi600\labx1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.
-pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Prog
-ram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7
-.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Progr
-am Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/typ
-e1/public/amsfonts/symbols/msbm10.pfb>
-Output written on preprint_rus.pdf (9 pages, 287638 bytes).
+ 55i,11n,63p,1836b,324s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labi1000
+.pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati10
+00.pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labi
+0700.pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
+bx1200.pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm0900.pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
+600\labx0900.pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/d
+pi600\latt0900.pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a
+/dpi600\larm0900.pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t
+2a/dpi600\larm1000.pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
+-t2a/dpi600\labx1440.pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/
+lh-t2a/dpi600\labx1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex
+7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
+ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+r7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Pro
+gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/t
+ype1/public/amsfonts/symbols/msbm10.pfb>
+Output written on preprint_rus.pdf (9 pages, 294316 bytes).
 PDF statistics:
- 548 PDF objects out of 1000 (max. 8388607)
+ 566 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
