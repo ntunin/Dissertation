@@ -11,45 +11,45 @@ while executing---line 1474 of file splncs03.bst
 Name 1 in "Nelder, J.A, and Mead, R" has a comma at the end for entry nelder:simplex
 while executing---line 1509 of file splncs03.bst
 Warning--there's a number but no volume in yurkov:knd
-You've used 24 entries,
+You've used 26 entries,
             2785 wiz_defined-function locations,
-            735 strings with 9393 characters,
-and the built_in function-call counts, 12531 in all, are:
-= -- 1084
-> -- 278
-< -- 34
-+ -- 117
-- -- 92
-* -- 739
-:= -- 1577
-add.period$ -- 24
-call.type$ -- 24
-change.case$ -- 114
+            744 strings with 9874 characters,
+and the built_in function-call counts, 13201 in all, are:
+= -- 1135
+> -- 292
+< -- 35
++ -- 124
+- -- 96
+* -- 773
+:= -- 1675
+add.period$ -- 26
+call.type$ -- 26
+change.case$ -- 122
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 1152
-empty$ -- 1139
-format.name$ -- 107
-if$ -- 2771
+cite$ -- 27
+duplicate$ -- 1223
+empty$ -- 1206
+format.name$ -- 111
+if$ -- 2911
 int.to.chr$ -- 0
-int.to.str$ -- 24
-missing$ -- 225
-newline$ -- 77
-num.names$ -- 48
-pop$ -- 353
+int.to.str$ -- 26
+missing$ -- 240
+newline$ -- 83
+num.names$ -- 52
+pop$ -- 378
 preamble$ -- 1
-purify$ -- 94
+purify$ -- 100
 quote$ -- 0
-skip$ -- 407
+skip$ -- 423
 stack$ -- 0
-substring$ -- 832
-swap$ -- 678
-text.length$ -- 34
+substring$ -- 859
+swap$ -- 706
+text.length$ -- 35
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 88
+type$ -- 96
 warning$ -- 1
-while$ -- 125
-width$ -- 26
-write$ -- 241
+while$ -- 131
+width$ -- 28
+write$ -- 260
 (There were 2 error messages)

@@ -13,6 +13,12 @@ Das, S., Suganthan, P.N.: Differential evolution: A survey of the
   state-of-the-art. IEEE transactions on evolutionary computation  15(1),
   4--31 (2011)
 
+\bibitem{eremeev:restart}
+Eremeev, A.~V.: A restarting rule based on the schnabel census for genetic
+  algorithms. Battiti, R., Brunato, M., Kotsireas, I., Pardalos, P. (eds)
+  Learning and Intelligent Optimization. LION 12 2018. Lecture Notes in
+  Computer Science  11353 (2018)
+
 \bibitem{yurkov:symmetry}
 Eremeev, A.~V., Yurkov, A.~S.: On symmetry groups of some quadratic programming
   problems. Mathematical Optimization Theory and Operations Research. Proc.
@@ -96,6 +102,12 @@ Storn, R., Price, K.: Differential evolution--a simple and efficient heuristic
   квадратичного программирования,
   связанные с оптимизацией фазированных
   антенных решёток. ДАИО  28(3),  65--89 (2021)
+
+\bibitem{tyunin:oniip}
+Тюнин, Н.Н.: Об оптимизации направленности
+  коротковолновых фазированных антенных
+  решеток кольцевой структуры. Техника
+  радиосвязи  (2022)
 
 \bibitem{kudin2014}
 Фаняев, И.~А., Кудин, В.~П.: Фазированная
