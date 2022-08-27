@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.23)  25 AUG 2022 08:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.23)  27 AUG 2022 12:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -746,15 +746,11 @@ LaTeX Font Warning: Font shape `T2A/ptm/m/it' undefined
 LaTeX Font Warning: Font shape `T2A/ptm/b/it' undefined
 (Font)              using `T2A/ptm/b/n' instead on input line 103.
 
-[2] [3]
+[2] [3] [4] [5]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Citation `Lancaster' on page 6 undefined on input line 305.
 
-[4] [5]
-
-LaTeX Warning: Citation `Lancaster' on page 6 undefined on input line 274.
-
-[6] (preprint_rus.bbl [7]) [8] (preprint_rus.aux
+[6] [7] (preprint_rus.bbl [8]) [9] (preprint_rus.aux
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 18
 .
 
@@ -771,11 +767,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  7339 strings out of 478582
  118324 string characters out of 2854165
- 451471 words of memory out of 3000000
+ 446471 words of memory out of 3000000
  25408 multiletter control sequences out of 15000+600000
  481915 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,63p,2549b,322s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 55i,11n,63p,3013b,325s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0700
 .pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm12
 00.pk>{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\Nik\AppDa
@@ -796,9 +792,9 @@ gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX/fonts/ty
 pe1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw
 /times/utmr8a.pfb>
-Output written on preprint_rus.pdf (8 pages, 289568 bytes).
+Output written on preprint_rus.pdf (9 pages, 292967 bytes).
 PDF statistics:
- 442 PDF objects out of 1000 (max. 8388607)
+ 446 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
