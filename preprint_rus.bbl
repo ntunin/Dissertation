@@ -25,6 +25,12 @@ Eremeev, A.~V., Yurkov, A.~S.: On symmetry groups of some quadratic programming
   19th Int. Conf. MOTOR 2020 (Novosibirsk, Russia, July 6–10, 2020).
   Springer, LNCS  12095,  35--48 (2020)
 
+\bibitem{tyu:motor22}
+Eremeev, A, Tiunin~N.: Differential evolution for short wave antenna array
+  optimization. motor 2022: Mathematical optimization theory and operations
+  research : [сайт]. – 2022.,
+  \url{https://easychair.org/smart-program/MOTOR2022/2022-07-04.html\#talk:195757}
+
 \bibitem{fuchs:application}
 Fuchs, B.: Application of convex relaxation to array synthesis problems. IEEE
   Transactions on Antennas and Propagation  62(2),  634--640 (2014)
@@ -127,7 +133,7 @@ Storn, R., Price, K.: Differential evolution--a simple and efficient heuristic
   (2017)
 
 \bibitem{schelkunov:antenny}
-Щелкунов, С.~А.., Фрис, Г.: Антенны: Теория и
+Щелкунов, С.~А., Фрис, Г.: Антенны: Теория и
   практика. М:Советское радио (1955)
 
 \bibitem{yurkov:farkv}

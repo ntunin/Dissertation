@@ -5,51 +5,57 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: splncs03.bst
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 Database file #1: external.bib
+Warning--entry type for "tyu:motor22" isn't style-file defined
+--line 449 of file external.bib
 Warning--I didn't find a database entry for "Lancaster"
+Too many commas in name 1 of "Eremeev, A, Tiunin, N" for entry tyu:motor22
+while executing---line 1474 of file splncs03.bst
 Name 1 in "Nelder, J.A, and Mead, R" has a comma at the end for entry nelder:simplex
 while executing---line 1474 of file splncs03.bst
+Too many commas in name 1 of "Eremeev, A, Tiunin, N" for entry tyu:motor22
+while executing---line 1509 of file splncs03.bst
 Name 1 in "Nelder, J.A, and Mead, R" has a comma at the end for entry nelder:simplex
 while executing---line 1509 of file splncs03.bst
 Warning--there's a number but no volume in yurkov:knd
-You've used 26 entries,
+You've used 27 entries,
             2785 wiz_defined-function locations,
-            744 strings with 9874 characters,
-and the built_in function-call counts, 13201 in all, are:
-= -- 1135
-> -- 292
+            748 strings with 10137 characters,
+and the built_in function-call counts, 13455 in all, are:
+= -- 1150
+> -- 299
 < -- 35
-+ -- 124
-- -- 96
-* -- 773
-:= -- 1675
++ -- 127
+- -- 98
+* -- 784
+:= -- 1708
 add.period$ -- 26
-call.type$ -- 26
-change.case$ -- 122
+call.type$ -- 27
+change.case$ -- 126
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 1223
-empty$ -- 1206
-format.name$ -- 111
-if$ -- 2911
+cite$ -- 28
+duplicate$ -- 1245
+empty$ -- 1236
+format.name$ -- 113
+if$ -- 2965
 int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 240
-newline$ -- 83
-num.names$ -- 52
-pop$ -- 378
+int.to.str$ -- 27
+missing$ -- 245
+newline$ -- 86
+num.names$ -- 54
+pop$ -- 393
 preamble$ -- 1
-purify$ -- 100
+purify$ -- 103
 quote$ -- 0
-skip$ -- 423
+skip$ -- 435
 stack$ -- 0
-substring$ -- 859
-swap$ -- 706
+substring$ -- 864
+swap$ -- 715
 text.length$ -- 35
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 96
+type$ -- 100
 warning$ -- 1
-while$ -- 131
-width$ -- 28
-write$ -- 260
-(There were 2 error messages)
+while$ -- 133
+width$ -- 29
+write$ -- 267
+(There were 4 error messages)
