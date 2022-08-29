@@ -1,38 +1,39 @@
-[0] Config.pm:307> INFO - This is Biber 2.17
-[0] Config.pm:310> INFO - Logfile is 'dissertation.blg'
-[146] biber-MSWIN64:340> INFO - === 
-[200] Biber.pm:418> INFO - Reading 'dissertation.bcf'
-[512] Biber.pm:972> INFO - Found 16 citekeys in bib section 0
-[512] Biber.pm:969> INFO - Using all citekeys in bib section 1
-[512] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[512] Biber.pm:972> INFO - Found 7 citekeys in bib section 2
-[530] Biber.pm:972> INFO - Found 40 citekeys in bib section 0
-[566] Biber.pm:4383> INFO - Processing section 0
-[582] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/external.bib' for section 0
-[667] bibtex.pm:1713> INFO - LaTeX decoding ...
-[794] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio/external.bib'
-[1125] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/author.bib' for section 0
-[1660] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1683] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio/author.bib'
-[1764] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1764] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1764] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
-[1764] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
-[1845] Biber.pm:4383> INFO - Processing section 1
-[1845] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/author.bib' for section 1
-[1925] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/registered.bib' for section 1
-[1946] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1946] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1946] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
-[1946] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
-[1962] Biber.pm:4383> INFO - Processing section 2
-[1962] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/author.bib' for section 2
-[2061] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2061] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2061] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
-[2061] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
-[2069] bbl.pm:654> INFO - Writing 'dissertation.bbl' with encoding 'UTF-8'
-[2111] bbl.pm:757> INFO - Output to dissertation.bbl
-[2111] Biber.pm:130> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[2111] Biber.pm:130> WARN - Data source 'biblio/registered.bib' is empty, ignoring
-[2111] Biber.pm:132> INFO - WARNINGS: 2
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'dissertation.blg'
+[189] biber-MSWIN64:340> INFO - === 
+[274] Biber.pm:418> INFO - Reading 'dissertation.bcf'
+[543] Biber.pm:978> INFO - Found 16 citekeys in bib section 0
+[543] Biber.pm:975> INFO - Using all citekeys in bib section 1
+[543] Biber.pm:978> INFO - Found 0 citekeys in bib section 0
+[543] Biber.pm:978> INFO - Found 7 citekeys in bib section 2
+[550] Biber.pm:978> INFO - Found 40 citekeys in bib section 0
+[586] Biber.pm:4401> INFO - Processing section 0
+[604] Biber.pm:4592> INFO - Looking for bibtex file 'biblio/external.bib' for section 0
+[678] bibtex.pm:1713> INFO - LaTeX decoding ...
+[796] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio/external.bib'
+[1156] Biber.pm:4592> INFO - Looking for bibtex file 'biblio/author.bib' for section 0
+[1219] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1237] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio/author.bib'
+[1321] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1321] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1321] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[1321] Biber.pm:4227> INFO - No sort tailoring available for locale 'ru-RU'
+[1384] Biber.pm:4401> INFO - Processing section 1
+[1384] Biber.pm:4592> INFO - Looking for bibtex file 'biblio/author.bib' for section 1
+[1490] Biber.pm:4592> INFO - Looking for bibtex file 'biblio/registered.bib' for section 1
+[1511] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1511] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1511] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[1511] Biber.pm:4227> INFO - No sort tailoring available for locale 'ru-RU'
+[1524] Biber.pm:4401> INFO - Processing section 2
+[1524] Biber.pm:4592> INFO - Looking for bibtex file 'biblio/author.bib' for section 2
+[1623] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1624] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1624] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[1624] Biber.pm:4227> INFO - No sort tailoring available for locale 'ru-RU'
+[1632] bbl.pm:654> INFO - Writing 'dissertation.bbl' with encoding 'UTF-8'
+[1676] bbl.pm:757> INFO - Output to dissertation.bbl
+[1677] Biber.pm:130> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[1677] Biber.pm:130> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[1677] Biber.pm:130> WARN - Data source 'biblio/registered.bib' is empty, ignoring
+[1677] Biber.pm:132> INFO - WARNINGS: 3
