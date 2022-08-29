@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.23)  29 AUG 2022 05:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.23)  29 AUG 2022 12:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -746,20 +746,32 @@ LaTeX Font Warning: Font shape `T2A/ptm/m/it' undefined
 LaTeX Font Warning: Font shape `T2A/ptm/b/it' undefined
 (Font)              using `T2A/ptm/b/n' instead on input line 105.
 
-[2] [3] [4]
-<ratio.png, id=32, 533.995pt x 297.61188pt>
+[2] [3]
+
+LaTeX Warning: Reference `eq:scale' on page 4 undefined on input line 204.
+
+[4]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5]
+<ratio.png, id=36, 533.995pt x 297.61188pt>
 File: ratio.png Graphic file (type png)
 <use ratio.png>
-Package pdftex.def Info: ratio.png  used on input line 265.
+Package pdftex.def Info: ratio.png  used on input line 281.
 (pdftex.def)             Requested size: 254.75433pt x 141.98471pt.
- [5] [6 <./ratio.png>] [7] [8] (preprint_rus.bbl
-Underfull \hbox (badness 2221) in paragraph at lines 29--33
-[]\T2A/ptm/m/it/9 Eremeev, A, Tiunin N.: Differential evolution for short wave 
-antenna array optimization.
+
+Underfull \vbox (badness 2790) has occurred while \output is active []
+
+ [6]
+[7 <./ratio.png>] [8] (preprint_rus.bbl
+Underfull \hbox (badness 1577) in paragraph at lines 17--21
+[]\T2A/ptm/m/it/9 Eremeev, A., Tiunin, N.: Differential evolution for short wav
+e antenna array optimization.
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 29--33
+Underfull \hbox (badness 2478) in paragraph at lines 17--21
 \T2A/ptm/m/it/9 motor 2022: Mathematical optimization theory and operations res
 earch : [сайт]. ^^U 2022.,
  []
@@ -774,17 +786,20 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7362 strings out of 478582
- 118590 string characters out of 2854165
- 442491 words of memory out of 3000000
- 25424 multiletter control sequences out of 15000+600000
+ 7363 strings out of 478582
+ 118600 string characters out of 2854165
+ 444491 words of memory out of 3000000
+ 25425 multiletter control sequences out of 15000+600000
  483462 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,63p,1836b,341s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 55i,11n,63p,1965b,341s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0700
 .pk> <C:\Users\Nik\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm12
 00.pk>{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\Nik\AppDa
@@ -806,9 +821,9 @@ KTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/am
 sfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a
 .pfb>
-Output written on preprint_rus.pdf (10 pages, 327083 bytes).
+Output written on preprint_rus.pdf (10 pages, 332408 bytes).
 PDF statistics:
- 458 PDF objects out of 1000 (max. 8388607)
+ 460 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

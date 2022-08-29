@@ -13,6 +13,12 @@ Das, S., Suganthan, P.N.: Differential evolution: A survey of the
   state-of-the-art. IEEE transactions on evolutionary computation  15(1),
   4--31 (2011)
 
+\bibitem{tyu:motor22}
+Eremeev, A., Tiunin, N.: Differential evolution for short wave antenna array
+  optimization. motor 2022: Mathematical optimization theory and operations
+  research : [сайт]. – 2022.,
+  \url{https://easychair.org/smart-program/MOTOR2022/2022-07-04.html\#talk:195757}
+
 \bibitem{eremeev:restart}
 Eremeev, A.~V.: A restarting rule based on the schnabel census for genetic
   algorithms. Battiti, R., Brunato, M., Kotsireas, I., Pardalos, P. (eds)
@@ -24,12 +30,6 @@ Eremeev, A.~V., Yurkov, A.~S.: On symmetry groups of some quadratic programming
   problems. Mathematical Optimization Theory and Operations Research. Proc.
   19th Int. Conf. MOTOR 2020 (Novosibirsk, Russia, July 6–10, 2020).
   Springer, LNCS  12095,  35--48 (2020)
-
-\bibitem{tyu:motor22}
-Eremeev, A, Tiunin~N.: Differential evolution for short wave antenna array
-  optimization. motor 2022: Mathematical optimization theory and operations
-  research : [сайт]. – 2022.,
-  \url{https://easychair.org/smart-program/MOTOR2022/2022-07-04.html\#talk:195757}
 
 \bibitem{fuchs:application}
 Fuchs, B.: Application of convex relaxation to array synthesis problems. IEEE
