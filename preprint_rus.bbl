@@ -1,0 +1,155 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem{boriskinetal:efficient}
+Boriskin, A.~V., Balaban, M.~V., Galan, O.~Yu., Sauleau, R.: Efficient approach
+  for fast synthesis of phased arrays with the aid of a hybrid genetic
+  algorithm and a smart feed representation. 2010 IEEE International Symposium
+  on Phased Array Systems and Technology pp. 827--832 (2010)
+
+\bibitem{das:de}
+Das, S., Suganthan, P.N.: Differential evolution: A survey of the
+  state-of-the-art. IEEE transactions on evolutionary computation  15(1),
+  4--31 (2011)
+
+\bibitem{eremeev:restart}
+Eremeev, A.~V.: A restarting rule based on the schnabel census for genetic
+  algorithms. Battiti, R., Brunato, M., Kotsireas, I., Pardalos, P. (eds)
+  Learning and Intelligent Optimization. LION 12 2018. Lecture Notes in
+  Computer Science  11353 (2018)
+
+\bibitem{yurkov:symmetry}
+Eremeev, A.~V., Yurkov, A.~S.: On symmetry groups of some quadratic programming
+  problems. Mathematical Optimization Theory and Operations Research. Proc.
+  19th Int. Conf. MOTOR 2020 (Novosibirsk, Russia, July 6–10, 2020).
+  Springer, LNCS  12095,  35--48 (2020)
+
+\bibitem{tyu:motor22}
+Eremeev, A, Tiunin~N.: Differential evolution for short wave antenna array
+  optimization. motor 2022: Mathematical optimization theory and operations
+  research : [сайт]. – 2022.,
+  \url{https://easychair.org/smart-program/MOTOR2022/2022-07-04.html\#talk:195757}
+
+\bibitem{fuchs:application}
+Fuchs, B.: Application of convex relaxation to array synthesis problems. IEEE
+  Transactions on Antennas and Propagation  62(2),  634--640 (2014)
+
+\bibitem{horst:handbook}
+Horst, R., Pardalos, P.~M.: Handbook of global optimization, vol.~2. Springer
+  Science \& Business Media (2013)
+
+\bibitem{indenbometal:synthesis}
+Indenbom, M., Izhutkin, V., Sharapov, A., Zonov, A.: Synthesis of conical
+  phased antenna arrays optimization of amplitude distribution parameters. IX
+  International Conference on Optimization and Applications (OPTIMA 2018) pp.
+  273--285 (2018)
+
+\bibitem{Kolokolov2012}
+Kolokolov, A.~A., Orlovskaya, T.~G., Rybalka, M.~F.: Analysis of integer
+  programming algorithms with l-partition and unimodular transformations.
+  Automation and Remote Control  73(2),  369--380 (2012)
+
+\bibitem{KWM19}
+Kouyialis, Georgia., Wang, Xiaoyu., Misener, Ruth.: Symmetry detection for
+  quadratic optimization using binary layered graphs. Processes  7(11) (2019)
+
+\bibitem{Lancaster}
+Lancaster, Peter., Tismenetsky, Miron.: The Theory of Matrices. Academic Press
+  (1985)
+
+\bibitem{L12}
+Liberti, Leo.: Reformulations in mathematical programming: automatic symmetry
+  detection and exploitation. Mathematical Programming  131 (2012)
+
+\bibitem{murty:np}
+Murty, K.: Some np-complete problems in quadratic and nonlinear programming.
+  Mathematical Programming. North Holand  39,  117--129 (1987)
+
+\bibitem{nelder:simplex}
+Nelder, J.A., Mead, R.: A simplex method for function minimization. The
+  computer journal  7(4),  308--311 (1965)
+
+\bibitem{storn:de_practical}
+Price, K.~V., Storn, R.~M., Lampinen, J.~A.: Differential Evolution. A
+  Practical Approach to Global Optimization. Springer (2005)
+
+\bibitem{price:global}
+Price, W.: Journal of optimization theory and applications. The computer
+  journal  40(3),  333--348 (1983)
+
+\bibitem{rao:synthesis}
+Rao, A., Sarma, N.: Synthesis of reconfigurable antenna array using
+  differential evolution algorithm. IETE Journal of Research  63(3),  428--434
+  (2017)
+
+\bibitem{storn:de}
+Storn, R., Price, K.: Differential evolution--a simple and efficient heuristic
+  for global optimization over continuous spaces. Journal of global
+  optimization. Springer  11(4),  341--359 (1997)
+
+\bibitem{kochetov:local}
+Кочетов, Ю.~А.: Вычислительные возможности
+  локального поиска в комбинаторной
+  оптимизации. Ж. вычисл. матем. и матем. физ.
+  48(5),  747--763 (2008)
+
+\bibitem{nechaeva:bandb}
+Нечаева, М.~С., Хамисов, О.~В.: Метод ветвей и
+  границ для задачи минимизации невыпуклой
+  квадратичной функции при выпуклых
+  квадратичных ограничениях. Дискретн.
+  анализ и исслед. опер.  7(2),  74--88 (2000)
+
+\bibitem{strekalovsky:mindc}
+Стрекаловский, А.~С..: О минимизации
+  разности выпуклых функций на допустимом
+  множестве. Ж. вычисл. матем. и матем. физ.
+  43(3),  399--409 (2003)
+
+\bibitem{tyunin:daor}
+Тюнин, Н.Н.: Задачи невыпуклого
+  квадратичного программирования,
+  связанные с оптимизацией фазированных
+  антенных решёток. ДАИО  28(3),  65--89 (2021)
+
+\bibitem{tyunin:oniip}
+Тюнин, Н.Н.: Об оптимизации направленности
+  коротковолновых фазированных антенных
+  решеток кольцевой структуры. Техника
+  радиосвязи  (2022)
+
+\bibitem{kudin2014}
+Фаняев, И.~А., Кудин, В.~П.: Фазированная
+  антенная решетка кругового обзора над
+  проводящей цилиндрической поверхностью
+  из излучателей вертикальной поляризации.
+  Известия Гомельского государственного
+  университета имени Ф. Скорины. Сер.:
+  Естественные науки. pp. 191--198 (2014)
+
+\bibitem{fanyaev2017}
+Фаняев, И.~А., Кудин, В.~П..: Синтез
+  амплитудного распределения на входах
+  излучателей фазированной антенной
+  решетки над цилиндрической поверхностью
+  методом роя частиц. Доклады БГУИР pp. 89--96
+  (2017)
+
+\bibitem{schelkunov:antenny}
+Щелкунов, С.~А., Фрис, Г.: Антенны: Теория и
+  практика. М:Советское радио (1955)
+
+\bibitem{yurkov:farkv}
+Юрков, A.~С.: Оптимизация возбуждения
+  передающих фазированных антенных решеток
+  декаметрового диапазона длин волн. ОНИИП
+  (2014)
+
+\bibitem{yurkov:knd}
+Юрков, A.~С.: Максимизация направленности
+  фазированных антенных решеток
+  коротковолнового диапазона. Техника
+  радиосвязи. ОНИИП (2),  46--53 (2016)
+
+\end{thebibliography}

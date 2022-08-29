@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: preprint_rus.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: splncs03.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Database file #1: external.bib
+Warning--entry type for "tyu:motor22" isn't style-file defined
+--line 463 of file external.bib
+Too many commas in name 1 of "Eremeev, A, Tiunin, N" for entry tyu:motor22
+while executing---line 1474 of file splncs03.bst
+Name 1 in "Nelder, J.A, and Mead, R" has a comma at the end for entry nelder:simplex
+while executing---line 1474 of file splncs03.bst
+Too many commas in name 1 of "Eremeev, A, Tiunin, N" for entry tyu:motor22
+while executing---line 1509 of file splncs03.bst
+Name 1 in "Nelder, J.A, and Mead, R" has a comma at the end for entry nelder:simplex
+while executing---line 1509 of file splncs03.bst
+Warning--there's a number but no volume in yurkov:knd
+You've used 28 entries,
+            2785 wiz_defined-function locations,
+            752 strings with 10214 characters,
+and the built_in function-call counts, 13832 in all, are:
+= -- 1177
+> -- 311
+< -- 35
++ -- 133
+- -- 102
+* -- 804
+:= -- 1760
+add.period$ -- 27
+call.type$ -- 28
+change.case$ -- 130
+chr.to.int$ -- 0
+cite$ -- 29
+duplicate$ -- 1280
+empty$ -- 1277
+format.name$ -- 118
+if$ -- 3047
+int.to.chr$ -- 0
+int.to.str$ -- 28
+missing$ -- 253
+newline$ -- 89
+num.names$ -- 56
+pop$ -- 410
+preamble$ -- 1
+purify$ -- 107
+quote$ -- 0
+skip$ -- 444
+stack$ -- 0
+substring$ -- 878
+swap$ -- 728
+text.length$ -- 35
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 102
+warning$ -- 1
+while$ -- 136
+width$ -- 30
+write$ -- 276
+(There were 4 error messages)

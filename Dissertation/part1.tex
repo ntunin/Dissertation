@@ -294,23 +294,23 @@ $$
 \begin{table}[!h]
 \centering
 \caption{ Результаты оптимизации, полученные с помощью градиентного подъема и коммерческих решателей}
-\begin{tabular}{|c|c c|c c|c c|c c|}
+\begin{tabular}{|c|c|c c|c c|}
     \hline
-    \multirow{2}{*}{\textbf{Тип}} & \multicolumn{2}{c}{\textbf{Град.}} & \multicolumn{2}{|c|}{\textbf{BARON}} & \multicolumn{2}{|c|}{\textbf{ANTIGONE}} & \multicolumn{2}{|c|}{\textbf{GUROBI}}\\
-    & \textbf{$\tilde{F}$} & \textbf{t, c} & \textbf{$\tilde{F}$} & \textbf{t, c} & \textbf{$\tilde{F}$} & \textbf{t, c} & \textbf{$\tilde{F}$} & \textbf{t, c} \\
+    \multirow{2}{*}{\textbf{Тип}} & \multirow{2}{*}{$\sqrt{\frac{N}{\lambda_{\min}}}$} & \multicolumn{2}{c}{\textbf{Град.}} & \multicolumn{2}{|c|}{\textbf{BARON}}\\
+    & & \textbf{$\tilde{F}$} & \textbf{t, c} & \textbf{$\tilde{F}$} & \textbf{t, c} \\
     \hline
-    ШВИ 2х2 & 138.2 & \textbf{0.054} & \textbf{139.2} & 0.12 & - & - & - & - \\
-    ШВИ 3х3 & 575.7 & 0.93 & \textbf{580.6} & \textbf{0.34} & - & - & - & -\\
-    ШВД 2х2 & 459.7 & \textbf{0.13} & \textbf{463.6} & 0.27 &  - & - & - & - \\
-    ШВД 3х3 & 915 & 24.4 & \textbf{925} & \textbf{0.34}  &  - & - & - & - \\
-    СВД 2х2 & 357 & 1.9 & \textbf{361} & \textbf{0.16} &  - & - & - & - \\
-    СВД 3х3 & 1138 & 25.6 & \textbf{1261} & \textbf{0.38} &  - & - & - & - \\
-    СВД 5х5 & 5318 & 1000 & \textbf{6716} & 1000 & - & - & - & - \\
-    СВД' 2х2 & 233 & 2.52 & \textbf{253} & \textbf{0.25} & - & - & - & -\\
-    СВД' 3х3 & 664 & 71 & \textbf{1153} & \textbf{1.48} & - & - & - & - \\
-    СВД' 5х5 & \textbf{1382.7} & 1000 & 33.5 & \textbf{217.94}  &  - & - & - & - \\
-    Кольц. 8 & 217 & 8.06 & 218 & \textbf{0.23} & - & - & - & - \\
-    Кольц. 16 & 727 & 90.9 & \textbf{734} & - & - & - & -\\
+    ШВИ 2х2 & 13.6 & 138.2 & \textbf{0.054} & \textbf{139.2} & 0.12 \\
+    ШВИ 3х3 & 22.5 & 575.7 & 0.93 & \textbf{580.6} & \textbf{0.34} \\
+    ШВД 2х2 & 21 & 459.7 & \textbf{0.13} & \textbf{463.6} & 0.27 \\
+    ШВД 3х3 & 82.2 & 915 & 24.4 & \textbf{925} & \textbf{0.34}  \\
+    СВД 2х2 & 44.7& 357 & 1.9 & \textbf{361} & \textbf{0.16} \\
+    СВД 3х3 & 641.9& 1138 & 25.6 & \textbf{1261} & \textbf{0.38}\\
+    СВД 5х5 & $1.1\cdot10^{5}$ & 5318 & 1000 & \textbf{6716} & 1000 \\
+    СВД' 2х2 & $2.3\cdot10^{4}$ & 233 & 2.52 & \textbf{253} & \textbf{0.25} \\
+    СВД' 3х3 & $6\cdot10^5$& 664 & 71 & \textbf{1153} & \textbf{1.48} \\
+    СВД' 5х5 & - & \textbf{1382.7} & 1000 & 33.5 & \textbf{217.94}  \\
+    Кольц. 8 & 87 & 217 & 8.06 & \textbf{218} & \textbf{0.23} \\
+    Кольц. 16 & 154 & 727 & 90.9 & \textbf{734} & \textbf{1.37} \\
     \hline
 \end{tabular}
 \label{tab:results}
@@ -326,4 +326,5 @@ $$
     \vspace{0.7em}
     \caption{Горизонтальный план диаграммы направленности для решетки ШВИ 2x2 (пунктир) и ШВИ 3x3 (сплошная)}
     \label{ris:bve_comp}
-\end{figure}
+\end{figure} 
+Результаты данного раздела были представлены в~\cite{tyu:daor}.
