@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  29 AUG 2022 12:35
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  29 AUG 2022 13:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -4733,7 +4733,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--153
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
 []\TU/TimesNewRoman(1)/m/n/14.4 Aналогичные испытания производились и с помощью
  решателя
  []
@@ -5488,7 +5488,7 @@ Package nag Warning: Unmatched ``\center'' command on line 32.
 Package nag Warning: Unmatched ``\center'' command on line 29.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 163.
+Package nag Warning: Unmatched ``\center'' command on line 164.
 
 
 Package nag Warning: Unmatched ``\center'' command on line 325.
@@ -7713,4 +7713,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  119i,16n,123p,2466b,7848s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on dissertation.xdv (96 pages, 1562404 bytes).
+Output written on dissertation.xdv (96 pages, 1567408 bytes).
