@@ -104,6 +104,7 @@
       \field{media}{text}
       \field{title}{Задачи невыпуклого квадратичного программирования, связанные с оптимизацией фазированных антенных решеток}
       \field{year}{2021}
+      \true{nocite}
       \field{number}{3}
       \range{number}{1}
       \field{pages}{20\bibrangedash 44}
@@ -136,6 +137,7 @@
       \field{media}{text}
       \field{title}{On mutual influence of emitters in directivity optimization of shortwave phased antenna arrays}
       \field{year}{2021}
+      \true{nocite}
       \field{number}{012053}
       \range{number}{1}
       \field{pages}{1\bibrangedash 8}
@@ -178,6 +180,7 @@
       \field{media}{text}
       \field{title}{Non-Convex Quadratic Programming Problems in Short Wave Antenna Array Optimization}
       \field{year}{2019}
+      \true{nocite}
       \field{pages}{34\bibrangedash 45}
       \range{pages}{12}
       \keyw{,biblioauthorvak,biblioauthor,bibliofull}
@@ -217,6 +220,7 @@
       \field{note}{Принята в печать.}
       \field{title}{Об оптимизации направленности коротковолновых фазированных антенных решеток кольцевой структуры}
       \field{year}{2022}
+      \true{nocite}
       \keyw{,biblioauthor,bibliofull}
     \endentry
     \entry{tyu:opta}{inproceedings}{}
@@ -253,6 +257,7 @@
       \field{media}{text}
       \field{title}{О структуре множества локальных оптимумов задачи оптимизации фазированных антенных решеток}
       \field{year}{2018}
+      \true{nocite}
       \keyw{,biblioauthor,bibliofull}
     \endentry
     \entry{tyu:reis}{inproceedings}{}
@@ -289,6 +294,7 @@
       \field{media}{text}
       \field{title}{Исследование одной задачи квадратичного программирования в оптимизации коротковолновых антенных решеток}
       \field{year}{2019}
+      \true{nocite}
       \field{pages}{171\bibrangedash 174}
       \range{pages}{4}
       \keyw{,biblioauthor,bibliofull}
@@ -317,8 +323,47 @@
       \field{media}{text}
       \field{title}{Невыпуклые задачи квадратичного программирования в оптимизации коротковолновых антенных решеток}
       \field{year}{2020}
+      \true{nocite}
       \field{pages}{48\bibrangedash 52}
       \range{pages}{5}
+      \keyw{,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu:de_sym}{article}{}
+      \name{author}{2}{}{%
+        {{hash=476e3b2ec4b24aa98fd67138fc6da48f}{%
+           family={Еремеев},
+           familyi={Е\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=eacafdbc59783144973cb92da98b8c37}{%
+           family={Тюнин},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \strng{namehash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{fullhash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{bibnamehash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{authorbibnamehash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{authornamehash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{authorfullhash}{521bf8893dcfb48b065ed414771eaea2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 29.08.2022)}
+      \field{journaltitle}{PREPRINTS.RU}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Алгоритм дифференциальной эволюции для оптимизации направленности фазированных антенных решеток}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://preprints.ru/article/780
+      \endverb
+      \verb{url}
+      \verb https://preprints.ru/article/780
+      \endverb
       \keyw{,biblioauthor,bibliofull}
     \endentry
   \enddatalist
@@ -408,6 +453,7 @@
       \field{media}{text}
       \field{title}{Задачи невыпуклого квадратичного программирования, связанные с оптимизацией фазированных антенных решеток}
       \field{year}{2021}
+      \true{nocite}
       \field{number}{3}
       \range{number}{1}
       \field{pages}{20\bibrangedash 44}
@@ -440,6 +486,7 @@
       \field{media}{text}
       \field{title}{On mutual influence of emitters in directivity optimization of shortwave phased antenna arrays}
       \field{year}{2021}
+      \true{nocite}
       \field{number}{012053}
       \range{number}{1}
       \field{pages}{1\bibrangedash 8}
@@ -482,6 +529,7 @@
       \field{media}{text}
       \field{title}{Non-Convex Quadratic Programming Problems in Short Wave Antenna Array Optimization}
       \field{year}{2019}
+      \true{nocite}
       \field{pages}{34\bibrangedash 45}
       \range{pages}{12}
       \keyw{,biblioauthorvak,biblioauthor,bibliofull}
@@ -521,6 +569,7 @@
       \field{note}{Принята в печать.}
       \field{title}{Об оптимизации направленности коротковолновых фазированных антенных решеток кольцевой структуры}
       \field{year}{2022}
+      \true{nocite}
       \keyw{,biblioauthor,bibliofull}
     \endentry
     \entry{tyu:opta}{inproceedings}{}
@@ -557,6 +606,7 @@
       \field{media}{text}
       \field{title}{О структуре множества локальных оптимумов задачи оптимизации фазированных антенных решеток}
       \field{year}{2018}
+      \true{nocite}
       \keyw{,biblioauthor,bibliofull}
     \endentry
     \entry{tyu:reis}{inproceedings}{}
@@ -593,6 +643,7 @@
       \field{media}{text}
       \field{title}{Исследование одной задачи квадратичного программирования в оптимизации коротковолновых антенных решеток}
       \field{year}{2019}
+      \true{nocite}
       \field{pages}{171\bibrangedash 174}
       \range{pages}{4}
       \keyw{,biblioauthor,bibliofull}
@@ -621,8 +672,47 @@
       \field{media}{text}
       \field{title}{Невыпуклые задачи квадратичного программирования в оптимизации коротковолновых антенных решеток}
       \field{year}{2020}
+      \true{nocite}
       \field{pages}{48\bibrangedash 52}
       \range{pages}{5}
+      \keyw{,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu:de_sym}{article}{}
+      \name{author}{2}{}{%
+        {{hash=476e3b2ec4b24aa98fd67138fc6da48f}{%
+           family={Еремеев},
+           familyi={Е\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=eacafdbc59783144973cb92da98b8c37}{%
+           family={Тюнин},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \strng{namehash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{fullhash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{bibnamehash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{authorbibnamehash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{authornamehash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{authorfullhash}{521bf8893dcfb48b065ed414771eaea2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 29.08.2022)}
+      \field{journaltitle}{PREPRINTS.RU}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Алгоритм дифференциальной эволюции для оптимизации направленности фазированных антенных решеток}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://preprints.ru/article/780
+      \endverb
+      \verb{url}
+      \verb https://preprints.ru/article/780
+      \endverb
       \keyw{,biblioauthor,bibliofull}
     \endentry
   \enddatalist
@@ -645,8 +735,8 @@
       \strng{authornamehash}{eacafdbc59783144973cb92da98b8c37}
       \strng{authorfullhash}{eacafdbc59783144973cb92da98b8c37}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{(ВАК)}
@@ -689,8 +779,8 @@
       \strng{authornamehash}{1ab9c14cd7efd43a5e52520809262696}
       \strng{authorfullhash}{1ab9c14cd7efd43a5e52520809262696}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Научно-технический сборник <<Техника радиосвязи>>}
@@ -720,8 +810,8 @@
       \strng{authornamehash}{eacafdbc59783144973cb92da98b8c37}
       \strng{authorfullhash}{eacafdbc59783144973cb92da98b8c37}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Техника радиосвязи}
@@ -745,8 +835,8 @@
       \strng{authorbibnamehash}{ada0cc6046c6ad31ed7120549a9ca2d5}
       \strng{authornamehash}{ada0cc6046c6ad31ed7120549a9ca2d5}
       \strng{authorfullhash}{ada0cc6046c6ad31ed7120549a9ca2d5}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{(ВАК)}
@@ -779,8 +869,8 @@
       \strng{authornamehash}{eacafdbc59783144973cb92da98b8c37}
       \strng{authorfullhash}{eacafdbc59783144973cb92da98b8c37}
       \field{extraname}{3}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{ФМХ ОмГУ - 2019. Cборник статей VII Региональной конференции магистрантов, аспирантов и молодых ученых по физике, математике и химии}
@@ -818,8 +908,8 @@
       \strng{authornamehash}{1ab9c14cd7efd43a5e52520809262696}
       \strng{authorfullhash}{1ab9c14cd7efd43a5e52520809262696}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Радиотехника, электроника и связь. Сборник докладов V Международной научно-технической конференции}
@@ -857,8 +947,8 @@
       \strng{authornamehash}{1ab9c14cd7efd43a5e52520809262696}
       \strng{authorfullhash}{1ab9c14cd7efd43a5e52520809262696}
       \field{extraname}{3}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Сборник тезисов VII Международной конференции «Проблемы оптимизации и их приложения»}
@@ -893,8 +983,8 @@
       \strng{authorbibnamehash}{a8843c459b0b5f0991db9890ec8224e3}
       \strng{authornamehash}{a8843c459b0b5f0991db9890ec8224e3}
       \strng{authorfullhash}{a8843c459b0b5f0991db9890ec8224e3}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{(ВАК)}
@@ -907,6 +997,82 @@
       \field{pages}{34\bibrangedash 45}
       \range{pages}{12}
       \keyw{,biblioauthorvak,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu:de_sym}{article}{}
+      \name{author}{2}{}{%
+        {{hash=476e3b2ec4b24aa98fd67138fc6da48f}{%
+           family={Еремеев},
+           familyi={Е\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=eacafdbc59783144973cb92da98b8c37}{%
+           family={Тюнин},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \strng{namehash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{fullhash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{bibnamehash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{authorbibnamehash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{authornamehash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{authorfullhash}{521bf8893dcfb48b065ed414771eaea2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 29.08.2022)}
+      \field{journaltitle}{PREPRINTS.RU}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Алгоритм дифференциальной эволюции для оптимизации направленности фазированных антенных решеток}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://preprints.ru/article/780
+      \endverb
+      \verb{url}
+      \verb https://preprints.ru/article/780
+      \endverb
+      \keyw{,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu:de_MOTOR}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f6df4d00473334374e0eac7c1349000a}{%
+           family={A.},
+           familyi={A\bibinitperiod},
+           given={Eremeev},
+           giveni={E\bibinitperiod}}}%
+        {{hash=470a6cda33c0df7867e4bedf78763227}{%
+           family={N.},
+           familyi={N\bibinitperiod},
+           given={Tiunin},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{9368b073a130722537ae36ae020226c4}
+      \strng{fullhash}{9368b073a130722537ae36ae020226c4}
+      \strng{bibnamehash}{9368b073a130722537ae36ae020226c4}
+      \strng{authorbibnamehash}{9368b073a130722537ae36ae020226c4}
+      \strng{authornamehash}{9368b073a130722537ae36ae020226c4}
+      \strng{authorfullhash}{9368b073a130722537ae36ae020226c4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 29.08.2022)}
+      \field{journaltitle}{MOTOR 2022: Mathematical Optimization Theory and Operations Research}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Differential evolution for short wave antenna array optimization}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://easychair.org/smart-program/MOTOR2022/2022-07-04.html#talk:195757
+      \endverb
+      \verb{url}
+      \verb https://easychair.org/smart-program/MOTOR2022/2022-07-04.html#talk:195757
+      \endverb
+      \keyw{,biblioauthor,bibliofull}
     \endentry
   \enddatalist
 \endrefsection
@@ -938,6 +1104,7 @@
       \field{media}{text}
       \field{title}{Задачи невыпуклого квадратичного программирования, связанные с оптимизацией фазированных антенных решеток}
       \field{year}{2021}
+      \true{nocite}
       \field{number}{3}
       \range{number}{1}
       \field{pages}{20\bibrangedash 44}
@@ -970,6 +1137,7 @@
       \field{media}{text}
       \field{title}{On mutual influence of emitters in directivity optimization of shortwave phased antenna arrays}
       \field{year}{2021}
+      \true{nocite}
       \field{number}{012053}
       \range{number}{1}
       \field{pages}{1\bibrangedash 8}
@@ -1012,6 +1180,7 @@
       \field{media}{text}
       \field{title}{Non-Convex Quadratic Programming Problems in Short Wave Antenna Array Optimization}
       \field{year}{2019}
+      \true{nocite}
       \field{pages}{34\bibrangedash 45}
       \range{pages}{12}
       \keyw{,biblioauthorvak,biblioauthor,bibliofull}
@@ -1050,6 +1219,7 @@
       \field{media}{text}
       \field{title}{О структуре множества локальных оптимумов задачи оптимизации фазированных антенных решеток}
       \field{year}{2018}
+      \true{nocite}
       \keyw{,biblioauthor,bibliofull}
     \endentry
     \entry{tyu:reis}{inproceedings}{}
@@ -1086,6 +1256,7 @@
       \field{media}{text}
       \field{title}{Исследование одной задачи квадратичного программирования в оптимизации коротковолновых антенных решеток}
       \field{year}{2019}
+      \true{nocite}
       \field{pages}{171\bibrangedash 174}
       \range{pages}{4}
       \keyw{,biblioauthor,bibliofull}
@@ -1125,6 +1296,7 @@
       \field{note}{Принята в печать.}
       \field{title}{Об оптимизации направленности коротковолновых фазированных антенных решеток кольцевой структуры}
       \field{year}{2022}
+      \true{nocite}
       \keyw{,biblioauthor,bibliofull}
     \endentry
     \entry{tyu:fmh}{inproceedings}{}
@@ -1151,6 +1323,7 @@
       \field{media}{text}
       \field{title}{Невыпуклые задачи квадратичного программирования в оптимизации коротковолновых антенных решеток}
       \field{year}{2020}
+      \true{nocite}
       \field{pages}{48\bibrangedash 52}
       \range{pages}{5}
       \keyw{,biblioauthor,bibliofull}
