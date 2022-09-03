@@ -17,6 +17,12 @@
 \selectlanguage *{russian}
 \selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
 \selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{russian}
+\selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{russian}
+\selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
+\selectlanguage *[babelshorthands=true]{russian}
 \selectlanguage *{english}
 \selectlanguage *[variant=us,ordinalmonthday=false]{english}
 \selectlanguage *[babelshorthands=true]{russian}
@@ -58,8 +64,8 @@
 \contentsline {subsection}{\numberline {1.7.1}Тестовые примеры}{33}{subsection.1.7.1}%
 \contentsline {subsection}{\numberline {1.7.2}Результаты вычислительного эксперимента}{33}{subsection.1.7.2}%
 \contentsline {chapter}{\chapternumberline {2}Алгоритм дифференциальной эволюции для задачи оптимизации фазированных антенных решеток}{38}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Базовая реализация}{38}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Гибридный вариант алгоритма}{40}{section.2.2}%
+\contentsline {section}{\numberline {2.1}Базовый вариант алгоритма}{38}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Гибридный вариант алгоритма дифференциальной эволюции}{40}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Вычислительный эксперимент}{42}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Заключение}{45}{section.2.4}%
 \contentsline {chapter}{\chapternumberline {3}Структурные свойства задачи оптимизации направленности фазированных антенных решеток}{46}{chapter.3}%
@@ -77,9 +83,9 @@
 \contentsline {subsection}{\numberline {4.2.2}Широкополосные вертикальные диполи}{67}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Симметричные вертикальные диполи}{68}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Интерпретация результатов экспериментов по исследованию взаимного влияния излучателей}{69}{subsection.4.2.4}%
-\contentsline {chapter}{Заключение}{81}{chapter*.44}%
-\contentsline {chapter}{Словарь терминов}{82}{chapter*.45}%
-\contentsline {chapter}{Список литературы}{83}{section*.47}%
+\contentsline {chapter}{Заключение}{81}{chapter*.45}%
+\contentsline {chapter}{Словарь терминов}{82}{chapter*.46}%
+\contentsline {chapter}{Список литературы}{83}{section*.48}%
 \selectlanguage *{english}
 \selectlanguage *[variant=us,ordinalmonthday=false]{english}
 \selectlanguage *[babelshorthands=true]{russian}
@@ -194,9 +200,6 @@
 \selectlanguage *{english}
 \selectlanguage *[variant=us,ordinalmonthday=false]{english}
 \selectlanguage *[babelshorthands=true]{russian}
-\selectlanguage *{russian}
-\selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
-\selectlanguage *[babelshorthands=true]{russian}
 \selectlanguage *{english}
 \selectlanguage *[variant=us,ordinalmonthday=false]{english}
 \selectlanguage *[babelshorthands=true]{russian}
@@ -359,9 +362,6 @@
 \selectlanguage *{english}
 \selectlanguage *[variant=us,ordinalmonthday=false]{english}
 \selectlanguage *[babelshorthands=true]{russian}
-\selectlanguage *{russian}
-\selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
-\selectlanguage *[babelshorthands=true]{russian}
 \selectlanguage *{english}
 \selectlanguage *[variant=us,ordinalmonthday=false]{english}
 \selectlanguage *[babelshorthands=true]{russian}
@@ -410,4 +410,4 @@
 \selectlanguage *{english}
 \selectlanguage *[variant=us,ordinalmonthday=false]{english}
 \selectlanguage *[babelshorthands=true]{russian}
-\contentsline {chapter}{Приложения}{88}{chapter*.48}%
+\contentsline {chapter}{Приложения}{88}{chapter*.49}%
