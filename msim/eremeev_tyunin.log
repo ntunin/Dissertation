@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.23)  3 SEP 2022 17:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.23)  3 SEP 2022 17:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -582,15 +582,28 @@ LaTeX Font Warning: Font shape `T2A/faq/m/sl' undefined
 (Font)              using `T2A/faq/m/it' instead on input line 429.
 
 [8]
-<ratio.png, id=44, 533.995pt x 297.61188pt>
-File: ratio.png Graphic file (type png)
-<use ratio.png>
-Package pdftex.def Info: ratio.png  used on input line 431.
-(pdftex.def)             Requested size: 256.0774pt x 142.72491pt.
+Package epstopdf Info: Source file: <ratio.eps>
+(epstopdf)                    date: 2022-09-03 17:47:49
+(epstopdf)                    size: 162194 bytes
+(epstopdf)             Output file: <ratio-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-09-03 17:48:08
+(epstopdf)                    size: 60946 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=ratio-eps-converted-
+to.pdf ratio.eps>
+(epstopdf)             \includegraphics on input line 431.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./ratio-eps-converted-to.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<ratio-eps-converted-to.pdf, id=44, 568.1225pt x 306.14375pt>
+File: ratio-eps-converted-to.pdf Graphic file (type pdf)
+<use ratio-eps-converted-to.pdf>
+Package pdftex.def Info: ratio-eps-converted-to.pdf  used on input line 431.
+(pdftex.def)             Requested size: 256.0774pt x 137.99698pt.
 LaTeX Font Info:    Trying to load font information for TS1+faq on input line 4
 38.
 LaTeX Font Info:    No file TS1faq.fd. on input line 438.
-
 
 LaTeX Font Warning: Font shape `TS1/faq/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
@@ -600,7 +613,7 @@ LaTeX Font Warning: Font shape `TS1/faq/m/n' undefined
 LaTeX Font Warning: Font shape `T2A/faq/m/sl' undefined
 (Font)              using `T2A/faq/m/it' instead on input line 454.
 
-[9 <./ratio.png>]
+[9 <./ratio-eps-converted-to.pdf>]
 
 LaTeX Font Warning: Font shape `T2A/faq/m/sc' undefined
 (Font)              using `T2A/faq/m/n' instead on input line 455.
@@ -678,7 +691,7 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  5422 strings out of 478582
- 80944 string characters out of 2854165
+ 81036 string characters out of 2854165
  396435 words of memory out of 3000000
  23516 multiletter control sequences out of 15000+600000
  484809 words of font info for 75 fonts, out of 8000000 for 9000
@@ -701,9 +714,9 @@ ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
 msfonts/symbols/msbm10.pfb>
-Output written on eremeev_tyunin.pdf (12 pages, 314690 bytes).
+Output written on eremeev_tyunin.pdf (12 pages, 352445 bytes).
 PDF statistics:
- 471 PDF objects out of 1000 (max. 8388607)
+ 473 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
