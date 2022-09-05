@@ -963,8 +963,8 @@
       \strng{authorbibnamehash}{a1fea51baa03cb0a68d9044304c69e2e}
       \strng{authornamehash}{a1fea51baa03cb0a68d9044304c69e2e}
       \strng{authorfullhash}{fbe927335f29cd66a07095789ad2d12b}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{booktitle}{1979 IEEE International Symposium on Electromagnetic Compatibility}
       \field{langid}{english}
@@ -1027,8 +1027,8 @@
       \strng{authorbibnamehash}{e2adb4dc2e27d1f00734ad44af181666}
       \strng{authornamehash}{e2adb4dc2e27d1f00734ad44af181666}
       \strng{authorfullhash}{e2adb4dc2e27d1f00734ad44af181666}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{2021 Genetic and Evolutionary Computation Conference (GECCO ’21)}
@@ -1085,8 +1085,8 @@
       \strng{authornamehash}{eacafdbc59783144973cb92da98b8c37}
       \strng{authorfullhash}{eacafdbc59783144973cb92da98b8c37}
       \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Дискретный анализ и исследование операций}
@@ -1299,8 +1299,8 @@
       \strng{authornamehash}{eacafdbc59783144973cb92da98b8c37}
       \strng{authorfullhash}{eacafdbc59783144973cb92da98b8c37}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Техника радиосвязи}
@@ -1333,8 +1333,8 @@
       \strng{authorbibnamehash}{a29f283b1479916b49aee90b172bc559}
       \strng{authornamehash}{a29f283b1479916b49aee90b172bc559}
       \strng{authorfullhash}{a29f283b1479916b49aee90b172bc559}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Discrete Applied Mathematics}
@@ -1369,8 +1369,8 @@
       \strng{authorbibnamehash}{adeabf753531f33685aadf4aa1d36afe}
       \strng{authornamehash}{adeabf753531f33685aadf4aa1d36afe}
       \strng{authorfullhash}{adeabf753531f33685aadf4aa1d36afe}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Pure and Applied Algebra}
@@ -1410,8 +1410,8 @@
       \strng{authorbibnamehash}{de939f58b5170f9c0a03cbfbd192cd04}
       \strng{authornamehash}{de939f58b5170f9c0a03cbfbd192cd04}
       \strng{authorfullhash}{de939f58b5170f9c0a03cbfbd192cd04}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Processes}
@@ -1449,8 +1449,8 @@
       \strng{authorbibnamehash}{94b15d9777957c4d620336ed2c4d0b53}
       \strng{authornamehash}{94b15d9777957c4d620336ed2c4d0b53}
       \strng{authorfullhash}{94b15d9777957c4d620336ed2c4d0b53}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Math. Program.}
@@ -1479,8 +1479,8 @@
       \strng{authorbibnamehash}{595658211d4ebe6865f7f423f9ed7a9e}
       \strng{authornamehash}{595658211d4ebe6865f7f423f9ed7a9e}
       \strng{authorfullhash}{595658211d4ebe6865f7f423f9ed7a9e}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Discretnyi Analiz i Issledovanie Operacii}
@@ -1522,8 +1522,8 @@
       \strng{authorbibnamehash}{25c234849e987f769e540dac57f9fded}
       \strng{authornamehash}{25c234849e987f769e540dac57f9fded}
       \strng{authorfullhash}{25c234849e987f769e540dac57f9fded}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Automation and Remote Control}
@@ -1604,8 +1604,8 @@
       \strng{editorbibnamehash}{de8a597df7e604da5fe6ea58760bd84c}
       \strng{editornamehash}{de8a597df7e604da5fe6ea58760bd84c}
       \strng{editorfullhash}{f14eb3c0aa0c641d4cfc2eaf2395fb62}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{50 Years of Integer Programming 1958-2008: From the Early Years to the State-of-the-Art}
@@ -1631,8 +1631,8 @@
       \strng{authorbibnamehash}{28c408e380795722abe5e57c8a4309b8}
       \strng{authornamehash}{28c408e380795722abe5e57c8a4309b8}
       \strng{authorfullhash}{28c408e380795722abe5e57c8a4309b8}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Vestnik Omskogo Universiteta}

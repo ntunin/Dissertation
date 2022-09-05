@@ -359,10 +359,10 @@
       \field{year}{2022}
       \true{nocite}
       \verb{urlraw}
-      \verb https://preprints.ru/article/780
+      \verb https://doi.org/10.24108/preprints-3112476
       \endverb
       \verb{url}
-      \verb https://preprints.ru/article/780
+      \verb https://doi.org/10.24108/preprints-3112476
       \endverb
       \keyw{,biblioauthor,bibliofull}
     \endentry
@@ -708,10 +708,10 @@
       \field{year}{2022}
       \true{nocite}
       \verb{urlraw}
-      \verb https://preprints.ru/article/780
+      \verb https://doi.org/10.24108/preprints-3112476
       \endverb
       \verb{url}
-      \verb https://preprints.ru/article/780
+      \verb https://doi.org/10.24108/preprints-3112476
       \endverb
       \keyw{,biblioauthor,bibliofull}
     \endentry
@@ -1029,10 +1029,10 @@
       \field{year}{2022}
       \true{nocite}
       \verb{urlraw}
-      \verb https://preprints.ru/article/780
+      \verb https://doi.org/10.24108/preprints-3112476
       \endverb
       \verb{url}
-      \verb https://preprints.ru/article/780
+      \verb https://doi.org/10.24108/preprints-3112476
       \endverb
       \keyw{,biblioauthor,bibliofull}
     \endentry
@@ -1073,6 +1073,38 @@
       \verb https://easychair.org/smart-program/MOTOR2022/2022-07-04.html#talk:195757
       \endverb
       \keyw{,biblioauthor,bibliofull}
+    \endentry
+    \entry{expi}{patent}{useauthor=false}
+      \name{author}{1}{}{%
+        {{hash=eacafdbc59783144973cb92da98b8c37}{%
+           family={Тюнин},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{eacafdbc59783144973cb92da98b8c37}
+      \strng{authornamehash}{eacafdbc59783144973cb92da98b8c37}
+      \strng{authorfullhash}{eacafdbc59783144973cb92da98b8c37}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{heading}{Свидетельство о гос. регистрации программы для {ЭВМ}}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{month}{7}
+      \field{prioritycountry}{countryru}
+      \field{prioritynumber}{2022662647}
+      \field{publicationday}{24}
+      \field{publicationmonth}{8}
+      \field{publicationyear}{2022}
+      \field{requestnumber}{2022666016}
+      \field{title}{Комплекс моделирования и решения задач оптимизации направленности ФАР КВ диапазона <<Expi>>}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{publicationdateera}{ce}
+      \true{nocite}
+      \keyw{,biblioauthorprogram,biblioregistered,bibliofull}
     \endentry
   \enddatalist
 \endrefsection

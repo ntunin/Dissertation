@@ -1885,6 +1885,13 @@ INPUT common\characteristic.tex
 INPUT .\common\characteristic.tex
 INPUT .\common\characteristic.tex
 INPUT common\characteristic.tex
+INPUT .\common\short_content.tex
+INPUT .\common\short_content.tex
+INPUT .\common\short_content.tex
+INPUT common\short_content.tex
+INPUT .\common\short_content.tex
+INPUT .\common\short_content.tex
+INPUT common\short_content.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm

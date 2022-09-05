@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.8.29)  30 AUG 2022 00:26
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.8.29)  5 SEP 2022 20:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1940,14 +1940,22 @@ Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
-LaTeX Info: Redefining \rmfamily on input line 102.
-LaTeX Info: Redefining \sffamily on input line 102.
-LaTeX Info: Redefining \ttfamily on input line 102.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+LaTeX Info: Redefining \rmfamily on input line 126.
+LaTeX Info: Redefining \sffamily on input line 126.
+LaTeX Info: Redefining \ttfamily on input line 126.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 106.
-LaTeX Info: Redefining \sffamily on input line 106.
-LaTeX Info: Redefining \ttfamily on input line 106.
+LaTeX Info: Redefining \rmfamily on input line 130.
+LaTeX Info: Redefining \sffamily on input line 130.
+LaTeX Info: Redefining \ttfamily on input line 130.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -1958,20 +1966,6 @@ Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-LaTeX Info: Redefining \rmfamily on input line 150.
-LaTeX Info: Redefining \sffamily on input line 150.
-LaTeX Info: Redefining \ttfamily on input line 150.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 154.
-LaTeX Info: Redefining \sffamily on input line 154.
-LaTeX Info: Redefining \ttfamily on input line 154.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -2000,52 +1994,66 @@ LaTeX Info: Redefining \sffamily on input line 202.
 LaTeX Info: Redefining \ttfamily on input line 202.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 210.
-LaTeX Info: Redefining \sffamily on input line 210.
-LaTeX Info: Redefining \ttfamily on input line 210.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+LaTeX Info: Redefining \rmfamily on input line 222.
+LaTeX Info: Redefining \sffamily on input line 222.
+LaTeX Info: Redefining \ttfamily on input line 222.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 214.
-LaTeX Info: Redefining \sffamily on input line 214.
-LaTeX Info: Redefining \ttfamily on input line 214.
+LaTeX Info: Redefining \rmfamily on input line 226.
+LaTeX Info: Redefining \sffamily on input line 226.
+LaTeX Info: Redefining \ttfamily on input line 226.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 234.
+LaTeX Info: Redefining \sffamily on input line 234.
+LaTeX Info: Redefining \ttfamily on input line 234.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 238.
+LaTeX Info: Redefining \sffamily on input line 238.
+LaTeX Info: Redefining \ttfamily on input line 238.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
-LaTeX Info: Redefining \rmfamily on input line 254.
-LaTeX Info: Redefining \sffamily on input line 254.
-LaTeX Info: Redefining \ttfamily on input line 254.
+LaTeX Info: Redefining \rmfamily on input line 278.
+LaTeX Info: Redefining \sffamily on input line 278.
+LaTeX Info: Redefining \ttfamily on input line 278.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 258.
-LaTeX Info: Redefining \sffamily on input line 258.
-LaTeX Info: Redefining \ttfamily on input line 258.
+LaTeX Info: Redefining \rmfamily on input line 282.
+LaTeX Info: Redefining \sffamily on input line 282.
+LaTeX Info: Redefining \ttfamily on input line 282.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
-LaTeX Info: Redefining \rmfamily on input line 324.
-LaTeX Info: Redefining \sffamily on input line 324.
-LaTeX Info: Redefining \ttfamily on input line 324.
+LaTeX Info: Redefining \rmfamily on input line 348.
+LaTeX Info: Redefining \sffamily on input line 348.
+LaTeX Info: Redefining \ttfamily on input line 348.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 328.
-LaTeX Info: Redefining \sffamily on input line 328.
-LaTeX Info: Redefining \ttfamily on input line 328.
+LaTeX Info: Redefining \rmfamily on input line 352.
+LaTeX Info: Redefining \sffamily on input line 352.
+LaTeX Info: Redefining \ttfamily on input line 352.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 336.
-LaTeX Info: Redefining \sffamily on input line 336.
-LaTeX Info: Redefining \ttfamily on input line 336.
+LaTeX Info: Redefining \rmfamily on input line 360.
+LaTeX Info: Redefining \sffamily on input line 360.
+LaTeX Info: Redefining \ttfamily on input line 360.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 340.
-LaTeX Info: Redefining \sffamily on input line 340.
-LaTeX Info: Redefining \ttfamily on input line 340.
+LaTeX Info: Redefining \rmfamily on input line 364.
+LaTeX Info: Redefining \sffamily on input line 364.
+LaTeX Info: Redefining \ttfamily on input line 364.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -2265,34 +2273,34 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (Synopsis/title.tex [1.1
 
-]) [2.2] (Synopsis/content.tex (common/characteristic.tex
-Underfull \hbox (badness 3281) in paragraph at lines 19--20
-\TU/TimesNewRoman(1)/m/n/10 упрощающающих предположений [Indenbom, Щелкунов, Фа
-няев]. Однако,
+]) [2.2] (Synopsis/content.tex (common/characteristic.tex [3.3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+[]\TU/TimesNewRoman(1)/m/n/10 Еще одним широко используемым подоходом к решению
+ задач
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-\TU/TimesNewRoman(1)/m/n/10 Вообще говоря, задачи квадратичного программировани
-я являются NP-
+Underfull \hbox (badness 5446) in paragraph at lines 85--85
+\TU/TimesNewRoman(1)/m/n/10 нетические алгоритмы, роевые алгоритмы, алгоритмы д
+ифференциальной
  []
 
 
-Underfull \vbox (badness 4279) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[3.3
-
-] [4.4]
+[4.4]
 Underfull \hbox (badness 1515) in paragraph at lines 94--95
 []\TU/TimesNewRoman(1)/m/n/10 Использование градиентных методов в комбинации с 
 методом ДЭ
  []
 
+[5.5]
 \blx@maxsegment@1=\count635
 \blx@sectionciteorder@1=\count636
 Package biblatex Info: Reference section=1 on input line 197.
 Package biblatex Info: Setting label 'refsection:1' on input line 197.
-[5.5]
 LaTeX Info: Redefining \rmfamily on input line 197.
 LaTeX Info: Redefining \sffamily on input line 197.
 LaTeX Info: Redefining \ttfamily on input line 197.
@@ -2328,22 +2336,8 @@ Package biblatex Warning: Keyword 'biblioauthorother' not found on input line 1
 LaTeX Warning: Empty bibliography on input line 197.
 
 
-Package biblatex Warning: Keyword 'biblioregistered' not found on input line 19
-7.
-
-
-LaTeX Warning: Empty bibliography on input line 197.
-
-
 Package biblatex Warning: Keyword 'biblioauthorpatent' not found on input line 
 197.
-
-
-LaTeX Warning: Empty bibliography on input line 197.
-
-
-Package biblatex Warning: Keyword 'biblioauthorprogram' not found on input line
- 197.
 
 
 LaTeX Warning: Empty bibliography on input line 197.
@@ -2378,21 +2372,28 @@ Underfull \hbox (badness 4279) in paragraph at lines 197--24
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[]$ \TU/TimesNewRo
-man(1)/m/n/10 Основные результаты по теме диссертации изложены
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][]$[]$ \TU/TimesNewRoman(1)/m/n/10 Основные резуль
+таты по теме диссертации изложены
  []
 
-[6.6] [7.7]
-Underfull \hbox (badness 2521) in paragraph at lines 110--112
-\TU/TimesNewRoman(1)/m/n/10 Strekalovsky]. Локально-оптимальное решение задачи 
-может быть найдено
+(common/short_content.tex [6.6] [7.7]
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+[]\TU/TimesNewRoman(1)/m/n/10 Глобально-оптимальное решение задачи невыпуклого 
+математиче-
  []
 
-LaTeX Info: Redefining \rmfamily on input line 126.
-LaTeX Info: Redefining \sffamily on input line 126.
-LaTeX Info: Redefining \ttfamily on input line 126.
+
+Underfull \hbox (badness 2334) in paragraph at lines 77--79
+\TU/TimesNewRoman(1)/m/n/10 ского программирования вида ([][]5[][]) может быть 
+найдено методом ветвей и
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 93.
+LaTeX Info: Redefining \sffamily on input line 93.
+LaTeX Info: Redefining \ttfamily on input line 93.
 [8.8]
-Underfull \hbox (badness 3128) in paragraph at lines 136--137
+Underfull \hbox (badness 3128) in paragraph at lines 103--104
 \TU/TimesNewRoman(1)/m/n/10 на основе четырех типов ФАР: широкополосных вертика
 льных излучате-
  []
@@ -2420,8 +2421,11 @@ File: images//fit_dist.eps Graphic file (type eps)
 <images//fit_dist.eps>
 File: images//fit_dist_2x2.eps Graphic file (type eps)
 <images//fit_dist_2x2.eps>
-[11.11] [12.12] [13.13]
-Underfull \hbox (badness 1418) in paragraph at lines 288--289
+[11.11]
+Underfull \vbox (badness 6995) has occurred while \output is active []
+
+[12.12] [13.13]
+Underfull \hbox (badness 1418) in paragraph at lines 255--256
 []$[]$ \TU/TimesNewRoman(1)/m/n/10 посвящена исследованию возможности оптимизац
 ии
  []
@@ -2430,73 +2434,76 @@ File: images//ring_f__paa_gains.eps Graphic file (type eps)
 <images//ring_f__paa_gains.eps>
 File: images//ring_f_gains.eps Graphic file (type eps)
 <images//ring_f_gains.eps>
-
-Underfull \vbox (badness 3118) has occurred while \output is active []
-
-[14.14] [15.15]
+[14.14]
 File: images//r8_1_25_5x7.png Graphic file (type bmp)
 <images//r8_1_25_5x7.png>
 File: images//r8_25_5x7.png Graphic file (type bmp)
 <images//r8_25_5x7.png>
+[15.15]
 File: images//r_bvd_20_results_h.png Graphic file (type bmp)
 <images//r_bvd_20_results_h.png>
 File: images//r_bvd_20_results_v.png Graphic file (type bmp)
 <images//r_bvd_20_results_v.png>
 
-Underfull \hbox (badness 2285) in paragraph at lines 339--339
+Underfull \hbox (badness 2285) in paragraph at lines 306--306
  \TU/TimesNewRoman(1)/m/n/10 ленности ШВД при расстоянии от центра излучателя д
 о центра решетки 
  []
 
 
-Underfull \hbox (badness 6412) in paragraph at lines 339--339
+Underfull \hbox (badness 6412) in paragraph at lines 306--306
  \TU/TimesNewRoman(1)/m/n/10 20 м. Пунктирной линией обозначено усиление одиноч
 ного излучателя, 
  []
 
-[16.16] [17.17] (common/concl.tex)
-LaTeX Info: Redefining \rmfamily on input line 418.
-LaTeX Info: Redefining \sffamily on input line 418.
-LaTeX Info: Redefining \ttfamily on input line 418.
-LaTeX Info: Redefining \rmfamily on input line 418.
-LaTeX Info: Redefining \sffamily on input line 418.
-LaTeX Info: Redefining \ttfamily on input line 418.
-[18.18]) [19.19] [20.20]
+[16.16] (common/concl.tex))
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package nag Warning: Unmatched ``\center'' command on line 337.
+[17.17]
+LaTeX Info: Redefining \rmfamily on input line 95.
+LaTeX Info: Redefining \sffamily on input line 95.
+LaTeX Info: Redefining \ttfamily on input line 95.
+LaTeX Info: Redefining \rmfamily on input line 95.
+LaTeX Info: Redefining \sffamily on input line 95.
+LaTeX Info: Redefining \ttfamily on input line 95.
+) [18.18] [19.19] [20.20
 
+]
 
-Package nag Warning: Unmatched ``\center'' command on line 333.
-
-
-Package nag Warning: Unmatched ``\center'' command on line 318.
-
-
-Package nag Warning: Unmatched ``\center'' command on line 314.
+Package nag Warning: Unmatched ``\center'' command on line 304.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 305.
+Package nag Warning: Unmatched ``\center'' command on line 300.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 297.
+Package nag Warning: Unmatched ``\center'' command on line 285.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 234.
+Package nag Warning: Unmatched ``\center'' command on line 281.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 231.
+Package nag Warning: Unmatched ``\center'' command on line 272.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 151.
+Package nag Warning: Unmatched ``\center'' command on line 264.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 147.
+Package nag Warning: Unmatched ``\center'' command on line 201.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 144.
+Package nag Warning: Unmatched ``\center'' command on line 198.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 140.
+Package nag Warning: Unmatched ``\center'' command on line 118.
+
+
+Package nag Warning: Unmatched ``\center'' command on line 114.
+
+
+Package nag Warning: Unmatched ``\center'' command on line 111.
+
+
+Package nag Warning: Unmatched ``\center'' command on line 107.
 
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
@@ -2631,14 +2638,22 @@ Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
-LaTeX Info: Redefining \rmfamily on input line 102.
-LaTeX Info: Redefining \sffamily on input line 102.
-LaTeX Info: Redefining \ttfamily on input line 102.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+LaTeX Info: Redefining \rmfamily on input line 126.
+LaTeX Info: Redefining \sffamily on input line 126.
+LaTeX Info: Redefining \ttfamily on input line 126.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 106.
-LaTeX Info: Redefining \sffamily on input line 106.
-LaTeX Info: Redefining \ttfamily on input line 106.
+LaTeX Info: Redefining \rmfamily on input line 130.
+LaTeX Info: Redefining \sffamily on input line 130.
+LaTeX Info: Redefining \ttfamily on input line 130.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -2649,20 +2664,6 @@ Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-LaTeX Info: Redefining \rmfamily on input line 150.
-LaTeX Info: Redefining \sffamily on input line 150.
-LaTeX Info: Redefining \ttfamily on input line 150.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 154.
-LaTeX Info: Redefining \sffamily on input line 154.
-LaTeX Info: Redefining \ttfamily on input line 154.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -2691,52 +2692,66 @@ LaTeX Info: Redefining \sffamily on input line 202.
 LaTeX Info: Redefining \ttfamily on input line 202.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 210.
-LaTeX Info: Redefining \sffamily on input line 210.
-LaTeX Info: Redefining \ttfamily on input line 210.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+LaTeX Info: Redefining \rmfamily on input line 222.
+LaTeX Info: Redefining \sffamily on input line 222.
+LaTeX Info: Redefining \ttfamily on input line 222.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 214.
-LaTeX Info: Redefining \sffamily on input line 214.
-LaTeX Info: Redefining \ttfamily on input line 214.
+LaTeX Info: Redefining \rmfamily on input line 226.
+LaTeX Info: Redefining \sffamily on input line 226.
+LaTeX Info: Redefining \ttfamily on input line 226.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 234.
+LaTeX Info: Redefining \sffamily on input line 234.
+LaTeX Info: Redefining \ttfamily on input line 234.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 238.
+LaTeX Info: Redefining \sffamily on input line 238.
+LaTeX Info: Redefining \ttfamily on input line 238.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
-LaTeX Info: Redefining \rmfamily on input line 254.
-LaTeX Info: Redefining \sffamily on input line 254.
-LaTeX Info: Redefining \ttfamily on input line 254.
+LaTeX Info: Redefining \rmfamily on input line 278.
+LaTeX Info: Redefining \sffamily on input line 278.
+LaTeX Info: Redefining \ttfamily on input line 278.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 258.
-LaTeX Info: Redefining \sffamily on input line 258.
-LaTeX Info: Redefining \ttfamily on input line 258.
+LaTeX Info: Redefining \rmfamily on input line 282.
+LaTeX Info: Redefining \sffamily on input line 282.
+LaTeX Info: Redefining \ttfamily on input line 282.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
-LaTeX Info: Redefining \rmfamily on input line 324.
-LaTeX Info: Redefining \sffamily on input line 324.
-LaTeX Info: Redefining \ttfamily on input line 324.
+LaTeX Info: Redefining \rmfamily on input line 348.
+LaTeX Info: Redefining \sffamily on input line 348.
+LaTeX Info: Redefining \ttfamily on input line 348.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 328.
-LaTeX Info: Redefining \sffamily on input line 328.
-LaTeX Info: Redefining \ttfamily on input line 328.
+LaTeX Info: Redefining \rmfamily on input line 352.
+LaTeX Info: Redefining \sffamily on input line 352.
+LaTeX Info: Redefining \ttfamily on input line 352.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 336.
-LaTeX Info: Redefining \sffamily on input line 336.
-LaTeX Info: Redefining \ttfamily on input line 336.
+LaTeX Info: Redefining \rmfamily on input line 360.
+LaTeX Info: Redefining \sffamily on input line 360.
+LaTeX Info: Redefining \ttfamily on input line 360.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 340.
-LaTeX Info: Redefining \sffamily on input line 340.
-LaTeX Info: Redefining \ttfamily on input line 340.
+LaTeX Info: Redefining \rmfamily on input line 364.
+LaTeX Info: Redefining \sffamily on input line 364.
+LaTeX Info: Redefining \ttfamily on input line 364.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -2965,6 +2980,7 @@ synopsis.bbl
 Synopsis/title.tex
 Synopsis/content.tex
 common/characteristic.tex
+common/short_content.tex
 images//2x2bvm.eps
 images//2x2bvd.eps
 images//5x5SVD.eps
@@ -2987,12 +3003,12 @@ Package logreq Info: Writing requests to 'synopsis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50903 strings out of 410636
- 1039119 string characters out of 2820057
- 2177189 words of memory out of 3000000
- 71196 multiletter control sequences out of 15000+600000
+ 50919 strings out of 410636
+ 1039560 string characters out of 2820057
+ 2178242 words of memory out of 3000000
+ 71209 multiletter control sequences out of 15000+600000
  477524 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,16n,123p,1510b,8853s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 93i,16n,123p,1544b,8853s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on synopsis.xdv (20 pages, 368884 bytes).
+Output written on synopsis.xdv (20 pages, 371260 bytes).
