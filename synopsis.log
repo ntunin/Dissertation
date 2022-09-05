@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.8.29)  29 AUG 2022 23:58
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.8.29)  30 AUG 2022 00:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2989,10 +2989,10 @@ Package logreq Info: Writing requests to 'synopsis.run.xml'.
 Here is how much of TeX's memory you used:
  50903 strings out of 410636
  1039119 string characters out of 2820057
- 2177191 words of memory out of 3000000
+ 2177189 words of memory out of 3000000
  71196 multiletter control sequences out of 15000+600000
  477524 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,16n,123p,1510b,8853s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on synopsis.xdv (20 pages, 368876 bytes).
+Output written on synopsis.xdv (20 pages, 368884 bytes).
