@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  3 SEP 2022 18:35
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  5 SEP 2022 07:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3062,7 +3062,7 @@ LaTeX Info: Redefining \sffamily on input line 1292.
 LaTeX Info: Redefining \ttfamily on input line 1292.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-) (Dissertation/applications.aux
+) (Dissertation/appendix.aux
 
 LaTeX Warning: Label `experiment' multiply defined.
 
@@ -4619,39 +4619,41 @@ Package biblatex Info: Reference section=0 on input line 197.
 \@c=\count669
 \@last=\count670
 \@pnul=\count671
-\@c=\count672
-\@last=\count673
-\@pnul=\count674
-\@c=\count675
-\@last=\count676
-\@pnul=\count677
-
-Underfull \hbox (badness 1502) in paragraph at lines 37--46
+(common/short_content.tex
+Underfull \hbox (badness 1502) in paragraph at lines 1--6
 []\TU/TimesNewRoman(1)/m/n/14.4 Во $[]$ обосновывается актуальность исследовани
 й, проводимых
  []
 
 [7.7] [8.8] [9.9]
-Underfull \hbox (badness 3229) in paragraph at lines 116--118
+Underfull \hbox (badness 3229) in paragraph at lines 77--79
 []\TU/TimesNewRoman(1)/m/n/14.4 Глобально-оптимальное решение задачи невыпуклог
 о математического
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 116--118
+Underfull \hbox (badness 1990) in paragraph at lines 77--79
 \TU/TimesNewRoman(1)/m/n/14.4 оптимальное решение задачи может быть найдено сре
 дствами градиентной
  []
 
-[10.10] [11.11] [12.12]
+[10.10]
+File: images//2x2bvm.eps Graphic file (type eps)
+<images//2x2bvm.eps>
+File: images//2x2bvd.eps Graphic file (type eps)
+<images//2x2bvd.eps>
+File: images//5x5SVD.eps Graphic file (type eps)
+<images//5x5SVD.eps>
+File: images//r8.eps Graphic file (type eps)
+<images//r8.eps>
+[11.11] [12.12] [13.13]
 File: images//fit_dist.eps Graphic file (type eps)
 <images//fit_dist.eps>
 File: images//fit_dist_2x2.eps Graphic file (type eps)
 <images//fit_dist_2x2.eps>
-[13.13] [14.14] [15.15] [16.16]
+[14.14] [15.15] [16.16] [17.17]
 File: images//ring_f__paa_gains.eps Graphic file (type eps)
 <images//ring_f__paa_gains.eps>
-[17.17]
 File: images//ring_f_gains.eps Graphic file (type eps)
 <images//ring_f_gains.eps>
 File: images//r8_1_25_5x7.png Graphic file (type bmp)
@@ -4659,29 +4661,23 @@ File: images//r8_1_25_5x7.png Graphic file (type bmp)
 File: images//r8_25_5x7.png Graphic file (type bmp)
 <images//r8_25_5x7.png>
 [18.18] [19.19]
-File: images//r_bve_w.eps Graphic file (type eps)
-<images//r_bve_w.eps>
-File: images//r_bvd.eps Graphic file (type eps)
-<images//r_bvd.eps>
-File: images//r_svd.eps Graphic file (type eps)
-<images//r_svd.eps>
 File: images//r_bvd_20_results_h.png Graphic file (type bmp)
 <images//r_bvd_20_results_h.png>
 File: images//r_bvd_20_results_v.png Graphic file (type bmp)
 <images//r_bvd_20_results_v.png>
 
-Underfull \hbox (badness 7925) in paragraph at lines 334--334
+Underfull \hbox (badness 7925) in paragraph at lines 306--306
  [][]\TU/TimesNewRoman(1)/m/n/14.4 Рисунок 6 [] |Горизонтальный (а) и вертикаль
 ный (б) план диаграммы 
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 334--334
+Underfull \hbox (badness 1895) in paragraph at lines 306--306
  \TU/TimesNewRoman(1)/m/n/14.4 ки 20 м. Пунктирной линией обозначено усиление о
 диночного излучателя, 
  []
 
-[20.20] [21.21] (common/concl.tex)) [22.22]
+[20.20] (common/concl.tex))) [21.21]
 \openout2 = `Dissertation/part1.aux'.
 
 (Dissertation/part1.tex
@@ -4693,18 +4689,18 @@ File: images//5x5SVD.eps Graphic file (type eps)
 <images//5x5SVD.eps>
 File: images//r8.eps Graphic file (type eps)
 <images//r8.eps>
-[23.23
+[22.22
 
 
 
 
-] [24.24] [25.25] [26.26] [27.27]
+] [23.23] [24.24] [25.25] [26.26]
 Underfull \hbox (badness 1424) in paragraph at lines 151--154
 \TU/TimesNewRoman(1)/m/n/14.4 рантируется получение глобального оптимума. Прибл
 изиться к глобальному
  []
 
-[28.28]
+[27.27]
 Underfull \hbox (badness 3229) in paragraph at lines 216--218
 []\TU/TimesNewRoman(1)/m/n/14.4 Глобально-оптимальное решение задачи невыпуклог
 о математического
@@ -4716,34 +4712,34 @@ Underfull \hbox (badness 1990) in paragraph at lines 216--218
 дствами градиентной
  []
 
-[29.29] [30.30] [31.31] [32.32] [33.33]
+[28.28] [29.29] [30.30] [31.31] [32.32]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[34.34] [35.35]
+[33.33] [34.34]
 File: images//BWE_comp.eps Graphic file (type eps)
 <images//BWE_comp.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [36.36] [37.37]
+) [35.35] [36.36]
 \openout2 = `Dissertation/part4.aux'.
 
-(Dissertation/part4.tex [38.38
+(Dissertation/part4.tex [37.37
 
 
 
 
-] [39.39] [40.40] [41.41] [42.42]
+] [38.38] [39.39] [40.40] [41.41]
 Underfull \hbox (badness 10000) in paragraph at lines 221--223
 []\TU/TimesNewRoman(1)/m/n/14.4 Aналогичные испытания производились и с помощью
  решателя
  []
 
-[43.43]
+[42.42]
 File: images//ratio.eps Graphic file (type eps)
 <images//ratio.eps>
-[44.44]) [45.45]
+[43.43]) [44.44]
 \openout2 = `Dissertation/part2.aux'.
 
 (Dissertation/part2.tex
@@ -4751,54 +4747,54 @@ File: images//fit_dist.eps Graphic file (type eps)
 <images//fit_dist.eps>
 File: images//fit_dist_2x2.eps Graphic file (type eps)
 <images//fit_dist_2x2.eps>
-[46.46
+[45.45
 
 
 
 
-] [47.47] [48.48]
+] [46.46] [47.47]
 File: images//stability.eps Graphic file (type eps)
 <images//stability.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[49.49]
+[48.48]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[50.50] [51.51] [52.52] [53.53]
+[49.49] [50.50] [51.51] [52.52]
 Missing character: There is no Р in font cmsy10!
 Missing character: There is no Р in font cmsy10!
-[54.54] [55.55]
+[53.53] [54.54]
 Underfull \hbox (badness 2334) in paragraph at lines 271--273
 []\TU/TimesNewRoman(1)/m/n/14.4 Утверждение [][]1[][] может быть применено для 
 анализа симметрий зада-
  []
 
-[56.56]
+[55.55]
 Underfull \hbox (badness 7981) in paragraph at lines 332--333
 []\TU/TimesNewRoman(1)/m/n/14.4 Из стандартных фактов теории топологических гру
 пп (см., напри-
  []
 
-[57.57] [58.58]
+[56.56] [57.57]
 Underfull \hbox (badness 6910) in paragraph at lines 365--367
 []\TU/TimesNewRoman(1)/m/n/14.4 Совершенно очевидно, что для выполнения условий
  коммутативно-
  []
 
-[59.59] [60.60]
+[58.58] [59.59]
 Overfull \hbox (10.87254pt too wide) detected at line 445
 \OML/cmm/m/it/14.4 e[] \OT1/cmr/m/n/14.4 = [] \OML/cmm/m/it/14.4 :
  []
 
-) [61.61]
+) [60.60]
 \openout2 = `Dissertation/part3.aux'.
 
 (Dissertation/part3.tex
 File: images//ring_f__paa_gains.eps Graphic file (type eps)
 <images//ring_f__paa_gains.eps>
-[62.62
+[61.61
 
 
 
@@ -4806,7 +4802,7 @@ File: images//ring_f__paa_gains.eps Graphic file (type eps)
 ]
 File: images//ring_f_gains.eps Graphic file (type eps)
 <images//ring_f_gains.eps>
-[63.63]
+[62.62]
 File: images//r8_1_5_5x7.png Graphic file (type bmp)
 <images//r8_1_5_5x7.png>
 File: images//r8_5_5x7.png Graphic file (type bmp)
@@ -4823,12 +4819,12 @@ File: images//r8_1_25_5x7.png Graphic file (type bmp)
 <images//r8_1_25_5x7.png>
 File: images//r8_25_5x7.png Graphic file (type bmp)
 <images//r8_25_5x7.png>
-[64.64]
+[63.63]
 File: images//r8_horizontal_5x7.eps Graphic file (type eps)
 <images//r8_horizontal_5x7.eps>
 File: images//r8_horizontal_5x7_2.eps Graphic file (type eps)
 <images//r8_horizontal_5x7_2.eps>
-[65.65] [66.66]
+[64.64] [65.65]
 File: images//mut/bve/5/8/h.eps Graphic file (type eps)
 <images//mut/bve/5/8/h.eps>
 File: images//mut/bve/5/8/v.eps Graphic file (type eps)
@@ -4838,18 +4834,18 @@ File: images//mut/bve/5/15/h.eps Graphic file (type eps)
 File: images//mut/bve/5/15/v.eps Graphic file (type eps)
 <images//mut/bve/5/15/v.eps>
 
-LaTeX Warning: Reference `ris:ris:bvd_mut_5_10' on page 67 undefined on input l
+LaTeX Warning: Reference `ris:ris:bvd_mut_5_10' on page 66 undefined on input l
 ine 135.
 
 
-LaTeX Warning: Reference `ris:ris:bvd_mut_5_20' on page 67 undefined on input l
+LaTeX Warning: Reference `ris:ris:bvd_mut_5_20' on page 66 undefined on input l
 ine 135.
 
 File: images//mut/bvd/5/10/h.eps Graphic file (type eps)
 <images//mut/bvd/5/10/h.eps>
 File: images//mut/bvd/5/10/v.eps Graphic file (type eps)
 <images//mut/bvd/5/10/v.eps>
-[67.67]
+[66.66]
 File: images//mut/bvd/5/50/h.eps Graphic file (type eps)
 <images//mut/bvd/5/50/h.eps>
 File: images//mut/bvd/5/50/v.eps Graphic file (type eps)
@@ -4859,7 +4855,7 @@ File: images//mut/bvd/5/20/h.eps Graphic file (type eps)
 File: images//mut/bvd/5/20/v.eps Graphic file (type eps)
 <images//mut/bvd/5/20/v.eps>
 
-LaTeX Warning: Reference `ris:ris:bvd_mut_25_10' on page 68 undefined on input 
+LaTeX Warning: Reference `ris:ris:bvd_mut_25_10' on page 67 undefined on input 
 line 174.
 
 File: images//mut/bvd/25/10/h.eps Graphic file (type eps)
@@ -4886,7 +4882,7 @@ File: images//mut/svd/5/70/40/h.eps Graphic file (type eps)
 <images//mut/svd/5/70/40/h.eps>
 File: images//mut/svd/5/70/40/v.eps Graphic file (type eps)
 <images//mut/svd/5/70/40/v.eps>
-[68.68]
+[67.67]
 File: images//mut/svd/5/85/25/h.eps Graphic file (type eps)
 <images//mut/svd/5/85/25/h.eps>
 File: images//mut/svd/5/85/25/v.eps Graphic file (type eps)
@@ -4895,8 +4891,8 @@ File: images//mut/svd/5/85/45/h.eps Graphic file (type eps)
 <images//mut/svd/5/85/45/h.eps>
 File: images//mut/svd/5/85/45/v.eps Graphic file (type eps)
 <images//mut/svd/5/85/45/v.eps>
-[69.69]) [70.70] [71.71] [72.72] [73.73] [74.74] [75.75] [76.76] [77.77] [78.78
-] [79.79] [80.80]
+[68.68]) [69.69] [70.70] [71.71] [72.72] [73.73] [74.74] [75.75] [76.76] [77.77
+] [78.78] [79.79]
 \openout2 = `Dissertation/conclusion.aux'.
 
 (Dissertation/conclusion.tex (common/concl.tex)
@@ -4917,7 +4913,7 @@ Underfull \hbox (badness 2698) in paragraph at lines 12--17
 на *Russian-Phd-LaTeX-
  []
 
-) [81.81
+) [80.80
 
 
 
@@ -4928,7 +4924,7 @@ Underfull \hbox (badness 2698) in paragraph at lines 12--17
 (Dissertation/acronyms.tex (dissertation.nls))
 \openout2 = `Dissertation/dictionary.aux'.
 
-(Dissertation/dictionary.tex) [82.82
+(Dissertation/dictionary.tex) [81.81
 
 
 
@@ -4964,7 +4960,7 @@ LaTeX Info: Redefining \ttfamily on input line 6.
 LaTeX Info: Redefining \rmfamily on input line 6.
 LaTeX Info: Redefining \sffamily on input line 6.
 LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex) (common/renames.tex) (common/renames.tex) [83.83
+(common/renames.tex) (common/renames.tex) (common/renames.tex) [82.82
 
 
 
@@ -5014,39 +5010,39 @@ LaTeX Info: Redefining \ttfamily on input line 6.
 LaTeX Info: Redefining \rmfamily on input line 6.
 LaTeX Info: Redefining \sffamily on input line 6.
 LaTeX Info: Redefining \ttfamily on input line 6.
+(common/renames.tex) [83.83]
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
+(common/renames.tex) (common/renames.tex) (common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
+(common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
+(common/renames.tex) (common/renames.tex) (common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
+(common/renames.tex) (common/renames.tex) (common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
+(common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
+(common/renames.tex) (common/renames.tex) (common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
+(common/renames.tex)
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
 (common/renames.tex) [84.84]
-LaTeX Info: Redefining \rmfamily on input line 6.
-LaTeX Info: Redefining \sffamily on input line 6.
-LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex) (common/renames.tex) (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 6.
-LaTeX Info: Redefining \sffamily on input line 6.
-LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 6.
-LaTeX Info: Redefining \sffamily on input line 6.
-LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex) (common/renames.tex) (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 6.
-LaTeX Info: Redefining \sffamily on input line 6.
-LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex) (common/renames.tex) (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 6.
-LaTeX Info: Redefining \sffamily on input line 6.
-LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 6.
-LaTeX Info: Redefining \sffamily on input line 6.
-LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex) (common/renames.tex) (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 6.
-LaTeX Info: Redefining \sffamily on input line 6.
-LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 6.
-LaTeX Info: Redefining \sffamily on input line 6.
-LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex) [85.85]
 LaTeX Info: Redefining \rmfamily on input line 6.
 LaTeX Info: Redefining \sffamily on input line 6.
 LaTeX Info: Redefining \ttfamily on input line 6.
@@ -5088,7 +5084,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--6
 ear symmetries of matchings polyhedron and graph
  []
 
-[86.86]
+[85.85]
 LaTeX Info: Redefining \rmfamily on input line 6.
 LaTeX Info: Redefining \sffamily on input line 6.
 LaTeX Info: Redefining \ttfamily on input line 6.
@@ -5271,10 +5267,10 @@ LaTeX Info: Redefining \ttfamily on input line 6.
 LaTeX Info: Redefining \rmfamily on input line 6.
 LaTeX Info: Redefining \sffamily on input line 6.
 LaTeX Info: Redefining \ttfamily on input line 6.
-(common/renames.tex)) [87.87]
-\openout2 = `Dissertation/applications.aux'.
+(common/renames.tex)) [86.86]
+\openout2 = `Dissertation/appendix.aux'.
 
-(Dissertation/applications.tex
+(Dissertation/appendix.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--9
 
  []
@@ -5284,17 +5280,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
-[88.88
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--42
+
+ []
+
+[87.87
 
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 38--42
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
@@ -5335,19 +5331,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
-[89.89]
-Underfull \hbox (badness 2165) in paragraph at lines 87--90
-[]\TU/TimesNewRoman(1)/m/n/14.4 Комплекс моделирования и решения задач оптимиза
-ции направленно-
- []
-
-
-Underfull \hbox (badness 2073) in paragraph at lines 87--90
-\TU/TimesNewRoman(1)/m/n/14.4 сти ФАР КВ диапазона «Expi» предназначен для моде
-лирования антенных
- []
-
-[90.90]
+[88.88] [89.89]
 File: expi_script.jpeg Graphic file (type bmp)
 <expi_script.jpeg>
 File: expi_paa.jpeg Graphic file (type bmp)
@@ -5360,13 +5344,9 @@ File: expi_results.jpeg Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[91.91]
-Overfull \vbox (70.17807pt too high) has occurred while \output is active []
-
-[92.92]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 118.
-[93.93] [94.94] [95.95]) [96.96]
+[90.90] [91.91] [92.92] [93.93] [94.94]) [95.95]
 
 Package nag Warning: Unmatched ``\center'' command on line 272.
 
@@ -5509,37 +5489,40 @@ Package nag Warning: Unmatched ``\center'' command on line 22.
 Package nag Warning: Unmatched ``\center'' command on line 18.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 332.
+Package nag Warning: Unmatched ``\center'' command on line 304.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 328.
+Package nag Warning: Unmatched ``\center'' command on line 300.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 316.
+Package nag Warning: Unmatched ``\center'' command on line 285.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 313.
+Package nag Warning: Unmatched ``\center'' command on line 281.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 309.
+Package nag Warning: Unmatched ``\center'' command on line 272.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 296.
-
-
-Package nag Warning: Unmatched ``\center'' command on line 292.
-
-
-Package nag Warning: Unmatched ``\center'' command on line 283.
-
-
-Package nag Warning: Unmatched ``\center'' command on line 275.
-
-
-Package nag Warning: Unmatched ``\center'' command on line 204.
+Package nag Warning: Unmatched ``\center'' command on line 264.
 
 
 Package nag Warning: Unmatched ``\center'' command on line 201.
+
+
+Package nag Warning: Unmatched ``\center'' command on line 198.
+
+
+Package nag Warning: Unmatched ``\center'' command on line 118.
+
+
+Package nag Warning: Unmatched ``\center'' command on line 114.
+
+
+Package nag Warning: Unmatched ``\center'' command on line 111.
+
+
+Package nag Warning: Unmatched ``\center'' command on line 107.
 
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
@@ -5651,7 +5634,7 @@ Package caption Warning: Unused \captionsetup[subfloat] on input line 66.
 See the caption package documentation for explanation.
 
 
-Package nag Warning: 58 complaints in total.
+Package nag Warning: 59 complaints in total.
 
 \tf@toc=\write10
 \openout10 = `dissertation.toc'.
@@ -6815,7 +6798,7 @@ LaTeX Info: Redefining \sffamily on input line 1292.
 LaTeX Info: Redefining \ttfamily on input line 1292.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-(common/renames.tex)) (Dissertation/applications.aux))
+(common/renames.tex)) (Dissertation/appendix.aux))
 
  *File List*
 dissertation.tex
@@ -7274,15 +7257,17 @@ common/renames.tex
 common/renames.tex
 common/renames.tex
 common/renames.tex
+common/short_content.tex
+images//2x2bvm.eps
+images//2x2bvd.eps
+images//5x5SVD.eps
+images//r8.eps
 images//fit_dist.eps
 images//fit_dist_2x2.eps
 images//ring_f__paa_gains.eps
 images//ring_f_gains.eps
 images//r8_1_25_5x7.png
 images//r8_25_5x7.png
-images//r_bve_w.eps
-images//r_bvd.eps
-images//r_svd.eps
 images//r_bvd_20_results_h.png
 images//r_bvd_20_results_v.png
 common/concl.tex
@@ -7485,7 +7470,7 @@ common/renames.tex
 common/renames.tex
 common/renames.tex
 common/renames.tex
-Dissertation/applications.tex
+Dissertation/appendix.tex
 expi_script.jpeg    Graphic file (type bmp)
 expi_paa.jpeg    Graphic file (type bmp)
 expi_results.jpeg    Graphic file (type bmp)
@@ -7722,12 +7707,12 @@ Package logreq Info: Writing requests to 'dissertation.run.xml'.
 ### simple group (level 1) entered at line 261 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 54657 strings out of 410967
- 1117444 string characters out of 2828016
- 2572224 words of memory out of 3000000
- 73267 multiletter control sequences out of 15000+600000
+ 54642 strings out of 410967
+ 1117064 string characters out of 2828016
+ 2571201 words of memory out of 3000000
+ 73253 multiletter control sequences out of 15000+600000
  483076 words of font info for 136 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  119i,16n,123p,2466b,7848s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on dissertation.xdv (96 pages, 1578220 bytes).
+Output written on dissertation.xdv (95 pages, 1547020 bytes).
