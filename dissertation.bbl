@@ -1251,34 +1251,70 @@
       \field{year}{2005}
       \keyw{,biblioexternal,bibliofull}
     \endentry
-    \entry{eremeev:restart}{article}{}
+    \entry{BN98}{article}{}
       \name{author}{1}{}{%
-        {{hash=05b537086e936048590a803e1ccb19df}{%
-           family={Eremeev},
-           familyi={E\bibinitperiod},
-           given={A.\bibnamedelimi V},
-           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=6687e02e7b5ef2422cb05ed404227a7d}{%
+           family={Balas},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{05b537086e936048590a803e1ccb19df}
-      \strng{fullhash}{05b537086e936048590a803e1ccb19df}
-      \strng{bibnamehash}{05b537086e936048590a803e1ccb19df}
-      \strng{authorbibnamehash}{05b537086e936048590a803e1ccb19df}
-      \strng{authornamehash}{05b537086e936048590a803e1ccb19df}
-      \strng{authorfullhash}{05b537086e936048590a803e1ccb19df}
+      \strng{namehash}{6687e02e7b5ef2422cb05ed404227a7d}
+      \strng{fullhash}{6687e02e7b5ef2422cb05ed404227a7d}
+      \strng{bibnamehash}{6687e02e7b5ef2422cb05ed404227a7d}
+      \strng{authorbibnamehash}{6687e02e7b5ef2422cb05ed404227a7d}
+      \strng{authornamehash}{6687e02e7b5ef2422cb05ed404227a7d}
+      \strng{authorfullhash}{6687e02e7b5ef2422cb05ed404227a7d}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Battiti, R., Brunato, M., Kotsireas, I., Pardalos, P. (eds) Learning and Intelligent Optimization. LION 12 2018. Lecture Notes in Computer Science}
+      \field{journaltitle}{Journal of Heuristics}
       \field{langid}{english}
       \field{media}{text}
-      \field{title}{A Restarting Rule Based on the Schnabel Census for Genetic Algorithms}
-      \field{year}{2018}
-      \field{volume}{11353}
+      \field{title}{Optimized crossover-based genetic algorithms for the maximum cardinality and maximum weight clique problems}
+      \field{year}{1998}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{107\bibrangedash 122}
+      \range{pages}{16}
+      \field{volume}{4}
       \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{HK93}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5f79ff2714714e59a6fadf658db21f48}{%
+           family={Hampson},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=531ed8183b69c29af0860ee30f4c7c09}{%
+           family={Kibler},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Mathematical Society}%
+      }
+      \strng{namehash}{79deb83a65ad22ac982af9cd01fd620e}
+      \strng{fullhash}{79deb83a65ad22ac982af9cd01fd620e}
+      \strng{bibnamehash}{79deb83a65ad22ac982af9cd01fd620e}
+      \strng{authorbibnamehash}{79deb83a65ad22ac982af9cd01fd620e}
+      \strng{authornamehash}{79deb83a65ad22ac982af9cd01fd620e}
+      \strng{authorfullhash}{79deb83a65ad22ac982af9cd01fd620e}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the second DIMACS Implementation Challenge ``Cliques, Coloring and Satisfiability''}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Plateaus and plateau search in Boolean satisfiability problems: When to give up searching and start again}
+      \field{year}{1996}
+      \field{pages}{437\bibrangedash 456}
+      \range{pages}{20}
       \keyw{,biblioexternal,bibliofull}
     \endentry
     \entry{tyunin:oniip}{article}{}
