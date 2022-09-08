@@ -1,41 +1,41 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'dissertation.blg'
-[172] biber-MSWIN64:340> INFO - === 
-[226] Biber.pm:418> INFO - Reading 'dissertation.bcf'
-[470] Biber.pm:972> INFO - Found 16 citekeys in bib section 0
-[470] Biber.pm:969> INFO - Using all citekeys in bib section 1
-[470] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[470] Biber.pm:972> INFO - Found 7 citekeys in bib section 2
-[487] Biber.pm:972> INFO - Found 41 citekeys in bib section 0
-[520] Biber.pm:4383> INFO - Processing section 0
-[535] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/external.bib' for section 0
-[633] bibtex.pm:1713> INFO - LaTeX decoding ...
-[759] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio/external.bib'
-[1082] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/author.bib' for section 0
-[1162] bibtex.pm:1713> INFO - LaTeX decoding ...
-[2255] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio/author.bib'
-[2271] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/registered.bib' for section 0
-[2356] bibtex.pm:1713> INFO - LaTeX decoding ...
-[2365] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio/registered.bib'
-[2427] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2427] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2427] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
-[2428] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
-[2477] Biber.pm:4383> INFO - Processing section 1
-[2477] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/author.bib' for section 1
-[2560] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/registered.bib' for section 1
-[2617] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2617] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2617] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
-[2617] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
-[2633] Biber.pm:4383> INFO - Processing section 2
-[2633] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/author.bib' for section 2
-[2715] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2715] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2715] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
-[2716] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
-[2722] bbl.pm:654> INFO - Writing 'dissertation.bbl' with encoding 'UTF-8'
-[2769] bbl.pm:757> INFO - Output to dissertation.bbl
-[2769] Biber.pm:130> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[2769] Biber.pm:130> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[2770] Biber.pm:132> INFO - WARNINGS: 2
+[161] biber-MSWIN64:340> INFO - === 
+[218] Biber.pm:418> INFO - Reading 'dissertation.bcf'
+[546] Biber.pm:972> INFO - Found 16 citekeys in bib section 0
+[546] Biber.pm:969> INFO - Using all citekeys in bib section 1
+[546] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[546] Biber.pm:972> INFO - Found 8 citekeys in bib section 2
+[563] Biber.pm:972> INFO - Found 42 citekeys in bib section 0
+[605] Biber.pm:4383> INFO - Processing section 0
+[623] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/external.bib' for section 0
+[1513] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1649] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio/external.bib'
+[2010] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/author.bib' for section 0
+[2112] bibtex.pm:1713> INFO - LaTeX decoding ...
+[3250] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio/author.bib'
+[3269] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/registered.bib' for section 0
+[3367] bibtex.pm:1713> INFO - LaTeX decoding ...
+[3376] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio/registered.bib'
+[3450] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3450] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3450] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[3450] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
+[3508] Biber.pm:4383> INFO - Processing section 1
+[3508] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/author.bib' for section 1
+[3600] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/registered.bib' for section 1
+[3659] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3659] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3659] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[3659] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
+[3668] Biber.pm:4383> INFO - Processing section 2
+[3669] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/author.bib' for section 2
+[3771] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3771] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3771] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[3772] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
+[3781] bbl.pm:654> INFO - Writing 'dissertation.bbl' with encoding 'UTF-8'
+[3828] bbl.pm:757> INFO - Output to dissertation.bbl
+[3829] Biber.pm:130> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[3829] Biber.pm:130> WARN - I didn't find a database entry for 'tyunin:oniip' (section 0)
+[3829] Biber.pm:132> INFO - WARNINGS: 2

@@ -1869,6 +1869,15 @@ INPUT .\Synopsis\title.tex
 INPUT .\Synopsis\title.tex
 INPUT Synopsis\title.tex
 OUTPUT synopsis.xdv
+INPUT .\images\\secretary-signature.png
+INPUT .\images\\secretary-signature.png
+INPUT images\\secretary-signature.png
+INPUT .\images\\secretary-signature.png
+INPUT .\images\\secretary-signature.png
+INPUT images\\secretary-signature.png
+INPUT .\images\\secretary-signature.png
+INPUT .\images\\secretary-signature.png
+INPUT images\\secretary-signature.png
 INPUT .\Synopsis\content.tex
 INPUT .\Synopsis\content.tex
 INPUT .\Synopsis\content.tex

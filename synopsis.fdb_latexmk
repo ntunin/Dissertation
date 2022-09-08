@@ -1,17 +1,17 @@
 # Fdb version 3
-["biber synopsis"] 1662559572 "synopsis.bcf" "synopsis.bbl" "synopsis" 1662561377
-  "biblio/author.bib" 1662197886 4771 055a6147bbd147b802f3c084a7ca8452 ""
-  "biblio/external.bib" 1662510660 24550 351c9c6066d710611d94c6c160666180 ""
+["biber synopsis"] 1662600842 "synopsis.bcf" "synopsis.bbl" "synopsis" 1662600870
+  "biblio/author.bib" 1662598680 5142 f0283c3d9c2492fa120e0823d7356c45 ""
+  "biblio/external.bib" 1662600832 24875 ab502dce5f7c0f83ab0ac0f56377f3d7 ""
   "biblio/registered.bib" 1662207866 571 2635467646682a078512954404efbfac ""
-  "synopsis.bcf" 1662561372 160199 13e13360aac91d08cbec2e2589c2a55a "xelatex"
+  "synopsis.bcf" 1662600865 160316 7d9270998872d1f64281708adc848897 "xelatex"
   (generated)
   "synopsis.bbl"
   "synopsis.blg"
-["xdvipdfmx"] 1662561373 "synopsis.xdv" "synopsis.pdf" "synopsis" 1662561377
-  "synopsis.xdv" 1662561372 380728 eb46f9c1c81f1767871eab95ffb4252b "xelatex"
+["xdvipdfmx"] 1662600866 "synopsis.xdv" "synopsis.pdf" "synopsis" 1662600870
+  "synopsis.xdv" 1662600865 388936 9c71ce3554146325549dc9df9e7d0360 "xelatex"
   (generated)
   "synopsis.pdf"
-["xelatex"] 1662561364 "synopsis.tex" "synopsis.xdv" "synopsis" 1662561377
+["xelatex"] 1662600856 "synopsis.tex" "synopsis.xdv" "synopsis" 1662600870
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136750654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ectt1000.tfm" 993062340 1348 d70ddf2d5d512b838e50a335e385e919 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -263,13 +263,13 @@
   "Synopsis/setup.tex" 1662512897 4904 2a27b01e02cdc897fa92858a11b31dd2 ""
   "Synopsis/synpackages.tex" 1650703650 459 18e2e9f6e5fa833e8d9f500816838d63 ""
   "Synopsis/synstyles.tex" 1650703650 2382 e4c7aa5828253d651d94e42f02f59c75 ""
-  "Synopsis/title.tex" 1650714694 5907 f3afbef653517daed2c3dd362ca9f523 ""
+  "Synopsis/title.tex" 1662596396 5860 a1102507a270192ed5f020ede5191d19 ""
   "Synopsis/userpackages.tex" 1650703650 361 9e23f24bbab3c3b5ab6c8f853a830e6e ""
   "Synopsis/userstyles.tex" 1650703650 65 64f30dea2714c436408b14aa69c4dbfd ""
   "biblio/biblatex.tex" 1655770361 30861 989777aac53dd40a25c068f928bc7558 ""
-  "common/characteristic.tex" 1662560853 30597 0aa906b0a6813603564cab63285dc32c ""
+  "common/characteristic.tex" 1662598207 30604 fad097cab6954bfcdd2645458ba3e531 ""
   "common/concl.tex" 1662561294 3782 227abec437c3cb3fba493f66e98c1eaf ""
-  "common/data.tex" 1660525217 10002 f41e731c28f9ddf8dedf53821f632933 ""
+  "common/data.tex" 1662596242 9924 202d282b63a500eaef5c8a9d165da3c6 ""
   "common/fonts.tex" 1650703647 4596 d6a9fb3d5326141999f057f582bdc0bf ""
   "common/newnames.tex" 1659915320 3267 a753ac0beb9026576c8eee88c150ffad ""
   "common/packages.tex" 1651111636 11240 7e43c23484aadcec637ddbe3d605affd ""
@@ -288,11 +288,12 @@
   "images//r_bvd_20_results_v.png" 1650421790 133878 c8580ecc68bd9eefbb435c944931ed69 ""
   "images//ring_f__paa_gains.eps" 1615854577 169080 9ee32f763406d4d47c984e422e9fcb59 ""
   "images//ring_f_gains.eps" 1615854782 194799 c783015f3d255ec0105328828ed54042 ""
+  "images//secretary-signature.png" 1650703648 1891 b9b95d3f3341fbe1a1aba6261509a48d ""
   "siunitx.cfg" 1650703650 18459 53a6e5c345550251030966f9a09f058c ""
-  "synopsis.aux" 1662561372 40109 9c4fa6ccba71b6331f3b0f4594e66f4a "xelatex"
-  "synopsis.bbl" 1662559577 61815 102bc3dbea6073e8a9fe471dea6c152a "biber synopsis"
-  "synopsis.out" 1662561372 2710 00a6af558db2560cd41f329deea2fc3b "xelatex"
-  "synopsis.run.xml" 1662561372 2784 ca5b2e6ae14ac01b4e9a4dc781f8c2e3 "xelatex"
+  "synopsis.aux" 1662600864 43176 ff37fb25af61e5d8c1bd1bfc01a5be30 "xelatex"
+  "synopsis.bbl" 1662600847 58282 10f886ce85beca8786362557301db2d6 "biber synopsis"
+  "synopsis.out" 1662600865 2710 00a6af558db2560cd41f329deea2fc3b "xelatex"
+  "synopsis.run.xml" 1662600865 2784 ca5b2e6ae14ac01b4e9a4dc781f8c2e3 "xelatex"
   "synopsis.tex" 1661997033 4005 c3e18b291e47612b145221f62ddb5f04 ""
   (generated)
   "synopsis.aux"
