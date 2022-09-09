@@ -1362,6 +1362,47 @@
       \range{pages}{20}
       \keyw{,biblioexternal,bibliofull}
     \endentry
+    \entry{tyu22:ring}{article}{}
+      \name{author}{3}{}{%
+        {{hash=476e3b2ec4b24aa98fd67138fc6da48f}{%
+           family={Еремеев},
+           familyi={Е\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=eacafdbc59783144973cb92da98b8c37}{%
+           family={Тюнин},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+        {{hash=bb35be74906d2c245344351eec35ad70}{%
+           family={Юрков},
+           familyi={Ю\bibinitperiod},
+           given={А.\bibnamedelimi С.},
+           giveni={А\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ОНИИП}%
+      }
+      \strng{namehash}{1ab9c14cd7efd43a5e52520809262696}
+      \strng{fullhash}{1ab9c14cd7efd43a5e52520809262696}
+      \strng{bibnamehash}{1ab9c14cd7efd43a5e52520809262696}
+      \strng{authorbibnamehash}{1ab9c14cd7efd43a5e52520809262696}
+      \strng{authornamehash}{1ab9c14cd7efd43a5e52520809262696}
+      \strng{authorfullhash}{1ab9c14cd7efd43a5e52520809262696}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Научно-технический сборник <<Техника радиосвязи>>}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{note}{Принята в печать.}
+      \field{title}{Об оптимизации направленности коротковолновых фазированных антенных решеток кольцевой структуры}
+      \field{year}{2022}
+      \field{pages}{???\bibrangedash ???}
+      \range{pages}{-1}
+      \keyw{,biblioauthor,bibliofull}
+    \endentry
     \entry{tyu:msim22}{article}{}
       \name{author}{2}{}{%
         {{hash=476e3b2ec4b24aa98fd67138fc6da48f}{%
@@ -1994,7 +2035,6 @@
       \keyw{,biblioauthorvak,biblioauthor,bibliofull}
     \endentry
   \enddatalist
-  \missing{tyunin:oniip}
 \endrefsection
 
 \refsection{1}

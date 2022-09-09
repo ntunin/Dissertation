@@ -196,6 +196,8 @@
       \field{note}{Принята в печать.}
       \field{title}{Об оптимизации направленности коротковолновых фазированных антенных решеток кольцевой структуры}
       \field{year}{2022}
+      \field{pages}{???\bibrangedash ???}
+      \range{pages}{-1}
       \keyw{,biblioauthor,bibliofull}
     \endentry
     \entry{tyu:opta}{inproceedings}{}
@@ -479,6 +481,8 @@
       \field{note}{Принята в печать.}
       \field{title}{Об оптимизации направленности коротковолновых фазированных антенных решеток кольцевой структуры}
       \field{year}{2022}
+      \field{pages}{???\bibrangedash ???}
+      \range{pages}{-1}
       \keyw{,biblioauthor,bibliofull}
     \endentry
     \entry{tyu:opta}{inproceedings}{}
@@ -777,6 +781,8 @@
       \field{title}{Об оптимизации направленности коротковолновых фазированных антенных решеток кольцевой структуры}
       \field{year}{2022}
       \true{nocite}
+      \field{pages}{???\bibrangedash ???}
+      \range{pages}{-1}
       \keyw{,biblioauthor,bibliofull}
     \endentry
     \entry{tyu:fmh}{inproceedings}{}
@@ -1178,6 +1184,8 @@
       \field{note}{Принята в печать.}
       \field{title}{Об оптимизации направленности коротковолновых фазированных антенных решеток кольцевой структуры}
       \field{year}{2022}
+      \field{pages}{???\bibrangedash ???}
+      \range{pages}{-1}
       \keyw{,biblioauthor,bibliofull}
     \endentry
     \entry{tyu:fmh}{inproceedings}{}

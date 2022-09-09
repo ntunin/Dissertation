@@ -221,6 +221,9 @@
 \selectlanguage *{russian}
 \selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
 \selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{russian}
+\selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
+\selectlanguage *[babelshorthands=true]{russian}
 \selectlanguage *{english}
 \selectlanguage *[variant=us,ordinalmonthday=false]{english}
 \selectlanguage *[babelshorthands=true]{russian}
@@ -388,6 +391,9 @@
 \selectlanguage *[babelshorthands=true]{russian}
 \selectlanguage *{english}
 \selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[babelshorthands=true]{russian}
+\selectlanguage *{russian}
+\selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
 \selectlanguage *[babelshorthands=true]{russian}
 \selectlanguage *{russian}
 \selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
