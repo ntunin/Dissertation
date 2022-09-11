@@ -198,7 +198,7 @@
       \field{year}{2022}
       \field{pages}{???\bibrangedash ???}
       \range{pages}{-1}
-      \keyw{,biblioauthor,bibliofull}
+      \keyw{,biblioauthorother,biblioauthor,bibliofull}
     \endentry
     \entry{tyu:opta}{inproceedings}{}
       \name{author}{3}{}{%
@@ -301,6 +301,43 @@
       \field{pages}{48\bibrangedash 52}
       \range{pages}{5}
       \keyw{,biblioauthorconf,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu:msim22}{article}{}
+      \name{author}{2}{}{%
+        {{hash=476e3b2ec4b24aa98fd67138fc6da48f}{%
+           family={Еремеев},
+           familyi={Е\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=eacafdbc59783144973cb92da98b8c37}{%
+           family={Тюнин},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \strng{namehash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{fullhash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{bibnamehash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{authorbibnamehash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{authornamehash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{authorfullhash}{521bf8893dcfb48b065ed414771eaea2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(ВАК. Принята в печать)}
+      \field{journaltitle}{Математические структуры и моделирование}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Алгоритм дифференциальной эволюции для оптимизации направленности фазированных антенных решеток}
+      \field{year}{2022}
+      \field{number}{?}
+      \range{number}{-1}
+      \field{pages}{???\bibrangedash ???}
+      \range{pages}{-1}
+      \field{volume}{?}
+      \range{volume}{-1}
+      \keyw{,biblioauthorvak,biblioauthor,bibliofull}
     \endentry
   \enddatalist
   \datalist[entry]{none/global//global/global}
@@ -483,7 +520,7 @@
       \field{year}{2022}
       \field{pages}{???\bibrangedash ???}
       \range{pages}{-1}
-      \keyw{,biblioauthor,bibliofull}
+      \keyw{,biblioauthorother,biblioauthor,bibliofull}
     \endentry
     \entry{tyu:opta}{inproceedings}{}
       \name{author}{3}{}{%
@@ -587,8 +624,44 @@
       \range{pages}{5}
       \keyw{,biblioauthorconf,biblioauthor,bibliofull}
     \endentry
+    \entry{tyu:msim22}{article}{}
+      \name{author}{2}{}{%
+        {{hash=476e3b2ec4b24aa98fd67138fc6da48f}{%
+           family={Еремеев},
+           familyi={Е\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=eacafdbc59783144973cb92da98b8c37}{%
+           family={Тюнин},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \strng{namehash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{fullhash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{bibnamehash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{authorbibnamehash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{authornamehash}{521bf8893dcfb48b065ed414771eaea2}
+      \strng{authorfullhash}{521bf8893dcfb48b065ed414771eaea2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(ВАК. Принята в печать)}
+      \field{journaltitle}{Математические структуры и моделирование}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Алгоритм дифференциальной эволюции для оптимизации направленности фазированных антенных решеток}
+      \field{year}{2022}
+      \field{number}{?}
+      \range{number}{-1}
+      \field{pages}{???\bibrangedash ???}
+      \range{pages}{-1}
+      \field{volume}{?}
+      \range{volume}{-1}
+      \keyw{,biblioauthorvak,biblioauthor,bibliofull}
+    \endentry
   \enddatalist
-  \missing{tyu:de_sym}
 \endrefsection
 
 \refsection{1}
@@ -783,7 +856,7 @@
       \true{nocite}
       \field{pages}{???\bibrangedash ???}
       \range{pages}{-1}
-      \keyw{,biblioauthor,bibliofull}
+      \keyw{,biblioauthorother,biblioauthor,bibliofull}
     \endentry
     \entry{tyu:fmh}{inproceedings}{}
       \name{author}{1}{}{%
@@ -1186,7 +1259,7 @@
       \field{year}{2022}
       \field{pages}{???\bibrangedash ???}
       \range{pages}{-1}
-      \keyw{,biblioauthor,bibliofull}
+      \keyw{,biblioauthorother,biblioauthor,bibliofull}
     \endentry
     \entry{tyu:fmh}{inproceedings}{}
       \name{author}{1}{}{%

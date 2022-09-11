@@ -3622,7 +3622,7 @@
     <bcf:citekey order="6" nocite="1">tyu:opta</bcf:citekey>
     <bcf:citekey order="7" nocite="1">tyu:reis</bcf:citekey>
     <bcf:citekey order="8" nocite="1">tyu:fmh</bcf:citekey>
-    <bcf:citekey order="9" nocite="1">tyu:de_sym</bcf:citekey>
+    <bcf:citekey order="9" nocite="1">tyu:msim22</bcf:citekey>
     <bcf:citekey order="10">expi</bcf:citekey>
     <bcf:citekey order="11">tyu:daor</bcf:citekey>
     <bcf:citekey order="12">tyu:jphys</bcf:citekey>
@@ -3631,7 +3631,7 @@
     <bcf:citekey order="15">tyu:opta</bcf:citekey>
     <bcf:citekey order="16">tyu:reis</bcf:citekey>
     <bcf:citekey order="17">tyu:fmh</bcf:citekey>
-    <bcf:citekey order="18">tyu:de_sym</bcf:citekey>
+    <bcf:citekey order="18">tyu:msim22</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -16,20 +16,21 @@
 \textbf {\large \thesisAuthor}
 \end{center}
 
-\vspace{0pt plus3fill} %число перед fill = кратность относительно некоторого расстояния fill, кусками которого заполнены пустые места
+\vspace{0pt plus1fill} %число перед fill = кратность относительно некоторого расстояния fill, кусками которого заполнены пустые места
 \begin{center}
-\textbf {\Large %\MakeUppercase
+\textbf {\Large \MakeUppercase
 \thesisTitle}
 
-\vspace{0pt plus3fill} %число перед fill = кратность относительно некоторого расстояния fill, кусками которого заполнены пустые места
-{\large Специальность \thesisSpecialtyNumber\ "---\par <<\thesisSpecialtyTitle>>}
+\vspace{0pt plus1fill} %число перед fill = кратность относительно некоторого расстояния fill, кусками которого заполнены пустые места
+{\large \thesisSpecialtyNumber\ "--- \thesisSpecialtyTitle}
 
 \ifdefined\thesisSpecialtyTwoNumber
 {\large Специальность \thesisSpecialtyTwoNumber\ "---\par <<\thesisSpecialtyTwoTitle>>}
 \fi
 
 \vspace{0pt plus1.5fill} %число перед fill = кратность относительно некоторого расстояния fill, кусками которого заполнены пустые места
-\Large{Автореферат}\par
+\textbf {\Large АВТОРЕФЕРАТ}\par
+\vspace{1em}
 \large{диссертации на соискание учёной степени\par \thesisDegree}
 \end{center}
 
@@ -99,10 +100,10 @@
 \end{tabularx}
 \vspace{0.008\paperheight plus1fill}
 
-\noindent Защита состоится \defenseDate~на~заседании диссертационного совета \defenseCouncilNumber~при \defenseCouncilTitle~по адресу: \defenseCouncilAddress.
+\noindent Защита состоится \defenseDate~на~заседании диссертационного совета \defenseCouncilNumber~созданного на базе \defenseCouncilTitle~по адресу: \defenseCouncilAddress.
 
 \vspace{0.008\paperheight plus1fill}
-\noindent С диссертацией можно ознакомиться в библиотеке \synopsisLibrary.
+\noindent С диссертацией можно ознакомиться в библиотеке и на сайте \synopsisLibrary.
 
 \vspace{0.008\paperheight plus1fill}
 \noindent Отзывы на автореферат в двух экземплярах, заверенные печатью учреждения, просьба направлять по адресу: \defenseCouncilAddress, ученому секретарю диссертационного совета~\defenseCouncilNumber.
@@ -110,7 +111,7 @@
 \vspace{0.008\paperheight plus1fill}
 \noindent{Автореферат разослан \synopsisDate.}
 
-\noindent Телефон для справок: \defenseCouncilPhone.
+%\noindent Телефон для справок: \defenseCouncilPhone.
 
 \vspace{0.008\paperheight plus1fill}
 \noindent%
@@ -124,9 +125,9 @@ r
     \defenseCouncilNumber,\par
     \defenseSecretaryRegalia
     &
-    \ifnumequal{\value{showsecrsign}}{0}{}{%
-        \includegraphics[width=2cm]{secretary-signature.png}%
-    }%
+    %\ifnumequal{\value{showsecrsign}}{0}{}{%
+    %    \includegraphics[width=2cm]{secretary-signature.png}%
+    %}%
     &
     \defenseSecretaryFio
 \end{tabularx}
