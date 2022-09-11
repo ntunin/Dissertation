@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  11 SEP 2022 17:17
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  11 SEP 2022 19:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3648,91 +3648,91 @@ Underfull \hbox (badness 1460) in paragraph at lines 49--50
  []
 
 [5.5]
-Underfull \hbox (badness 1424) in paragraph at lines 82--82
+Underfull \hbox (badness 1424) in paragraph at lines 83--83
 \TU/TimesNewRoman(1)/m/n/14.4 рантируется получение глобального оптимума. Прибл
 изиться к глобальному
  []
 
 [6.6]
-Overfull \hbox (1.07272pt too wide) in paragraph at lines 91--92
+Overfull \hbox (1.07272pt too wide) in paragraph at lines 92--93
 \TU/TimesNewRoman(1)/m/n/14.4 ляет достичь конкурентоспособных решений по сравн
 ению с алгоритмом
  []
 
 
-Underfull \hbox (badness 2376) in paragraph at lines 97--98
+Underfull \hbox (badness 2376) in paragraph at lines 98--99
 []\TU/TimesNewRoman(1)/b/n/14.4 Достоверность \TU/TimesNewRoman(1)/m/n/14.4 пол
 ученных результатов подтверждается согласованно-
  []
 
 \c@blx@maxsegment@1=\count656
 \c@blx@sectionciteorder@1=\count657
-Package biblatex Info: Reference section=1 on input line 195.
-Package biblatex Info: Setting label 'refsection:1' on input line 195.
+Package biblatex Info: Reference section=1 on input line 196.
+Package biblatex Info: Setting label 'refsection:1' on input line 196.
 (common/renames.tex) (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 195.
-LaTeX Info: Redefining \sffamily on input line 195.
-LaTeX Info: Redefining \ttfamily on input line 195.
+LaTeX Info: Redefining \rmfamily on input line 196.
+LaTeX Info: Redefining \sffamily on input line 196.
+LaTeX Info: Redefining \ttfamily on input line 196.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 195.
-LaTeX Info: Redefining \sffamily on input line 195.
-LaTeX Info: Redefining \ttfamily on input line 195.
+LaTeX Info: Redefining \rmfamily on input line 196.
+LaTeX Info: Redefining \sffamily on input line 196.
+LaTeX Info: Redefining \ttfamily on input line 196.
 (common/renames.tex) (common/renames.tex) (common/renames.tex)
 
-Package biblatex Warning: Keyword 'biblioauthorwos' not found on input line 195
+Package biblatex Warning: Keyword 'biblioauthorwos' not found on input line 196
 .
 
 
-LaTeX Warning: Empty bibliography on input line 195.
+LaTeX Warning: Empty bibliography on input line 196.
 
 
 Package biblatex Warning: Keyword 'biblioauthorscopus' not found on input line 
-195.
+196.
 
 
-LaTeX Warning: Empty bibliography on input line 195.
+LaTeX Warning: Empty bibliography on input line 196.
 
 (common/renames.tex) (common/renames.tex) (common/renames.tex) (common/renames.
 tex) (common/renames.tex) (common/renames.tex) (common/renames.tex) (common/ren
 ames.tex) (common/renames.tex) (common/renames.tex)
 
 Package biblatex Warning: Keyword 'biblioauthorpatent' not found on input line 
-195.
+196.
 
 
-LaTeX Warning: Empty bibliography on input line 195.
+LaTeX Warning: Empty bibliography on input line 196.
 
 (common/renames.tex) (common/renames.tex) (common/renames.tex) (common/renames.
 tex)
-LaTeX Info: Redefining \rmfamily on input line 195.
-LaTeX Info: Redefining \sffamily on input line 195.
-LaTeX Info: Redefining \ttfamily on input line 195.
+LaTeX Info: Redefining \rmfamily on input line 196.
+LaTeX Info: Redefining \sffamily on input line 196.
+LaTeX Info: Redefining \ttfamily on input line 196.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 195.
-LaTeX Info: Redefining \sffamily on input line 195.
-LaTeX Info: Redefining \ttfamily on input line 195.
+LaTeX Info: Redefining \rmfamily on input line 196.
+LaTeX Info: Redefining \sffamily on input line 196.
+LaTeX Info: Redefining \ttfamily on input line 196.
 (common/renames.tex) (common/renames.tex) (common/renames.tex) (common/renames.
 tex) (common/renames.tex) (common/renames.tex) (common/renames.tex) (common/ren
 ames.tex) (common/renames.tex) (common/renames.tex) (common/renames.tex) (commo
 n/renames.tex) (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 195.
-LaTeX Info: Redefining \sffamily on input line 195.
-LaTeX Info: Redefining \ttfamily on input line 195.
+LaTeX Info: Redefining \rmfamily on input line 196.
+LaTeX Info: Redefining \sffamily on input line 196.
+LaTeX Info: Redefining \ttfamily on input line 196.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 195.
-LaTeX Info: Redefining \sffamily on input line 195.
-LaTeX Info: Redefining \ttfamily on input line 195.
+LaTeX Info: Redefining \rmfamily on input line 196.
+LaTeX Info: Redefining \sffamily on input line 196.
+LaTeX Info: Redefining \ttfamily on input line 196.
 (common/renames.tex) (common/renames.tex) (common/renames.tex)
 
-LaTeX Warning: Empty bibliography on input line 195.
+LaTeX Warning: Empty bibliography on input line 196.
 
-Package biblatex Info: Reference section=0 on input line 195.
+Package biblatex Info: Reference section=0 on input line 196.
 \c@blx@maxsegment@2=\count658
 \c@blx@sectionciteorder@2=\count659
-Package biblatex Info: Reference section=2 on input line 195.
-Package biblatex Info: Setting label 'refsection:2' on input line 195.
-Package biblatex Info: Reference section=0 on input line 195.
-)
+Package biblatex Info: Reference section=2 on input line 196.
+Package biblatex Info: Setting label 'refsection:2' on input line 196.
+Package biblatex Info: Reference section=0 on input line 196.
+) [7.7]
 \@c=\count660
 \@last=\count661
 \@pnul=\count662
@@ -3745,7 +3745,7 @@ Package biblatex Info: Reference section=0 on input line 195.
 \@c=\count669
 \@last=\count670
 \@pnul=\count671
-(common/short_content.tex [7.7]
+(common/short_content.tex
 Underfull \hbox (badness 1502) in paragraph at lines 1--6
 []\TU/TimesNewRoman(1)/m/n/14.4 Во \TU/TimesNewRoman(1)/b/n/14.4 введении \TU/T
 imesNewRoman(1)/m/n/14.4 обосновывается актуальность исследований, проводимых
@@ -3772,7 +3772,11 @@ File: images//5x5SVD.eps Graphic file (type eps)
 <images//5x5SVD.eps>
 File: images//r8.eps Graphic file (type eps)
 <images//r8.eps>
-[11.11] [12.12] [13.13]
+[11.11] [12.12]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13.13]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -3783,13 +3787,14 @@ File: images//fit_dist_2x2.eps Graphic file (type eps)
 [14.14] [15.15] [16.16] [17.17]
 File: images//ring_f__paa_gains.eps Graphic file (type eps)
 <images//ring_f__paa_gains.eps>
+[18.18]
 File: images//ring_f_gains.eps Graphic file (type eps)
 <images//ring_f_gains.eps>
 File: images//r8_1_25_5x7.png Graphic file (type bmp)
 <images//r8_1_25_5x7.png>
 File: images//r8_25_5x7.png Graphic file (type bmp)
 <images//r8_25_5x7.png>
-[18.18] [19.19]
+[19.19]
 File: images//r_bvd_20_results_h.png Graphic file (type bmp)
 <images//r_bvd_20_results_h.png>
 File: images//r_bvd_20_results_v.png Graphic file (type bmp)
@@ -6167,10 +6172,10 @@ Package logreq Info: Writing requests to 'dissertation.run.xml'.
 Here is how much of TeX's memory you used:
  54414 strings out of 410967
  1114039 string characters out of 2828016
- 2575026 words of memory out of 3000000
+ 2575028 words of memory out of 3000000
  73320 multiletter control sequences out of 15000+600000
  483076 words of font info for 136 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  119i,16n,123p,2466b,7848s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on dissertation.xdv (100 pages, 1589676 bytes).
+Output written on dissertation.xdv (100 pages, 1591444 bytes).

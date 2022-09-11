@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  11 SEP 2022 17:09
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  11 SEP 2022 19:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2335,79 +2335,79 @@ Underfull \hbox (badness 1565) in paragraph at lines 50--51
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [4.4]
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
 []\TU/TimesNewRoman(1)/m/n/10 Еще одним широко используемым подоходом к решению
  задач
  []
 
 
-Underfull \hbox (badness 5446) in paragraph at lines 82--82
+Underfull \hbox (badness 5446) in paragraph at lines 83--83
 \TU/TimesNewRoman(1)/m/n/10 нетические алгоритмы, роевые алгоритмы, алгоритмы д
 ифференциальной
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 91--92
+Underfull \hbox (badness 1515) in paragraph at lines 92--93
 []\TU/TimesNewRoman(1)/m/n/10 Использование градиентных методов в комбинации с 
 методом ДЭ
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3199) has occurred while \output is active []
 
 [5.5]
 \c@blx@maxsegment@1=\count637
 \c@blx@sectionciteorder@1=\count638
-Package biblatex Info: Reference section=1 on input line 195.
-Package biblatex Info: Setting label 'refsection:1' on input line 195.
-LaTeX Info: Redefining \rmfamily on input line 195.
-LaTeX Info: Redefining \sffamily on input line 195.
-LaTeX Info: Redefining \ttfamily on input line 195.
-LaTeX Info: Redefining \rmfamily on input line 195.
-LaTeX Info: Redefining \sffamily on input line 195.
-LaTeX Info: Redefining \ttfamily on input line 195.
+Package biblatex Info: Reference section=1 on input line 196.
+Package biblatex Info: Setting label 'refsection:1' on input line 196.
+LaTeX Info: Redefining \rmfamily on input line 196.
+LaTeX Info: Redefining \sffamily on input line 196.
+LaTeX Info: Redefining \ttfamily on input line 196.
+LaTeX Info: Redefining \rmfamily on input line 196.
+LaTeX Info: Redefining \sffamily on input line 196.
+LaTeX Info: Redefining \ttfamily on input line 196.
 
-Package biblatex Warning: Keyword 'biblioauthorwos' not found on input line 195
+Package biblatex Warning: Keyword 'biblioauthorwos' not found on input line 196
 .
 
 
-LaTeX Warning: Empty bibliography on input line 195.
+LaTeX Warning: Empty bibliography on input line 196.
 
 
 Package biblatex Warning: Keyword 'biblioauthorscopus' not found on input line 
-195.
+196.
 
 
-LaTeX Warning: Empty bibliography on input line 195.
+LaTeX Warning: Empty bibliography on input line 196.
 
 
 Package biblatex Warning: Keyword 'biblioauthorpatent' not found on input line 
-195.
+196.
 
 
-LaTeX Warning: Empty bibliography on input line 195.
+LaTeX Warning: Empty bibliography on input line 196.
 
-LaTeX Info: Redefining \rmfamily on input line 195.
-LaTeX Info: Redefining \sffamily on input line 195.
-LaTeX Info: Redefining \ttfamily on input line 195.
-LaTeX Info: Redefining \rmfamily on input line 195.
-LaTeX Info: Redefining \sffamily on input line 195.
-LaTeX Info: Redefining \ttfamily on input line 195.
-LaTeX Info: Redefining \rmfamily on input line 195.
-LaTeX Info: Redefining \sffamily on input line 195.
-LaTeX Info: Redefining \ttfamily on input line 195.
-LaTeX Info: Redefining \rmfamily on input line 195.
-LaTeX Info: Redefining \sffamily on input line 195.
-LaTeX Info: Redefining \ttfamily on input line 195.
+LaTeX Info: Redefining \rmfamily on input line 196.
+LaTeX Info: Redefining \sffamily on input line 196.
+LaTeX Info: Redefining \ttfamily on input line 196.
+LaTeX Info: Redefining \rmfamily on input line 196.
+LaTeX Info: Redefining \sffamily on input line 196.
+LaTeX Info: Redefining \ttfamily on input line 196.
+LaTeX Info: Redefining \rmfamily on input line 196.
+LaTeX Info: Redefining \sffamily on input line 196.
+LaTeX Info: Redefining \ttfamily on input line 196.
+LaTeX Info: Redefining \rmfamily on input line 196.
+LaTeX Info: Redefining \sffamily on input line 196.
+LaTeX Info: Redefining \ttfamily on input line 196.
 
-LaTeX Warning: Empty bibliography on input line 195.
+LaTeX Warning: Empty bibliography on input line 196.
 
-Package biblatex Info: Reference section=0 on input line 195.
+Package biblatex Info: Reference section=0 on input line 196.
 \c@blx@maxsegment@2=\count639
 \c@blx@sectionciteorder@2=\count640
-Package biblatex Info: Reference section=2 on input line 195.
-Package biblatex Info: Setting label 'refsection:2' on input line 195.
-Package biblatex Info: Reference section=0 on input line 195.
+Package biblatex Info: Reference section=2 on input line 196.
+Package biblatex Info: Setting label 'refsection:2' on input line 196.
+Package biblatex Info: Reference section=0 on input line 196.
 ) (common/short_content.tex
 Underfull \hbox (badness 5475) in paragraph at lines 7--8
 []\TU/TimesNewRoman(1)/b/n/10 Первая глава \TU/TimesNewRoman(1)/m/n/10 посвящен
@@ -2427,10 +2427,6 @@ Underfull \hbox (badness 3049) in paragraph at lines 7--8
  []
 
 [6.6]
-
-LaTeX Warning: Reference `eq:task3' on page 7 undefined on input line 48.
-
-
 Underfull \vbox (badness 5592) has occurred while \output is active []
 
 [7.7]
@@ -2478,7 +2474,12 @@ File: images//fit_dist_2x2.eps Graphic file (type eps)
 [12.12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[13.13] [14.14]
+[13.13]
+
+LaTeX Warning: Reference `eq:commutat2' on page 14 undefined on input line 249.
+
+
+[14.14]
 File: images//ring_f__paa_gains.eps Graphic file (type eps)
 <images//ring_f__paa_gains.eps>
 
@@ -3088,18 +3089,18 @@ common/concl.tex
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `synopsis.out' has not changed.
-(rerunfilecheck)             Checksum: E3DF5EC1CC1DAA831A084FD3AC4ACFBC;2919.
+(rerunfilecheck)             Checksum: 31DB7D66E7D4906C4D4E30430E0267F7;2919.
 Package logreq Info: Writing requests to 'synopsis.run.xml'.
 \openout1 = `synopsis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
  50916 strings out of 410967
- 1036334 string characters out of 2828016
+ 1036346 string characters out of 2828016
  2159812 words of memory out of 3000000
  70884 multiletter control sequences out of 15000+600000
  473456 words of font info for 96 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,16n,123p,1554b,7630s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on synopsis.xdv (20 pages, 391712 bytes).
+Output written on synopsis.xdv (20 pages, 393636 bytes).
