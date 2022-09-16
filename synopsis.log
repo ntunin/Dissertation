@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  15 SEP 2022 06:41
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  16 SEP 2022 07:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2476,17 +2476,17 @@ Underfull \hbox (badness 1824) in paragraph at lines 173--174
  задачах из
  []
 
+
+Underfull \vbox (badness 5388) has occurred while \output is active []
+
 [12.12]
+Underfull \vbox (badness 4673) has occurred while \output is active []
+
+[13.13]
 File: images//fit_dist.eps Graphic file (type eps)
 <images//fit_dist.eps>
 File: images//fit_dist_2x2.eps Graphic file (type eps)
 <images//fit_dist_2x2.eps>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[13.13]
-Underfull \vbox (badness 2932) has occurred while \output is active []
-
 [14.14]
 
 LaTeX Warning: Reference `eq:commutat2' on page 15 undefined on input line 254.
@@ -3105,12 +3105,12 @@ Package logreq Info: Writing requests to 'synopsis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50917 strings out of 410967
- 1036380 string characters out of 2828016
+ 50918 strings out of 410967
+ 1036387 string characters out of 2828016
  2159295 words of memory out of 3000000
- 70885 multiletter control sequences out of 15000+600000
+ 70886 multiletter control sequences out of 15000+600000
  473456 words of font info for 96 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,16n,123p,1562b,7630s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on synopsis.xdv (22 pages, 414864 bytes).
+Output written on synopsis.xdv (22 pages, 416500 bytes).

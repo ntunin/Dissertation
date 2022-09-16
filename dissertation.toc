@@ -83,24 +83,24 @@
 \contentsline {section}{\numberline {2.2}Гибридный вариант алгоритма дифференциальной эволюции}{41}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Вычислительный эксперимент}{43}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Заключение}{46}{section.2.4}%
-\contentsline {chapter}{\chapternumberline {3}Структурные свойства задачи оптимизации направленности фазированных антенных решеток}{47}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Количество локальных оптимумов и их расположение}{47}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Проверка необходимых условий локальной оптимальности}{49}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Экспериментальная проверка устойчивости решений}{50}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Исследование симметрий задачи}{51}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Общие положения}{52}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Нахождение групп непрерывных симметрий}{59}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Вычислительный эксперимент}{61}{subsection.3.4.3}%
-\contentsline {chapter}{\chapternumberline {4}Возможности оптимизации фазированных антенных решеток в различных условиях}{63}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Исследование радиочастотных зависимостей}{63}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Исследование взаимного влияния излучателей}{67}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Широкополосные вертикальные излучатели}{68}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Широкополосные вертикальные диполи}{68}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Симметричные вертикальные диполи}{69}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Интерпретация результатов экспериментов по исследованию взаимного влияния излучателей}{70}{subsection.4.2.4}%
-\contentsline {chapter}{ЗАКЛЮЧЕНИЕ}{82}{chapter*.45}%
-\contentsline {chapter}{СЛОВАРЬ ТЕРМИНОВ}{84}{chapter*.46}%
-\contentsline {chapter}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{85}{chapter*.46}%
+\contentsline {chapter}{\chapternumberline {3}Структурные свойства задачи оптимизации направленности фазированных антенных решеток}{48}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Количество локальных оптимумов и их расположение}{48}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Проверка необходимых условий локальной оптимальности}{50}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Экспериментальная проверка устойчивости решений}{51}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Исследование симметрий задачи}{52}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Общие положения}{53}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Нахождение групп непрерывных симметрий}{60}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Вычислительный эксперимент}{62}{subsection.3.4.3}%
+\contentsline {chapter}{\chapternumberline {4}Возможности оптимизации фазированных антенных решеток в различных условиях}{64}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Исследование радиочастотных зависимостей}{64}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Исследование взаимного влияния излучателей}{68}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Широкополосные вертикальные излучатели}{69}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Широкополосные вертикальные диполи}{69}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Симметричные вертикальные диполи}{70}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Интерпретация результатов экспериментов по исследованию взаимного влияния излучателей}{71}{subsection.4.2.4}%
+\contentsline {chapter}{ЗАКЛЮЧЕНИЕ}{83}{chapter*.45}%
+\contentsline {chapter}{СЛОВАРЬ ТЕРМИНОВ}{85}{chapter*.46}%
+\contentsline {chapter}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{86}{chapter*.46}%
 \selectlanguage *{english}
 \selectlanguage *[variant=us,ordinalmonthday=false]{english}
 \selectlanguage *[babelshorthands=true]{russian}
@@ -263,7 +263,7 @@
 \selectlanguage *{english}
 \selectlanguage *[variant=us,ordinalmonthday=false]{english}
 \selectlanguage *[babelshorthands=true]{russian}
-\contentsline {chapter}{ПУБЛИКАЦИИ АВТОРА ПО ТЕМЕ ДИССЕРТАЦИИ}{90}{section*.48}%
+\contentsline {chapter}{ПУБЛИКАЦИИ АВТОРА ПО ТЕМЕ ДИССЕРТАЦИИ}{91}{section*.48}%
 \selectlanguage *{russian}
 \selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
 \selectlanguage *[babelshorthands=true]{russian}
@@ -291,6 +291,6 @@
 \selectlanguage *{russian}
 \selectlanguage *[babelshorthands=true,spelling=modern,numerals=arabic,indentfirst=true,forceheadingpunctuation=true,mathfunctions=true]{russian}
 \selectlanguage *[babelshorthands=true]{russian}
-\contentsline {chapter}{ПРИЛОЖЕНИЯ}{92}{chapter*.49}%
-\contentsline {section}{Приложение A}{92}{section*.50}%
-\contentsline {section}{Приложение Б}{94}{section*.51}%
+\contentsline {chapter}{ПРИЛОЖЕНИЯ}{93}{chapter*.49}%
+\contentsline {section}{Приложение A}{93}{section*.50}%
+\contentsline {section}{Приложение Б}{95}{section*.51}%
