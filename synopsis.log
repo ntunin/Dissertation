@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.9.17)  17 SEP 2022 00:09
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.9.17)  17 SEP 2022 10:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2121,27 +2121,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--45
  []
 
 [2.2] (Synopsis/content.tex (common/characteristic.tex
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-\TU/TimesNewRoman(1)/m/n/10 Вообще говоря, задачи квадратичного программировани
-я являются NP-
- []
-
-
-Underfull \hbox (badness 2050) in paragraph at lines 19--20
-\TU/TimesNewRoman(1)/m/n/10 трудными (Murty K., 1987). Для решения таких задач 
-могут применяться
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 19--20
-\TU/TimesNewRoman(1)/m/n/10 DC-программирования  (Стрекаловский А.С., 2003), по
-луопределенной ре-
- []
-
-
-Underfull \hbox (badness 1852) in paragraph at lines 19--20
-\TU/TimesNewRoman(1)/m/n/10 ющих ФАР требуется провести исследование свойств за
-дачи оптимизации
+Underfull \hbox (badness 3138) in paragraph at lines 21--22
+\TU/TimesNewRoman(1)/m/n/10 полуопределенной релаксации  (Fuchs B., 2014), эвол
+юционных вычисле-
  []
 
 [3.3
@@ -2150,51 +2132,54 @@ Underfull \hbox (badness 1852) in paragraph at lines 19--20
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [4.4]
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []\TU/TimesNewRoman(1)/m/n/10 Еще одним широко используемым подоходом к решению
  задач
  []
 
 
-Underfull \hbox (badness 5446) in paragraph at lines 90--90
+Underfull \hbox (badness 5446) in paragraph at lines 96--96
 \TU/TimesNewRoman(1)/m/n/10 нетические алгоритмы, роевые алгоритмы, алгоритмы д
 ифференциальной
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 [5.5]
-Underfull \hbox (badness 1515) in paragraph at lines 99--100
+Underfull \hbox (badness 1515) in paragraph at lines 105--106
 []\TU/TimesNewRoman(1)/m/n/10 Использование градиентных методов в комбинации с 
 методом ДЭ
  []
 
 
-Underfull \hbox (badness 6758) in paragraph at lines 105--106
+Underfull \hbox (badness 6758) in paragraph at lines 111--112
 []\TU/TimesNewRoman(1)/b/n/10 Достоверность \TU/TimesNewRoman(1)/m/n/10 получен
 ных результатов подтверждается согласован-
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 105--106
+Underfull \hbox (badness 1874) in paragraph at lines 111--112
 \TU/TimesNewRoman(1)/m/n/10 ностью результатов, полученных автором с использова
 нием предложенных
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 105--106
+Underfull \hbox (badness 1838) in paragraph at lines 111--112
 \TU/TimesNewRoman(1)/m/n/10 алгоритмов, с результатами коммерческого решателя B
 ARON. Кроме того,
  []
 
-common/characteristic.tex:122: Undefined control sequence.
-l.122 ...олучены в ходе выполнения гранта РФФИ \No
+common/characteristic.tex:128: Undefined control sequence.
+l.128 ...олучены в ходе выполнения гранта РФФИ \No
                                                   ~19-37-90066 по конкурсу <...
  
 Here is how much of TeX's memory you used:
  50426 strings out of 410536
  1023711 string characters out of 2817655
- 2186984 words of memory out of 3000000
+ 2187986 words of memory out of 3000000
  70864 multiletter control sequences out of 15000+600000
  473360 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,11n,123p,1327b,3688s stack positions out of 10000i,1000n,20000p,200000b,80000s
-Output written on synopsis.xdv (5 pages, 108648 bytes).
+ 93i,11n,123p,1381b,3688s stack positions out of 10000i,1000n,20000p,200000b,80000s
+Output written on synopsis.xdv (5 pages, 107572 bytes).
