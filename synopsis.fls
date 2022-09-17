@@ -1793,16 +1793,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\translator\translator-basic-dictionary-E
 INPUT C:\Program Files\MiKTeX\tex\latex\translator\translator-basic-dictionary-English.dict
 INPUT C:\Program Files\MiKTeX\tex\latex\translator\translator-basic-dictionary-English.dict
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
-INPUT .\synopsis.out
-INPUT synopsis.out
-INPUT .\synopsis.out
-INPUT synopsis.out
-INPUT .\synopsis.out
-INPUT synopsis.out
-INPUT .\synopsis.out
-INPUT synopsis.out
-INPUT .\synopsis.out
-INPUT .\synopsis.out
 OUTPUT synopsis.out
 INPUT C:\Program Files\MiKTeX\tex\latex\pdflscape\pdflscape.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex-gost\lbx\american-gost.lbx
@@ -1843,8 +1833,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\russian.lbx
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\russian.lbx
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\russian.lbx
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\russian.lbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex-gost\lbx\russian-gost.lbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex-gost\lbx\russian-gost.lbx
 OUTPUT synopsis.bcf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm

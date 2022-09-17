@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.9.17)  17 SEP 2022 10:45
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.9.17)  17 SEP 2022 10:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1596,7 +1596,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 173.
 Excluding comment 'commentbox') (Synopsis/synstyles.tex) (Synopsis/userstyles.t
 ex) (biblio/biblatex.tex (C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.s
 ty
-Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
+Package: csquotes 2022-09-09 v5.2m context-sensitive quotations (JAW)
 \csq@reset=\count449
 \csq@gtype=\count450
 \csq@glevel=\count451
@@ -1605,7 +1605,7 @@ Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
 \csq@tshold=\count454
 \csq@ltx@everypar=\toks67
 (C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.def
-File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
+File: csquotes.def 2022-09-09 v5.2m csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
@@ -2034,9 +2034,11 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
 Package hyperref Info: Link coloring ON on input line 41.
-(synopsis.out) (synopsis.out)
 \@outlinefile=\write7
 \openout7 = `synopsis.out'.
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
@@ -2175,11 +2177,11 @@ l.128 ...олучены в ходе выполнения гранта РФФИ \
                                                   ~19-37-90066 по конкурсу <...
  
 Here is how much of TeX's memory you used:
- 50426 strings out of 410536
- 1023711 string characters out of 2817655
- 2187986 words of memory out of 3000000
- 70864 multiletter control sequences out of 15000+600000
+ 50431 strings out of 410536
+ 1023878 string characters out of 2817655
+ 2186324 words of memory out of 3000000
+ 70873 multiletter control sequences out of 15000+600000
  473360 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,11n,123p,1381b,3688s stack positions out of 10000i,1000n,20000p,200000b,80000s
-Output written on synopsis.xdv (5 pages, 107572 bytes).
+Output written on synopsis.xdv (5 pages, 105572 bytes).
