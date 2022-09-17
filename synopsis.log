@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  16 SEP 2022 07:33
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  17 SEP 2022 11:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2303,39 +2303,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--45
  []
 
 [2.2] (Synopsis/content.tex (common/characteristic.tex
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-\TU/TimesNewRoman(1)/m/n/10 Вообще говоря, задачи квадратичного программировани
-я являются NP-
- []
-
-
-Underfull \hbox (badness 2050) in paragraph at lines 19--20
-\TU/TimesNewRoman(1)/m/n/10 трудными (Murty K., 1987). Для решения таких задач 
-могут применяться
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 19--20
-\TU/TimesNewRoman(1)/m/n/10 DC-программирования  (Стрекаловский А.С., 2003), по
-луопределенной ре-
- []
-
-
-Underfull \hbox (badness 1852) in paragraph at lines 19--20
-\TU/TimesNewRoman(1)/m/n/10 ющих ФАР требуется провести исследование свойств за
-дачи оптимизации
+Underfull \hbox (badness 3138) in paragraph at lines 21--22
+\TU/TimesNewRoman(1)/m/n/10 полуопределенной релаксации  (Fuchs B., 2014), эвол
+юционных вычисле-
  []
 
 [3.3
 
-] [4.4]
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[4.4]
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []\TU/TimesNewRoman(1)/m/n/10 Еще одним широко используемым подоходом к решению
  задач
  []
 
 
-Underfull \hbox (badness 5446) in paragraph at lines 86--86
+Underfull \hbox (badness 5446) in paragraph at lines 96--96
 \TU/TimesNewRoman(1)/m/n/10 нетические алгоритмы, роевые алгоритмы, алгоритмы д
 ифференциальной
  []
@@ -2344,85 +2329,82 @@ Underfull \hbox (badness 5446) in paragraph at lines 86--86
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [5.5]
-Underfull \hbox (badness 1515) in paragraph at lines 95--96
+Underfull \hbox (badness 1515) in paragraph at lines 105--106
 []\TU/TimesNewRoman(1)/m/n/10 Использование градиентных методов в комбинации с 
 методом ДЭ
  []
 
 
-Underfull \hbox (badness 6758) in paragraph at lines 101--102
+Underfull \hbox (badness 6758) in paragraph at lines 111--112
 []\TU/TimesNewRoman(1)/b/n/10 Достоверность \TU/TimesNewRoman(1)/m/n/10 получен
 ных результатов подтверждается согласован-
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 101--102
+Underfull \hbox (badness 1874) in paragraph at lines 111--112
 \TU/TimesNewRoman(1)/m/n/10 ностью результатов, полученных автором с использова
 нием предложенных
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 101--102
+Underfull \hbox (badness 1838) in paragraph at lines 111--112
 \TU/TimesNewRoman(1)/m/n/10 алгоритмов, с результатами коммерческого решателя B
 ARON. Кроме того,
  []
 
 \c@blx@maxsegment@1=\count637
 \c@blx@sectionciteorder@1=\count638
-Package biblatex Info: Reference section=1 on input line 204.
-Package biblatex Info: Setting label 'refsection:1' on input line 204.
-LaTeX Info: Redefining \rmfamily on input line 204.
-LaTeX Info: Redefining \sffamily on input line 204.
-LaTeX Info: Redefining \ttfamily on input line 204.
-LaTeX Info: Redefining \rmfamily on input line 204.
-LaTeX Info: Redefining \sffamily on input line 204.
-LaTeX Info: Redefining \ttfamily on input line 204.
+Package biblatex Info: Reference section=1 on input line 215.
+Package biblatex Info: Setting label 'refsection:1' on input line 215.
+LaTeX Info: Redefining \rmfamily on input line 215.
+LaTeX Info: Redefining \sffamily on input line 215.
+LaTeX Info: Redefining \ttfamily on input line 215.
+LaTeX Info: Redefining \rmfamily on input line 215.
+LaTeX Info: Redefining \sffamily on input line 215.
+LaTeX Info: Redefining \ttfamily on input line 215.
 
-Package biblatex Warning: Keyword 'biblioauthorwos' not found on input line 204
+Package biblatex Warning: Keyword 'biblioauthorwos' not found on input line 215
 .
 
 
-LaTeX Warning: Empty bibliography on input line 204.
+LaTeX Warning: Empty bibliography on input line 215.
 
 
 Package biblatex Warning: Keyword 'biblioauthorscopus' not found on input line 
-204.
+215.
 
 
-LaTeX Warning: Empty bibliography on input line 204.
+LaTeX Warning: Empty bibliography on input line 215.
 
 
 Package biblatex Warning: Keyword 'biblioauthorpatent' not found on input line 
-204.
+215.
 
 
-LaTeX Warning: Empty bibliography on input line 204.
+LaTeX Warning: Empty bibliography on input line 215.
 
-LaTeX Info: Redefining \rmfamily on input line 204.
-LaTeX Info: Redefining \sffamily on input line 204.
-LaTeX Info: Redefining \ttfamily on input line 204.
-LaTeX Info: Redefining \rmfamily on input line 204.
-LaTeX Info: Redefining \sffamily on input line 204.
-LaTeX Info: Redefining \ttfamily on input line 204.
-LaTeX Info: Redefining \rmfamily on input line 204.
-LaTeX Info: Redefining \sffamily on input line 204.
-LaTeX Info: Redefining \ttfamily on input line 204.
-LaTeX Info: Redefining \rmfamily on input line 204.
-LaTeX Info: Redefining \sffamily on input line 204.
-LaTeX Info: Redefining \ttfamily on input line 204.
+LaTeX Info: Redefining \rmfamily on input line 215.
+LaTeX Info: Redefining \sffamily on input line 215.
+LaTeX Info: Redefining \ttfamily on input line 215.
+LaTeX Info: Redefining \rmfamily on input line 215.
+LaTeX Info: Redefining \sffamily on input line 215.
+LaTeX Info: Redefining \ttfamily on input line 215.
+LaTeX Info: Redefining \rmfamily on input line 215.
+LaTeX Info: Redefining \sffamily on input line 215.
+LaTeX Info: Redefining \ttfamily on input line 215.
+LaTeX Info: Redefining \rmfamily on input line 215.
+LaTeX Info: Redefining \sffamily on input line 215.
+LaTeX Info: Redefining \ttfamily on input line 215.
 
-LaTeX Warning: Empty bibliography on input line 204.
+LaTeX Warning: Empty bibliography on input line 215.
 
-Package biblatex Info: Reference section=0 on input line 204.
+Package biblatex Info: Reference section=0 on input line 215.
 \c@blx@maxsegment@2=\count639
 \c@blx@sectionciteorder@2=\count640
-Package biblatex Info: Reference section=2 on input line 204.
-Package biblatex Info: Setting label 'refsection:2' on input line 204.
-Package biblatex Info: Reference section=0 on input line 204.
-) (common/short_content.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[6.6]
+Package biblatex Info: Reference section=2 on input line 215.
+Package biblatex Info: Setting label 'refsection:2' on input line 215.
+Package biblatex Info: Reference section=0 on input line 215.
+) (common/short_content.tex [6.6]
 Underfull \hbox (badness 5475) in paragraph at lines 7--8
 []\TU/TimesNewRoman(1)/b/n/10 Первая глава \TU/TimesNewRoman(1)/m/n/10 посвящен
 а обзору имеющейся литературы и поста-
@@ -2471,25 +2453,16 @@ File: images//r8.eps Graphic file (type eps)
 Underfull \vbox (badness 5985) has occurred while \output is active []
 
 [10.10] [11.11]
-Underfull \hbox (badness 1824) in paragraph at lines 173--174
-[]\TU/TimesNewRoman(1)/m/n/10 Алгоритм ДЭ сравнивался с решателем BARON на пяти
- задачах из
- []
-
-
 Underfull \vbox (badness 5388) has occurred while \output is active []
 
-[12.12]
-Underfull \vbox (badness 4673) has occurred while \output is active []
-
-[13.13]
+[12.12] [13.13]
 File: images//fit_dist.eps Graphic file (type eps)
 <images//fit_dist.eps>
 File: images//fit_dist_2x2.eps Graphic file (type eps)
 <images//fit_dist_2x2.eps>
 [14.14]
 
-LaTeX Warning: Reference `eq:commutat2' on page 15 undefined on input line 254.
+LaTeX Warning: Reference `eq:commutat2' on page 15 undefined on input line 256.
 
 
 [15.15]
@@ -2505,23 +2478,27 @@ File: images//r8_1_25_5x7.png Graphic file (type bmp)
 <images//r8_1_25_5x7.png>
 File: images//r8_25_5x7.png Graphic file (type bmp)
 <images//r8_25_5x7.png>
+
+Underfull \vbox (badness 7433) has occurred while \output is active []
+
+[17.17]
 File: images//r_bvd_20_results_h.png Graphic file (type bmp)
 <images//r_bvd_20_results_h.png>
 File: images//r_bvd_20_results_v.png Graphic file (type bmp)
 <images//r_bvd_20_results_v.png>
 
-Underfull \hbox (badness 2285) in paragraph at lines 312--312
+Underfull \hbox (badness 2285) in paragraph at lines 314--314
  \TU/TimesNewRoman(1)/m/n/10 ленности ШВД при расстоянии от центра излучателя д
 о центра решетки 
  []
 
 
-Underfull \hbox (badness 6412) in paragraph at lines 312--312
+Underfull \hbox (badness 6412) in paragraph at lines 314--314
  \TU/TimesNewRoman(1)/m/n/10 20 м. Пунктирной линией обозначено усиление одиноч
 ного излучателя, 
  []
 
-[17.17] (common/concl.tex [18.18]))
+(common/concl.tex [18.18]))
 LaTeX Info: Redefining \rmfamily on input line 96.
 LaTeX Info: Redefining \sffamily on input line 96.
 LaTeX Info: Redefining \ttfamily on input line 96.
@@ -2553,28 +2530,28 @@ LaTeX Warning: Empty bibliography on input line 96.
 
 ]
 
-Package nag Warning: Unmatched ``\center'' command on line 310.
+Package nag Warning: Unmatched ``\center'' command on line 312.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 306.
+Package nag Warning: Unmatched ``\center'' command on line 308.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 293.
+Package nag Warning: Unmatched ``\center'' command on line 295.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 289.
+Package nag Warning: Unmatched ``\center'' command on line 291.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 280.
+Package nag Warning: Unmatched ``\center'' command on line 282.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 272.
+Package nag Warning: Unmatched ``\center'' command on line 274.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 213.
+Package nag Warning: Unmatched ``\center'' command on line 215.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 210.
+Package nag Warning: Unmatched ``\center'' command on line 212.
 
 
 Package nag Warning: Unmatched ``\center'' command on line 118.
@@ -3105,12 +3082,12 @@ Package logreq Info: Writing requests to 'synopsis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50918 strings out of 410967
- 1036387 string characters out of 2828016
- 2159295 words of memory out of 3000000
- 70886 multiletter control sequences out of 15000+600000
+ 50917 strings out of 410967
+ 1036380 string characters out of 2828016
+ 2159296 words of memory out of 3000000
+ 70885 multiletter control sequences out of 15000+600000
  473456 words of font info for 96 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,16n,123p,1562b,7630s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on synopsis.xdv (22 pages, 416500 bytes).
+Output written on synopsis.xdv (22 pages, 420216 bytes).
