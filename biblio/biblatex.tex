@@ -7,7 +7,7 @@
 \usepackage[%
 backend=biber,% движок
 bibencoding=utf8,% кодировка bib файла
-sorting=none,% настройка сортировки списка литературы
+sorting=nty,% настройка сортировки списка литературы
 style=gost-numeric,% стиль цитирования и библиографии (по ГОСТ)
 language=autobib,% получение языка из babel/polyglossia, default: autobib % если ставить autocite или auto, то цитаты в тексте с указанием страницы, получат указание страницы на языке оригинала
 autolang=other,% многоязычная библиография
@@ -635,6 +635,10 @@ sorting=none,% настройка сортировки списка литера
     \printbibliography[heading=pubsubgroup, section=0, keyword=biblioauthorother,  title=\bibtitleauthorother,resetnumbers=false]% Прочие работы автора
     \printbibliography[heading=pubsubgroup, section=0, keyword=biblioauthorconf,   title=\bibtitleauthorconf,resetnumbers=false]% Тезисы конференций
 }
+
+%\DeclareBibliographyCategory{SourcesRu}
+
+%\addtocategory{SourcesRu}{eremeev:confidence,kochetov:local,nechaeva:bandb,strekalovsky:mindc,eremin:convex,nesterov:nonconvex,sazonov:PAA,yurkov:knd,yurkov:groundloss,yurkov:farkv,schelkunov:antenny,fanyaev2017,kudin2014,C99,Sigaev,Simanchev96}
 
 \newcommand*{\insertbiblioexternal}{
     \addcontentsline{toc}{chapter}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}

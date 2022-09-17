@@ -1,42 +1,183 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'synopsis.blg'
-[148] biber-MSWIN64:340> INFO - === 
-[204] Biber.pm:418> INFO - Reading 'synopsis.bcf'
-[500] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[501] Biber.pm:969> INFO - Using all citekeys in bib section 1
-[501] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[501] Biber.pm:972> INFO - Found 8 citekeys in bib section 2
-[501] Biber.pm:972> INFO - Found 9 citekeys in bib section 0
-[552] Biber.pm:4383> INFO - Processing section 0
-[572] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/external.bib' for section 0
-[3023] bibtex.pm:1713> INFO - LaTeX decoding ...
-[10515] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio/external.bib'
-[10528] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/author.bib' for section 0
-[19913] bibtex.pm:1713> INFO - LaTeX decoding ...
-[29994] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio/author.bib'
-[30075] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/registered.bib' for section 0
-[33814] bibtex.pm:1713> INFO - LaTeX decoding ...
-[41974] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio/registered.bib'
-[42017] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[42017] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[42017] Biber.pm:4203> INFO - Sorting list 'none/global/D41D8CD98F00B204E9800998ECF8427E/global/global' of type 'entry' with template 'none' and locale 'ru-RU'
-[42017] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
-[42044] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[42045] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[42045] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
-[42045] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
-[42056] Biber.pm:4383> INFO - Processing section 1
-[42056] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/author.bib' for section 1
-[43441] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/registered.bib' for section 1
-[43509] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[43509] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[43509] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
-[43509] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
-[43520] Biber.pm:4383> INFO - Processing section 2
-[43521] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/author.bib' for section 2
-[43641] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[43641] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[43641] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
-[43642] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
-[43650] bbl.pm:654> INFO - Writing 'synopsis.bbl' with encoding 'UTF-8'
-[47946] bbl.pm:757> INFO - Output to synopsis.bbl
+[145] biber-MSWIN64:340> INFO - === 
+[206] Biber.pm:418> INFO - Reading 'synopsis.bcf'
+[434] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[434] Biber.pm:969> INFO - Using all citekeys in bib section 1
+[434] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[435] Biber.pm:972> INFO - Found 8 citekeys in bib section 2
+[435] Biber.pm:972> INFO - Found 9 citekeys in bib section 0
+[474] Biber.pm:4383> INFO - Processing section 0
+[490] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/external.bib' for section 0
+[568] bibtex.pm:1713> INFO - LaTeX decoding ...
+[688] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio/external.bib'
+[696] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/author.bib' for section 0
+[784] bibtex.pm:1713> INFO - LaTeX decoding ...
+[805] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio/author.bib'
+[876] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/registered.bib' for section 0
+[960] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1190] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio/registered.bib'
+[1220] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1220] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1220] Biber.pm:4203> INFO - Sorting list 'nty/global/D41D8CD98F00B204E9800998ECF8427E/global/global' of type 'entry' with template 'nty' and locale 'ru-RU'
+[1220] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
+[1245] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1245] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1245] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'ru-RU'
+[1245] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
+[1258] Biber.pm:4383> INFO - Processing section 1
+[1258] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/author.bib' for section 1
+[1341] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/registered.bib' for section 1
+[1408] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1408] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1408] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'ru-RU'
+[1408] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
+[1420] Biber.pm:4383> INFO - Processing section 2
+[1420] Biber.pm:4574> INFO - Looking for bibtex file 'biblio/author.bib' for section 2
+[1523] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1523] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1523] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'ru-RU'
+[1523] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
+[1535] bbl.pm:654> INFO - Writing 'synopsis.bbl' with encoding 'UTF-8'
+[1557] bbl.pm:757> INFO - Output to synopsis.bbl
+[1558] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1558] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1558] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1558] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1558] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1558] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1558] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1558] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1558] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1558] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1558] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1558] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1558] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1558] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1558] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1559] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1560] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1561] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1562] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1563] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1564] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1564] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1564] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1564] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1564] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1564] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1564] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1564] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1564] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1564] Biber.pm:130> WARN - Unknown field 'volume' found in sorting template
+[1564] Biber.pm:130> WARN - Unknown field 'book' found in sorting template
+[1564] Biber.pm:130> WARN - Unknown field 'part' found in sorting template
+[1564] Biber.pm:130> WARN - Unknown field 'issue' found in sorting template
+[1564] Biber.pm:132> INFO - WARNINGS: 140
