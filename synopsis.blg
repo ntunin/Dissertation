@@ -1,5 +1,5 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'synopsis.blg'
-[144] biber-MSWIN64:340> INFO - === 
-[201] Utils.pm:410> ERROR - synopsis.bcf is malformed, last biblatex run probably failed. Deleted synopsis.bbl
-[201] Biber.pm:135> INFO - ERRORS: 1
+[186] biber-MSWIN64:340> INFO - === 
+[251] Utils.pm:410> ERROR - synopsis.bcf is malformed, last biblatex run probably failed. Deleted synopsis.bbl
+[252] Biber.pm:135> INFO - ERRORS: 1
