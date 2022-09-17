@@ -294,3 +294,4 @@
 \contentsline {chapter}{ПРИЛОЖЕНИЯ}{93}{chapter*.49}%
 \contentsline {section}{Приложение A}{93}{section*.50}%
 \contentsline {section}{Приложение Б}{95}{section*.51}%
+\contentsline {section}{Приложение В}{103}{section*.59}%

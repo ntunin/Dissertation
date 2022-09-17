@@ -4458,6 +4458,9 @@ INPUT expi_results.jpeg
 INPUT .\images\\expi_reg.jpeg
 INPUT .\images\\expi_reg.jpeg
 INPUT images\\expi_reg.jpeg
+INPUT .\images\\education_act.jpeg
+INPUT .\images\\education_act.jpeg
+INPUT images\\education_act.jpeg
 OUTPUT dissertation.toc
 INPUT dissertation.aux
 INPUT .\Dissertation\title.aux

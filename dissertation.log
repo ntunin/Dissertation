@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  17 SEP 2022 11:15
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  17 SEP 2022 15:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3663,97 +3663,91 @@ Overfull \hbox (1.07272pt too wide) in paragraph at lines 105--106
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
-[]\TU/TimesNewRoman(1)/b/n/14.4 Достоверность \TU/TimesNewRoman(1)/m/n/14.4 пол
-ученных результатов подтверждается согласован-
- []
-
-
-Underfull \hbox (badness 3386) in paragraph at lines 111--112
-\TU/TimesNewRoman(1)/m/n/14.4 ностью результатов, полученных автором с использо
-ванием предложенных
+Underfull \hbox (badness 1509) in paragraph at lines 111--113
+[]\TU/TimesNewRoman(1)/b/n/14.4 Соответствие научной специальности. \TU/TimesNe
+wRoman(1)/m/n/14.4 Работа соответствует научной
  []
 
 [7.7]
-Underfull \hbox (badness 2856) in paragraph at lines 119--120
+Underfull \hbox (badness 2856) in paragraph at lines 129--130
 []\TU/TimesNewRoman(1)/m/n/14.4 Семинаре «Современные проблемы радиофизики и ра
 диотехники»,
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 124--125
+Underfull \hbox (badness 2521) in paragraph at lines 134--135
 []\TU/TimesNewRoman(1)/m/n/14.4 Семинаре «Перспективы развития радиосвязи и при
 боростроения»,
  []
 
 \c@blx@maxsegment@1=\count656
 \c@blx@sectionciteorder@1=\count657
-Package biblatex Info: Reference section=1 on input line 215.
-Package biblatex Info: Setting label 'refsection:1' on input line 215.
+Package biblatex Info: Reference section=1 on input line 225.
+Package biblatex Info: Setting label 'refsection:1' on input line 225.
 (common/renames.tex) (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 215.
-LaTeX Info: Redefining \sffamily on input line 215.
-LaTeX Info: Redefining \ttfamily on input line 215.
+LaTeX Info: Redefining \rmfamily on input line 225.
+LaTeX Info: Redefining \sffamily on input line 225.
+LaTeX Info: Redefining \ttfamily on input line 225.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 215.
-LaTeX Info: Redefining \sffamily on input line 215.
-LaTeX Info: Redefining \ttfamily on input line 215.
+LaTeX Info: Redefining \rmfamily on input line 225.
+LaTeX Info: Redefining \sffamily on input line 225.
+LaTeX Info: Redefining \ttfamily on input line 225.
 (common/renames.tex) (common/renames.tex) (common/renames.tex)
 
-Package biblatex Warning: Keyword 'biblioauthorwos' not found on input line 215
+Package biblatex Warning: Keyword 'biblioauthorwos' not found on input line 225
 .
 
 
-LaTeX Warning: Empty bibliography on input line 215.
+LaTeX Warning: Empty bibliography on input line 225.
 
 
 Package biblatex Warning: Keyword 'biblioauthorscopus' not found on input line 
-215.
+225.
 
 
-LaTeX Warning: Empty bibliography on input line 215.
+LaTeX Warning: Empty bibliography on input line 225.
 
 (common/renames.tex) (common/renames.tex) (common/renames.tex) (common/renames.
 tex) (common/renames.tex) (common/renames.tex) (common/renames.tex) (common/ren
 ames.tex) (common/renames.tex) (common/renames.tex)
 
 Package biblatex Warning: Keyword 'biblioauthorpatent' not found on input line 
-215.
+225.
 
 
-LaTeX Warning: Empty bibliography on input line 215.
+LaTeX Warning: Empty bibliography on input line 225.
 
 (common/renames.tex) (common/renames.tex) (common/renames.tex) (common/renames.
 tex)
-LaTeX Info: Redefining \rmfamily on input line 215.
-LaTeX Info: Redefining \sffamily on input line 215.
-LaTeX Info: Redefining \ttfamily on input line 215.
+LaTeX Info: Redefining \rmfamily on input line 225.
+LaTeX Info: Redefining \sffamily on input line 225.
+LaTeX Info: Redefining \ttfamily on input line 225.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 215.
-LaTeX Info: Redefining \sffamily on input line 215.
-LaTeX Info: Redefining \ttfamily on input line 215.
+LaTeX Info: Redefining \rmfamily on input line 225.
+LaTeX Info: Redefining \sffamily on input line 225.
+LaTeX Info: Redefining \ttfamily on input line 225.
 (common/renames.tex) (common/renames.tex) (common/renames.tex) (common/renames.
 tex) (common/renames.tex) (common/renames.tex) (common/renames.tex) (common/ren
 ames.tex) (common/renames.tex) (common/renames.tex) (common/renames.tex) (commo
 n/renames.tex) (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 215.
-LaTeX Info: Redefining \sffamily on input line 215.
-LaTeX Info: Redefining \ttfamily on input line 215.
+LaTeX Info: Redefining \rmfamily on input line 225.
+LaTeX Info: Redefining \sffamily on input line 225.
+LaTeX Info: Redefining \ttfamily on input line 225.
 (common/renames.tex)
-LaTeX Info: Redefining \rmfamily on input line 215.
-LaTeX Info: Redefining \sffamily on input line 215.
-LaTeX Info: Redefining \ttfamily on input line 215.
+LaTeX Info: Redefining \rmfamily on input line 225.
+LaTeX Info: Redefining \sffamily on input line 225.
+LaTeX Info: Redefining \ttfamily on input line 225.
 (common/renames.tex) (common/renames.tex) (common/renames.tex)
 
-LaTeX Warning: Empty bibliography on input line 215.
+LaTeX Warning: Empty bibliography on input line 225.
 
-Package biblatex Info: Reference section=0 on input line 215.
+Package biblatex Info: Reference section=0 on input line 225.
 \c@blx@maxsegment@2=\count658
 \c@blx@sectionciteorder@2=\count659
-Package biblatex Info: Reference section=2 on input line 215.
-Package biblatex Info: Setting label 'refsection:2' on input line 215.
-Package biblatex Info: Reference section=0 on input line 215.
-)
+Package biblatex Info: Reference section=2 on input line 225.
+Package biblatex Info: Setting label 'refsection:2' on input line 225.
+Package biblatex Info: Reference section=0 on input line 225.
+) [8.8]
 \@c=\count660
 \@last=\count661
 \@pnul=\count662
@@ -3772,7 +3766,7 @@ Underfull \hbox (badness 1502) in paragraph at lines 1--6
 imesNewRoman(1)/m/n/14.4 обосновывается актуальность исследований, проводимых
  []
 
-[8.8] [9.9] [10.10]
+[9.9] [10.10]
 Underfull \hbox (badness 3229) in paragraph at lines 76--78
 []\TU/TimesNewRoman(1)/m/n/14.4 Глобально-оптимальное решение задачи невыпуклог
 о математического
@@ -3798,31 +3792,29 @@ File: images//5x5SVD.eps Graphic file (type eps)
 <images//5x5SVD.eps>
 File: images//r8.eps Graphic file (type eps)
 <images//r8.eps>
-[12.12]
+[12.12] [13.13] [14.14] [15.15]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13.13] [14.14] [15.15] [16.16]
+[16.16]
 File: images//fit_dist.eps Graphic file (type eps)
 <images//fit_dist.eps>
 File: images//fit_dist_2x2.eps Graphic file (type eps)
 <images//fit_dist_2x2.eps>
-[17.17] [18.18]
+[17.17] [18.18] [19.19]
 File: images//ring_f__paa_gains.eps Graphic file (type eps)
 <images//ring_f__paa_gains.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: images//ring_f_gains.eps Graphic file (type eps)
 <images//ring_f_gains.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19.19] [20.20]
+[20.20]
 File: images//r8_1_25_5x7.png Graphic file (type bmp)
 <images//r8_1_25_5x7.png>
 File: images//r8_25_5x7.png Graphic file (type bmp)
 <images//r8_25_5x7.png>
+[21.21]
 File: images//r_bvd_20_results_h.png Graphic file (type bmp)
 <images//r_bvd_20_results_h.png>
 File: images//r_bvd_20_results_v.png Graphic file (type bmp)
@@ -3839,7 +3831,7 @@ Underfull \hbox (badness 1895) in paragraph at lines 314--314
 диночного излучателя, 
  []
 
-[21.21] (common/concl.tex [22.22]))) [23.23]
+(common/concl.tex [22.22]))) [23.23]
 \openout2 = `Dissertation/part1.aux'.
 
 (Dissertation/part1.tex
@@ -4409,12 +4401,29 @@ Overfull \vbox (70.17807pt too high) has occurred while \output is active []
 [97.97]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 119.
-[98.98] [99.99] [100.100]
+[98.98] [99.99] [100.100] [101.101]
 File: images//expi_reg.jpeg Graphic file (type bmp)
 <images//expi_reg.jpeg>
-) [101.101] [102.102]
+[102.102]
+File: images//education_act.jpeg Graphic file (type bmp)
+<images//education_act.jpeg>
 
-Package nag Warning: Unmatched ``\center'' command on line 293.
+Package nag Warning: \label in float, but not after \caption on input line 306.
+
+
+
+Package nag Warning: \label in float, but not after \caption on input line 306.
+
+
+
+Package nag Warning: figure with no \caption on input line 307.
+
+[103.103]) [104.104]
+
+Package nag Warning: Unmatched ``\center'' command on line 305.
+
+
+Package nag Warning: Unmatched ``\center'' command on line 295.
 
 
 Package nag Warning: Unmatched ``\center'' command on line 272.
@@ -4703,7 +4712,7 @@ Package caption Warning: Unused \captionsetup[subfloat] on input line 66.
 See the caption package documentation for explanation.
 
 
-Package nag Warning: 60 complaints in total.
+Package nag Warning: 64 complaints in total.
 
 \tf@toc=\write10
 \openout10 = `dissertation.toc'.
@@ -6034,6 +6043,7 @@ expi_script.jpeg    Graphic file (type bmp)
 expi_paa.jpeg    Graphic file (type bmp)
 expi_results.jpeg    Graphic file (type bmp)
 images//expi_reg.jpeg
+images//education_act.jpeg
 common/renames.tex
 common/renames.tex
 common/renames.tex
@@ -6207,7 +6217,7 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 5B7EEC7E212DAD9ACC574D35137178C5;13346.
+(rerunfilecheck)             Checksum: 8315FCD7405792C03FF69B501ECF0B0A;13499.
 Package logreq Info: Writing requests to 'dissertation.run.xml'.
 \openout1 = `dissertation.run.xml'.
 
@@ -6217,12 +6227,12 @@ Package logreq Info: Writing requests to 'dissertation.run.xml'.
 ### simple group (level 1) entered at line 261 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 54434 strings out of 410967
- 1114508 string characters out of 2828016
- 2576031 words of memory out of 3000000
- 73334 multiletter control sequences out of 15000+600000
+ 54448 strings out of 410967
+ 1114868 string characters out of 2828016
+ 2576445 words of memory out of 3000000
+ 73347 multiletter control sequences out of 15000+600000
  483076 words of font info for 136 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  119i,16n,123p,2466b,7848s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on dissertation.xdv (102 pages, 1620660 bytes).
+Output written on dissertation.xdv (104 pages, 1632736 bytes).
