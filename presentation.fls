@@ -1,5 +1,5 @@
-PWD C:\users_\Eremeev\Dissertations\Тюнин\Dissertation
-INPUT C:\Users\Anton\AppData\Local\MiKTeX\miktex\data\le\xetex\xelatex.fmt
+PWD C:\Users\Nik\Documents\GitHub\Dissertation
+INPUT C:\Users\Nik\AppData\Local\MiKTeX\miktex\data\le\xetex\xelatex.fmt
 INPUT .\presentation.tex
 INPUT presentation.tex
 INPUT .\presentation.tex
@@ -476,41 +476,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\auxhook\auxhook.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\auxhook\auxhook.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\auxhook\auxhook.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\auxhook\auxhook.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\infwarerr\infwarerr.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\kvoptions\kvoptions.sty
@@ -524,8 +489,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\kvsetkeys\kvsetkeys.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
 INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
 INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
@@ -1291,6 +1254,7 @@ INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
+INPUT extractbb "--version"
 INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
@@ -1510,17 +1474,17 @@ INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
-INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
-INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
-INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
-INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
-INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
-INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
-INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
-INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
-INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
-INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
-INPUT C:\Users\Anton\AppData\Roaming\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tabu\tabu.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\varwidth\varwidth.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\varwidth\varwidth.sty
@@ -2055,6 +2019,17 @@ INPUT Presentation\title.tex
 INPUT .\Presentation\title.tex
 INPUT .\Presentation\title.tex
 INPUT Presentation\title.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
 INPUT .\biblio\biblatex.tex
 INPUT .\biblio\biblatex.tex
 INPUT .\biblio\biblatex.tex
@@ -2184,6 +2159,43 @@ INPUT C:\Program Files\MiKTeX\tex\latex\base\ts1cmr.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\base\ts1cmr.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\base\ts1cmr.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\base\ts1cmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
 INPUT .\presentation.out
 INPUT presentation.out
 INPUT .\presentation.out
@@ -2323,22 +2335,16 @@ INPUT Presentation\content.tex
 INPUT .\Presentation\content.tex
 INPUT .\Presentation\content.tex
 INPUT Presentation\content.tex
-INPUT .\images\\2x2bve.eps
-INPUT .\images\\2x2bve.eps
-INPUT images\\2x2bve.eps
-INPUT images\\2x2bve.eps
-INPUT .\images\\2x2bvd.eps
-INPUT .\images\\2x2bvd.eps
-INPUT images\\2x2bvd.eps
-INPUT images\\2x2bvd.eps
-INPUT .\images\\5x5VWD.eps
-INPUT .\images\\5x5VWD.eps
-INPUT images\\5x5VWD.eps
-INPUT images\\5x5VWD.eps
-INPUT .\images\\r8.eps
-INPUT .\images\\r8.eps
-INPUT images\\r8.eps
-INPUT images\\r8.eps
+INPUT .\images\\expi.png
+INPUT .\images\\expi.png
+INPUT images\\expi.png
+INPUT .\images\\fit_dist_2x2.eps
+INPUT .\images\\fit_dist_2x2.eps
+INPUT images\\fit_dist_2x2.eps
+INPUT images\\fit_dist_2x2.eps
+INPUT .\images\\233.png
+INPUT .\images\\233.png
+INPUT images\\233.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
@@ -2353,44 +2359,20 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\esint\esint10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\esint\esint10.tfm
-INPUT .\images\\expi.png
-INPUT .\images\\expi.png
-INPUT images\\expi.png
-INPUT .\images\\stability.eps
-INPUT .\images\\stability.eps
-INPUT images\\stability.eps
-INPUT images\\stability.eps
-INPUT .\images\\fit_dist.eps
-INPUT .\images\\fit_dist.eps
-INPUT images\\fit_dist.eps
-INPUT images\\fit_dist.eps
-INPUT .\images\\fit_dist_2x2.eps
-INPUT .\images\\fit_dist_2x2.eps
-INPUT images\\fit_dist_2x2.eps
-INPUT images\\fit_dist_2x2.eps
+INPUT .\images\\ratio.eps
+INPUT .\images\\ratio.eps
+INPUT images\\ratio.eps
+INPUT images\\ratio.eps
 INPUT .\images\\r8.eps
 INPUT .\images\\r8.eps
 INPUT images\\r8.eps
-INPUT .\images\\ring_f__paa_gains.eps
-INPUT .\images\\ring_f__paa_gains.eps
-INPUT images\\ring_f__paa_gains.eps
-INPUT images\\ring_f__paa_gains.eps
-INPUT .\images\\ring_f_gains.eps
-INPUT .\images\\ring_f_gains.eps
-INPUT images\\ring_f_gains.eps
-INPUT images\\ring_f_gains.eps
+INPUT images\\r8.eps
 INPUT .\images\\r8_1_25_5x7_marked.png
 INPUT .\images\\r8_1_25_5x7_marked.png
 INPUT images\\r8_1_25_5x7_marked.png
 INPUT .\images\\r8_25_5x7_marked.png
 INPUT .\images\\r8_25_5x7_marked.png
 INPUT images\\r8_25_5x7_marked.png
-INPUT .\images\\r_bve_15_results_h.png
-INPUT .\images\\r_bve_15_results_h.png
-INPUT images\\r_bve_15_results_h.png
-INPUT .\images\\r_bve_15_results_v.png
-INPUT .\images\\r_bve_15_results_v.png
-INPUT images\\r_bve_15_results_v.png
 INPUT .\images\\r_bvd_20_results_h.png
 INPUT .\images\\r_bvd_20_results_h.png
 INPUT images\\r_bvd_20_results_h.png

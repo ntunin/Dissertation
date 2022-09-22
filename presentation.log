@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  23 JUN 2022 10:03
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  21 SEP 2022 06:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1433,8 +1433,23 @@ Package: esint
 mePittsburgh.sty (C:\Program Files\MiKTeX\tex/latex/beamer\beamerinnerthemecirc
 les.sty)) (C:\Program Files\MiKTeX\tex/latex/beamer\beamercolorthemewhale.sty) 
 (C:\Program Files\MiKTeX\tex/latex/beamer\beamerfontthemeserif.sty)) (Presentat
-ion/title.tex) (biblio/biblatex.tex (C:\Program Files\MiKTeX\tex/latex/csquotes
-\csquotes.sty
+ion/title.tex) (C:\Program Files\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+\CenteringLeftskip=\skip89
+\RaggedLeftLeftskip=\skip90
+\RaggedRightLeftskip=\skip91
+\CenteringRightskip=\skip92
+\RaggedLeftRightskip=\skip93
+\RaggedRightRightskip=\skip94
+\CenteringParfillskip=\skip95
+\RaggedLeftParfillskip=\skip96
+\RaggedRightParfillskip=\skip97
+\JustifyingParfillskip=\skip98
+\CenteringParindent=\skip99
+\RaggedLeftParindent=\skip100
+\RaggedRightParindent=\skip101
+\JustifyingParindent=\skip102
+) (biblio/biblatex.tex (C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
 \csq@reset=\count437
 \csq@gtype=\count438
@@ -1500,14 +1515,14 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \c@blx@sectionciteorder@0=\count483
 \blx@entrysetcounter=\count484
 \blx@biblioinstance=\count485
-\labelnumberwidth=\skip89
-\labelalphawidth=\skip90
-\biblabelsep=\skip91
-\bibitemsep=\skip92
-\bibnamesep=\skip93
-\bibinitsep=\skip94
-\bibparsep=\skip95
-\bibhang=\skip96
+\labelnumberwidth=\skip103
+\labelalphawidth=\skip104
+\biblabelsep=\skip105
+\bibitemsep=\skip106
+\bibnamesep=\skip107
+\bibinitsep=\skip108
+\bibparsep=\skip109
+\bibhang=\skip110
 \blx@bcfin=\read3
 \blx@bcfout=\write6
 \blx@langwohyphens=\language79
@@ -1620,20 +1635,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savededitioncredits=\count576
 \c@pageref=\count577
 \c@savedpageref=\count578
-\shorthandwidth=\skip97
-\shortjournalwidth=\skip98
-\shortserieswidth=\skip99
-\shorttitlewidth=\skip100
-\shortauthorwidth=\skip101
-\shorteditorwidth=\skip102
-\locallabelnumberwidth=\skip103
-\locallabelalphawidth=\skip104
-\localshorthandwidth=\skip105
-\localshortjournalwidth=\skip106
-\localshortserieswidth=\skip107
-\localshorttitlewidth=\skip108
-\localshortauthorwidth=\skip109
-\localshorteditorwidth=\skip110
+\shorthandwidth=\skip111
+\shortjournalwidth=\skip112
+\shortserieswidth=\skip113
+\shorttitlewidth=\skip114
+\shortauthorwidth=\skip115
+\shorteditorwidth=\skip116
+\locallabelnumberwidth=\skip117
+\locallabelalphawidth=\skip118
+\localshorthandwidth=\skip119
+\localshortjournalwidth=\skip120
+\localshortserieswidth=\skip121
+\localshorttitlewidth=\skip122
+\localshortauthorwidth=\skip123
+\localshorteditorwidth=\skip124
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 (C:\Program Files\MiKTeX\tex/latex/biblatex\blx-unicode.def)
@@ -1750,6 +1765,32 @@ Package csquotes Info: ... found 'polyglossia' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'russian'.
 (presentation.aux
+
+LaTeX Warning: Label `tab:results_de' multiply defined.
+
+
+LaTeX Warning: Label `ris:ring' multiply defined.
+
+LaTeX Info: Redefining \rmfamily on input line 232.
+LaTeX Info: Redefining \sffamily on input line 232.
+LaTeX Info: Redefining \ttfamily on input line 232.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 236.
+LaTeX Info: Redefining \sffamily on input line 236.
+LaTeX Info: Redefining \ttfamily on input line 236.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 244.
+LaTeX Info: Redefining \sffamily on input line 244.
+LaTeX Info: Redefining \ttfamily on input line 244.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 248.
+LaTeX Info: Redefining \sffamily on input line 248.
+LaTeX Info: Redefining \ttfamily on input line 248.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -1758,54 +1799,38 @@ Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
-LaTeX Info: Redefining \rmfamily on input line 259.
-LaTeX Info: Redefining \sffamily on input line 259.
-LaTeX Info: Redefining \ttfamily on input line 259.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 263.
-LaTeX Info: Redefining \sffamily on input line 263.
-LaTeX Info: Redefining \ttfamily on input line 263.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 271.
-LaTeX Info: Redefining \sffamily on input line 271.
-LaTeX Info: Redefining \ttfamily on input line 271.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 275.
-LaTeX Info: Redefining \sffamily on input line 275.
-LaTeX Info: Redefining \ttfamily on input line 275.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
 )
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
+2.
 (C:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1840,7 +1865,7 @@ LaTeX Font Info:    ... okay on input line 29.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 32.
 (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty
@@ -1850,9 +1875,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count621
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
 (presentation.out) (presentation.out)
 \@outlinefile=\write7
 \openout7 = `presentation.out'.
@@ -1860,54 +1885,54 @@ LaTeX Info: Redefining \nameref on input line 29.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 2
-9.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 3
+2.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
-29.
+32.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
-29.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 29.
+32.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/Arial(0)/m/n on input line 29.
+(Font)                  OT1/cmss/m/n --> TU/Arial(0)/m/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/Arial(0)/m/n on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 29.
+(Font)                  OT1/cmss/bx/n --> TU/Arial(0)/m/n on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 29.
+ 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/m/it on input lin
-e 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 29.
+e 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/m/n on input line 29.
+(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/m/n on input line 32.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/m/n on input line 29.
+(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/m/n on input line 32.
 
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
-input line 29.
+input line 32.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/it --> TU/TimesNewRoman(0)/b/it o
-n input line 29.
+n input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
-29.
+32.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/b/n --> TU/TimesNewRoman(0)/b/n on 
-input line 29.
+input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/b/n on input line 29.
+(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/b/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/it --> TU/TimesNewRoman(0)/b/it o
-n input line 29.
+n input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/CourierNew(0)/m/n --> TU/CourierNew(0)/b/n on input 
-line 29.
+line 32.
 
 (C:\Program Files\MiKTeX\tex/latex/translator\translator-basic-dictionary-Engli
 sh.dict
@@ -2046,40 +2071,71 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'presentation.bbl' found.
 (presentation.bbl)
-Package biblatex Info: Reference section=0 on input line 29.
-Package biblatex Info: Reference segment=0 on input line 29.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+Package biblatex Info: Reference section=0 on input line 32.
+Package biblatex Info: Reference segment=0 on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+esint on input line 2
-9.
+LaTeX Font Info:    Trying to load font information for U+esint on input line 3
+2.
 (C:\Program Files\MiKTeX\tex/latex/esint\uesint.fd
 File: uesint.fd 
 ) (presentation.nav) (Presentation/preamble.tex [1.1
 
-] [2.2
+]
+Overfull \hbox (7.30977pt too wide) in paragraph at lines 9--9
+\TU/Arial(1)/m/n/10 ленного излучения позволяет достичь увеличения дальности ра
+дио-
+ []
 
-] [3.3
+
+Overfull \hbox (4.27127pt too wide) in paragraph at lines 9--9
+\TU/Arial(1)/m/n/10 связи или уменьшить затраты ресурсов (энергии, площади, зан
+има-
+ []
+
+[2.2
+
+]
+Overfull \hbox (5.21089pt too wide) in paragraph at lines 23--23
+\TU/Arial(1)/m/n/10 денбом, В. Ижуткин и др, 2018; С. Щелкунов, Г. Фриис, 1952;
+ И.А. Фа-
+ []
+
+
+Overfull \hbox (4.9279pt too wide) in paragraph at lines 23--23
+\TU/Arial(1)/m/n/10 зывается более сложной, и потому менее изучена (В.П. Кудин,
+ 2014;
+ []
+
+[3.3
+
+] [4.4
+
+]
+Overfull \hbox (2.90082pt too wide) in paragraph at lines 53--53
+[]\TU/Arial(1)/m/n/10 Методы градиентной оптимизации, эволюционные алгоритмы, п
+ро-
+ []
+
+[5.5
 
 ] (presentation.toc
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-Package polyglossia Info: Option: Russian, numerals=arabic.
-LaTeX Info: Redefining \rmfamily on input line 19.
-LaTeX Info: Redefining \sffamily on input line 19.
-LaTeX Info: Redefining \ttfamily on input line 19.
+LaTeX Info: Redefining \rmfamily on input line 17.
+LaTeX Info: Redefining \sffamily on input line 17.
+LaTeX Info: Redefining \ttfamily on input line 17.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 18.
+LaTeX Info: Redefining \sffamily on input line 18.
+LaTeX Info: Redefining \ttfamily on input line 18.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
 LaTeX Info: Redefining \rmfamily on input line 20.
@@ -2087,44 +2143,82 @@ LaTeX Info: Redefining \sffamily on input line 20.
 LaTeX Info: Redefining \ttfamily on input line 20.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 22.
-LaTeX Info: Redefining \sffamily on input line 22.
-LaTeX Info: Redefining \ttfamily on input line 22.
+LaTeX Info: Redefining \rmfamily on input line 21.
+LaTeX Info: Redefining \sffamily on input line 21.
+LaTeX Info: Redefining \ttfamily on input line 21.
 Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 23.
-LaTeX Info: Redefining \sffamily on input line 23.
-LaTeX Info: Redefining \ttfamily on input line 23.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-) [4.4
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+) [6.6
 
-]) (Presentation/content.tex [5.5
+]) (Presentation/content.tex [7.7
 
 ]
-File: images//2x2bve.eps Graphic file (type eps)
-<images//2x2bve.eps>
-File: images//2x2bvd.eps Graphic file (type eps)
-<images//2x2bvd.eps>
-File: images//5x5VWD.eps Graphic file (type eps)
-<images//5x5VWD.eps>
-File: images//r8.eps Graphic file (type eps)
-<images//r8.eps>
-
-Overfull \vbox (10.96748pt too high) detected at line 36
+Overfull \hbox (13.23589pt too wide) in paragraph at lines 29--29
+\TU/Arial(1)/m/n/10 ных антенных решеток декаметрового диапазона длин волн // О
+НИИП
  []
 
-[6.6
+[8.8
 
-] [7.7
+]
+Overfull \hbox (13.23589pt too wide) in paragraph at lines 54--54
+\TU/Arial(1)/m/n/10 ных антенных решеток декаметрового диапазона длин волн // О
+НИИП
+ []
 
-] [8.8
+[9.9
 
-] [9.9
+]
+Overfull \hbox (13.23589pt too wide) in paragraph at lines 71--71
+\TU/Arial(1)/m/n/10 ных антенных решеток декаметрового диапазона длин волн // О
+НИИП
+ []
 
-] [10.10
+[10.10
 
-] [11.11
+]
+Overfull \hbox (4.90672pt too wide) in paragraph at lines 91--91
+\TU/Arial(1)/m/n/10 ничение формулируется квадратичной формой, определенной сим
+-
+ []
+
+
+Overfull \hbox (20.90738pt too wide) in paragraph at lines 91--91
+\TU/Arial(1)/m/n/10 метричной матрицей $[][]\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/
+10 = []$ \TU/Arial(1)/m/n/10 с двумя парами идентичных собствен-
+ []
+
+
+Overfull \hbox (17.2677pt too wide) in paragraph at lines 91--91
+\TU/Arial(1)/m/n/10 ных значений, два из которых положительны, а другие два отр
+ицатель-
+ []
+
+
+Overfull \hbox (3.507pt too wide) in paragraph at lines 91--91
+\TU/Arial(1)/m/n/10 ны или равны нулю, все остальные собственные числа равны ну
+лю. 
+ []
+
+
+Overfull \hbox (5.72176pt too wide) in paragraph at lines 91--91
+[]\TU/Arial(1)/b/n/8 Ereemeev A.V., Tynin N.N., Yurkov A.S.: \TU/Arial(1)/m/n/8
+ Non-Convex Quadratic Programming Problems
+ []
+
+[11.11
 
 ] [12.12
 
@@ -2140,24 +2234,31 @@ File: images//expi.png Graphic file (type bmp)
 [16.16
 
 ]
-Overfull \hbox (9.19977pt too wide) in paragraph at lines 270--270
- [] 
+Overfull \vbox (0.11156pt too high) detected at line 215
  []
 
 [17.17
 
 ]
-File: images//stability.eps Graphic file (type eps)
-<images//stability.eps>
+Overfull \hbox (1.5885pt too wide) in paragraph at lines 239--239
+ [] 
+ []
+
 [18.18
 
-] [19.19
+]
+File: images//fit_dist_2x2.eps Graphic file (type eps)
+<images//fit_dist_2x2.eps>
+[19.19
 
 ] [20.20
 
 ] [21.21
 
-] [22.22
+]
+File: images//233.png Graphic file (type bmp)
+<images//233.png>
+[22.22
 
 ] [23.23
 
@@ -2167,58 +2268,26 @@ File: images//stability.eps Graphic file (type eps)
 
 ] [26.26
 
-]
-Overfull \hbox (1.5885pt too wide) in paragraph at lines 447--447
- [] 
- []
-
-[27.27
+] [27.27
 
 ]
-File: images//fit_dist.eps Graphic file (type eps)
-<images//fit_dist.eps>
+File: images//ratio.eps Graphic file (type eps)
+<images//ratio.eps>
 [28.28
 
-]
-File: images//fit_dist_2x2.eps Graphic file (type eps)
-<images//fit_dist_2x2.eps>
-[29.29
-
-] [30.30
+] [29.29
 
 ]
 File: images//r8.eps Graphic file (type eps)
 <images//r8.eps>
-[31.31
+[30.30
 
 ]
-File: images//ring_f__paa_gains.eps Graphic file (type eps)
-<images//ring_f__paa_gains.eps>
-[32.32
-
-]
-File: images//ring_f_gains.eps Graphic file (type eps)
-<images//ring_f_gains.eps>
 File: images//r8_1_25_5x7_marked.png Graphic file (type bmp)
 <images//r8_1_25_5x7_marked.png>
 File: images//r8_25_5x7_marked.png Graphic file (type bmp)
 <images//r8_25_5x7_marked.png>
-
-Overfull \vbox (15.82352pt too high) detected at line 544
- []
-
-[33.33
-
-]
-File: images//r_bve_15_results_h.png Graphic file (type bmp)
-<images//r_bve_15_results_h.png>
-File: images//r_bve_15_results_v.png Graphic file (type bmp)
-<images//r_bve_15_results_v.png>
-
-Overfull \vbox (6.87337pt too high) detected at line 561
- []
-
-[34.34
+[31.31
 
 ]
 File: images//r_bvd_20_results_h.png Graphic file (type bmp)
@@ -2226,35 +2295,70 @@ File: images//r_bvd_20_results_h.png Graphic file (type bmp)
 File: images//r_bvd_20_results_v.png Graphic file (type bmp)
 <images//r_bvd_20_results_v.png>
 
-Overfull \vbox (6.87337pt too high) detected at line 577
+Overfull \vbox (6.87337pt too high) detected at line 481
  []
 
-[35.35
+[32.32
+
+]) (Presentation/conclusion.tex [33.33
+
+] [34.34
+
+] [35.35
 
 ] [36.36
 
-]) (Presentation/conclusion.tex [37.37
+]
+LaTeX Info: Redefining \rmfamily on input line 109.
+LaTeX Info: Redefining \sffamily on input line 109.
+LaTeX Info: Redefining \ttfamily on input line 109.
+
+Overfull \hbox (1.0231pt too wide) in paragraph at lines 109--109
+[][]\TU/Arial(0)/m/it/10 Eremeev A. V.\TU/Arial(1)/m/n/10 , \TU/Arial(0)/m/it/1
+0 Tyunin N. N.\TU/Arial(1)/m/n/10 , \TU/Arial(0)/m/it/10 Yurkov A. S.[] [] \TU/
+Arial(1)/m/n/10 Non-Convex Quadratic
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 109.
+LaTeX Info: Redefining \sffamily on input line 109.
+LaTeX Info: Redefining \ttfamily on input line 109.
+
+Overfull \hbox (3.17728pt too wide) in paragraph at lines 109--109
+\TU/Arial(1)/m/n/10 эволюции для оптимизации направленности фазированных ан-
+ []
+
+[37.37
 
 ] [38.38
 
+
 ]
-LaTeX Info: Redefining \rmfamily on input line 66.
-LaTeX Info: Redefining \sffamily on input line 66.
-LaTeX Info: Redefining \ttfamily on input line 66.
-LaTeX Info: Redefining \rmfamily on input line 66.
-LaTeX Info: Redefining \sffamily on input line 66.
-LaTeX Info: Redefining \ttfamily on input line 66.
+Overfull \vbox (10.30469pt too high) detected at line 123
+ []
+
 [39.39
 
 ] [40.40
 
+] [41.41
+
 ]
-Overfull \vbox (10.30469pt too high) detected at line 95
+Overfull \hbox (0.86818pt too wide) in paragraph at lines 181--181
+[]\TU/Arial(1)/b/n/10 Еремеев А.В., Юрков А.С.: \TU/Arial(1)/m/n/10 On Symmetry
+ Groups of Some Quadratic
  []
 
-[41.41
+[42.42
 
-] [42.42
+]
+Overfull \hbox (0.86818pt too wide) in paragraph at lines 202--202
+[]\TU/Arial(1)/b/n/10 Еремеев А.В., Юрков А.С.: \TU/Arial(1)/m/n/10 On Symmetry
+ Groups of Some Quadratic
+ []
+
+[43.43
+
+] [44.44
 
 ])
 \tf@nav=\write8
@@ -2372,6 +2476,26 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
 (presentation.aux
+LaTeX Info: Redefining \rmfamily on input line 232.
+LaTeX Info: Redefining \sffamily on input line 232.
+LaTeX Info: Redefining \ttfamily on input line 232.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 236.
+LaTeX Info: Redefining \sffamily on input line 236.
+LaTeX Info: Redefining \ttfamily on input line 236.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 244.
+LaTeX Info: Redefining \sffamily on input line 244.
+LaTeX Info: Redefining \ttfamily on input line 244.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 248.
+LaTeX Info: Redefining \sffamily on input line 248.
+LaTeX Info: Redefining \ttfamily on input line 248.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -2380,26 +2504,10 @@ Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
 Package polyglossia Info: Option: Russian, numerals=arabic.
-LaTeX Info: Redefining \rmfamily on input line 259.
-LaTeX Info: Redefining \sffamily on input line 259.
-LaTeX Info: Redefining \ttfamily on input line 259.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 263.
-LaTeX Info: Redefining \sffamily on input line 263.
-LaTeX Info: Redefining \ttfamily on input line 263.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 271.
-LaTeX Info: Redefining \sffamily on input line 271.
-LaTeX Info: Redefining \ttfamily on input line 271.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
-LaTeX Info: Redefining \rmfamily on input line 275.
-LaTeX Info: Redefining \sffamily on input line 275.
-LaTeX Info: Redefining \ttfamily on input line 275.
-Package polyglossia Info: Option: English, variant=american.
-Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+Package polyglossia Info: Option: Russian, numerals=arabic.
 )
 
  *File List*
@@ -2597,6 +2705,7 @@ beamerinnerthemecircles.sty
 beamercolorthemewhale.sty    
 beamerfontthemeserif.sty    
 Presentation/title.tex
+ragged2e.sty    2021/12/15 v3.1 ragged2e Package
 biblio/biblatex.tex
 csquotes.sty    2021-02-22 v5.2l context-sensitive quotations (JAW)
 csquotes.def    2021-02-22 v5.2l csquotes generic definitions (JAW)
@@ -2642,39 +2751,34 @@ presentation.bbl
   uesint.fd    
 Presentation/preamble.tex
 Presentation/content.tex
-images//2x2bve.eps
-images//2x2bvd.eps
-images//5x5VWD.eps
-images//r8.eps
 images//expi.png
-images//stability.eps
-images//fit_dist.eps
 images//fit_dist_2x2.eps
+images//233.png
+images//ratio.eps
 images//r8.eps
-images//ring_f__paa_gains.eps
-images//ring_f_gains.eps
 images//r8_1_25_5x7_marked.png
 images//r8_25_5x7_marked.png
-images//r_bve_15_results_h.png
-images//r_bve_15_results_v.png
 images//r_bvd_20_results_h.png
 images//r_bvd_20_results_v.png
 Presentation/conclusion.tex
  ***********
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: BE6CE0A57E196E3D4165D32AD6613764;4052.
+(rerunfilecheck)             Checksum: A1D93CF1C2E9852C475CC905AF72EBC9;6339.
 Package logreq Info: Writing requests to 'presentation.run.xml'.
 \openout1 = `presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48848 strings out of 410967
- 1044964 string characters out of 2828016
- 2016406 words of memory out of 3000000
- 68668 multiletter control sequences out of 15000+600000
- 475620 words of font info for 124 fonts, out of 8000000 for 9000
+ 48857 strings out of 410967
+ 1044552 string characters out of 2828016
+ 2019285 words of memory out of 3000000
+ 68681 multiletter control sequences out of 15000+600000
+ 475628 words of font info for 125 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 132i,15n,125p,874b,7724s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 132i,15n,125p,922b,7484s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on presentation.xdv (42 pages, 291568 bytes).
+Output written on presentation.xdv (44 pages, 324120 bytes).
