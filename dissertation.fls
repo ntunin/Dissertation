@@ -4404,6 +4404,9 @@ INPUT images\\expi_reg.jpeg
 INPUT .\images\\education_act.jpeg
 INPUT .\images\\education_act.jpeg
 INPUT images\\education_act.jpeg
+INPUT .\images\\industry_act.jpg
+INPUT .\images\\industry_act.jpg
+INPUT images\\industry_act.jpg
 OUTPUT dissertation.toc
 INPUT dissertation.aux
 INPUT .\Dissertation\title.aux

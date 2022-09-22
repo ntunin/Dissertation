@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  21 SEP 2022 06:08
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  22 SEP 2022 07:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -4381,7 +4381,24 @@ Package nag Warning: \label in float, but not after \caption on input line 306.
 
 Package nag Warning: figure with no \caption on input line 307.
 
-[101.101]) [102.102]
+[101.101]
+File: images//industry_act.jpg Graphic file (type bmp)
+<images//industry_act.jpg>
+
+Package nag Warning: \label in float, but not after \caption on input line 313.
+
+
+
+Package nag Warning: \label in float, but not after \caption on input line 313.
+
+
+
+Package nag Warning: figure with no \caption on input line 314.
+
+) [102.102]
+
+Package nag Warning: Unmatched ``\center'' command on line 312.
+
 
 Package nag Warning: Unmatched ``\center'' command on line 305.
 
@@ -4669,7 +4686,7 @@ Package caption Warning: Unused \captionsetup[subfloat] on input line 66.
 See the caption package documentation for explanation.
 
 
-Package nag Warning: 62 complaints in total.
+Package nag Warning: 66 complaints in total.
 
 \tf@toc=\write10
 \openout10 = `dissertation.toc'.
@@ -5997,6 +6014,7 @@ expi_paa.jpeg    Graphic file (type bmp)
 expi_results.jpeg    Graphic file (type bmp)
 images//expi_reg.jpeg
 images//education_act.jpeg
+images//industry_act.jpg
 common/renames.tex
 common/renames.tex
 common/renames.tex
@@ -6178,12 +6196,12 @@ Package logreq Info: Writing requests to 'dissertation.run.xml'.
 ### simple group (level 1) entered at line 339 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 54382 strings out of 410967
- 1112563 string characters out of 2828016
- 2565828 words of memory out of 3000000
- 73308 multiletter control sequences out of 15000+600000
+ 54395 strings out of 410967
+ 1112875 string characters out of 2828016
+ 2565972 words of memory out of 3000000
+ 73319 multiletter control sequences out of 15000+600000
  483076 words of font info for 136 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  119i,16n,123p,2466b,8226s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on dissertation.xdv (102 pages, 1620120 bytes).
+Output written on dissertation.xdv (102 pages, 1619876 bytes).
