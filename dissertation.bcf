@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bcf:controlfile version="3.8" bltxversion="3.17" xmlns:bcf="https://sourceforge.net/projects/biblatex">
+<bcf:controlfile version="3.9" bltxversion="3.18b" xmlns:bcf="https://sourceforge.net/projects/biblatex">
   <!-- BIBER OPTIONS -->
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
@@ -135,6 +135,10 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>nosortothers</bcf:key>
+      <bcf:value>0</bcf:value>
+    </bcf:option>
+    <bcf:option type="singlevalued">
+      <bcf:key>pluralothers</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
@@ -396,11 +400,11 @@
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>skiplab</bcf:key>
+      <bcf:key>skipbiblist</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>skipbiblist</bcf:key>
+      <bcf:key>skiplab</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
@@ -630,11 +634,11 @@
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>skiplab</bcf:key>
+      <bcf:key>skipbiblist</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>skipbiblist</bcf:key>
+      <bcf:key>skiplab</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
@@ -864,11 +868,11 @@
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>skiplab</bcf:key>
+      <bcf:key>skipbiblist</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>skipbiblist</bcf:key>
+      <bcf:key>skiplab</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
@@ -1098,11 +1102,11 @@
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>skiplab</bcf:key>
+      <bcf:key>skipbiblist</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>skipbiblist</bcf:key>
+      <bcf:key>skiplab</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
@@ -1364,6 +1368,7 @@
     <bcf:option datatype="boolean">labeltitle</bcf:option>
     <bcf:option datatype="boolean">labeltitleyear</bcf:option>
     <bcf:option datatype="boolean">labeldateparts</bcf:option>
+    <bcf:option datatype="boolean">pluralothers</bcf:option>
     <bcf:option datatype="boolean">nohashothers</bcf:option>
     <bcf:option datatype="boolean">nosortothers</bcf:option>
     <bcf:option datatype="boolean">noroman</bcf:option>
@@ -2078,7 +2083,7 @@
     <bcf:namepart order="3">given</bcf:namepart>
   </bcf:uniquenametemplate>
   <!-- SORTING NAME KEY TEMPLATES -->
-  <bcf:sortingnamekeytemplate name="global">
+  <bcf:sortingnamekeytemplate name="global" visibility="sort">
     <bcf:keypart order="1">
       <bcf:part type="namepart" order="1" use="1">prefix</bcf:part>
       <bcf:part type="namepart" order="2">family</bcf:part>
@@ -3583,21 +3588,21 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">biblio/registered.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">indenbometal:synthesis</bcf:citekey>
-    <bcf:citekey order="1">schelkunov:antenny</bcf:citekey>
-    <bcf:citekey order="1">fanyaev2017</bcf:citekey>
-    <bcf:citekey order="2">kudin2014</bcf:citekey>
-    <bcf:citekey order="2">yurkov:knd</bcf:citekey>
-    <bcf:citekey order="3">yurkov:farkv</bcf:citekey>
-    <bcf:citekey order="4">murty:np</bcf:citekey>
-    <bcf:citekey order="5">nechaeva:bandb</bcf:citekey>
-    <bcf:citekey order="6">horst:handbook</bcf:citekey>
-    <bcf:citekey order="7">strekalovsky:mindc</bcf:citekey>
-    <bcf:citekey order="8">fuchs:application</bcf:citekey>
-    <bcf:citekey order="9">boriskinetal:efficient</bcf:citekey>
-    <bcf:citekey order="9">rao:synthesis</bcf:citekey>
-    <bcf:citekey order="10">kochetov:local</bcf:citekey>
-    <bcf:citekey order="11">yurkov:symmetry</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">indenbometal:synthesis</bcf:citekey>
+    <bcf:citekey order="1" intorder="2">schelkunov:antenny</bcf:citekey>
+    <bcf:citekey order="1" intorder="3">fanyaev2017</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">kudin2014</bcf:citekey>
+    <bcf:citekey order="2" intorder="2">yurkov:knd</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">yurkov:farkv</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">murty:np</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">nechaeva:bandb</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">horst:handbook</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">strekalovsky:mindc</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">fuchs:application</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">boriskinetal:efficient</bcf:citekey>
+    <bcf:citekey order="9" intorder="2">rao:synthesis</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">kochetov:local</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">yurkov:symmetry</bcf:citekey>
   </bcf:section>
   <!-- SECTION 1 -->
   <bcf:bibdata section="1">
@@ -3605,7 +3610,7 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">biblio/registered.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
-    <bcf:citekey order="0" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="1" intorder="1" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -3616,203 +3621,133 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">biblio/registered.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="2">
-    <bcf:citekey order="1" nocite="1">tyu:daor</bcf:citekey>
-    <bcf:citekey order="2" nocite="1">tyu:jphys</bcf:citekey>
-    <bcf:citekey order="3" nocite="1">tyu:motor</bcf:citekey>
-    <bcf:citekey order="4" nocite="1">tyu:msim22</bcf:citekey>
-    <bcf:citekey order="5" nocite="1">tyu:opta</bcf:citekey>
-    <bcf:citekey order="6" nocite="1">tyu:reis</bcf:citekey>
-    <bcf:citekey order="7" nocite="1">tyu22:ring</bcf:citekey>
-    <bcf:citekey order="8" nocite="1">tyu:fmh</bcf:citekey>
-    <bcf:citekey order="9">tyu:daor</bcf:citekey>
-    <bcf:citekey order="10">tyu:jphys</bcf:citekey>
-    <bcf:citekey order="11">tyu:motor</bcf:citekey>
-    <bcf:citekey order="12">tyu:msim22</bcf:citekey>
-    <bcf:citekey order="13">tyu:opta</bcf:citekey>
-    <bcf:citekey order="14">tyu:reis</bcf:citekey>
-    <bcf:citekey order="15">tyu22:ring</bcf:citekey>
-    <bcf:citekey order="16">tyu:fmh</bcf:citekey>
+    <bcf:citekey order="1" intorder="1" nocite="1">tyu:daor</bcf:citekey>
+    <bcf:citekey order="2" intorder="2" nocite="1">tyu:jphys</bcf:citekey>
+    <bcf:citekey order="3" intorder="3" nocite="1">tyu:motor</bcf:citekey>
+    <bcf:citekey order="4" intorder="4" nocite="1">tyu:msim22</bcf:citekey>
+    <bcf:citekey order="5" intorder="5" nocite="1">tyu:opta</bcf:citekey>
+    <bcf:citekey order="6" intorder="6" nocite="1">tyu:reis</bcf:citekey>
+    <bcf:citekey order="7" intorder="7" nocite="1">tyu22:ring</bcf:citekey>
+    <bcf:citekey order="8" intorder="8" nocite="1">tyu:fmh</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
-    <bcf:citekey order="12">sazonov:PAA</bcf:citekey>
-    <bcf:citekey order="12">yurkov:farkv</bcf:citekey>
-    <bcf:citekey order="13">luo:sdp</bcf:citekey>
-    <bcf:citekey order="13">fuchs:application</bcf:citekey>
-    <bcf:citekey order="13">indenbometal:synthesis</bcf:citekey>
-    <bcf:citekey order="14">yurkov:farkv</bcf:citekey>
-    <bcf:citekey order="14">yurkov:knd</bcf:citekey>
-    <bcf:citekey order="15">yurkov:farkv</bcf:citekey>
-    <bcf:citekey order="16">yurkov:farkv</bcf:citekey>
-    <bcf:citekey order="17">fuchs:application</bcf:citekey>
-    <bcf:citekey order="18">horst:global</bcf:citekey>
-    <bcf:citekey order="18">tawarmalani:global</bcf:citekey>
-    <bcf:citekey order="19">horst:handbook</bcf:citekey>
-    <bcf:citekey order="19">strekalovsky:global</bcf:citekey>
-    <bcf:citekey order="20">eberhart:swarm</bcf:citekey>
-    <bcf:citekey order="20">storn:de</bcf:citekey>
-    <bcf:citekey order="21">eremin:convex</bcf:citekey>
-    <bcf:citekey order="21">aoki:mo</bcf:citekey>
-    <bcf:citekey order="22">expi</bcf:citekey>
-    <bcf:citekey order="23">eremeev:confidence</bcf:citekey>
-    <bcf:citekey order="23">reves_eremeev</bcf:citekey>
-    <bcf:citekey order="24">yurkov:symmetry</bcf:citekey>
-    <bcf:citekey order="25">CastilloSegura21</bcf:citekey>
-    <bcf:citekey order="25">das:de</bcf:citekey>
-    <bcf:citekey order="25">SAS22</bcf:citekey>
-    <bcf:citekey order="26">yurkov:groundloss</bcf:citekey>
-    <bcf:citekey order="27">yurkov:groundloss</bcf:citekey>
-    <bcf:citekey order="27">yurkov:knd</bcf:citekey>
-    <bcf:citekey order="28">yurkov:farkv</bcf:citekey>
-    <bcf:citekey order="28">yurkov:knd</bcf:citekey>
-    <bcf:citekey order="29">yurkov:farkv</bcf:citekey>
-    <bcf:citekey order="30">bruke:nec2</bcf:citekey>
-    <bcf:citekey order="31">yurkov:farkv</bcf:citekey>
-    <bcf:citekey order="32">yurkov:farkv</bcf:citekey>
-    <bcf:citekey order="33">yurkov:farkv</bcf:citekey>
-    <bcf:citekey order="34">yurkov:farkv</bcf:citekey>
-    <bcf:citekey order="35">murty:np</bcf:citekey>
-    <bcf:citekey order="36">nesterov:nonconvex</bcf:citekey>
-    <bcf:citekey order="37">ryoo:nlp</bcf:citekey>
-    <bcf:citekey order="38">storn:de</bcf:citekey>
-    <bcf:citekey order="38">noguchi:de</bcf:citekey>
-    <bcf:citekey order="39">eremeev:confidence</bcf:citekey>
-    <bcf:citekey order="40">horst:global</bcf:citekey>
-    <bcf:citekey order="40">tawarmalani:global</bcf:citekey>
-    <bcf:citekey order="41">horst:handbook</bcf:citekey>
-    <bcf:citekey order="41">strekalovsky:global</bcf:citekey>
-    <bcf:citekey order="42">himmelblau:nlp</bcf:citekey>
-    <bcf:citekey order="43">eberhart:swarm</bcf:citekey>
-    <bcf:citekey order="43">storn:de</bcf:citekey>
-    <bcf:citekey order="44">horn:matrix</bcf:citekey>
-    <bcf:citekey order="45">tyu:daor</bcf:citekey>
-    <bcf:citekey order="45">tyu:opta</bcf:citekey>
-    <bcf:citekey order="45">tyu:fmh</bcf:citekey>
-    <bcf:citekey order="46">storn:de</bcf:citekey>
-    <bcf:citekey order="47">das:de</bcf:citekey>
-    <bcf:citekey order="48">nelder:simplex</bcf:citekey>
-    <bcf:citekey order="49">price:global</bcf:citekey>
-    <bcf:citekey order="50">storn:de_practical</bcf:citekey>
-    <bcf:citekey order="51">tyu:daor</bcf:citekey>
-    <bcf:citekey order="52">tyu:daor</bcf:citekey>
-    <bcf:citekey order="52">tyu22:ring</bcf:citekey>
-    <bcf:citekey order="53">tyu:daor</bcf:citekey>
-    <bcf:citekey order="54">tyu:daor</bcf:citekey>
-    <bcf:citekey order="55">GK</bcf:citekey>
-    <bcf:citekey order="56">Kramer</bcf:citekey>
-    <bcf:citekey order="57">eremeev:confidence</bcf:citekey>
-    <bcf:citekey order="58">yurkov:symmetry</bcf:citekey>
-    <bcf:citekey order="59">tyu:daor</bcf:citekey>
-    <bcf:citekey order="60">yurkov:symmetry</bcf:citekey>
-    <bcf:citekey order="61">tyu:msim22</bcf:citekey>
-    <bcf:citekey order="61">tyu:reis</bcf:citekey>
-    <bcf:citekey order="62">himmelblau:nlp</bcf:citekey>
-    <bcf:citekey order="63">eremin:convex</bcf:citekey>
-    <bcf:citekey order="63">aoki:mo</bcf:citekey>
-    <bcf:citekey order="64">tawarmalani:global</bcf:citekey>
-    <bcf:citekey order="65">eremeev:confidence</bcf:citekey>
-    <bcf:citekey order="66">yurkov:symmetry</bcf:citekey>
-    <bcf:citekey order="67">murty:np</bcf:citekey>
-    <bcf:citekey order="68">yurkov:symmetry</bcf:citekey>
-    <bcf:citekey order="69">CHL13</bcf:citekey>
-    <bcf:citekey order="69">GATERMANN200495</bcf:citekey>
-    <bcf:citekey order="69">KWM19</bcf:citekey>
-    <bcf:citekey order="70">BHJ13</bcf:citekey>
-    <bcf:citekey order="70">C99</bcf:citekey>
-    <bcf:citekey order="70">Kolokolov2012</bcf:citekey>
-    <bcf:citekey order="70">Margot2010</bcf:citekey>
-    <bcf:citekey order="70">Simanchev96</bcf:citekey>
-    <bcf:citekey order="71">L12</bcf:citekey>
-    <bcf:citekey order="71">PR19</bcf:citekey>
-    <bcf:citekey order="72">Doerr21</bcf:citekey>
-    <bcf:citekey order="72">Adam2004</bcf:citekey>
-    <bcf:citekey order="73">Kolokolov2012</bcf:citekey>
-    <bcf:citekey order="73">KWM19</bcf:citekey>
-    <bcf:citekey order="73">L12</bcf:citekey>
-    <bcf:citekey order="74">Shor1998</bcf:citekey>
-    <bcf:citekey order="75">GATERMANN200495</bcf:citekey>
-    <bcf:citekey order="76">L12</bcf:citekey>
-    <bcf:citekey order="77">L12</bcf:citekey>
-    <bcf:citekey order="78">KWM19</bcf:citekey>
-    <bcf:citekey order="79">horn:matrix</bcf:citekey>
-    <bcf:citekey order="80">yurkov:symmetry</bcf:citekey>
-    <bcf:citekey order="81">Zhelobenko</bcf:citekey>
-    <bcf:citekey order="82">Lancaster</bcf:citekey>
-    <bcf:citekey order="83">Zhelobenko</bcf:citekey>
-    <bcf:citekey order="84">Zhelobenko</bcf:citekey>
-    <bcf:citekey order="85">Zhelobenko</bcf:citekey>
-    <bcf:citekey order="86">yurkov:symmetry</bcf:citekey>
-    <bcf:citekey order="87">Zhelobenko</bcf:citekey>
-    <bcf:citekey order="88">tyu:daor</bcf:citekey>
-    <bcf:citekey order="88">tyu:motor</bcf:citekey>
-    <bcf:citekey order="89">yurkov:groundloss</bcf:citekey>
-    <bcf:citekey order="90">bruke:nec2</bcf:citekey>
-    <bcf:citekey order="91">tyu:jphys</bcf:citekey>
-    <bcf:citekey order="92">indenbometal:synthesis</bcf:citekey>
-    <bcf:citekey order="93">schelkunov:antenny</bcf:citekey>
-    <bcf:citekey order="94">fanyaev2017</bcf:citekey>
-    <bcf:citekey order="95">kudin2014</bcf:citekey>
-    <bcf:citekey order="96">yurkov:knd</bcf:citekey>
-    <bcf:citekey order="97">yurkov:farkv</bcf:citekey>
-    <bcf:citekey order="98">murty:np</bcf:citekey>
-    <bcf:citekey order="99">nechaeva:bandb</bcf:citekey>
-    <bcf:citekey order="100">horst:handbook</bcf:citekey>
-    <bcf:citekey order="101">strekalovsky:mindc</bcf:citekey>
-    <bcf:citekey order="102">fuchs:application</bcf:citekey>
-    <bcf:citekey order="103">boriskinetal:efficient</bcf:citekey>
-    <bcf:citekey order="104">rao:synthesis</bcf:citekey>
-    <bcf:citekey order="105">kochetov:local</bcf:citekey>
-    <bcf:citekey order="106">yurkov:symmetry</bcf:citekey>
-    <bcf:citekey order="107">sazonov:PAA</bcf:citekey>
-    <bcf:citekey order="108">luo:sdp</bcf:citekey>
-    <bcf:citekey order="109">horst:global</bcf:citekey>
-    <bcf:citekey order="110">tawarmalani:global</bcf:citekey>
-    <bcf:citekey order="111">strekalovsky:global</bcf:citekey>
-    <bcf:citekey order="112">eberhart:swarm</bcf:citekey>
-    <bcf:citekey order="113">storn:de</bcf:citekey>
-    <bcf:citekey order="114">eremin:convex</bcf:citekey>
-    <bcf:citekey order="115">aoki:mo</bcf:citekey>
-    <bcf:citekey order="116">expi</bcf:citekey>
-    <bcf:citekey order="117">eremeev:confidence</bcf:citekey>
-    <bcf:citekey order="118">reves_eremeev</bcf:citekey>
-    <bcf:citekey order="119">CastilloSegura21</bcf:citekey>
-    <bcf:citekey order="120">das:de</bcf:citekey>
-    <bcf:citekey order="121">SAS22</bcf:citekey>
-    <bcf:citekey order="122">yurkov:groundloss</bcf:citekey>
-    <bcf:citekey order="123">bruke:nec2</bcf:citekey>
-    <bcf:citekey order="124">nesterov:nonconvex</bcf:citekey>
-    <bcf:citekey order="125">ryoo:nlp</bcf:citekey>
-    <bcf:citekey order="126">noguchi:de</bcf:citekey>
-    <bcf:citekey order="127">himmelblau:nlp</bcf:citekey>
-    <bcf:citekey order="128">horn:matrix</bcf:citekey>
-    <bcf:citekey order="129">tyu:daor</bcf:citekey>
-    <bcf:citekey order="130">tyu:opta</bcf:citekey>
-    <bcf:citekey order="131">tyu:fmh</bcf:citekey>
-    <bcf:citekey order="132">nelder:simplex</bcf:citekey>
-    <bcf:citekey order="133">price:global</bcf:citekey>
-    <bcf:citekey order="134">storn:de_practical</bcf:citekey>
-    <bcf:citekey order="135">tyu22:ring</bcf:citekey>
-    <bcf:citekey order="136">GK</bcf:citekey>
-    <bcf:citekey order="137">Kramer</bcf:citekey>
-    <bcf:citekey order="138">tyu:msim22</bcf:citekey>
-    <bcf:citekey order="139">tyu:reis</bcf:citekey>
-    <bcf:citekey order="140">CHL13</bcf:citekey>
-    <bcf:citekey order="141">GATERMANN200495</bcf:citekey>
-    <bcf:citekey order="142">KWM19</bcf:citekey>
-    <bcf:citekey order="143">BHJ13</bcf:citekey>
-    <bcf:citekey order="144">C99</bcf:citekey>
-    <bcf:citekey order="145">Kolokolov2012</bcf:citekey>
-    <bcf:citekey order="146">Margot2010</bcf:citekey>
-    <bcf:citekey order="147">Simanchev96</bcf:citekey>
-    <bcf:citekey order="148">L12</bcf:citekey>
-    <bcf:citekey order="149">PR19</bcf:citekey>
-    <bcf:citekey order="150">Doerr21</bcf:citekey>
-    <bcf:citekey order="151">Adam2004</bcf:citekey>
-    <bcf:citekey order="152">Shor1998</bcf:citekey>
-    <bcf:citekey order="153">Zhelobenko</bcf:citekey>
-    <bcf:citekey order="154">Lancaster</bcf:citekey>
-    <bcf:citekey order="155">tyu:motor</bcf:citekey>
-    <bcf:citekey order="156">tyu:jphys</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">sazonov:PAA</bcf:citekey>
+    <bcf:citekey order="12" intorder="2">yurkov:farkv</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">luo:sdp</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">fuchs:application</bcf:citekey>
+    <bcf:citekey order="13" intorder="3">indenbometal:synthesis</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">yurkov:farkv</bcf:citekey>
+    <bcf:citekey order="14" intorder="2">yurkov:knd</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">yurkov:farkv</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">yurkov:farkv</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">fuchs:application</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">horst:global</bcf:citekey>
+    <bcf:citekey order="18" intorder="2">tawarmalani:global</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">horst:handbook</bcf:citekey>
+    <bcf:citekey order="19" intorder="2">strekalovsky:global</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">eberhart:swarm</bcf:citekey>
+    <bcf:citekey order="20" intorder="2">storn:de</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">eremin:convex</bcf:citekey>
+    <bcf:citekey order="21" intorder="2">aoki:mo</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">expi</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">eremeev:confidence</bcf:citekey>
+    <bcf:citekey order="23" intorder="2">reves_eremeev</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">yurkov:symmetry</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">CastilloSegura21</bcf:citekey>
+    <bcf:citekey order="25" intorder="2">das:de</bcf:citekey>
+    <bcf:citekey order="25" intorder="3">SAS22</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">yurkov:groundloss</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">yurkov:groundloss</bcf:citekey>
+    <bcf:citekey order="27" intorder="2">yurkov:knd</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">yurkov:farkv</bcf:citekey>
+    <bcf:citekey order="28" intorder="2">yurkov:knd</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">yurkov:farkv</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">bruke:nec2</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">yurkov:farkv</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">yurkov:farkv</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">yurkov:farkv</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">yurkov:farkv</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">murty:np</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">nesterov:nonconvex</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">ryoo:nlp</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">storn:de</bcf:citekey>
+    <bcf:citekey order="38" intorder="2">noguchi:de</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">eremeev:confidence</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">horst:global</bcf:citekey>
+    <bcf:citekey order="40" intorder="2">tawarmalani:global</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">horst:handbook</bcf:citekey>
+    <bcf:citekey order="41" intorder="2">strekalovsky:global</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">himmelblau:nlp</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">eberhart:swarm</bcf:citekey>
+    <bcf:citekey order="43" intorder="2">storn:de</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">horn:matrix</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">tyu:daor</bcf:citekey>
+    <bcf:citekey order="45" intorder="2">tyu:opta</bcf:citekey>
+    <bcf:citekey order="45" intorder="3">tyu:fmh</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">storn:de</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">das:de</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">nelder:simplex</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">price:global</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">storn:de_practical</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">tyu:daor</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">BN98</bcf:citekey>
+    <bcf:citekey order="52" intorder="2">HK93</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">tyu:daor</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">tyu:daor</bcf:citekey>
+    <bcf:citekey order="54" intorder="2">tyu22:ring</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">tyu:daor</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">tyu:daor</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">GK</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">Kramer</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">eremeev:confidence</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">yurkov:symmetry</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">tyu:daor</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">yurkov:symmetry</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">tyu:msim22</bcf:citekey>
+    <bcf:citekey order="63" intorder="2">tyu:reis</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">himmelblau:nlp</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">eremin:convex</bcf:citekey>
+    <bcf:citekey order="65" intorder="2">aoki:mo</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">tawarmalani:global</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">eremeev:confidence</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">yurkov:symmetry</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">murty:np</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">yurkov:symmetry</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">CHL13</bcf:citekey>
+    <bcf:citekey order="71" intorder="2">GATERMANN200495</bcf:citekey>
+    <bcf:citekey order="71" intorder="3">KWM19</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">BHJ13</bcf:citekey>
+    <bcf:citekey order="72" intorder="2">C99</bcf:citekey>
+    <bcf:citekey order="72" intorder="3">Kolokolov2012</bcf:citekey>
+    <bcf:citekey order="72" intorder="4">Margot2010</bcf:citekey>
+    <bcf:citekey order="72" intorder="5">Simanchev96</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">L12</bcf:citekey>
+    <bcf:citekey order="73" intorder="2">PR19</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">Doerr21</bcf:citekey>
+    <bcf:citekey order="74" intorder="2">Adam2004</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">Kolokolov2012</bcf:citekey>
+    <bcf:citekey order="75" intorder="2">KWM19</bcf:citekey>
+    <bcf:citekey order="75" intorder="3">L12</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">Shor1998</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">GATERMANN200495</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">L12</bcf:citekey>
+    <bcf:citekey order="79" intorder="1">L12</bcf:citekey>
+    <bcf:citekey order="80" intorder="1">KWM19</bcf:citekey>
+    <bcf:citekey order="81" intorder="1">horn:matrix</bcf:citekey>
+    <bcf:citekey order="82" intorder="1">yurkov:symmetry</bcf:citekey>
+    <bcf:citekey order="83" intorder="1">Zhelobenko</bcf:citekey>
+    <bcf:citekey order="84" intorder="1">Lancaster</bcf:citekey>
+    <bcf:citekey order="85" intorder="1">Zhelobenko</bcf:citekey>
+    <bcf:citekey order="86" intorder="1">Zhelobenko</bcf:citekey>
+    <bcf:citekey order="87" intorder="1">Zhelobenko</bcf:citekey>
+    <bcf:citekey order="88" intorder="1">yurkov:symmetry</bcf:citekey>
+    <bcf:citekey order="89" intorder="1">Zhelobenko</bcf:citekey>
+    <bcf:citekey order="90" intorder="1">tyu:daor</bcf:citekey>
+    <bcf:citekey order="90" intorder="2">tyu:motor</bcf:citekey>
+    <bcf:citekey order="91" intorder="1">yurkov:groundloss</bcf:citekey>
+    <bcf:citekey order="92" intorder="1">bruke:nec2</bcf:citekey>
+    <bcf:citekey order="93" intorder="1">tyu:jphys</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
