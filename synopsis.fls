@@ -1925,6 +1925,9 @@ INPUT .\images\\fit_dist_2x2.eps
 INPUT .\images\\fit_dist_2x2.eps
 INPUT images\\fit_dist_2x2.eps
 INPUT images\\fit_dist_2x2.eps
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
 INPUT .\images\\r8_1_25_5x7.png
 INPUT .\images\\r8_1_25_5x7.png
 INPUT images\\r8_1_25_5x7.png

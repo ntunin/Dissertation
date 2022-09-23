@@ -1,17 +1,25 @@
 # Fdb version 3
+<<<<<<< HEAD
 ["biber synopsis"] 1663865438 "synopsis.bcf" "synopsis.bbl" "synopsis" 1663865438
   "biblio/author.bib" 1663865327 5242 e3fe4e28aaaea7c1cc293a93166f4762 ""
   "biblio/external.bib" 1663865327 27108 3fa9231706d778451edad2fbb97da857 ""
   "biblio/registered.bib" 1663865327 571 2635467646682a078512954404efbfac ""
   "synopsis.bcf" 1663865328 165771 583222d543f3db6dd4f245e8ea32d634 "xelatex"
+=======
+["biber synopsis"] 1663891582 "synopsis.bcf" "synopsis.bbl" "synopsis" 1663893911
+  "biblio/author.bib" 1663407285 5242 e3fe4e28aaaea7c1cc293a93166f4762 ""
+  "biblio/external.bib" 1663891224 27108 3fa9231706d778451edad2fbb97da857 ""
+  "biblio/registered.bib" 1662207866 571 2635467646682a078512954404efbfac ""
+  "synopsis.bcf" 1663893907 162071 583222d543f3db6dd4f245e8ea32d634 "xelatex"
+>>>>>>> d912689b6c167dbb7265a3d0426d6ad3d7eafc53
   (generated)
   "synopsis.bbl"
   "synopsis.blg"
-["xdvipdfmx"] 1663638449 "synopsis.xdv" "synopsis.pdf" "synopsis" 1663638452
-  "synopsis.xdv" 1663638448 414896 7c5b64d1f0481c31e8ae69b816e29ce2 "xelatex"
+["xdvipdfmx"] 1663893907 "synopsis.xdv" "synopsis.pdf" "synopsis" 1663893911
+  "synopsis.xdv" 1663893907 418236 cc3021b7638b57cb40f494a7e36bed9b "xelatex"
   (generated)
   "synopsis.pdf"
-["xelatex"] 1663638439 "synopsis.tex" "synopsis.xdv" "synopsis" 1663638452
+["xelatex"] 1663893898 "synopsis.tex" "synopsis.xdv" "synopsis" 1663893911
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136750654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ectt1000.tfm" 993062340 1348 d70ddf2d5d512b838e50a335e385e919 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -21,6 +29,9 @@
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1233951854 908 2921f8a10601f252058503cc6570e581 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1233951854 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1233951854 940 228d6584342e91276bf566bcf9716b83 ""
+  "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx5.tfm" 1136765053 1332 f817c21a1ba54560425663374f1b651a ""
+  "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx7.tfm" 1136765053 1336 3125ccb448c1a09074e3aa4a9832f130 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmss10.tfm" 1136765053 1316 b636689f1933f24d1294acdf6041daaa ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmss8.tfm" 1136765053 1296 d77f431d10d47c8ea2cc18cf45346274 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmtt10.tfm" 1136765053 768 1321e9409b4137d6fb428ac9dc956269 ""
@@ -275,7 +286,7 @@
   "common/newnames.tex" 1663415097 3415 455ba9f27efc49b1532d3c303fc0ba80 ""
   "common/packages.tex" 1663405101 11240 7e43c23484aadcec637ddbe3d605affd ""
   "common/setup.tex" 1659915328 4702 fbae30e8e344dfa31481c492b61b2abf ""
-  "common/short_content.tex" 1663638047 51823 9f46c844835c0b3979765e9ef53a9d2e ""
+  "common/short_content.tex" 1663893873 52722 eb9fdc3ffefd65a251bae86435772bd0 ""
   "common/styles.tex" 1657673697 18132 c5c4d7b372bb1f114c048c3afee6d7a0 ""
   "images//2x2bvd.eps" 1559582393 35270 071e99a4e737db5e32cc60e00ece0f6e ""
   "images//2x2bvm.eps" 1559582418 34792 e28b0e5c8e3d62c253558be6a08a2b30 ""
@@ -288,10 +299,10 @@
   "images//r_bvd_20_results_h.png" 1650421592 264939 2cd22a661d933ead825b027ff8c750c6 ""
   "images//r_bvd_20_results_v.png" 1650421790 133878 c8580ecc68bd9eefbb435c944931ed69 ""
   "siunitx.cfg" 1650703650 18459 53a6e5c345550251030966f9a09f058c ""
-  "synopsis.aux" 1663638447 44808 2f7ee2e29ebefe3267663185ac5898d1 "xelatex"
-  "synopsis.bbl" 1663486014 62865 19c479165d8229af67a43dcb1d690d93 "biber synopsis"
-  "synopsis.out" 1663638448 3178 dc3186eb5f8c6f7b922baea24a73057c "xelatex"
-  "synopsis.run.xml" 1663638448 2784 ca5b2e6ae14ac01b4e9a4dc781f8c2e3 "xelatex"
+  "synopsis.aux" 1663893906 45623 0e680582fae389920d5ec1a7ef7f98ce "xelatex"
+  "synopsis.bbl" 1663891602 62865 19c479165d8229af67a43dcb1d690d93 "biber synopsis"
+  "synopsis.out" 1663893906 3178 dc3186eb5f8c6f7b922baea24a73057c "xelatex"
+  "synopsis.run.xml" 1663893907 2784 ca5b2e6ae14ac01b4e9a4dc781f8c2e3 "xelatex"
   "synopsis.tex" 1661997033 4005 c3e18b291e47612b145221f62ddb5f04 ""
   (generated)
   "synopsis.aux"
