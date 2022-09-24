@@ -3201,13 +3201,6 @@ INPUT common\renames.tex
 INPUT .\common\renames.tex
 INPUT .\common\renames.tex
 INPUT common\renames.tex
-INPUT .\common\renames.tex
-INPUT .\common\renames.tex
-INPUT .\common\renames.tex
-INPUT common\renames.tex
-INPUT .\common\renames.tex
-INPUT .\common\renames.tex
-INPUT common\renames.tex
 INPUT .\Dissertation\introduction.tex
 INPUT .\Dissertation\introduction.tex
 INPUT .\Dissertation\introduction.tex
@@ -3590,6 +3583,10 @@ INPUT .\images\\stability.eps
 INPUT .\images\\stability.eps
 INPUT images\\stability.eps
 INPUT images\\stability.eps
+INPUT .\images\\ratio.eps
+INPUT .\images\\ratio.eps
+INPUT images\\ratio.eps
+INPUT images\\ratio.eps
 INPUT .\Dissertation\part4.tex
 INPUT .\Dissertation\part4.tex
 INPUT .\Dissertation\part4.tex
@@ -3630,10 +3627,6 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\euler\eurm10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\euler\eurm10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\euler\eurm7.tfm
-INPUT .\images\\ratio.eps
-INPUT .\images\\ratio.eps
-INPUT images\\ratio.eps
-INPUT images\\ratio.eps
 INPUT .\Dissertation\part3.tex
 INPUT .\Dissertation\part3.tex
 INPUT .\Dissertation\part3.tex
@@ -4873,13 +4866,6 @@ INPUT Dissertation\conclusion.aux
 INPUT .\Dissertation\references.aux
 INPUT Dissertation\references.aux
 INPUT Dissertation\references.aux
-INPUT .\common\renames.tex
-INPUT .\common\renames.tex
-INPUT .\common\renames.tex
-INPUT common\renames.tex
-INPUT .\common\renames.tex
-INPUT .\common\renames.tex
-INPUT common\renames.tex
 INPUT .\common\renames.tex
 INPUT .\common\renames.tex
 INPUT .\common\renames.tex
