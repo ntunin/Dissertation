@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  24 SEP 2022 23:09
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  25 SEP 2022 14:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2309,15 +2309,15 @@ Underfull \hbox (badness 7595) in paragraph at lines 21--22
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-\TU/TimesNewRoman(1)/m/n/10 и амплитуд излучателелей, как правило, решаются с и
-спользованием
+Underfull \hbox (badness 3168) in paragraph at lines 21--22
+\TU/TimesNewRoman(1)/m/n/10 и амплитуд излучателей, как правило, решаются с исп
+ользованием неко-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 21--22
-\TU/TimesNewRoman(1)/m/n/10 некоторых упрощающающих предположений (Indenbom M.,
- Izhutkin V.,
+\TU/TimesNewRoman(1)/m/n/10 торых упрощающающих предположений (Indenbom M., Izh
+utkin V.,
  []
 
 
@@ -2457,7 +2457,7 @@ File: images//r_bvd_20_results_h.png Graphic file (type bmp)
 File: images//r_bvd_20_results_v.png Graphic file (type bmp)
 <images//r_bvd_20_results_v.png>
 [17.17] (common/concl.tex
-Underfull \vbox (badness 1436) has occurred while \output is active []
+Underfull \vbox (badness 6910) has occurred while \output is active []
 
 [18.18]))
 LaTeX Info: Redefining \rmfamily on input line 96.
@@ -3038,6 +3038,6 @@ Here is how much of TeX's memory you used:
  70874 multiletter control sequences out of 15000+600000
  474383 words of font info for 99 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,16n,123p,1613b,7633s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 93i,16n,123p,1611b,7633s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on synopsis.xdv (22 pages, 417896 bytes).
+Output written on synopsis.xdv (22 pages, 417592 bytes).

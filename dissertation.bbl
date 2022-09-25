@@ -1,0 +1,2995 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\preamble{%
+\providecommand\noopsort[1]{}%
+}
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{eremeev:confidence}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9fe5eea5d1c0ff9c43aa12d32ff8ede5}{%
+           family={\noopsort{1}Еремеев},
+           familyi={1\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=220b58cb226a14c54716486aa43a0ca7}{%
+           family={Ривс},
+           familyi={Р\bibinitperiod},
+           given={K.\bibnamedelimi Р.},
+           giveni={K\bibinitperiod\bibinitdelim Р\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f7be5e34f09f6f9fc0290017e857218}
+      \strng{fullhash}{9f7be5e34f09f6f9fc0290017e857218}
+      \strng{bibnamehash}{9f7be5e34f09f6f9fc0290017e857218}
+      \strng{authorbibnamehash}{9f7be5e34f09f6f9fc0290017e857218}
+      \strng{authornamehash}{9f7be5e34f09f6f9fc0290017e857218}
+      \strng{authorfullhash}{9f7be5e34f09f6f9fc0290017e857218}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Математические структуры и моделирование}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{О доверительных интервалах для числа локальных оптимумов}
+      \field{year}{2017}
+      \field{pages}{55\bibrangedash 74}
+      \range{pages}{20}
+      \field{volume}{41}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{tyu:msim22}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9fe5eea5d1c0ff9c43aa12d32ff8ede5}{%
+           family={\noopsort{1}Еремеев},
+           familyi={1\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=eacafdbc59783144973cb92da98b8c37}{%
+           family={Тюнин},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1719fd3075761d3fda0244238ee98ef}
+      \strng{fullhash}{d1719fd3075761d3fda0244238ee98ef}
+      \strng{bibnamehash}{d1719fd3075761d3fda0244238ee98ef}
+      \strng{authorbibnamehash}{d1719fd3075761d3fda0244238ee98ef}
+      \strng{authornamehash}{d1719fd3075761d3fda0244238ee98ef}
+      \strng{authorfullhash}{d1719fd3075761d3fda0244238ee98ef}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Математические структуры и моделирование}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Алгоритм дифференциальной эволюции для оптимизации направленности фазированных антенных решеток}
+      \field{year}{2022}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{57\bibrangedash 68}
+      \range{pages}{12}
+      \field{volume}{62}
+      \range{volume}{1}
+      \keyw{,biblioauthorvak,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu:reis}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=9fe5eea5d1c0ff9c43aa12d32ff8ede5}{%
+           family={\noopsort{1}Еремеев},
+           familyi={1\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=eacafdbc59783144973cb92da98b8c37}{%
+           family={Тюнин},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+        {{hash=bb35be74906d2c245344351eec35ad70}{%
+           family={Юрков},
+           familyi={Ю\bibinitperiod},
+           given={А.\bibnamedelimi С.},
+           giveni={А\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
+      }
+      \strng{namehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{fullhash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{bibnamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authorbibnamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authornamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authorfullhash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Радиотехника, электроника и связь. Сборник докладов V Международной научно-технической конференции}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Исследование одной задачи квадратичного программирования в оптимизации коротковолновых антенных решеток}
+      \field{year}{2019}
+      \field{pages}{171\bibrangedash 174}
+      \range{pages}{4}
+      \keyw{,biblioauthorconf,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu:opta}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=9fe5eea5d1c0ff9c43aa12d32ff8ede5}{%
+           family={\noopsort{1}Еремеев},
+           familyi={1\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=eacafdbc59783144973cb92da98b8c37}{%
+           family={Тюнин},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+        {{hash=bb35be74906d2c245344351eec35ad70}{%
+           family={Юрков},
+           familyi={Ю\bibinitperiod},
+           given={А.\bibnamedelimi С.},
+           giveni={А\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
+      }
+      \strng{namehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{fullhash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{bibnamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authorbibnamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authornamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authorfullhash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Сборник тезисов VII Международной конференции «Проблемы оптимизации и их приложения»}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{О структуре множества локальных оптимумов задачи оптимизации фазированных антенных решеток}
+      \field{year}{2018}
+      \field{pages}{53}
+      \range{pages}{1}
+      \keyw{,biblioauthorconf,biblioauthor,bibliofull}
+    \endentry
+    \entry{eremin:convex}{book}{}
+      \name{author}{2}{}{%
+        {{hash=b7f5bf59c89444cc05e11a00d7ae7c50}{%
+           family={\noopsort{1}Еремин},
+           familyi={1\bibinitperiod},
+           given={И.\bibnamedelimi И.},
+           giveni={И\bibinitperiod\bibinitdelim И\bibinitperiod}}}%
+        {{hash=774b6f71f61e561871a0ccbda8fb1a1d}{%
+           family={Астафьев},
+           familyi={А\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Наука}%
+      }
+      \strng{namehash}{8f48f7de52d7848bf915b78134400575}
+      \strng{fullhash}{8f48f7de52d7848bf915b78134400575}
+      \strng{bibnamehash}{8f48f7de52d7848bf915b78134400575}
+      \strng{authorbibnamehash}{8f48f7de52d7848bf915b78134400575}
+      \strng{authornamehash}{8f48f7de52d7848bf915b78134400575}
+      \strng{authorfullhash}{8f48f7de52d7848bf915b78134400575}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{pagetotal}{192}
+      \field{title}{Введение в теорию линейного и выпуклого программирования}
+      \field{year}{1976}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{kochetov:local}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e5be9e1d7965a28ac648f8f1ba2a90d9}{%
+           family={\noopsort{1}Кочетов},
+           familyi={1\bibinitperiod},
+           given={Ю.\bibnamedelimi А.},
+           giveni={Ю\bibinitperiod\bibinitdelim А\bibinitperiod}}}%
+      }
+      \strng{namehash}{e5be9e1d7965a28ac648f8f1ba2a90d9}
+      \strng{fullhash}{e5be9e1d7965a28ac648f8f1ba2a90d9}
+      \strng{bibnamehash}{e5be9e1d7965a28ac648f8f1ba2a90d9}
+      \strng{authorbibnamehash}{e5be9e1d7965a28ac648f8f1ba2a90d9}
+      \strng{authornamehash}{e5be9e1d7965a28ac648f8f1ba2a90d9}
+      \strng{authorfullhash}{e5be9e1d7965a28ac648f8f1ba2a90d9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Журнал вычислительной математики и математической физики}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Вычислительные возможности локального поиска в комбинаторной оптимизации}
+      \field{year}{2008}
+      \field{number}{5}
+      \range{number}{1}
+      \field{pages}{747\bibrangedash 763}
+      \range{pages}{17}
+      \field{volume}{48}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{nesterov:nonconvex}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a0473f3e094adfbe590ade86fabb99bd}{%
+           family={\noopsort{1}Нестеров},
+           familyi={1\bibinitperiod},
+           given={Ю.\bibnamedelimi E.},
+           giveni={Ю\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {M:МЦНМО}%
+      }
+      \strng{namehash}{a0473f3e094adfbe590ade86fabb99bd}
+      \strng{fullhash}{a0473f3e094adfbe590ade86fabb99bd}
+      \strng{bibnamehash}{a0473f3e094adfbe590ade86fabb99bd}
+      \strng{authorbibnamehash}{a0473f3e094adfbe590ade86fabb99bd}
+      \strng{authornamehash}{a0473f3e094adfbe590ade86fabb99bd}
+      \strng{authorfullhash}{a0473f3e094adfbe590ade86fabb99bd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{pagetotal}{70}
+      \field{title}{Введение в выпуклую оптимизацию}
+      \field{year}{2010}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{nechaeva:bandb}{article}{}
+      \name{author}{2}{}{%
+        {{hash=44c84bdbb42f588f34c7185d9bc2fd7f}{%
+           family={\noopsort{1}Нечаева},
+           familyi={1\bibinitperiod},
+           given={М.\bibnamedelimi С.},
+           giveni={М\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
+        {{hash=74b8baa0ec6976d68ba827a5ce6f95dc}{%
+           family={Хамисов},
+           familyi={Х\bibinitperiod},
+           given={О.\bibnamedelimi В.},
+           giveni={О\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+      }
+      \strng{namehash}{b738125ed4aabe0fc014d4a7b7fcd043}
+      \strng{fullhash}{b738125ed4aabe0fc014d4a7b7fcd043}
+      \strng{bibnamehash}{b738125ed4aabe0fc014d4a7b7fcd043}
+      \strng{authorbibnamehash}{b738125ed4aabe0fc014d4a7b7fcd043}
+      \strng{authornamehash}{b738125ed4aabe0fc014d4a7b7fcd043}
+      \strng{authorfullhash}{b738125ed4aabe0fc014d4a7b7fcd043}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Дискретный анализ и исследование операций}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Метод ветвей и границ для задачи минимизации невыпуклой квадратичной функции при выпуклых квадратичных ограничениях}
+      \field{year}{2000}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{74\bibrangedash 88}
+      \range{pages}{15}
+      \field{volume}{7}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{sazonov:PAA}{book}{}
+      \name{author}{1}{}{%
+        {{hash=56e0ebe592ed997ac36f9a0a6cfbd59e}{%
+           family={\noopsort{1}Сазонов},
+           familyi={1\bibinitperiod},
+           given={Д.\bibnamedelimi М.},
+           giveni={Д\bibinitperiod\bibinitdelim М\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {М: Высшая школа}%
+      }
+      \strng{namehash}{56e0ebe592ed997ac36f9a0a6cfbd59e}
+      \strng{fullhash}{56e0ebe592ed997ac36f9a0a6cfbd59e}
+      \strng{bibnamehash}{56e0ebe592ed997ac36f9a0a6cfbd59e}
+      \strng{authorbibnamehash}{56e0ebe592ed997ac36f9a0a6cfbd59e}
+      \strng{authornamehash}{56e0ebe592ed997ac36f9a0a6cfbd59e}
+      \strng{authorfullhash}{56e0ebe592ed997ac36f9a0a6cfbd59e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Антенны и устройства СВЧ}
+      \field{year}{1988}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{Simanchev96}{article}{}
+      \name{author}{1}{}{%
+        {{hash=98532c18eda8d780257ec289f6d6f29a}{%
+           family={\noopsort{1}Симанчев},
+           familyi={1\bibinitperiod},
+           given={Р.\bibnamedelimi Ю.},
+           giveni={Р\bibinitperiod\bibinitdelim Ю\bibinitperiod}}}%
+      }
+      \strng{namehash}{98532c18eda8d780257ec289f6d6f29a}
+      \strng{fullhash}{98532c18eda8d780257ec289f6d6f29a}
+      \strng{bibnamehash}{98532c18eda8d780257ec289f6d6f29a}
+      \strng{authorbibnamehash}{98532c18eda8d780257ec289f6d6f29a}
+      \strng{authornamehash}{98532c18eda8d780257ec289f6d6f29a}
+      \strng{authorfullhash}{98532c18eda8d780257ec289f6d6f29a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Вестник Омского университета}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Линейные симметрии многогранника паросочетаний и автоморфизмы графа}
+      \field{year}{1996}
+      \field{pages}{18\bibrangedash 20}
+      \range{pages}{3}
+      \field{volume}{1}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{strekalovsky:mindc}{article}{}
+      \name{author}{1}{}{%
+        {{hash=924176a7484013b399c11a09e4e28008}{%
+           family={\noopsort{1}Стрекаловский},
+           familyi={1\bibinitperiod},
+           given={А.\bibnamedelimi С.},
+           giveni={А\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
+      }
+      \strng{namehash}{924176a7484013b399c11a09e4e28008}
+      \strng{fullhash}{924176a7484013b399c11a09e4e28008}
+      \strng{bibnamehash}{924176a7484013b399c11a09e4e28008}
+      \strng{authorbibnamehash}{924176a7484013b399c11a09e4e28008}
+      \strng{authornamehash}{924176a7484013b399c11a09e4e28008}
+      \strng{authorfullhash}{924176a7484013b399c11a09e4e28008}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Журнал вычислительной математики и математической физики}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{О минимизации разности выпуклых функций на допустимом множестве}
+      \field{year}{2003}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{399\bibrangedash 409}
+      \range{pages}{11}
+      \field{volume}{43}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{tyu:daor}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bd11a031faa99f114ad47b5c64fd12b9}{%
+           family={\noopsort{1}Тюнин},
+           familyi={1\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{fullhash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{bibnamehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{authorbibnamehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{authornamehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{authorfullhash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Дискретный анализ и исследование операций}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Задачи невыпуклого квадратичного программирования, связанные с оптимизацией фазированных антенных решеток}
+      \field{year}{2021}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{20\bibrangedash 44}
+      \range{pages}{25}
+      \field{volume}{28}
+      \range{volume}{1}
+      \keyw{,biblioauthorvak,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu:fmh}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=bd11a031faa99f114ad47b5c64fd12b9}{%
+           family={\noopsort{1}Тюнин},
+           familyi={1\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{fullhash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{bibnamehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{authorbibnamehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{authornamehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{authorfullhash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ФМХ ОмГУ 2019: Cборник статей VII Региональной конференции магистрантов, аспирантов и молодых ученых по физике, математике и химии}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Невыпуклые задачи квадратичного программирования в оптимизации коротковолновых антенных решеток}
+      \field{year}{2020}
+      \field{pages}{48\bibrangedash 52}
+      \range{pages}{5}
+      \keyw{,biblioauthorconf,biblioauthor,bibliofull}
+    \endentry
+    \entry{fanyaev2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=421388cb785284b2cc919d361041076e}{%
+           family={\noopsort{1}Фаняев},
+           familyi={1\bibinitperiod},
+           given={И.\bibnamedelimi А.},
+           giveni={И\bibinitperiod\bibinitdelim А\bibinitperiod}}}%
+        {{hash=dd698f88f14818643f9964f3a7b5ecee}{%
+           family={Кудин},
+           familyi={К\bibinitperiod},
+           given={В.\bibnamedelimi П.},
+           giveni={В\bibinitperiod\bibinitdelim П\bibinitperiod}}}%
+      }
+      \strng{namehash}{c108b1736bf42d24616c6f4375f4e94f}
+      \strng{fullhash}{c108b1736bf42d24616c6f4375f4e94f}
+      \strng{bibnamehash}{c108b1736bf42d24616c6f4375f4e94f}
+      \strng{authorbibnamehash}{c108b1736bf42d24616c6f4375f4e94f}
+      \strng{authornamehash}{c108b1736bf42d24616c6f4375f4e94f}
+      \strng{authorfullhash}{c108b1736bf42d24616c6f4375f4e94f}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Доклады БГУИР}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Синтез амплитудного распределения на входах излучателей фазированной антенной решетки над цилиндрической поверхностью методом роя частиц}
+      \field{year}{2017}
+      \field{pages}{89\bibrangedash 96}
+      \range{pages}{8}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{kudin2014}{article}{}
+      \name{author}{2}{}{%
+        {{hash=421388cb785284b2cc919d361041076e}{%
+           family={\noopsort{1}Фаняев},
+           familyi={1\bibinitperiod},
+           given={И.\bibnamedelimi А.},
+           giveni={И\bibinitperiod\bibinitdelim А\bibinitperiod}}}%
+        {{hash=dd698f88f14818643f9964f3a7b5ecee}{%
+           family={Кудин},
+           familyi={К\bibinitperiod},
+           given={В.\bibnamedelimi П.},
+           giveni={В\bibinitperiod\bibinitdelim П\bibinitperiod}}}%
+      }
+      \strng{namehash}{c108b1736bf42d24616c6f4375f4e94f}
+      \strng{fullhash}{c108b1736bf42d24616c6f4375f4e94f}
+      \strng{bibnamehash}{c108b1736bf42d24616c6f4375f4e94f}
+      \strng{authorbibnamehash}{c108b1736bf42d24616c6f4375f4e94f}
+      \strng{authornamehash}{c108b1736bf42d24616c6f4375f4e94f}
+      \strng{authorfullhash}{c108b1736bf42d24616c6f4375f4e94f}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Известия Гомельского государственного университета имени Ф. Скорины. Сер.: Естественные науки.}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Фазированная антенная решетка кругового обзора над проводящей цилиндрической поверхностью из излучателей вертикальной поляризации}
+      \field{year}{2014}
+      \field{pages}{191\bibrangedash 198}
+      \range{pages}{8}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{C99}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b786ef585e3af3d621930361fc8c84eb}{%
+           family={\noopsort{1}Червяков},
+           familyi={1\bibinitperiod},
+           given={О.\bibnamedelimi В.},
+           giveni={О\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+      }
+      \strng{namehash}{b786ef585e3af3d621930361fc8c84eb}
+      \strng{fullhash}{b786ef585e3af3d621930361fc8c84eb}
+      \strng{bibnamehash}{b786ef585e3af3d621930361fc8c84eb}
+      \strng{authorbibnamehash}{b786ef585e3af3d621930361fc8c84eb}
+      \strng{authornamehash}{b786ef585e3af3d621930361fc8c84eb}
+      \strng{authorfullhash}{b786ef585e3af3d621930361fc8c84eb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Дискретный анализ и исследование операций}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{series}{2}
+      \field{title}{Аффинные симметрии многогранника, системы независимости с единичным сдвигом}
+      \field{year}{1999}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{82\bibrangedash 96}
+      \range{pages}{15}
+      \field{volume}{2}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{schelkunov:antenny}{book}{}
+      \name{author}{2}{}{%
+        {{hash=3161ea9bd91e1ef76df5803ecf857b00}{%
+           family={\noopsort{1}Щелкунов},
+           familyi={1\bibinitperiod},
+           given={С.\bibnamedelimi А.},
+           giveni={С\bibinitperiod\bibinitdelim А\bibinitperiod}}}%
+        {{hash=4dea0e8b2c04d324c7d2f3734a3b3b8f}{%
+           family={Фрис},
+           familyi={Ф\bibinitperiod},
+           given={Г.},
+           giveni={Г\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {М:Советское радио}%
+      }
+      \strng{namehash}{b932b4665d4373a4d3573e5244d97528}
+      \strng{fullhash}{b932b4665d4373a4d3573e5244d97528}
+      \strng{bibnamehash}{b932b4665d4373a4d3573e5244d97528}
+      \strng{authorbibnamehash}{b932b4665d4373a4d3573e5244d97528}
+      \strng{authornamehash}{b932b4665d4373a4d3573e5244d97528}
+      \strng{authorfullhash}{b932b4665d4373a4d3573e5244d97528}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Антенны: Теория и практика.}
+      \field{year}{1955}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{yurkov:knd}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f1c45d2b87dec2dfa16f361d986727e4}{%
+           family={\noopsort{1}Юрков},
+           familyi={1\bibinitperiod},
+           given={A.\bibnamedelimi С.},
+           giveni={A\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1c45d2b87dec2dfa16f361d986727e4}
+      \strng{fullhash}{f1c45d2b87dec2dfa16f361d986727e4}
+      \strng{bibnamehash}{f1c45d2b87dec2dfa16f361d986727e4}
+      \strng{authorbibnamehash}{f1c45d2b87dec2dfa16f361d986727e4}
+      \strng{authornamehash}{f1c45d2b87dec2dfa16f361d986727e4}
+      \strng{authorfullhash}{f1c45d2b87dec2dfa16f361d986727e4}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Техника радиосвязи. ОНИИП}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Максимизация направленности фазированных антенных решеток коротковолнового диапазона}
+      \field{year}{2016}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{46\bibrangedash 53}
+      \range{pages}{8}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{yurkov:groundloss}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f1c45d2b87dec2dfa16f361d986727e4}{%
+           family={\noopsort{1}Юрков},
+           familyi={1\bibinitperiod},
+           given={A.\bibnamedelimi С.},
+           giveni={A\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ОНИИП}%
+      }
+      \strng{namehash}{f1c45d2b87dec2dfa16f361d986727e4}
+      \strng{fullhash}{f1c45d2b87dec2dfa16f361d986727e4}
+      \strng{bibnamehash}{f1c45d2b87dec2dfa16f361d986727e4}
+      \strng{authorbibnamehash}{f1c45d2b87dec2dfa16f361d986727e4}
+      \strng{authornamehash}{f1c45d2b87dec2dfa16f361d986727e4}
+      \strng{authorfullhash}{f1c45d2b87dec2dfa16f361d986727e4}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Научно-технический сборник <<Техника радиосвязи>>}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{О влиянии потерь в земле на работу четырехэлементной ФАР КВ диапазона}
+      \field{year}{2014}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{78\bibrangedash 81}
+      \range{pages}{4}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{yurkov:farkv}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f1c45d2b87dec2dfa16f361d986727e4}{%
+           family={\noopsort{1}Юрков},
+           familyi={1\bibinitperiod},
+           given={A.\bibnamedelimi С.},
+           giveni={A\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ОНИИП}%
+      }
+      \strng{namehash}{f1c45d2b87dec2dfa16f361d986727e4}
+      \strng{fullhash}{f1c45d2b87dec2dfa16f361d986727e4}
+      \strng{bibnamehash}{f1c45d2b87dec2dfa16f361d986727e4}
+      \strng{authorbibnamehash}{f1c45d2b87dec2dfa16f361d986727e4}
+      \strng{authornamehash}{f1c45d2b87dec2dfa16f361d986727e4}
+      \strng{authorfullhash}{f1c45d2b87dec2dfa16f361d986727e4}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Оптимизация возбуждения передающих фазированных антенных решеток декаметрового диапазона длин волн}
+      \field{year}{2014}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{aoki:mo}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b2973fe94e76f7f1ca79590a1f83e01f}{%
+           family={Aoki},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {California Univ. Los Angeles, Dept. of System Science}%
+      }
+      \strng{namehash}{b2973fe94e76f7f1ca79590a1f83e01f}
+      \strng{fullhash}{b2973fe94e76f7f1ca79590a1f83e01f}
+      \strng{bibnamehash}{b2973fe94e76f7f1ca79590a1f83e01f}
+      \strng{authorbibnamehash}{b2973fe94e76f7f1ca79590a1f83e01f}
+      \strng{authornamehash}{b2973fe94e76f7f1ca79590a1f83e01f}
+      \strng{authorfullhash}{b2973fe94e76f7f1ca79590a1f83e01f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Introduction to optimization techniques. Fundamentals and applications of nonlinear programming}
+      \field{year}{1971}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{BN98}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6687e02e7b5ef2422cb05ed404227a7d}{%
+           family={Balas},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{6687e02e7b5ef2422cb05ed404227a7d}
+      \strng{fullhash}{6687e02e7b5ef2422cb05ed404227a7d}
+      \strng{bibnamehash}{6687e02e7b5ef2422cb05ed404227a7d}
+      \strng{authorbibnamehash}{6687e02e7b5ef2422cb05ed404227a7d}
+      \strng{authornamehash}{6687e02e7b5ef2422cb05ed404227a7d}
+      \strng{authorfullhash}{6687e02e7b5ef2422cb05ed404227a7d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Heuristics}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Optimized crossover-based genetic algorithms for the maximum cardinality and maximum weight clique problems}
+      \field{year}{1998}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{107\bibrangedash 122}
+      \range{pages}{16}
+      \field{volume}{4}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{BHJ13}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3cf9f63d5611f6a9ce9179ceb1ca57d6}{%
+           family={Bödi},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=fe1430340fb3537d0459c275d99bc9ad}{%
+           family={Herr},
+           familyi={H\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=866588d3f3370821729717a20536c84a}{%
+           family={Joswig},
+           familyi={J\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{94b15d9777957c4d620336ed2c4d0b53}
+      \strng{fullhash}{94b15d9777957c4d620336ed2c4d0b53}
+      \strng{bibnamehash}{94b15d9777957c4d620336ed2c4d0b53}
+      \strng{authorbibnamehash}{94b15d9777957c4d620336ed2c4d0b53}
+      \strng{authornamehash}{94b15d9777957c4d620336ed2c4d0b53}
+      \strng{authorfullhash}{94b15d9777957c4d620336ed2c4d0b53}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Programming}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{series}{A}
+      \field{title}{Algorithms for highly symmetric linear and integer programs}
+      \field{year}{2013}
+      \field{pages}{65\bibrangedash 90}
+      \range{pages}{26}
+      \field{volume}{137}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{CastilloSegura21}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bcc3cdb54ec213d84656244768081fff}{%
+           family={Castillo},
+           familyi={C\bibinitperiod},
+           given={Joel\bibnamedelima Chacón},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=af036593850a522dfc1e7fe8b267fa4a}{%
+           family={Segura},
+           familyi={S\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a3f4223a212bf4922e80ca5e38a0ee1}
+      \strng{fullhash}{7a3f4223a212bf4922e80ca5e38a0ee1}
+      \strng{bibnamehash}{7a3f4223a212bf4922e80ca5e38a0ee1}
+      \strng{authorbibnamehash}{7a3f4223a212bf4922e80ca5e38a0ee1}
+      \strng{authornamehash}{7a3f4223a212bf4922e80ca5e38a0ee1}
+      \strng{authorfullhash}{7a3f4223a212bf4922e80ca5e38a0ee1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optim. Lett.}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Differential evolution with enhanced diversity maintenance}
+      \field{year}{2020}
+      \field{number}{6}
+      \range{number}{1}
+      \field{pages}{1471\bibrangedash 1490}
+      \range{pages}{20}
+      \field{volume}{14}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1007/s11590-019-01454-5
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s11590-019-01454-5
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s11590-019-01454-5
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{CHL13}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2a0d570ad1587680c9feb8ce96a71fcc}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7bb981a79a1c9c28df155eaf022cd6ba}{%
+           family={Hansen},
+           familyi={H\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6c501b106a067f9390ed721e696a5ae9}{%
+           family={Liberti},
+           familyi={L\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{a29f283b1479916b49aee90b172bc559}
+      \strng{fullhash}{a29f283b1479916b49aee90b172bc559}
+      \strng{bibnamehash}{a29f283b1479916b49aee90b172bc559}
+      \strng{authorbibnamehash}{a29f283b1479916b49aee90b172bc559}
+      \strng{authornamehash}{a29f283b1479916b49aee90b172bc559}
+      \strng{authorfullhash}{a29f283b1479916b49aee90b172bc559}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Discrete Applied Mathematics}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{On the impact of symmetry-breaking constraints on spatial Branch-and-Bound for circle packing in a square}
+      \field{year}{2013}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{96\bibrangedash 106}
+      \range{pages}{11}
+      \field{volume}{161}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{das:de}{article}{}
+      \name{author}{2}{}{%
+        {{hash=13109f254fdb2b58a790c5bec55923f7}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=015b0ef0b32eaa3e88bbac7ced21bb76}{%
+           family={Suganthan},
+           familyi={S\bibinitperiod},
+           given={P.N.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{61fc6686d4a4d25ad62ed7f682657fb4}
+      \strng{fullhash}{61fc6686d4a4d25ad62ed7f682657fb4}
+      \strng{bibnamehash}{61fc6686d4a4d25ad62ed7f682657fb4}
+      \strng{authorbibnamehash}{61fc6686d4a4d25ad62ed7f682657fb4}
+      \strng{authornamehash}{61fc6686d4a4d25ad62ed7f682657fb4}
+      \strng{authorfullhash}{61fc6686d4a4d25ad62ed7f682657fb4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Evolutionary Computation}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Differential evolution: A survey of the state-of-the-art}
+      \field{year}{2011}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{4\bibrangedash 31}
+      \range{pages}{28}
+      \field{volume}{15}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{Doerr21}{article}{}
+      \name{author}{1}{}{%
+        {{hash=31e296f14b85dca631fe682b68c6c371}{%
+           family={Doerr},
+           familyi={D\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{31e296f14b85dca631fe682b68c6c371}
+      \strng{fullhash}{31e296f14b85dca631fe682b68c6c371}
+      \strng{bibnamehash}{31e296f14b85dca631fe682b68c6c371}
+      \strng{authorbibnamehash}{31e296f14b85dca631fe682b68c6c371}
+      \strng{authornamehash}{31e296f14b85dca631fe682b68c6c371}
+      \strng{authorfullhash}{31e296f14b85dca631fe682b68c6c371}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Information Processing Letters}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Runtime analysis of evolutionary algorithms via symmetry arguments}
+      \field{year}{2021}
+      \field{pages}{106064}
+      \range{pages}{1}
+      \field{volume}{166}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1016/j.ipl.2020.106064
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{eberhart:swarm}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=5bf02564a54f2efb38a4d61a5ecadbee}{%
+           family={Eberhart},
+           familyi={E\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3c48c2b390e26f548e0165030fc81158}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{271881e47dbf37ed14e2feff589ca230}
+      \strng{fullhash}{271881e47dbf37ed14e2feff589ca230}
+      \strng{bibnamehash}{271881e47dbf37ed14e2feff589ca230}
+      \strng{authorbibnamehash}{271881e47dbf37ed14e2feff589ca230}
+      \strng{authornamehash}{271881e47dbf37ed14e2feff589ca230}
+      \strng{authorfullhash}{271881e47dbf37ed14e2feff589ca230}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE International Conference on Neural Networks}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Particle swarm optimization}
+      \field{year}{1995}
+      \field{pages}{1942\bibrangedash 1948}
+      \range{pages}{7}
+      \field{volume}{4}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{boriskinetal:efficient}{article}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=22add4c5313331bd066d9063d0a8647e}{%
+           family={Boriskin},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=951db072f4412ae7b909b9ac330d951b}{%
+           family={Balaban},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi V.},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=a46ec1cd47ba2525286856e6445d1016}{%
+           family={Galan},
+           familyi={G\bibinitperiod},
+           given={O.\bibnamedelimi Yu.},
+           giveni={O\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=01b96e0cd6d7350c97d909dd7cf1dc62}{%
+           family={Sauleau},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{fb48e723b3fc3bcdfa81aa6d16e65fa6}
+      \strng{authornamehash}{fb48e723b3fc3bcdfa81aa6d16e65fa6}
+      \strng{authorfullhash}{5e2f6ccd38835bc5adbf3be3cc85cab0}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2010 IEEE International Symposium on Phased Array Systems and Technology}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Efficient approach for fast synthesis of phased arrays with the aid of a hybrid genetic algorithm and a smart feed representation}
+      \field{year}{2010}
+      \field{pages}{827\bibrangedash 832}
+      \range{pages}{6}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{tyu:motor}{article}{}
+      \name{author}{3}{}{%
+        {{hash=05b537086e936048590a803e1ccb19df}{%
+           family={Eremeev},
+           familyi={E\bibinitperiod},
+           given={A.\bibnamedelimi V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=ada0cc6046c6ad31ed7120549a9ca2d5}{%
+           family={Tyunin},
+           familyi={T\bibinitperiod},
+           given={N.\bibnamedelimi N.},
+           giveni={N\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=ebdfbd3dcb16313bc1549687c95845cc}{%
+           family={Yurkov},
+           familyi={Y\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a8843c459b0b5f0991db9890ec8224e3}
+      \strng{fullhash}{a8843c459b0b5f0991db9890ec8224e3}
+      \strng{bibnamehash}{a8843c459b0b5f0991db9890ec8224e3}
+      \strng{authorbibnamehash}{a8843c459b0b5f0991db9890ec8224e3}
+      \strng{authornamehash}{a8843c459b0b5f0991db9890ec8224e3}
+      \strng{authorfullhash}{a8843c459b0b5f0991db9890ec8224e3}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Khachay, M., Kochetov, Y., Pardalos, P. (eds) Mathematical Optimization Theory and Operations Research. MOTOR 2019. Lecture Notes in Computer Science}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Non-Convex Quadratic Programming Problems in Short Wave Antenna Array Optimization}
+      \field{year}{2019}
+      \field{pages}{34\bibrangedash 45}
+      \range{pages}{12}
+      \field{volume}{11548}
+      \range{volume}{1}
+      \keyw{,biblioauthorvak,biblioauthor,bibliofull}
+    \endentry
+    \entry{yurkov:symmetry}{article}{}
+      \name{author}{2}{}{%
+        {{hash=05b537086e936048590a803e1ccb19df}{%
+           family={Eremeev},
+           familyi={E\bibinitperiod},
+           given={A.\bibnamedelimi V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=ebdfbd3dcb16313bc1549687c95845cc}{%
+           family={Yurkov},
+           familyi={Y\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a6bc07fadccfa9b740c3daaa78f040e0}
+      \strng{fullhash}{a6bc07fadccfa9b740c3daaa78f040e0}
+      \strng{bibnamehash}{a6bc07fadccfa9b740c3daaa78f040e0}
+      \strng{authorbibnamehash}{a6bc07fadccfa9b740c3daaa78f040e0}
+      \strng{authornamehash}{a6bc07fadccfa9b740c3daaa78f040e0}
+      \strng{authorfullhash}{a6bc07fadccfa9b740c3daaa78f040e0}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Kononov, A., Khachay, M., Kalyagin, V., Pardalos, P. (eds) Mathematical Optimization Theory and Operations Research. MOTOR 2020. Lecture Notes in Computer Science}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{On Symmetry Groups of Some Quadratic Programming Problems}
+      \field{year}{2020}
+      \field{pages}{35\bibrangedash 48}
+      \range{pages}{14}
+      \field{volume}{12095}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{fuchs:application}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3dc800410d8ca76775ad4df70244227a}{%
+           family={Fuchs},
+           familyi={F\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{3dc800410d8ca76775ad4df70244227a}
+      \strng{fullhash}{3dc800410d8ca76775ad4df70244227a}
+      \strng{bibnamehash}{3dc800410d8ca76775ad4df70244227a}
+      \strng{authorbibnamehash}{3dc800410d8ca76775ad4df70244227a}
+      \strng{authornamehash}{3dc800410d8ca76775ad4df70244227a}
+      \strng{authorfullhash}{3dc800410d8ca76775ad4df70244227a}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Antennas and Propagation}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Application of convex relaxation to array synthesis problems}
+      \field{year}{2014}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{634\bibrangedash 640}
+      \range{pages}{7}
+      \field{volume}{62}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{GK}{inbook}{}
+      \name{author}{2}{}{%
+        {{hash=1fe6c8380a9a01dcaecd2b3f4a36a29a}{%
+           family={Garnier},
+           familyi={G\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5ea370fa0b3985a105e438c930ea7d36}{%
+           family={Kallel},
+           familyi={K\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=8345042ad9b21d47ade76151ba85404a}{%
+           family={Kallel},
+           familyi={K\bibinitperiod},
+           given={Leila},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2dfb6ef279b96d2140fae805b48bd4e5}{%
+           family={Naudts},
+           familyi={N\bibinitperiod},
+           given={Bart},
+           giveni={B\bibinitperiod}}}%
+        {{hash=5649105233cb0014f375d744a63b480b}{%
+           family={Rogers},
+           familyi={R\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{16c55a0ce3165fabc9fc6613374585bc}
+      \strng{fullhash}{16c55a0ce3165fabc9fc6613374585bc}
+      \strng{bibnamehash}{16c55a0ce3165fabc9fc6613374585bc}
+      \strng{authorbibnamehash}{16c55a0ce3165fabc9fc6613374585bc}
+      \strng{authornamehash}{16c55a0ce3165fabc9fc6613374585bc}
+      \strng{authorfullhash}{16c55a0ce3165fabc9fc6613374585bc}
+      \strng{editorbibnamehash}{d0b8cf94b5c268694ced4bfb9272a93e}
+      \strng{editornamehash}{d0b8cf94b5c268694ced4bfb9272a93e}
+      \strng{editorfullhash}{d0b8cf94b5c268694ced4bfb9272a93e}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Theoretical Aspects of Evolutionary Computing}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{How to detect all maxima of a function}
+      \field{year}{2001}
+      \field{pages}{343\bibrangedash 370}
+      \range{pages}{28}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{GATERMANN200495}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2c62f9e10dd915bc8715963193e5795a}{%
+           family={Gatermann},
+           familyi={G\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8c175284da0c757c59f059ff13d91dde}{%
+           family={Parrilo},
+           familyi={P\bibinitperiod},
+           given={Pablo\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{adeabf753531f33685aadf4aa1d36afe}
+      \strng{fullhash}{adeabf753531f33685aadf4aa1d36afe}
+      \strng{bibnamehash}{adeabf753531f33685aadf4aa1d36afe}
+      \strng{authorbibnamehash}{adeabf753531f33685aadf4aa1d36afe}
+      \strng{authornamehash}{adeabf753531f33685aadf4aa1d36afe}
+      \strng{authorfullhash}{adeabf753531f33685aadf4aa1d36afe}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Pure and Applied Algebra}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Symmetry groups, semidefinite programs, and sums of squares}
+      \field{year}{2004}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{95\bibrangedash 128}
+      \range{pages}{34}
+      \field{volume}{192}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{HK93}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5f79ff2714714e59a6fadf658db21f48}{%
+           family={Hampson},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=531ed8183b69c29af0860ee30f4c7c09}{%
+           family={Kibler},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Mathematical Society}%
+      }
+      \strng{namehash}{79deb83a65ad22ac982af9cd01fd620e}
+      \strng{fullhash}{79deb83a65ad22ac982af9cd01fd620e}
+      \strng{bibnamehash}{79deb83a65ad22ac982af9cd01fd620e}
+      \strng{authorbibnamehash}{79deb83a65ad22ac982af9cd01fd620e}
+      \strng{authornamehash}{79deb83a65ad22ac982af9cd01fd620e}
+      \strng{authorfullhash}{79deb83a65ad22ac982af9cd01fd620e}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the second DIMACS Implementation Challenge ``Cliques, Coloring and Satisfiability''}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Plateaus and plateau search in Boolean satisfiability problems: When to give up searching and start again}
+      \field{year}{1996}
+      \field{pages}{437\bibrangedash 456}
+      \range{pages}{20}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{himmelblau:nlp}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e3ac6ce55abf4ef2ca89639ad2228868}{%
+           family={Himmelblau},
+           familyi={H\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw - Hill Companies}%
+      }
+      \strng{namehash}{e3ac6ce55abf4ef2ca89639ad2228868}
+      \strng{fullhash}{e3ac6ce55abf4ef2ca89639ad2228868}
+      \strng{bibnamehash}{e3ac6ce55abf4ef2ca89639ad2228868}
+      \strng{authorbibnamehash}{e3ac6ce55abf4ef2ca89639ad2228868}
+      \strng{authornamehash}{e3ac6ce55abf4ef2ca89639ad2228868}
+      \strng{authorfullhash}{e3ac6ce55abf4ef2ca89639ad2228868}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Applied nonlinear programming}
+      \field{year}{1972}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{horn:matrix}{book}{}
+      \name{author}{2}{}{%
+        {{hash=5fdee541b01fd33bbb2212303937221b}{%
+           family={Horn},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f2de6a75a53c9d5c0e25d0d4a402f903}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Ch.\bibnamedelimi R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{c14d3093b4a5143596ae62ebfbbb6da1}
+      \strng{fullhash}{c14d3093b4a5143596ae62ebfbbb6da1}
+      \strng{bibnamehash}{c14d3093b4a5143596ae62ebfbbb6da1}
+      \strng{authorbibnamehash}{c14d3093b4a5143596ae62ebfbbb6da1}
+      \strng{authornamehash}{c14d3093b4a5143596ae62ebfbbb6da1}
+      \strng{authorfullhash}{c14d3093b4a5143596ae62ebfbbb6da1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Matrix analysis}
+      \field{year}{1990}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{horst:handbook}{book}{}
+      \name{author}{2}{}{%
+        {{hash=3f5e0100ce1212b0ce46c7af9dc66af7}{%
+           family={Horst},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c8d020131dbca7258e6a4319c531f6eb}{%
+           family={Pardalos},
+           familyi={P\bibinitperiod},
+           given={P.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{af3225ec0376b09cb4093eb860df7e1c}
+      \strng{fullhash}{af3225ec0376b09cb4093eb860df7e1c}
+      \strng{bibnamehash}{af3225ec0376b09cb4093eb860df7e1c}
+      \strng{authorbibnamehash}{af3225ec0376b09cb4093eb860df7e1c}
+      \strng{authornamehash}{af3225ec0376b09cb4093eb860df7e1c}
+      \strng{authorfullhash}{af3225ec0376b09cb4093eb860df7e1c}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Handbook of global optimization}
+      \field{year}{2013}
+      \field{volume}{2}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{horst:global}{book}{}
+      \name{author}{2}{}{%
+        {{hash=3f5e0100ce1212b0ce46c7af9dc66af7}{%
+           family={Horst},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d5fd923df52baca032f7fae531ca1740}{%
+           family={Tyu},
+           familyi={T\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{9f4c418b51723b937a2b7ee5e13f1090}
+      \strng{fullhash}{9f4c418b51723b937a2b7ee5e13f1090}
+      \strng{bibnamehash}{9f4c418b51723b937a2b7ee5e13f1090}
+      \strng{authorbibnamehash}{9f4c418b51723b937a2b7ee5e13f1090}
+      \strng{authornamehash}{9f4c418b51723b937a2b7ee5e13f1090}
+      \strng{authorfullhash}{9f4c418b51723b937a2b7ee5e13f1090}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Global optimization: Deterministic approaches}
+      \field{year}{2013}
+      \field{pages}{551\bibrangedash 566}
+      \range{pages}{16}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{Kolokolov2012}{article}{}
+      \name{author}{3}{}{%
+        {{hash=43efd7dfb860585751d7e756ce9a0da4}{%
+           family={Kolokolov},
+           familyi={K\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9463e46fa53a83bc645179484a37b7ba}{%
+           family={Orlovskaya},
+           familyi={O\bibinitperiod},
+           given={T.\bibnamedelimi G.},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=14d2c085a9a5ba133b73d7f5d1693875}{%
+           family={Rybalka},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi F.},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{25c234849e987f769e540dac57f9fded}
+      \strng{fullhash}{25c234849e987f769e540dac57f9fded}
+      \strng{bibnamehash}{25c234849e987f769e540dac57f9fded}
+      \strng{authorbibnamehash}{25c234849e987f769e540dac57f9fded}
+      \strng{authornamehash}{25c234849e987f769e540dac57f9fded}
+      \strng{authorfullhash}{25c234849e987f769e540dac57f9fded}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Automation and Remote Control}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Analysis of integer programming algorithms with L-partition and unimodular transformations}
+      \field{year}{2012}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{369\bibrangedash 380}
+      \range{pages}{12}
+      \field{volume}{73}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{KWM19}{article}{}
+      \name{author}{3}{}{%
+        {{hash=03c3f8ba8d2a754823808adf953a9667}{%
+           family={Kouyialis},
+           familyi={K\bibinitperiod},
+           given={Georgia},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a566d12da36e018f4db77e15cedcd7a3}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaoyu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=68b80670de5e989d799bf009471e72cf}{%
+           family={Misener},
+           familyi={M\bibinitperiod},
+           given={Ruth},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{de939f58b5170f9c0a03cbfbd192cd04}
+      \strng{fullhash}{de939f58b5170f9c0a03cbfbd192cd04}
+      \strng{bibnamehash}{de939f58b5170f9c0a03cbfbd192cd04}
+      \strng{authorbibnamehash}{de939f58b5170f9c0a03cbfbd192cd04}
+      \strng{authornamehash}{de939f58b5170f9c0a03cbfbd192cd04}
+      \strng{authorfullhash}{de939f58b5170f9c0a03cbfbd192cd04}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Processes}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Symmetry Detection for Quadratic Optimization Using Binary Layered Graphs}
+      \field{year}{2019}
+      \field{number}{11}
+      \range{number}{1}
+      \field{pages}{838}
+      \range{pages}{1}
+      \field{volume}{7}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{Lancaster}{book}{}
+      \name{author}{2}{}{%
+        {{hash=98b1b5b7ae79fc12eeeefab5b61ff807}{%
+           family={Lancaster},
+           familyi={L\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6a67de617a78c2e5d6e6c9b14543cf77}{%
+           family={Tismenetsky},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{1ba5251eea2941fcbb2a5ab46d225baa}
+      \strng{fullhash}{1ba5251eea2941fcbb2a5ab46d225baa}
+      \strng{bibnamehash}{1ba5251eea2941fcbb2a5ab46d225baa}
+      \strng{authorbibnamehash}{1ba5251eea2941fcbb2a5ab46d225baa}
+      \strng{authornamehash}{1ba5251eea2941fcbb2a5ab46d225baa}
+      \strng{authorfullhash}{1ba5251eea2941fcbb2a5ab46d225baa}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{The Theory of Matrices}
+      \field{year}{1985}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{L12}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6c501b106a067f9390ed721e696a5ae9}{%
+           family={Liberti},
+           familyi={L\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c501b106a067f9390ed721e696a5ae9}
+      \strng{fullhash}{6c501b106a067f9390ed721e696a5ae9}
+      \strng{bibnamehash}{6c501b106a067f9390ed721e696a5ae9}
+      \strng{authorbibnamehash}{6c501b106a067f9390ed721e696a5ae9}
+      \strng{authornamehash}{6c501b106a067f9390ed721e696a5ae9}
+      \strng{authorfullhash}{6c501b106a067f9390ed721e696a5ae9}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Programming}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Reformulations in mathematical programming: automatic symmetry detection and exploitation}
+      \field{year}{2012}
+      \field{issue}{1\bibrangedash 2}
+      \range{issue}{2}
+      \field{volume}{131}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{luo:sdp}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7b4f211f71a2cad23c6e44230aaf36ea}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=e07577258da8eaf13ee48434ea6d6ad7}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{35dc44d9b572e323969ea84fa6767430}
+      \strng{fullhash}{35dc44d9b572e323969ea84fa6767430}
+      \strng{bibnamehash}{35dc44d9b572e323969ea84fa6767430}
+      \strng{authorbibnamehash}{35dc44d9b572e323969ea84fa6767430}
+      \strng{authornamehash}{35dc44d9b572e323969ea84fa6767430}
+      \strng{authorfullhash}{35dc44d9b572e323969ea84fa6767430}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Convex Optimization in Signal Processing and Communications}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{SDP relaxation of homogeneousquadratic optimization: approximationbounds and applications}
+      \field{year}{2009}
+      \field{pages}{117\bibrangedash 165}
+      \range{pages}{49}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{Margot2010}{inbook}{useeditor=false}
+      \name{author}{1}{}{%
+        {{hash=094145e885ad91d85035fd623c98dbee}{%
+           family={Margot},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \name{editor}{8}{}{%
+        {{hash=01169310249847156f664ba0d45a28d2}{%
+           family={Jünger},
+           familyi={J\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d59b1e141a4450a3d62b13cec387e81f}{%
+           family={Liebling},
+           familyi={L\bibinitperiod},
+           given={T.\bibnamedelimi M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=bf8072c500bbc6e0ccc3cab765481ec1}{%
+           family={Naddef},
+           familyi={N\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b9d73ddcb91b232ae6ddde26d72e2c7e}{%
+           family={Nemhauser},
+           familyi={N\bibinitperiod},
+           given={G.\bibnamedelimi L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=f822f6e2e7831e42a3f94f39ecd193b8}{%
+           family={Pulleyblank},
+           familyi={P\bibinitperiod},
+           given={W.\bibnamedelimi R.},
+           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=f02aa44fcb84ad0b1ea846f266bf6791}{%
+           family={Reinelt},
+           familyi={R\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=577d1ebe8792695a92993bcbc4e5e35b}{%
+           family={Rinaldi},
+           familyi={R\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e4a90d33c20880c276bd58892255cb63}{%
+           family={Wolsey},
+           familyi={W\bibinitperiod},
+           given={L.\bibnamedelimi A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{094145e885ad91d85035fd623c98dbee}
+      \strng{fullhash}{094145e885ad91d85035fd623c98dbee}
+      \strng{bibnamehash}{094145e885ad91d85035fd623c98dbee}
+      \strng{authorbibnamehash}{094145e885ad91d85035fd623c98dbee}
+      \strng{authornamehash}{094145e885ad91d85035fd623c98dbee}
+      \strng{authorfullhash}{094145e885ad91d85035fd623c98dbee}
+      \strng{editorbibnamehash}{de8a597df7e604da5fe6ea58760bd84c}
+      \strng{editornamehash}{de8a597df7e604da5fe6ea58760bd84c}
+      \strng{editorfullhash}{de58fa5d74fcb56f15a783b889e8d3af}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{50 Years of Integer Programming 1958-2008: From the Early Years to the State-of-the-Art}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Symmetry in Integer Linear Programming}
+      \field{year}{2010}
+      \field{pages}{647\bibrangedash 686}
+      \range{pages}{40}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{murty:np}{article}{}
+      \name{author}{1}{}{%
+        {{hash=06bf6575d49f55e9c9290f39f117a87e}{%
+           family={Murty},
+           familyi={M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{06bf6575d49f55e9c9290f39f117a87e}
+      \strng{fullhash}{06bf6575d49f55e9c9290f39f117a87e}
+      \strng{bibnamehash}{06bf6575d49f55e9c9290f39f117a87e}
+      \strng{authorbibnamehash}{06bf6575d49f55e9c9290f39f117a87e}
+      \strng{authornamehash}{06bf6575d49f55e9c9290f39f117a87e}
+      \strng{authorfullhash}{06bf6575d49f55e9c9290f39f117a87e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Programming. North Holand}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Some NP-complete Problems in Quadratic and Nonlinear Programming}
+      \field{year}{1987}
+      \field{pages}{117\bibrangedash 129}
+      \range{pages}{13}
+      \field{volume}{39}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{nelder:simplex}{article}{}
+      \name{author}{2}{}{%
+        {{hash=97a60525676f2f0735b3bace8039e9af}{%
+           family={Nelder},
+           familyi={N\bibinitperiod},
+           given={J.A.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b7b244d12aeefd19786bac78fb546e01}{%
+           family={Mead},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{c883f46bc4773c0e0cd4ad615f0e1a00}
+      \strng{fullhash}{c883f46bc4773c0e0cd4ad615f0e1a00}
+      \strng{bibnamehash}{c883f46bc4773c0e0cd4ad615f0e1a00}
+      \strng{authorbibnamehash}{c883f46bc4773c0e0cd4ad615f0e1a00}
+      \strng{authornamehash}{c883f46bc4773c0e0cd4ad615f0e1a00}
+      \strng{authorfullhash}{c883f46bc4773c0e0cd4ad615f0e1a00}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Computer Journal}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{A simplex method for function minimization}
+      \field{year}{1965}
+      \field{number}{4}
+      \range{number}{1}
+      \field{pages}{308\bibrangedash 311}
+      \range{pages}{4}
+      \field{volume}{7}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{noguchi:de}{article}{}
+      \name{author}{3}{}{%
+        {{hash=576bb36b8d9f8c80573ed0bbe280b2fd}{%
+           family={Noguchi},
+           familyi={N\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5a9705cf84bf879537c57dcce3ebe3da}{%
+           family={Tomohiro},
+           familyi={T\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9c152c7358d88df68d29612564491637}{%
+           family={Thawonmas},
+           familyi={T\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2adb4dc2e27d1f00734ad44af181666}
+      \strng{fullhash}{e2adb4dc2e27d1f00734ad44af181666}
+      \strng{bibnamehash}{e2adb4dc2e27d1f00734ad44af181666}
+      \strng{authorbibnamehash}{e2adb4dc2e27d1f00734ad44af181666}
+      \strng{authornamehash}{e2adb4dc2e27d1f00734ad44af181666}
+      \strng{authorfullhash}{e2adb4dc2e27d1f00734ad44af181666}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2021 Genetic and Evolutionary Computation Conference (GECCO ’21)}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Parallel Differential Evolution Applied to Interleaving Generation with Precedence Evaluation of Tentative Solutions}
+      \field{year}{2021}
+      \field{pages}{706\bibrangedash 713}
+      \range{pages}{8}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{bruke:nec2}{inproceedings}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=7acf589d0c0ba5670c30137362fbcaf5}{%
+           family={Burke},
+           familyi={B\bibinitperiod},
+           given={Gerald\bibnamedelima J},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=95a1b84f33a8605b9aa2e6fa313994c6}{%
+           family={Poggio},
+           familyi={P\bibinitperiod},
+           given={A\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=61eb2fec99daef1d2fc94062d2ddbec4}{%
+           family={Logan},
+           familyi={L\bibinitperiod},
+           given={J\bibnamedelima C},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=9dd325750d2c91f897064158485dd087}{%
+           family={Rockway},
+           familyi={R\bibinitperiod},
+           given={J\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{authorbibnamehash}{a1fea51baa03cb0a68d9044304c69e2e}
+      \strng{authornamehash}{a1fea51baa03cb0a68d9044304c69e2e}
+      \strng{authorfullhash}{fbe927335f29cd66a07095789ad2d12b}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{1979 IEEE International Symposium on Electromagnetic Compatibility}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Numerical electromagnetic code ($\mbox{NEC}$)}
+      \field{year}{1979}
+      \field{pages}{1\bibrangedash 3}
+      \range{pages}{3}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{PR19}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2319d3c459473fa104a6cf1f2413dd00}{%
+           family={Pfetsch},
+           familyi={P\bibinitperiod},
+           given={M.E.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dabd68286b348990992526a7316e12a7}{%
+           family={Rehn},
+           familyi={R\bibinitperiod},
+           given={T.\bibnamedelimi A},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7dca7a36e720f32deb871ab1fccee453}
+      \strng{fullhash}{7dca7a36e720f32deb871ab1fccee453}
+      \strng{bibnamehash}{7dca7a36e720f32deb871ab1fccee453}
+      \strng{authorbibnamehash}{7dca7a36e720f32deb871ab1fccee453}
+      \strng{authornamehash}{7dca7a36e720f32deb871ab1fccee453}
+      \strng{authorfullhash}{7dca7a36e720f32deb871ab1fccee453}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Programming Computation}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{A computational comparison of symmetry handling methods for mixed integer programs}
+      \field{year}{2019}
+      \field{pages}{37\bibrangedash 93}
+      \range{pages}{57}
+      \field{volume}{11}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{storn:de_practical}{book}{}
+      \name{author}{3}{}{%
+        {{hash=d38bc485984a465235e6d5849515d62e}{%
+           family={Price},
+           familyi={P\bibinitperiod},
+           given={K.\bibnamedelimi V},
+           giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=0c389f0f98b430ee3fb337ce511b38eb}{%
+           family={Storn},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi M},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b235655c3540e9068220c1c16d0319e1}{%
+           family={Lampinen},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{dbbbd09393beab293ec2a4aee40a67b7}
+      \strng{fullhash}{dbbbd09393beab293ec2a4aee40a67b7}
+      \strng{bibnamehash}{dbbbd09393beab293ec2a4aee40a67b7}
+      \strng{authorbibnamehash}{dbbbd09393beab293ec2a4aee40a67b7}
+      \strng{authornamehash}{dbbbd09393beab293ec2a4aee40a67b7}
+      \strng{authorfullhash}{dbbbd09393beab293ec2a4aee40a67b7}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Differential Evolution. A Practical Approach to Global Optimization}
+      \field{year}{2005}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{price:global}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7c2ee5df1f0d35b8c4c376809b454b70}{%
+           family={Price},
+           familyi={P\bibinitperiod},
+           given={W.\bibnamedelimi L.},
+           giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{7c2ee5df1f0d35b8c4c376809b454b70}
+      \strng{fullhash}{7c2ee5df1f0d35b8c4c376809b454b70}
+      \strng{bibnamehash}{7c2ee5df1f0d35b8c4c376809b454b70}
+      \strng{authorbibnamehash}{7c2ee5df1f0d35b8c4c376809b454b70}
+      \strng{authornamehash}{7c2ee5df1f0d35b8c4c376809b454b70}
+      \strng{authorfullhash}{7c2ee5df1f0d35b8c4c376809b454b70}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Optimization Theory and Applications}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Global optimization by controlled random search}
+      \field{year}{1983}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{333\bibrangedash 348}
+      \range{pages}{16}
+      \field{volume}{40}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{Adam2004}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a043b95b25583815e312e708d732b794}{%
+           family={Prugel-Bennett},
+           familyi={P\bibinithyphendelim B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Press}%
+      }
+      \strng{namehash}{a043b95b25583815e312e708d732b794}
+      \strng{fullhash}{a043b95b25583815e312e708d732b794}
+      \strng{bibnamehash}{a043b95b25583815e312e708d732b794}
+      \strng{authorbibnamehash}{a043b95b25583815e312e708d732b794}
+      \strng{authornamehash}{a043b95b25583815e312e708d732b794}
+      \strng{authorfullhash}{a043b95b25583815e312e708d732b794}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transactions on Evolutionary Computation}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{month}{2}
+      \field{title}{Symmetry Breaking in Population-Based Optimization}
+      \field{year}{2004}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{63\bibrangedash 79}
+      \range{pages}{17}
+      \field{volume}{8}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1109/TEVC.2003.819419
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{rao:synthesis}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e0529663b135598061a749810e39c407}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a90aa878439b30c24f9c0683f852dd2f}{%
+           family={Sarma},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor & Francis}%
+      }
+      \strng{namehash}{b3b7a13eba74b30060221aed9c25a80e}
+      \strng{fullhash}{b3b7a13eba74b30060221aed9c25a80e}
+      \strng{bibnamehash}{b3b7a13eba74b30060221aed9c25a80e}
+      \strng{authorbibnamehash}{b3b7a13eba74b30060221aed9c25a80e}
+      \strng{authornamehash}{b3b7a13eba74b30060221aed9c25a80e}
+      \strng{authorfullhash}{b3b7a13eba74b30060221aed9c25a80e}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IETE Journal of Research}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Synthesis of reconfigurable antenna array using differential evolution algorithm}
+      \field{year}{2017}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{428\bibrangedash 434}
+      \range{pages}{7}
+      \field{volume}{63}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{reves_eremeev}{article}{}
+      \name{author}{2}{}{%
+        {{hash=36335ebc928908b191c5ec2ea606956d}{%
+           family={Reeves},
+           familyi={R\bibinitperiod},
+           given={C.\bibnamedelimi R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=05b537086e936048590a803e1ccb19df}{%
+           family={Eremeev},
+           familyi={E\bibinitperiod},
+           given={A.\bibnamedelimi V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c5f65adb1dc595218e5fb3d89627462}
+      \strng{fullhash}{1c5f65adb1dc595218e5fb3d89627462}
+      \strng{bibnamehash}{1c5f65adb1dc595218e5fb3d89627462}
+      \strng{authorbibnamehash}{1c5f65adb1dc595218e5fb3d89627462}
+      \strng{authornamehash}{1c5f65adb1dc595218e5fb3d89627462}
+      \strng{authorfullhash}{1c5f65adb1dc595218e5fb3d89627462}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Operational Research Society}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Statistical analysis of local search landscapes}
+      \field{year}{2004}
+      \field{number}{7}
+      \range{number}{1}
+      \field{pages}{678\bibrangedash 693}
+      \range{pages}{16}
+      \field{volume}{55}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{ryoo:nlp}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ed8e20b504eb76a29b7e23edaf5661ca}{%
+           family={Ryoo},
+           familyi={R\bibinitperiod},
+           given={H.\bibnamedelimi S.},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=b2ee7d2f9ead5cd2e95ece0b3abcf634}{%
+           family={Sahinidis},
+           familyi={S\bibinitperiod},
+           given={N.\bibnamedelimi V.},
+           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a5bf4d07f90d0215c9a8fa967734abd}
+      \strng{fullhash}{1a5bf4d07f90d0215c9a8fa967734abd}
+      \strng{bibnamehash}{1a5bf4d07f90d0215c9a8fa967734abd}
+      \strng{authorbibnamehash}{1a5bf4d07f90d0215c9a8fa967734abd}
+      \strng{authornamehash}{1a5bf4d07f90d0215c9a8fa967734abd}
+      \strng{authorfullhash}{1a5bf4d07f90d0215c9a8fa967734abd}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers and Chem. Engng. Pergamon}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Global Optimization of Nonconvex NLPs and MINLPs with Applications in Process Design}
+      \field{year}{1995}
+      \field{number}{5}
+      \range{number}{1}
+      \field{pages}{551\bibrangedash 566}
+      \range{pages}{16}
+      \field{volume}{19}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{Shor1998}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=061e0e7983ad0aef37a8c324e9eeb976}{%
+           family={Shor},
+           familyi={S\bibinitperiod},
+           given={N.\bibnamedelimi Z.},
+           giveni={N\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston, MA}%
+      }
+      \list{publisher}{1}{%
+        {Springer US}%
+      }
+      \strng{namehash}{061e0e7983ad0aef37a8c324e9eeb976}
+      \strng{fullhash}{061e0e7983ad0aef37a8c324e9eeb976}
+      \strng{bibnamehash}{061e0e7983ad0aef37a8c324e9eeb976}
+      \strng{authorbibnamehash}{061e0e7983ad0aef37a8c324e9eeb976}
+      \strng{authornamehash}{061e0e7983ad0aef37a8c324e9eeb976}
+      \strng{authorfullhash}{061e0e7983ad0aef37a8c324e9eeb976}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Nondifferentiable Optimization and Polynomial Problems}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Semidefinite Programming Bounds for Extremal Graph Problems}
+      \field{year}{1998}
+      \field{pages}{265\bibrangedash 298}
+      \range{pages}{34}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{SAS22}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=4b9295a5a69823105d7f4f2ebbb2fe8d}{%
+           family={Stanovov},
+           familyi={S\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod}}}%
+        {{hash=b99d56598ede2d9db631a4f79ecb9587}{%
+           family={Akhmedova},
+           familyi={A\bibinitperiod},
+           given={Shakhnaz},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6d3f14d5f20f4f37f094ad571515740b}{%
+           family={Semenkin},
+           familyi={S\bibinitperiod},
+           given={Eugene},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{7109535ff608be88bf3f0cef2ef84342}
+      \strng{fullhash}{7109535ff608be88bf3f0cef2ef84342}
+      \strng{bibnamehash}{7109535ff608be88bf3f0cef2ef84342}
+      \strng{authorbibnamehash}{7109535ff608be88bf3f0cef2ef84342}
+      \strng{authornamehash}{7109535ff608be88bf3f0cef2ef84342}
+      \strng{authorfullhash}{7109535ff608be88bf3f0cef2ef84342}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2022 IEEE Congress on Evolutionary Computation (CEC)}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{NL-SHADE-LBC algorithm with linear parameter adaptation bias change for CEC 2022 Numerical Optimization}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/CEC55065.2022.9870295
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{storn:de}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bd50f65dfed85bdaf3ee17cbcf93bc17}{%
+           family={Storn},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8424664b02a0affd56cd01bcc1ce7cb0}{%
+           family={Price},
+           familyi={P\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{ae65b8b24e4dd63294e58afa2684c7be}
+      \strng{fullhash}{ae65b8b24e4dd63294e58afa2684c7be}
+      \strng{bibnamehash}{ae65b8b24e4dd63294e58afa2684c7be}
+      \strng{authorbibnamehash}{ae65b8b24e4dd63294e58afa2684c7be}
+      \strng{authornamehash}{ae65b8b24e4dd63294e58afa2684c7be}
+      \strng{authorfullhash}{ae65b8b24e4dd63294e58afa2684c7be}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of global optimization}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Differential evolution--a simple and efficient heuristic for global optimization over continuous spaces}
+      \field{year}{1997}
+      \field{number}{4}
+      \range{number}{1}
+      \field{pages}{341\bibrangedash 359}
+      \range{pages}{19}
+      \field{volume}{11}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{strekalovsky:global}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d0c44e2f47ea63519fc3e015ce804d02}{%
+           family={Strekalovsky},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{d0c44e2f47ea63519fc3e015ce804d02}
+      \strng{fullhash}{d0c44e2f47ea63519fc3e015ce804d02}
+      \strng{bibnamehash}{d0c44e2f47ea63519fc3e015ce804d02}
+      \strng{authorbibnamehash}{d0c44e2f47ea63519fc3e015ce804d02}
+      \strng{authornamehash}{d0c44e2f47ea63519fc3e015ce804d02}
+      \strng{authorfullhash}{d0c44e2f47ea63519fc3e015ce804d02}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Optimization Theory and Applications}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Global optimality conditions in nonconvex optimization}
+      \field{year}{2007}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{770\bibrangedash 792}
+      \range{pages}{23}
+      \field{volume}{173}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{indenbometal:synthesis}{article}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=305039195a41d9e50dd2b02a2e42e6c9}{%
+           family={Indenbom},
+           familyi={I\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e4461db0d9c1eb95e456d9f8851ff63e}{%
+           family={Izhutkin},
+           familyi={I\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=c0e7cd4386ce54d6b0ab39457e5f924f}{%
+           family={Sharapov},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fb6c5cc4c9db5827d3081aeb6ba04b83}{%
+           family={Zonov},
+           familyi={Z\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{e5a29e8bd76083a72f3160eaa36a69e6}
+      \strng{authornamehash}{e5a29e8bd76083a72f3160eaa36a69e6}
+      \strng{authorfullhash}{1ccf4caaa4a31c369a0af377efe0b745}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IX International Conference on Optimization and Applications (OPTIMA 2018)}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Synthesis of Conical Phased Antenna Arrays Optimization of Amplitude Distribution Parameters}
+      \field{year}{2018}
+      \field{pages}{273\bibrangedash 285}
+      \range{pages}{13}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{tawarmalani:global}{article}{}
+      \name{author}{2}{}{%
+        {{hash=35b26de9e16a6e74b8b1d180ec5f337e}{%
+           family={Tawarmalani},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b2ee7d2f9ead5cd2e95ece0b3abcf634}{%
+           family={Sahinidis},
+           familyi={S\bibinitperiod},
+           given={N.\bibnamedelimi V.},
+           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{cb4b83a4cf4709a22ca1e3f3bff857ee}
+      \strng{fullhash}{cb4b83a4cf4709a22ca1e3f3bff857ee}
+      \strng{bibnamehash}{cb4b83a4cf4709a22ca1e3f3bff857ee}
+      \strng{authorbibnamehash}{cb4b83a4cf4709a22ca1e3f3bff857ee}
+      \strng{authornamehash}{cb4b83a4cf4709a22ca1e3f3bff857ee}
+      \strng{authorfullhash}{cb4b83a4cf4709a22ca1e3f3bff857ee}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical programming}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Global optimization of mixed-integer nonlinear programs: A theoretical and computational study}
+      \field{year}{2004}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{563\bibrangedash 591}
+      \range{pages}{29}
+      \field{volume}{99}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{tyu:jphys}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ada0cc6046c6ad31ed7120549a9ca2d5}{%
+           family={Tyunin},
+           familyi={T\bibinitperiod},
+           given={N.\bibnamedelimi N.},
+           giveni={N\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{ada0cc6046c6ad31ed7120549a9ca2d5}
+      \strng{fullhash}{ada0cc6046c6ad31ed7120549a9ca2d5}
+      \strng{bibnamehash}{ada0cc6046c6ad31ed7120549a9ca2d5}
+      \strng{authorbibnamehash}{ada0cc6046c6ad31ed7120549a9ca2d5}
+      \strng{authornamehash}{ada0cc6046c6ad31ed7120549a9ca2d5}
+      \strng{authorfullhash}{ada0cc6046c6ad31ed7120549a9ca2d5}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{On mutual influence of emitters in directivity optimization of shortwave phased antenna arrays}
+      \field{year}{2021}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{012053}
+      \range{pages}{1}
+      \field{volume}{1901}
+      \range{volume}{1}
+      \keyw{,biblioauthorvak,biblioauthor,bibliofull}
+    \endentry
+    \entry{Zhelobenko}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7105c9d37045680e93f9500df66de8e2}{%
+           family={Zhelobenko},
+           familyi={Z\bibinitperiod},
+           given={D.\bibnamedelimi P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Providence, AMS}%
+      }
+      \strng{namehash}{7105c9d37045680e93f9500df66de8e2}
+      \strng{fullhash}{7105c9d37045680e93f9500df66de8e2}
+      \strng{bibnamehash}{7105c9d37045680e93f9500df66de8e2}
+      \strng{authorbibnamehash}{7105c9d37045680e93f9500df66de8e2}
+      \strng{authornamehash}{7105c9d37045680e93f9500df66de8e2}
+      \strng{authorfullhash}{7105c9d37045680e93f9500df66de8e2}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{series}{Translations of mathematical monographs}
+      \field{title}{Compact Lie Groups and their Representations}
+      \field{year}{1973}
+      \field{volume}{40}
+      \range{volume}{1}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{Kramer}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6cd173fefb7ab08d514fe341fb2fa65c}{%
+           family={Крамер},
+           familyi={К\bibinitperiod},
+           given={Г.},
+           giveni={Г\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {М.}%
+      }
+      \list{publisher}{1}{%
+        {Мир}%
+      }
+      \strng{namehash}{6cd173fefb7ab08d514fe341fb2fa65c}
+      \strng{fullhash}{6cd173fefb7ab08d514fe341fb2fa65c}
+      \strng{bibnamehash}{6cd173fefb7ab08d514fe341fb2fa65c}
+      \strng{authorbibnamehash}{6cd173fefb7ab08d514fe341fb2fa65c}
+      \strng{authornamehash}{6cd173fefb7ab08d514fe341fb2fa65c}
+      \strng{authorfullhash}{6cd173fefb7ab08d514fe341fb2fa65c}
+      \field{sortinit}{К}
+      \field{sortinithash}{007824ff2af181c6f6762379475efd5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Математические методы статистики}
+      \field{year}{1975}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{expi}{patent}{useauthor=false}
+      \name{author}{1}{}{%
+        {{hash=eacafdbc59783144973cb92da98b8c37}{%
+           family={Тюнин},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{eacafdbc59783144973cb92da98b8c37}
+      \strng{authornamehash}{eacafdbc59783144973cb92da98b8c37}
+      \strng{authorfullhash}{eacafdbc59783144973cb92da98b8c37}
+      \field{sortinit}{С}
+      \field{sortinithash}{e581ee5e052c6c8e9beb0cf2da905808}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{heading}{Свидетельство о гос. регистрации программы для {ЭВМ}}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{month}{7}
+      \field{prioritycountry}{countryru}
+      \field{prioritynumber}{2022662647}
+      \field{publicationday}{24}
+      \field{publicationmonth}{8}
+      \field{publicationyear}{2022}
+      \field{requestnumber}{2022666016}
+      \field{title}{Комплекс моделирования и решения задач оптимизации направленности ФАР КВ диапазона <<Expi>>}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{publicationdateera}{ce}
+      \keyw{,biblioauthorprogram,biblioregistered,bibliofull}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{1}
+  \datalist[entry]{nty/global//global/global}
+    \entry{tyu:msim22}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9fe5eea5d1c0ff9c43aa12d32ff8ede5}{%
+           family={\noopsort{1}Еремеев},
+           familyi={1\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=eacafdbc59783144973cb92da98b8c37}{%
+           family={Тюнин},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1719fd3075761d3fda0244238ee98ef}
+      \strng{fullhash}{d1719fd3075761d3fda0244238ee98ef}
+      \strng{bibnamehash}{d1719fd3075761d3fda0244238ee98ef}
+      \strng{authorbibnamehash}{d1719fd3075761d3fda0244238ee98ef}
+      \strng{authornamehash}{d1719fd3075761d3fda0244238ee98ef}
+      \strng{authorfullhash}{d1719fd3075761d3fda0244238ee98ef}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Математические структуры и моделирование}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Алгоритм дифференциальной эволюции для оптимизации направленности фазированных антенных решеток}
+      \field{year}{2022}
+      \true{nocite}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{57\bibrangedash 68}
+      \range{pages}{12}
+      \field{volume}{62}
+      \range{volume}{1}
+      \keyw{,biblioauthorvak,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu:reis}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=9fe5eea5d1c0ff9c43aa12d32ff8ede5}{%
+           family={\noopsort{1}Еремеев},
+           familyi={1\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=eacafdbc59783144973cb92da98b8c37}{%
+           family={Тюнин},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+        {{hash=bb35be74906d2c245344351eec35ad70}{%
+           family={Юрков},
+           familyi={Ю\bibinitperiod},
+           given={А.\bibnamedelimi С.},
+           giveni={А\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
+      }
+      \strng{namehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{fullhash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{bibnamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authorbibnamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authornamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authorfullhash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Радиотехника, электроника и связь. Сборник докладов V Международной научно-технической конференции}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Исследование одной задачи квадратичного программирования в оптимизации коротковолновых антенных решеток}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{171\bibrangedash 174}
+      \range{pages}{4}
+      \keyw{,biblioauthorconf,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu:opta}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=9fe5eea5d1c0ff9c43aa12d32ff8ede5}{%
+           family={\noopsort{1}Еремеев},
+           familyi={1\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=eacafdbc59783144973cb92da98b8c37}{%
+           family={Тюнин},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+        {{hash=bb35be74906d2c245344351eec35ad70}{%
+           family={Юрков},
+           familyi={Ю\bibinitperiod},
+           given={А.\bibnamedelimi С.},
+           giveni={А\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
+      }
+      \strng{namehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{fullhash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{bibnamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authorbibnamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authornamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authorfullhash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Сборник тезисов VII Международной конференции «Проблемы оптимизации и их приложения»}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{О структуре множества локальных оптимумов задачи оптимизации фазированных антенных решеток}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{53}
+      \range{pages}{1}
+      \keyw{,biblioauthorconf,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu22:ring}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9fe5eea5d1c0ff9c43aa12d32ff8ede5}{%
+           family={\noopsort{1}Еремеев},
+           familyi={1\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=eacafdbc59783144973cb92da98b8c37}{%
+           family={Тюнин},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+        {{hash=bb35be74906d2c245344351eec35ad70}{%
+           family={Юрков},
+           familyi={Ю\bibinitperiod},
+           given={А.\bibnamedelimi С.},
+           giveni={А\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ОНИИП}%
+      }
+      \strng{namehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{fullhash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{bibnamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authorbibnamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authornamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authorfullhash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Научно-технический сборник <<Техника радиосвязи>>}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Об оптимизации направленности коротковолновых фазированных антенных решеток кольцевой структуры}
+      \field{year}{2022}
+      \true{nocite}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{41\bibrangedash 52}
+      \range{pages}{12}
+      \field{volume}{54}
+      \range{volume}{1}
+      \keyw{,biblioauthorother,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu:daor}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bd11a031faa99f114ad47b5c64fd12b9}{%
+           family={\noopsort{1}Тюнин},
+           familyi={1\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{fullhash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{bibnamehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{authorbibnamehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{authornamehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{authorfullhash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Дискретный анализ и исследование операций}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Задачи невыпуклого квадратичного программирования, связанные с оптимизацией фазированных антенных решеток}
+      \field{year}{2021}
+      \true{nocite}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{20\bibrangedash 44}
+      \range{pages}{25}
+      \field{volume}{28}
+      \range{volume}{1}
+      \keyw{,biblioauthorvak,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu:fmh}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=bd11a031faa99f114ad47b5c64fd12b9}{%
+           family={\noopsort{1}Тюнин},
+           familyi={1\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{fullhash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{bibnamehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{authorbibnamehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{authornamehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{authorfullhash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ФМХ ОмГУ 2019: Cборник статей VII Региональной конференции магистрантов, аспирантов и молодых ученых по физике, математике и химии}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Невыпуклые задачи квадратичного программирования в оптимизации коротковолновых антенных решеток}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{48\bibrangedash 52}
+      \range{pages}{5}
+      \keyw{,biblioauthorconf,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu:motor}{article}{}
+      \name{author}{3}{}{%
+        {{hash=05b537086e936048590a803e1ccb19df}{%
+           family={Eremeev},
+           familyi={E\bibinitperiod},
+           given={A.\bibnamedelimi V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=ada0cc6046c6ad31ed7120549a9ca2d5}{%
+           family={Tyunin},
+           familyi={T\bibinitperiod},
+           given={N.\bibnamedelimi N.},
+           giveni={N\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=ebdfbd3dcb16313bc1549687c95845cc}{%
+           family={Yurkov},
+           familyi={Y\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a8843c459b0b5f0991db9890ec8224e3}
+      \strng{fullhash}{a8843c459b0b5f0991db9890ec8224e3}
+      \strng{bibnamehash}{a8843c459b0b5f0991db9890ec8224e3}
+      \strng{authorbibnamehash}{a8843c459b0b5f0991db9890ec8224e3}
+      \strng{authornamehash}{a8843c459b0b5f0991db9890ec8224e3}
+      \strng{authorfullhash}{a8843c459b0b5f0991db9890ec8224e3}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Khachay, M., Kochetov, Y., Pardalos, P. (eds) Mathematical Optimization Theory and Operations Research. MOTOR 2019. Lecture Notes in Computer Science}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Non-Convex Quadratic Programming Problems in Short Wave Antenna Array Optimization}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{34\bibrangedash 45}
+      \range{pages}{12}
+      \field{volume}{11548}
+      \range{volume}{1}
+      \keyw{,biblioauthorvak,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu:jphys}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ada0cc6046c6ad31ed7120549a9ca2d5}{%
+           family={Tyunin},
+           familyi={T\bibinitperiod},
+           given={N.\bibnamedelimi N.},
+           giveni={N\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{ada0cc6046c6ad31ed7120549a9ca2d5}
+      \strng{fullhash}{ada0cc6046c6ad31ed7120549a9ca2d5}
+      \strng{bibnamehash}{ada0cc6046c6ad31ed7120549a9ca2d5}
+      \strng{authorbibnamehash}{ada0cc6046c6ad31ed7120549a9ca2d5}
+      \strng{authornamehash}{ada0cc6046c6ad31ed7120549a9ca2d5}
+      \strng{authorfullhash}{ada0cc6046c6ad31ed7120549a9ca2d5}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{On mutual influence of emitters in directivity optimization of shortwave phased antenna arrays}
+      \field{year}{2021}
+      \true{nocite}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{012053}
+      \range{pages}{1}
+      \field{volume}{1901}
+      \range{volume}{1}
+      \keyw{,biblioauthorvak,biblioauthor,bibliofull}
+    \endentry
+    \entry{expi}{patent}{useauthor=false}
+      \name{author}{1}{}{%
+        {{hash=eacafdbc59783144973cb92da98b8c37}{%
+           family={Тюнин},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{eacafdbc59783144973cb92da98b8c37}
+      \strng{authornamehash}{eacafdbc59783144973cb92da98b8c37}
+      \strng{authorfullhash}{eacafdbc59783144973cb92da98b8c37}
+      \field{sortinit}{С}
+      \field{sortinithash}{e581ee5e052c6c8e9beb0cf2da905808}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{heading}{Свидетельство о гос. регистрации программы для {ЭВМ}}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{month}{7}
+      \field{prioritycountry}{countryru}
+      \field{prioritynumber}{2022662647}
+      \field{publicationday}{24}
+      \field{publicationmonth}{8}
+      \field{publicationyear}{2022}
+      \field{requestnumber}{2022666016}
+      \field{title}{Комплекс моделирования и решения задач оптимизации направленности ФАР КВ диапазона <<Expi>>}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{publicationdateera}{ce}
+      \true{nocite}
+      \keyw{,biblioauthorprogram,biblioregistered,bibliofull}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{2}
+  \datalist[entry]{nty/global//global/global}
+    \entry{tyu:msim22}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9fe5eea5d1c0ff9c43aa12d32ff8ede5}{%
+           family={\noopsort{1}Еремеев},
+           familyi={1\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=eacafdbc59783144973cb92da98b8c37}{%
+           family={Тюнин},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1719fd3075761d3fda0244238ee98ef}
+      \strng{fullhash}{d1719fd3075761d3fda0244238ee98ef}
+      \strng{bibnamehash}{d1719fd3075761d3fda0244238ee98ef}
+      \strng{authorbibnamehash}{d1719fd3075761d3fda0244238ee98ef}
+      \strng{authornamehash}{d1719fd3075761d3fda0244238ee98ef}
+      \strng{authorfullhash}{d1719fd3075761d3fda0244238ee98ef}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Математические структуры и моделирование}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Алгоритм дифференциальной эволюции для оптимизации направленности фазированных антенных решеток}
+      \field{year}{2022}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{57\bibrangedash 68}
+      \range{pages}{12}
+      \field{volume}{62}
+      \range{volume}{1}
+      \keyw{,biblioauthorvak,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu:reis}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=9fe5eea5d1c0ff9c43aa12d32ff8ede5}{%
+           family={\noopsort{1}Еремеев},
+           familyi={1\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=eacafdbc59783144973cb92da98b8c37}{%
+           family={Тюнин},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+        {{hash=bb35be74906d2c245344351eec35ad70}{%
+           family={Юрков},
+           familyi={Ю\bibinitperiod},
+           given={А.\bibnamedelimi С.},
+           giveni={А\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
+      }
+      \strng{namehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{fullhash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{bibnamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authorbibnamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authornamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authorfullhash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Радиотехника, электроника и связь. Сборник докладов V Международной научно-технической конференции}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Исследование одной задачи квадратичного программирования в оптимизации коротковолновых антенных решеток}
+      \field{year}{2019}
+      \field{pages}{171\bibrangedash 174}
+      \range{pages}{4}
+      \keyw{,biblioauthorconf,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu:opta}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=9fe5eea5d1c0ff9c43aa12d32ff8ede5}{%
+           family={\noopsort{1}Еремеев},
+           familyi={1\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=eacafdbc59783144973cb92da98b8c37}{%
+           family={Тюнин},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+        {{hash=bb35be74906d2c245344351eec35ad70}{%
+           family={Юрков},
+           familyi={Ю\bibinitperiod},
+           given={А.\bibnamedelimi С.},
+           giveni={А\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
+      }
+      \strng{namehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{fullhash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{bibnamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authorbibnamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authornamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authorfullhash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Сборник тезисов VII Международной конференции «Проблемы оптимизации и их приложения»}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{О структуре множества локальных оптимумов задачи оптимизации фазированных антенных решеток}
+      \field{year}{2018}
+      \field{pages}{53}
+      \range{pages}{1}
+      \keyw{,biblioauthorconf,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu22:ring}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9fe5eea5d1c0ff9c43aa12d32ff8ede5}{%
+           family={\noopsort{1}Еремеев},
+           familyi={1\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+        {{hash=eacafdbc59783144973cb92da98b8c37}{%
+           family={Тюнин},
+           familyi={Т\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+        {{hash=bb35be74906d2c245344351eec35ad70}{%
+           family={Юрков},
+           familyi={Ю\bibinitperiod},
+           given={А.\bibnamedelimi С.},
+           giveni={А\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ОНИИП}%
+      }
+      \strng{namehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{fullhash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{bibnamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authorbibnamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authornamehash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \strng{authorfullhash}{71ba27ddd7195b24fca01aa3b0d741fd}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Научно-технический сборник <<Техника радиосвязи>>}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Об оптимизации направленности коротковолновых фазированных антенных решеток кольцевой структуры}
+      \field{year}{2022}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{41\bibrangedash 52}
+      \range{pages}{12}
+      \field{volume}{54}
+      \range{volume}{1}
+      \keyw{,biblioauthorother,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu:daor}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bd11a031faa99f114ad47b5c64fd12b9}{%
+           family={\noopsort{1}Тюнин},
+           familyi={1\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{fullhash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{bibnamehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{authorbibnamehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{authornamehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{authorfullhash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Дискретный анализ и исследование операций}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Задачи невыпуклого квадратичного программирования, связанные с оптимизацией фазированных антенных решеток}
+      \field{year}{2021}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{20\bibrangedash 44}
+      \range{pages}{25}
+      \field{volume}{28}
+      \range{volume}{1}
+      \keyw{,biblioauthorvak,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu:fmh}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=bd11a031faa99f114ad47b5c64fd12b9}{%
+           family={\noopsort{1}Тюнин},
+           familyi={1\bibinitperiod},
+           given={Н.\bibnamedelimi Н.},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{fullhash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{bibnamehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{authorbibnamehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{authornamehash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \strng{authorfullhash}{bd11a031faa99f114ad47b5c64fd12b9}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ФМХ ОмГУ 2019: Cборник статей VII Региональной конференции магистрантов, аспирантов и молодых ученых по физике, математике и химии}
+      \field{langid}{russian}
+      \field{media}{text}
+      \field{title}{Невыпуклые задачи квадратичного программирования в оптимизации коротковолновых антенных решеток}
+      \field{year}{2020}
+      \field{pages}{48\bibrangedash 52}
+      \range{pages}{5}
+      \keyw{,biblioauthorconf,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu:motor}{article}{}
+      \name{author}{3}{}{%
+        {{hash=05b537086e936048590a803e1ccb19df}{%
+           family={Eremeev},
+           familyi={E\bibinitperiod},
+           given={A.\bibnamedelimi V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=ada0cc6046c6ad31ed7120549a9ca2d5}{%
+           family={Tyunin},
+           familyi={T\bibinitperiod},
+           given={N.\bibnamedelimi N.},
+           giveni={N\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=ebdfbd3dcb16313bc1549687c95845cc}{%
+           family={Yurkov},
+           familyi={Y\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a8843c459b0b5f0991db9890ec8224e3}
+      \strng{fullhash}{a8843c459b0b5f0991db9890ec8224e3}
+      \strng{bibnamehash}{a8843c459b0b5f0991db9890ec8224e3}
+      \strng{authorbibnamehash}{a8843c459b0b5f0991db9890ec8224e3}
+      \strng{authornamehash}{a8843c459b0b5f0991db9890ec8224e3}
+      \strng{authorfullhash}{a8843c459b0b5f0991db9890ec8224e3}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Khachay, M., Kochetov, Y., Pardalos, P. (eds) Mathematical Optimization Theory and Operations Research. MOTOR 2019. Lecture Notes in Computer Science}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{Non-Convex Quadratic Programming Problems in Short Wave Antenna Array Optimization}
+      \field{year}{2019}
+      \field{pages}{34\bibrangedash 45}
+      \range{pages}{12}
+      \field{volume}{11548}
+      \range{volume}{1}
+      \keyw{,biblioauthorvak,biblioauthor,bibliofull}
+    \endentry
+    \entry{tyu:jphys}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ada0cc6046c6ad31ed7120549a9ca2d5}{%
+           family={Tyunin},
+           familyi={T\bibinitperiod},
+           given={N.\bibnamedelimi N.},
+           giveni={N\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{ada0cc6046c6ad31ed7120549a9ca2d5}
+      \strng{fullhash}{ada0cc6046c6ad31ed7120549a9ca2d5}
+      \strng{bibnamehash}{ada0cc6046c6ad31ed7120549a9ca2d5}
+      \strng{authorbibnamehash}{ada0cc6046c6ad31ed7120549a9ca2d5}
+      \strng{authornamehash}{ada0cc6046c6ad31ed7120549a9ca2d5}
+      \strng{authorfullhash}{ada0cc6046c6ad31ed7120549a9ca2d5}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{langid}{english}
+      \field{media}{text}
+      \field{title}{On mutual influence of emitters in directivity optimization of shortwave phased antenna arrays}
+      \field{year}{2021}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{012053}
+      \range{pages}{1}
+      \field{volume}{1901}
+      \range{volume}{1}
+      \keyw{,biblioauthorvak,biblioauthor,bibliofull}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
