@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  25 SEP 2022 14:17
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  25 SEP 2022 20:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2444,22 +2444,22 @@ File: images//fit_dist_2x2.eps Graphic file (type eps)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [12.12] [13.13] [14.14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+[15.15]
+Underfull \vbox (badness 7012) has occurred while \output is active []
 
-[15.15] [16.16]
+[16.16]
 File: images//r8_1_25_5x7.png Graphic file (type bmp)
 <images//r8_1_25_5x7.png>
 File: images//r8_25_5x7.png Graphic file (type bmp)
 <images//r8_25_5x7.png>
+[17.17]
 File: images//r_bvd_20_results_h.png Graphic file (type bmp)
 <images//r_bvd_20_results_h.png>
 File: images//r_bvd_20_results_v.png Graphic file (type bmp)
 <images//r_bvd_20_results_v.png>
-[17.17] (common/concl.tex
-Underfull \vbox (badness 6910) has occurred while \output is active []
-
-[18.18]))
+(common/concl.tex [18.18]))
 LaTeX Info: Redefining \rmfamily on input line 96.
 LaTeX Info: Redefining \sffamily on input line 96.
 LaTeX Info: Redefining \ttfamily on input line 96.
@@ -2491,16 +2491,16 @@ LaTeX Warning: Empty bibliography on input line 96.
 
 ]
 
-Package nag Warning: Unmatched ``\center'' command on line 321.
+Package nag Warning: Unmatched ``\center'' command on line 323.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 317.
+Package nag Warning: Unmatched ``\center'' command on line 319.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 304.
+Package nag Warning: Unmatched ``\center'' command on line 306.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 300.
+Package nag Warning: Unmatched ``\center'' command on line 302.
 
 
 Package nag Warning: Unmatched ``\center'' command on line 201.
@@ -3040,4 +3040,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  93i,16n,123p,1611b,7633s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on synopsis.xdv (22 pages, 417592 bytes).
+Output written on synopsis.xdv (22 pages, 421480 bytes).

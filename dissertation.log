@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  25 SEP 2022 14:14
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  25 SEP 2022 20:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3826,16 +3826,21 @@ File: images//fit_dist.eps Graphic file (type eps)
 <images//fit_dist.eps>
 File: images//fit_dist_2x2.eps Graphic file (type eps)
 <images//fit_dist_2x2.eps>
-[15.15] [16.16] [17.17] [18.18] [19.19]
+[15.15] [16.16] [17.17]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[18.18] [19.19]
 File: images//r8_1_25_5x7.png Graphic file (type bmp)
 <images//r8_1_25_5x7.png>
 File: images//r8_25_5x7.png Graphic file (type bmp)
 <images//r8_25_5x7.png>
+[20.20]
 File: images//r_bvd_20_results_h.png Graphic file (type bmp)
 <images//r_bvd_20_results_h.png>
 File: images//r_bvd_20_results_v.png Graphic file (type bmp)
 <images//r_bvd_20_results_v.png>
-[20.20] (common/concl.tex [21.21]))) [22.22]
+(common/concl.tex [21.21]))) [22.22]
 \openout2 = `Dissertation/part1.aux'.
 
 (Dissertation/part1.tex
@@ -4582,16 +4587,16 @@ Package nag Warning: Unmatched ``\center'' command on line 22.
 Package nag Warning: Unmatched ``\center'' command on line 18.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 321.
+Package nag Warning: Unmatched ``\center'' command on line 323.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 317.
+Package nag Warning: Unmatched ``\center'' command on line 319.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 304.
+Package nag Warning: Unmatched ``\center'' command on line 306.
 
 
-Package nag Warning: Unmatched ``\center'' command on line 300.
+Package nag Warning: Unmatched ``\center'' command on line 302.
 
 
 Package nag Warning: Unmatched ``\center'' command on line 201.
@@ -6281,4 +6286,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  119i,16n,123p,1665b,8212s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on dissertation.xdv (102 pages, 1606356 bytes).
+Output written on dissertation.xdv (102 pages, 1610224 bytes).
