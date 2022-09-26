@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  25 SEP 2022 20:09
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.4.23)  26 SEP 2022 06:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2444,22 +2444,22 @@ File: images//fit_dist_2x2.eps Graphic file (type eps)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [12.12] [13.13] [14.14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [15.15]
-Underfull \vbox (badness 7012) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [16.16]
 File: images//r8_1_25_5x7.png Graphic file (type bmp)
 <images//r8_1_25_5x7.png>
 File: images//r8_25_5x7.png Graphic file (type bmp)
 <images//r8_25_5x7.png>
-[17.17]
 File: images//r_bvd_20_results_h.png Graphic file (type bmp)
 <images//r_bvd_20_results_h.png>
 File: images//r_bvd_20_results_v.png Graphic file (type bmp)
 <images//r_bvd_20_results_v.png>
-(common/concl.tex [18.18]))
+[17.17] (common/concl.tex [18.18]))
 LaTeX Info: Redefining \rmfamily on input line 96.
 LaTeX Info: Redefining \sffamily on input line 96.
 LaTeX Info: Redefining \ttfamily on input line 96.
@@ -3034,10 +3034,10 @@ Package logreq Info: Writing requests to 'synopsis.run.xml'.
 Here is how much of TeX's memory you used:
  50907 strings out of 410967
  1035922 string characters out of 2828016
- 2159740 words of memory out of 3000000
+ 2159739 words of memory out of 3000000
  70874 multiletter control sequences out of 15000+600000
  474383 words of font info for 99 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,16n,123p,1611b,7633s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on synopsis.xdv (22 pages, 421480 bytes).
+Output written on synopsis.xdv (22 pages, 420516 bytes).
