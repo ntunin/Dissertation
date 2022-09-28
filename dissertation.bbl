@@ -284,7 +284,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Дискретный анализ и исследование операций}
+      \field{journaltitle}{Дискретный анализ и исследование операций. Сер.2}
       \field{langid}{russian}
       \field{media}{text}
       \field{title}{Метод ветвей и границ для задачи минимизации невыпуклой квадратичной функции при выпуклых квадратичных ограничениях}
@@ -528,7 +528,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Дискретный анализ и исследование операций}
+      \field{journaltitle}{Дискретный анализ и исследование операций. Сер.2}
       \field{langid}{russian}
       \field{media}{text}
       \field{series}{2}
@@ -593,7 +593,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Техника радиосвязи. ОНИИП}
+      \field{journaltitle}{Техника радиосвязи}
       \field{langid}{russian}
       \field{media}{text}
       \field{title}{Максимизация направленности фазированных антенных решеток коротковолнового диапазона}
@@ -626,7 +626,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Научно-технический сборник <<Техника радиосвязи>>}
+      \field{journaltitle}{Техника радиосвязи}
       \field{langid}{russian}
       \field{media}{text}
       \field{title}{О влиянии потерь в земле на работу четырехэлементной ФАР КВ диапазона}
@@ -1213,7 +1213,7 @@
            giveni={D\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {American Mathematical Society}%
+        {Boston: American Mathematical Society}%
       }
       \strng{namehash}{79deb83a65ad22ac982af9cd01fd620e}
       \strng{fullhash}{79deb83a65ad22ac982af9cd01fd620e}
@@ -1500,6 +1500,8 @@
       \field{year}{2012}
       \field{issue}{1\bibrangedash 2}
       \range{issue}{2}
+      \field{pages}{273\bibrangedash 304}
+      \range{pages}{32}
       \field{volume}{131}
       \range{volume}{1}
       \keyw{,biblioexternal,bibliofull}
@@ -1710,7 +1712,7 @@
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{2021 Genetic and Evolutionary Computation Conference (GECCO ’21)}
+      \field{journaltitle}{2021 Genetic and Evolutionary Computation Conference (GECCO’21)}
       \field{langid}{english}
       \field{media}{text}
       \field{title}{Parallel Differential Evolution Applied to Interleaving Generation with Precedence Evaluation of Tentative Solutions}
@@ -2511,7 +2513,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Научно-технический сборник <<Техника радиосвязи>>}
+      \field{journaltitle}{Техника радиосвязи}
       \field{langid}{russian}
       \field{media}{text}
       \field{title}{Об оптимизации направленности коротковолновых фазированных антенных решеток кольцевой структуры}
@@ -2519,8 +2521,8 @@
       \true{nocite}
       \field{number}{3}
       \range{number}{1}
-      \field{pages}{41\bibrangedash 52}
-      \range{pages}{12}
+      \field{pages}{31\bibrangedash 40}
+      \range{pages}{10}
       \field{volume}{54}
       \range{volume}{1}
       \keyw{,biblioauthorother,biblioauthor,bibliofull}
@@ -2843,15 +2845,15 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Научно-технический сборник <<Техника радиосвязи>>}
+      \field{journaltitle}{Техника радиосвязи}
       \field{langid}{russian}
       \field{media}{text}
       \field{title}{Об оптимизации направленности коротковолновых фазированных антенных решеток кольцевой структуры}
       \field{year}{2022}
       \field{number}{3}
       \range{number}{1}
-      \field{pages}{41\bibrangedash 52}
-      \range{pages}{12}
+      \field{pages}{31\bibrangedash 40}
+      \range{pages}{10}
       \field{volume}{54}
       \range{volume}{1}
       \keyw{,biblioauthorother,biblioauthor,bibliofull}

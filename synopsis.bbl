@@ -168,15 +168,15 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Научно-технический сборник <<Техника радиосвязи>>}
+      \field{journaltitle}{Техника радиосвязи}
       \field{langid}{russian}
       \field{media}{text}
       \field{title}{Об оптимизации направленности коротковолновых фазированных антенных решеток кольцевой структуры}
       \field{year}{2022}
       \field{number}{3}
       \range{number}{1}
-      \field{pages}{41\bibrangedash 52}
-      \range{pages}{12}
+      \field{pages}{31\bibrangedash 40}
+      \range{pages}{10}
       \field{volume}{54}
       \range{volume}{1}
       \keyw{,biblioauthorother,biblioauthor,bibliofull}
@@ -495,15 +495,15 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Научно-технический сборник <<Техника радиосвязи>>}
+      \field{journaltitle}{Техника радиосвязи}
       \field{langid}{russian}
       \field{media}{text}
       \field{title}{Об оптимизации направленности коротковолновых фазированных антенных решеток кольцевой структуры}
       \field{year}{2022}
       \field{number}{3}
       \range{number}{1}
-      \field{pages}{41\bibrangedash 52}
-      \range{pages}{12}
+      \field{pages}{31\bibrangedash 40}
+      \range{pages}{10}
       \field{volume}{54}
       \range{volume}{1}
       \keyw{,biblioauthorother,biblioauthor,bibliofull}
@@ -828,7 +828,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Научно-технический сборник <<Техника радиосвязи>>}
+      \field{journaltitle}{Техника радиосвязи}
       \field{langid}{russian}
       \field{media}{text}
       \field{title}{Об оптимизации направленности коротковолновых фазированных антенных решеток кольцевой структуры}
@@ -836,8 +836,8 @@
       \true{nocite}
       \field{number}{3}
       \range{number}{1}
-      \field{pages}{41\bibrangedash 52}
-      \range{pages}{12}
+      \field{pages}{31\bibrangedash 40}
+      \range{pages}{10}
       \field{volume}{54}
       \range{volume}{1}
       \keyw{,biblioauthorother,biblioauthor,bibliofull}
@@ -1164,15 +1164,15 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Научно-технический сборник <<Техника радиосвязи>>}
+      \field{journaltitle}{Техника радиосвязи}
       \field{langid}{russian}
       \field{media}{text}
       \field{title}{Об оптимизации направленности коротковолновых фазированных антенных решеток кольцевой структуры}
       \field{year}{2022}
       \field{number}{3}
       \range{number}{1}
-      \field{pages}{41\bibrangedash 52}
-      \range{pages}{12}
+      \field{pages}{31\bibrangedash 40}
+      \range{pages}{10}
       \field{volume}{54}
       \range{volume}{1}
       \keyw{,biblioauthorother,biblioauthor,bibliofull}
